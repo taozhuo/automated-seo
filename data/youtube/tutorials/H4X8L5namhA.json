@@ -1,0 +1,4443 @@
+{
+  "id": "H4X8L5namhA",
+  "title": "You CAN Script. Let me PROVE IT to you..",
+  "channel": "script_ing",
+  "views": 599135,
+  "duration": "35:18",
+  "upload_date": "",
+  "description": "",
+  "url": "https://www.youtube.com/watch?v=H4X8L5namhA",
+  "transcript": "you can script even if you think you can't in this video I will prove it to you even if you've never touched Studio before if you don't know me my name is kushall I've been scripting since 2016 I've also been teaching it since the moment I began scripting in 2016 as you can see right over here with all of my 8 years ago tutorials in this video I'm going to start by teaching you some Basics and then after each lesson I'll give you a quiz to prove that you can do it even without me telling you step by step now as I teach you more and more stuff the quizzes will get harder and harder just know that I believe in you and as long as you watch the entire video and don't skip around you will understand it and everything will be okay every single time you get a quiz right you're going to get one point and there are five quizzes in this video and five points total let's see how many points you can get all right so I'm going to assume that you've never scripted before so just go to roblox.com slome this is the Roblox homepage which you're probably familiar with and then look for this create button right here and then from here you can click on create experience and then just wait for Roblox Studio to do its thing now if you see this auto recovery thing you can just X out of here and you can click on base plate all righty so this is the base plate right here this large gray thing right here is called the base plate and then this lighter gray thing with this spiral design is called the spawn location and these windows right here on the right are called Explorer and properties if you don't see them please click on view and look for the Explorer which should be right over here so make sure you can see that and then I'm click on properties so if you can't see them it might look like this so click on explore and properties and you should be able to see them and lastly just click on the spawn location and then right click it on the Explorer and click delete because we won't need it and it might mess us up all right so the Explorer basically tells you where everything is in your game and properties tells you more information about a specific thing so for example let's add a part I'm going to click on home and then click on part this right here is called a part it literally looks like a Lego block all right so if you click on your part then your properties will show a whole bunch of information about that part the first thing that I want you to notice is this thing called brick color if you click it you'll see there's a whole bunch of colors that we can set this part to one such color is Boom lime green another such color is Boom Cen Canan wait how do you even say that color C Canan okay Canan all right so now you can right click your part and you can delete it because we won't need it because we're scriptors now inside of server script service click on this plus sign right here this plus button right here and then click on script this right here is going to be your first script and look at what it says it says print hello world now what on Earth does that even mean right well if you click back on your place right here and you click on view click on this output right here this right here is the output and this is how scripts can communicate to us and what this print hello world thing does is it basically tells this output to put hello world right here and the way we're going to verify that this works is by clicking play right here this blue play button is how we test our game so I'm going to click this and as you can see it says hello world cool so that's pretty cool let's stop this right here now I have a question for you this isn't the first quiz just a question how would I make this Say Goodbye World okay think about it you can pause the video 3 2 1 okay so if you want this to Say Goodbye World you just have to change this hello to goodby bye and then click on this play button right here and there you go Goodbye World all right so hello world Goodbye World pretty easy right so let's actually make this say kushall says hello from YouTube what do you think this is going to do just pause the video and try to explain it to yourself if I were to click this play button what do you think this is going to do just pause the video and try to explain it 3 2 1 all right so if I click play as you can see it just prints Kusha say hello from YouTube so in other words whatever you put inside of this quotation mark right here inside of these quotation marks whatever you put in here will just go right over here all right so now that you guys got the hang of it let's actually move on to more fun things so we're just going to delete this right here and now I'm going to teach you how to tell the script I'm going to teach you how to tell this thing to add a new part into workspace so for example last time remember what we just did we clicked on home we clicked on part and then we added this thing right here and it was added right into workspace that's exactly what we just did right so now we're going to learn how to basically tell this script to do that for us so how do we tell this script to add a part and put it inside of workspace that's what we're about to learn right now so go back into your script window and just type EX exactly what I type local my part equals instance. new parentheses quotation marks part comma workspace now what in the world did I just type if you're like my friend Bob here your head is probably looking at that line of code and spinning just like this like don't worry I'll explain it to you so this right here instance. new this thing right here means Roblox creat something for me so in that new means I want to create a new instance of a part okay that's what that means I want to create a new instance of a part and I want to set that part's parent meaning I want to put that part inside of workspace let's do let me go through that again instance. new that means I want to create a new instance of a part and I want to put that part inside of workspace Now what is is workspace workspace is just this thing right here and if you remember when we clicked on part over here it literally just created a new part and it put it inside of workspace so that is why we have workspace right here so all we're saying with these two lines right here is I want to give everything to the right of this equal sign so I want to give this whole thing a nickname and I want the nickname of this thing to be that thing that's all we're saying so create a new part put it in workspace and give that part a nickname called my part hopefully that can make sense right hopefully that makes sense just creating a new part inside of workspace and we're just going to call it my part that's it so what's my part oh it's just a new part inside of workspace so if you click play would you look at that you have your part and also this is uh this is the old part let me actually get rid of that so all we're saying here with these two words is I want to give everything to the right of this equal sign so I want to give everything here a nickname and I want that nickname to be my part that's all it is that's all it is so we're saying let my part be equal to a new part inside of workspace does that make sense so a new part inside of workspace and we're just going to call it my part so what's my part it's just a new part inside of workspace that's all it is so now if you click play you can see there it is there's your part this right here this is my part see right there this my part this my part is referring to this part right here it's really really really simple now remember last time we also set this part's color to a different color we set it equal to that crazy word I couldn't pronounce at the beginning Canan right Canan yes that's what it was we set that Parts color to can and uh right here so we set this Parts color to C and what we did was we basically set the parts brick color to Canan that's all we did now what if I want this part's brick color to be set to this color right here well this brick color the name of this brick color is new yellow so if I wanted to set this part's brick color to a yellow color all I have to do is click here and then click on this yellow button right here and it sets the brick color to new yell but wait how on Earth do we do that with a script how on Earth do we do that with a script in a script there's no color button where I can just choose my color right so how on Earth do we do that well it's actually pretty simple we just have to my part remember my part is that part we just created and then dot now what is the thing that we're trying to change we're trying to change the color and specifically we're trying to change the brick color so you can just double click this or just type out brick color so my part. brick color equals and then brick color new parentheses quotation and right here you're just going to put the name of the brick color that you want to set it to so in our case we're going to use new yellow and this also has to be spelled exactly as it is shown over here so as you can see now my parts brick color is new yellow so if you click over here you can choose any color you want like our favorite give me a second Canan Canan that's how you say it just just like this science color right here you click it and then you click on whatever color you want and then remember the name of that so science c y a an and make sure that you spell this exactly as it's shown here so the C has to be Capital so instead of new yell maybe I want it to be a sign color I can just type it right here click play and there you have it there it is simple enough right let's do it one more time right from the beginning so remember we're going to start with local local my part this is the nickname so we're saying let my part be equal to a new instance instance. new a new instance of a part and put that part inside of workspace and then set my parts brick color to a new brick color and then you just put whatever brick color you want here so for example maybe toothpaste and then click on play and there you have it there's the part and as you can see if you click on the part inside of the the brick color you have toothpaste all right ready for the first quiz so I want this part to be a really red color Okay a really red color now when I say really red I mean really red whoop really red I want this part to have a brick color that is really red so hopefully that gives you enough information you can pause the video now I'm going to count to five and then I'm going to show you the solution so 1 2 3 4 5 five okay so this is how you do it so you just have to set this toothpaste it's really red that's it and then click play and there you have it the really red part is inside of workspace and there you go there you have it now if you got this quiz correct good job you've earned your first point you did it make sure you like the video Let's MO move on all right all right all right all right so we've done the brick color now what else can we do well let's click play here and here's my part now if you click on the part inside of properties you can actually see there's something called transparency and I really like this property because this is actually what I use during Halloween events to create spooky things like ghosts so what we're going to do is we're going to experiment with this so right now the transparency is zero what happens if I set it to 0.5 would you look at that part is now the part is now half visible right it's like half transparent now what do you think will happen if I set this 0.5 to 0.9 would you look at that now you can barely see the part it's it's there but like it's harder to see right now what do you think will happen if I set this part's transparency to 0.99 I can barely even see that it's there can you even see that I can't even I can't even tell where it is but if I walk around look at that see that bump yeah that that's where my part is okay that's pretty cool that's pretty cool so I hope you've noticed that if you have the transparency if you have this number be closer and closer to one then it becomes more and more invisible right so if you set the transparency to one then you can't see it at all it's completely invisible and if the transparency is zero then you can see the entire thing it's completely visible and any number in between you can use a slider right here any number in between will change the transparency and it will make it somewhat visible and somewhat invisible so just like that you can see the different effects of different numbers all right cool now how do you do that with a script well remember how we did brick color my part. brick color equals brick color. new something and then you just put whatever color you want over here well this is nice this is fun however for transparency it's a little bit different it's actually easier you don't need this brick color. new stuff you can just say my part my part. transparency equals and then you just have to give it whatever number you want so if I want the transparency to be 0.6 I just have to type it in here so all we're seeing here set the transparency of my part to 0.6 if you click play there you have it the part is now 0.6 transparency and whatever I set this number to will be the new transparency so if I set this to 0.2 then that will be the new transparency of my part so if you look over here you can see right here the transparency set to 0.2 which is the same number that I had over here all right cool I hope you're ready for your next Quiz so we're going to do this now so as I told you before I like Halloween I like transparency because this thing right here allows me to create something that I personally like to call a ghost part okay and what I'm going to do is I'm going to show you a ghost part I'm going to actually make one without using code and your challenge your quiz will be to code it okay so here's what a ghost part looks like home part and then the brick color is set to any white color so we can use ghost Gray so it could be a ghost gray color doesn't have to be white it kind of looks white or you can set it to like institutional white or Pearl any one of these three colors okay we're just going to use ghost gray because you know it's a ghost part but a ghost part is this whitish grayish color and it also has a transparency of 0.7 this right here I call this a ghost part hopefully you can see why because it looks kind of like a ghost part so once again the brick color is Ghost gray the transparency is 0.7 now you my friend go ahead and code it let's see what you come up with I'm going to give you 5 Seconds you can go ahead and pause the video and take as long as you need but I'm going to continue in 5 seconds so 5 4 3 2 1 all right let's continue all right so by now hopefully you've created your ghost part so now I'm going to teach you how I would do it so I'm just going to start from the beginning so my part equals instance. new part oh my goodness workspace and then my part. transparency equals 0.7 because it's a ghost part which I defined as having a transparency of 0.7 and then the my parts brick color is going to be a new brick color so brick color. new and then just call it ghost gray and there's how you could do it this is one way of doing it now of course you could have done the brick color first like this and then then the transparency you know whatever works with you it's okay as long as you created a ghost part and let's actually see what this looks like if we click the play button so I'm going to click play and here's my ghost part hopefully you guys were able to produce something like this if you were really really good job you you've been paying attention very actively and congratulations you got your second point so you're now at two points now of course that's assuming you got the first one but you know if you got this far you probably got the first one right so yeah you're probably at two points by now if you haven't gotten two points maybe this is a little bit tough it's okay it's totally fine we're just going to take things one step at a time and you will understand it even if you even if you didn't get the point for this one at least you understand how it works right that's the most important part all right now really quickly if you guys feel like you're learning really well so far I just want to give you two quick resources the first thing is completely free this is a Blog where I literally just write tutorial and I try to do this every single morning so here are some uh free Roblox scripting tutorials and there's actually a whole bunch of other stuff like all of this and there's actually a developers corner where you can find all of these other articles for example um you can learn about the Roblox algorithm you can learn about how you can motivate yourself to learn stuff whole bunch of really really cool and fun stuff for free so you get access to all of these articles for free I think there's like 38 articles so far completely for free you just have to to go in the link in the description and yeah now the second thing that you might like this one is paid if you want to support me and you feel like you've learning you've been learning really really well so far then you might be interested in this book that I wrote this is the uh beginner guide to Roblox scripting book and basically the book is structured in a way where every single line is explained to you there's vocabulary lists at the end of every chapter with tons and tons of code samples there's quizzes just like what you're doing right now and everything is explained to you in way where you can understand it and then at the end of the at the end of the book there's actually a chapter where you'll be able to code your own admin commands from scratch like completely from scratch where you will be able to do it all by yourself so if that sounds like something you'd be interested in make sure you check the other Link in the description and let's resume all right so that's cool and all but what if I want to change the shape of this thing like what if I don't want this rectangular prism looking thing maybe I want this thing to be a different shape well if you scroll down you you see there's a property called shape instead of block you have all of these options right here so I can make it a ball I can make it a wedge I can make it a cylinder I can make it a corner wedge so this is like a special type of wedge and there's all these options so let's start with ball so how would you actually script this how would you create a ball well think about it isn't this isn't the quiz yet but think about it you have the part and we had just set the shape to ball now remember what if we wanted to change transparency we just had to do my part. transparency equals and then maybe like 0.5 well wouldn't it seem probable that if you want to change the shape of this my part you could just do something like my part do shape and then equals ball like shouldn't that just work well yes this is very very very close except that Roblox thinks that this ball is a name a nickname Roblox thinks this is a nickname just like how we've set this part's nickname to my part Roblox think this ball is a nickname for something which isn't right this is not this is not a nickname so we have to do is we have to put this in quotation marks and this basically tells Roblox this is not a nickname this is a string a string is anything in quotation marks so right here get so we actually have two strings in this code right here we have ball which is a string and part which is a string anything with quotation marks is a string so now if you run this we should we should have a ball which is 50% transparent and that's exactly what we have here now one thing that you've probably noticed is this right here this the ball just okay I must have kicked it well one thing that you might have noticed is this stud looking thing right here this you know those things in Legos that have those uh those I don't know what they're called but this this thing right here the stud looking thing if you want to get rid of it roblox actually has something called material and you just have to set the material to smooth plastic and it'll go away so once again material by default Roblox sets it to plastic uh it's right here it looks like this but if you want this thing to be gone you just have to set it to smooth plastic and it has to be spelled like this now how do you think we change the material well how did we change the shape just do the same thing my part dot material equals and you'd probably think oh I would just type smooth plastic here right and this is very probable this is this is what anyone would do however once again Roblox thinks this is a variable Roblox thinks this is a nickname for something but that's not the case so we have to tell Roblox to string and that's how we do it and this right here will create an awesome ball which doesn't have any um stud looking things on it so this is a smooth plastic ball all right quiz number three let's here's some opportunity to earn another point I want you guys to code this it's going to be a red ball just like this I want you guys to code this right here this is a really red ball with the material as smooth plastic so I want it to look just like that so go ahead and pause the video and I will show the solution in 5 4 3 2 1 all right cool here's how you would Cod it so you have your part you can just do the same thing that we did before so my part. shape equals ball or you could have set the color to red or you know the material to smooth plastic it doesn't matter what order you do it in as long as you have it like this smooth plastic and then my part do brick color equals brick color. new really red just like that and that's how you create the red ball which is right here all right now we're going to make things really really really really fun okay now it's going to get really really cool this is going to be awesome like trust me just keep watching okay all right so I don't know if you guys have noticed yet but whenever we create anything using a script it just seems to place the ball right over here right like isn't that just an odd spot why is it over here why doesn't it just put the ball like over here or like up in the sky right well that's just how Roblox does it but as scriptor we can tell Roblox to do other things so I want this ball to from now on I want this ball to spawn all the way over here and it's okay if it falls because you know gravity but I want this ball to spawn like over here and I want it to fall just like that how do you think I could do that well we have something called position which is right here so if you scroll down under the properties of your part long as as long as it's selected here you can scroll down you'll see position which is right here and this position right here basically defines where this ball is and this position this position is three different numbers so we have x y and z now y right here this basically means where it is up and down okay think about it like that where is this ball located up and down and if you set this y to 10 guess what this is now 10 units above the ground that's what that means when Y is set to 10 it's now 10 units up there okay and what if I set y to 50 well now it's 50 units up there and what if I set y to 100 well now it's going to fall all the way from the sky right and this x and z right here just tell you how far away it is on the left and right so for example if you set this to 10 the ball moved right if you set this back to zero the ball is left if you set this to like 20 the ball went all the way over here what if I set this to 50 well now the ball's all the way over there right so that's on the left and right and the Z is on the front and back so maybe I'll set this to five as you can see it went five backward you can set it to -10 and then went forward because it's negative and you know you can just mess around with these but for for now all we care about is this y all we care about is going up and down okay so if you set this to 500 it's falling from the sky I don't know right there see it boom boom and it just bounces and now if you want to set the position so what we just saw of anything you're going to do my part of of any like part then you're going to do my part. position equals and then remember we had to give it three numbers right so we had to actually give the part so when we created a part we had to give it three numbers so right here position it wants three numbers it wants an X a y and a z and we can't just so we can't just say 050 we can't just do this and the reason is because Roblox wants us to use something called a vector 3 Vector 3. new just like what we did with brick color. new remember remember we did my part. brick color equals brick color. new and then we said something like really red just like this right here we're just using something called a vector 3 that's all it is and we're using position so this right here this means go 50 up okay 50 studs up so 50 above the ground and if I run this it's going to create a part and it's going to spawn it 50 studs above the ground so if I click play it actually fell okay let me try it again with 500 to really show it to you so it's going to actually spawn all the way in the sky and as you can see it just clovered me it's just bouncing on my head so that basically means spawned apart all the way in the sky that's what this 500 means so 5 500 is the distance from the ground all the way to the sky or from the ground to where that part is spawned so if I want to spawn anything that falls from the sky you just have to set I just have to set this y right here to a really high number like if you set it to 900 then it's going to fall like all the way from the sky like it's falling from space so that's how you can make anything fall from the sky so you know what I want you to do for the next Quiz I want you to create a falling red ball okay so hopefully you understood that right a falling red ball so basically what we just created but I want it to fall from the sky that's it go ahead falling red ball from the sky make sure the material smooth plastic and pause the video go ahead and try it out 1 2 3 4 five all right here's how you do it my part. brick color equals brick color. new really red remember this is a really red ball my part. shape is equal to ball and then my part. material is equal to smooth plastic and lastly the new line of code is we just have to add this right here which basically makes the ball fall from the sky as you can see and it fell from the sky and because it's a ball it's literally just rolling away all right so that's how you do it now the last part is I'm going to teach you about something called a for Loop now this is going to be a little bit challenging for some people but bear with me I think you're going to understand it do you remember in the beginning of the video we had print hello world right we had this thing right here print hello world and what did this do well it basically printed hello world onto the output right so when you click play it just put hello world there and remember that we did a Goodbye World here too so whatever you put in here will go right in here so if you put Goodbye World there you go there's Goodbye World now I want what if I want to print hello world but I want to print it a 100 times well one way of doing it is by torturing yourself and by manually typing it all out right so I can literally just type out print hello world and I can do this 100 times and that would really suck now a better way of doing it is by copying it and then pasting it and then you're just doing this 100 times so look at the line number on the left side right here you can see this is the 12th line that means I've done it 12 times and I can just keep on doing this but an even better way that I'm about to teach you is by using something called a for Loop so if I want this to print 10 times I can just do this and it's just going to print it 10 times so 1 2 3 4 5 6 7 8 8 9 10 if I click play there you have it 10 times hello world has been printed now if I want to do this 10 times I can actually do it in an easier way by using something called a for Loop so a for Loop goes like this and then I can type print hello world so let me actually explain what all of this means so this four right here means I want to create a for Loop a for Loop is basically something that tells Roblox to do something over and over and over again so I want to create a new for Loop you don't have to worry about this I so 4 I equal 1 means start at 1 and then stop at 10 and then do whatever is in here okay so whatever is in between this do and this end will happen 10 times and how do I know it's going to happen 10 times because this number is 10 right here so we're starting at one and then we're going to go 1 2 3 4 5 6 7 8 9 10 and that's going to stop so this right here basically says print hello world 10 times that's all it means so if I click play it printed hello world 10 times as you can see right here so what if I want to print hello world 90 times well I don't have to do copy and pasting right I don't have to copy and paste I can just set this to 90 it's going to print hello world 90 times and there you have it as you can see that's a lot of hello worlds right 90 times s I've printed hello world and I didn't even have to copy and paste it's genius it's absolutely genius now here we go this is going to be great this is going to be a little bit of a challenge let me give you a quick hint first so what if I want to spawn 90 parts so remember we don't just have to print 90 things we can do other things right what if I want to spawn 90 Parts well local my part equals instance. new part workspace there you have it this is going to spawn 90 parts okay I'm going to click part I'm going to click play and there you have it 90 Parts have spawned it's actually really really cool now some of you are going to go oh wow that's pretty cool what if I set this to 90 bajillion and then this is going to like probably crash your Roblox studio so you probably don't want to do this but this right here is going to create 90 instances of this part so hopefully this makes sense to you so what if I want to make 200 I just have to set this to 200 and then it creates 200 Parts Little more laggy right this is a lot of parts all right last and final quiz for the fifth point I want you guys to spawn 200 falling red balls yes 200 yes it's going to it's going to look cool too okay trust me so I'm going to tell you that you don't have to change anything here and you don't have to change anything here you just type all your code here type all of your code here and it will work fine so go ahead try it out pause the video I'm going to give you the answer in 5 seconds so pause the video 1 2 3 4 5 all right let's do this so you have a for Loop right here so this is saying do it 200 times and then set the parts brick color to Brick color. New really red my part do um hold on oh yeah we're creating balls shape equals ball and then my part down material equals smooth plastic and then and the last thing is we have to set the position and I'm going to use 300 you could have as long as your part spawns and Falls it's okay I'm actually going to use 600 to illustrate my point this will create six or two this will create 200 falling red balls let's try it okay ready set go uh-oh I'm about to get yeah that's that's actually that let's actually verify that's 200 yep 200 Parts those are all 200 parts now really quickly that might have you know that might have looked a little bit weird to you I'm going to introduce you to something called task. weight this right here tells Roblox to wait so this right here is telling Roblox to wait 1 second so create a red ball and then wait 1 second it's going to do it again so it's going to create a red ball wait 1 second create a red ball wait 1 second create a red ball wait 1 second create a red ball wait one sec it's going to do it 200 times so it's going to keep on doing that and we call that a loop you know what we call it a loop because it starts here goes here and then it goes back to where it started like a loop and now if you click play my character will get hit by many many many oh they're actually colliding with each other so that it's going to spawn 200 balls just like that and there you have it and if you actually set this to like 0.05 I'm actually going to run this in a different way you can see the actual 200 red balls that have been created by our Cod wow they're actually wow they're actually lining up quite straight wait why aren they falling wait wait wait wait oh my God that's so many wow is this like perfectly balanced okay well there you have it 200 red balls I really hope you guys enjoy this video make sure to like And subscribe and I'll see you in the next video",
+  "transcript_segments": [
+    {
+      "text": "you can script even if you think you",
+      "start": 0.199,
+      "duration": 3.881
+    },
+    {
+      "text": "can't in this video I will prove it to",
+      "start": 2.2,
+      "duration": 3.559
+    },
+    {
+      "text": "you even if you've never touched Studio",
+      "start": 4.08,
+      "duration": 3.52
+    },
+    {
+      "text": "before if you don't know me my name is",
+      "start": 5.759,
+      "duration": 4.001
+    },
+    {
+      "text": "kushall I've been scripting since 2016",
+      "start": 7.6,
+      "duration": 4.28
+    },
+    {
+      "text": "I've also been teaching it since the",
+      "start": 9.76,
+      "duration": 4.759
+    },
+    {
+      "text": "moment I began scripting in 2016 as you",
+      "start": 11.88,
+      "duration": 4.76
+    },
+    {
+      "text": "can see right over here with all of my 8",
+      "start": 14.519,
+      "duration": 3.6
+    },
+    {
+      "text": "years ago",
+      "start": 16.64,
+      "duration": 3.36
+    },
+    {
+      "text": "tutorials in this video I'm going to",
+      "start": 18.119,
+      "duration": 3.441
+    },
+    {
+      "text": "start by teaching you some Basics and",
+      "start": 20.0,
+      "duration": 3.039
+    },
+    {
+      "text": "then after each lesson I'll give you a",
+      "start": 21.56,
+      "duration": 3.36
+    },
+    {
+      "text": "quiz to prove that you can do it even",
+      "start": 23.039,
+      "duration": 4.24
+    },
+    {
+      "text": "without me telling you step by step now",
+      "start": 24.92,
+      "duration": 3.8
+    },
+    {
+      "text": "as I teach you more and more stuff the",
+      "start": 27.279,
+      "duration": 3.041
+    },
+    {
+      "text": "quizzes will get harder and harder just",
+      "start": 28.72,
+      "duration": 3.679
+    },
+    {
+      "text": "know that I believe in you and as long",
+      "start": 30.32,
+      "duration": 3.6
+    },
+    {
+      "text": "as you watch the entire video and don't",
+      "start": 32.399,
+      "duration": 4.041
+    },
+    {
+      "text": "skip around you will understand it and",
+      "start": 33.92,
+      "duration": 4.6
+    },
+    {
+      "text": "everything will be okay every single",
+      "start": 36.44,
+      "duration": 3.4
+    },
+    {
+      "text": "time you get a quiz right you're going",
+      "start": 38.52,
+      "duration": 2.92
+    },
+    {
+      "text": "to get one point and there are five",
+      "start": 39.84,
+      "duration": 3.36
+    },
+    {
+      "text": "quizzes in this video and five points",
+      "start": 41.44,
+      "duration": 3.68
+    },
+    {
+      "text": "total let's see how many points you can",
+      "start": 43.2,
+      "duration": 4.24
+    },
+    {
+      "text": "get all right so I'm going to assume",
+      "start": 45.12,
+      "duration": 3.84
+    },
+    {
+      "text": "that you've never scripted before so",
+      "start": 47.44,
+      "duration": 4.08
+    },
+    {
+      "text": "just go to roblox.com slome this is the",
+      "start": 48.96,
+      "duration": 4.119
+    },
+    {
+      "text": "Roblox homepage which you're probably",
+      "start": 51.52,
+      "duration": 3.24
+    },
+    {
+      "text": "familiar with and then look for this",
+      "start": 53.079,
+      "duration": 3.761
+    },
+    {
+      "text": "create button right here and then from",
+      "start": 54.76,
+      "duration": 4.16
+    },
+    {
+      "text": "here you can click on create experience",
+      "start": 56.84,
+      "duration": 3.6
+    },
+    {
+      "text": "and then just wait for Roblox Studio to",
+      "start": 58.92,
+      "duration": 4.24
+    },
+    {
+      "text": "do its thing now if you see this auto",
+      "start": 60.44,
+      "duration": 4.28
+    },
+    {
+      "text": "recovery thing you can just X out of",
+      "start": 63.16,
+      "duration": 3.44
+    },
+    {
+      "text": "here and you can click on base",
+      "start": 64.72,
+      "duration": 4.2
+    },
+    {
+      "text": "plate all righty so this is the base",
+      "start": 66.6,
+      "duration": 4.08
+    },
+    {
+      "text": "plate right here this large gray thing",
+      "start": 68.92,
+      "duration": 4.199
+    },
+    {
+      "text": "right here is called the base plate and",
+      "start": 70.68,
+      "duration": 4.24
+    },
+    {
+      "text": "then this lighter gray thing with this",
+      "start": 73.119,
+      "duration": 4.081
+    },
+    {
+      "text": "spiral design is called the spawn",
+      "start": 74.92,
+      "duration": 4.519
+    },
+    {
+      "text": "location and these windows right here on",
+      "start": 77.2,
+      "duration": 3.76
+    },
+    {
+      "text": "the right are called Explorer and",
+      "start": 79.439,
+      "duration": 3.241
+    },
+    {
+      "text": "properties if you don't see them please",
+      "start": 80.96,
+      "duration": 4.199
+    },
+    {
+      "text": "click on view and look for the Explorer",
+      "start": 82.68,
+      "duration": 4.52
+    },
+    {
+      "text": "which should be right over here so make",
+      "start": 85.159,
+      "duration": 3.28
+    },
+    {
+      "text": "sure you can see that and then I'm click",
+      "start": 87.2,
+      "duration": 2.8
+    },
+    {
+      "text": "on properties so if you can't see them",
+      "start": 88.439,
+      "duration": 3.121
+    },
+    {
+      "text": "it might look like this so click on",
+      "start": 90.0,
+      "duration": 3.24
+    },
+    {
+      "text": "explore and properties and you should be",
+      "start": 91.56,
+      "duration": 2.72
+    },
+    {
+      "text": "able to see",
+      "start": 93.24,
+      "duration": 3.72
+    },
+    {
+      "text": "them and lastly just click on the spawn",
+      "start": 94.28,
+      "duration": 4.519
+    },
+    {
+      "text": "location and then right click it on the",
+      "start": 96.96,
+      "duration": 3.28
+    },
+    {
+      "text": "Explorer and click delete because we",
+      "start": 98.799,
+      "duration": 4.041
+    },
+    {
+      "text": "won't need it and it might mess us up",
+      "start": 100.24,
+      "duration": 4.08
+    },
+    {
+      "text": "all right so the Explorer basically",
+      "start": 102.84,
+      "duration": 2.84
+    },
+    {
+      "text": "tells you where everything is in your",
+      "start": 104.32,
+      "duration": 3.36
+    },
+    {
+      "text": "game and properties tells you more",
+      "start": 105.68,
+      "duration": 4.2
+    },
+    {
+      "text": "information about a specific thing so",
+      "start": 107.68,
+      "duration": 4.16
+    },
+    {
+      "text": "for example let's add a part I'm going",
+      "start": 109.88,
+      "duration": 4.4
+    },
+    {
+      "text": "to click on home and then click on part",
+      "start": 111.84,
+      "duration": 3.84
+    },
+    {
+      "text": "this right here is called a part it",
+      "start": 114.28,
+      "duration": 4.04
+    },
+    {
+      "text": "literally looks like a Lego block all",
+      "start": 115.68,
+      "duration": 4.32
+    },
+    {
+      "text": "right so if you click on your part then",
+      "start": 118.32,
+      "duration": 3.2
+    },
+    {
+      "text": "your properties will show a whole bunch",
+      "start": 120.0,
+      "duration": 3.479
+    },
+    {
+      "text": "of information about that part the first",
+      "start": 121.52,
+      "duration": 3.4
+    },
+    {
+      "text": "thing that I want you to notice is this",
+      "start": 123.479,
+      "duration": 3.68
+    },
+    {
+      "text": "thing called brick color if you click it",
+      "start": 124.92,
+      "duration": 3.8
+    },
+    {
+      "text": "you'll see there's a whole bunch of",
+      "start": 127.159,
+      "duration": 3.961
+    },
+    {
+      "text": "colors that we can set this part to one",
+      "start": 128.72,
+      "duration": 6.04
+    },
+    {
+      "text": "such color is Boom lime green another",
+      "start": 131.12,
+      "duration": 7.119
+    },
+    {
+      "text": "such color is Boom Cen",
+      "start": 134.76,
+      "duration": 5.6
+    },
+    {
+      "text": "Canan wait how do you even say that",
+      "start": 138.239,
+      "duration": 6.321
+    },
+    {
+      "text": "color C Canan okay Canan all right so",
+      "start": 140.36,
+      "duration": 5.64
+    },
+    {
+      "text": "now you can right click your part and",
+      "start": 144.56,
+      "duration": 2.72
+    },
+    {
+      "text": "you can delete it because we won't need",
+      "start": 146.0,
+      "duration": 4.08
+    },
+    {
+      "text": "it because we're scriptors now inside of",
+      "start": 147.28,
+      "duration": 4.52
+    },
+    {
+      "text": "server script service click on this plus",
+      "start": 150.08,
+      "duration": 3.239
+    },
+    {
+      "text": "sign right here this plus button right",
+      "start": 151.8,
+      "duration": 3.799
+    },
+    {
+      "text": "here and then click on script this right",
+      "start": 153.319,
+      "duration": 4.2
+    },
+    {
+      "text": "here is going to be your first script",
+      "start": 155.599,
+      "duration": 4.321
+    },
+    {
+      "text": "and look at what it says it says print",
+      "start": 157.519,
+      "duration": 3.64
+    },
+    {
+      "text": "hello",
+      "start": 159.92,
+      "duration": 3.56
+    },
+    {
+      "text": "world now what on Earth does that even",
+      "start": 161.159,
+      "duration": 4.321
+    },
+    {
+      "text": "mean right well if you click back on",
+      "start": 163.48,
+      "duration": 3.56
+    },
+    {
+      "text": "your place right here and you click on",
+      "start": 165.48,
+      "duration": 4.0
+    },
+    {
+      "text": "view click on this output right here",
+      "start": 167.04,
+      "duration": 4.32
+    },
+    {
+      "text": "this right here is the output and this",
+      "start": 169.48,
+      "duration": 4.399
+    },
+    {
+      "text": "is how scripts can communicate to",
+      "start": 171.36,
+      "duration": 5.519
+    },
+    {
+      "text": "us and what this print hello world thing",
+      "start": 173.879,
+      "duration": 5.961
+    },
+    {
+      "text": "does is it basically tells this output",
+      "start": 176.879,
+      "duration": 5.761
+    },
+    {
+      "text": "to put hello world right here and the",
+      "start": 179.84,
+      "duration": 4.08
+    },
+    {
+      "text": "way we're going to verify that this",
+      "start": 182.64,
+      "duration": 2.92
+    },
+    {
+      "text": "works is by clicking play right here",
+      "start": 183.92,
+      "duration": 3.319
+    },
+    {
+      "text": "this blue play button is how we test our",
+      "start": 185.56,
+      "duration": 3.759
+    },
+    {
+      "text": "game so I'm going to click this and as",
+      "start": 187.239,
+      "duration": 5.681
+    },
+    {
+      "text": "you can see it says hello world cool so",
+      "start": 189.319,
+      "duration": 5.601
+    },
+    {
+      "text": "that's pretty cool let's stop this right",
+      "start": 192.92,
+      "duration": 3.599
+    },
+    {
+      "text": "here now I have a question for you this",
+      "start": 194.92,
+      "duration": 3.679
+    },
+    {
+      "text": "isn't the first quiz just a question how",
+      "start": 196.519,
+      "duration": 4.401
+    },
+    {
+      "text": "would I make this Say Goodbye World okay",
+      "start": 198.599,
+      "duration": 5.241
+    },
+    {
+      "text": "think about it you can pause the video 3",
+      "start": 200.92,
+      "duration": 6.28
+    },
+    {
+      "text": "2 1 okay so if you want this to Say",
+      "start": 203.84,
+      "duration": 4.759
+    },
+    {
+      "text": "Goodbye World you just have to change",
+      "start": 207.2,
+      "duration": 3.759
+    },
+    {
+      "text": "this hello to goodby",
+      "start": 208.599,
+      "duration": 4.84
+    },
+    {
+      "text": "bye and then click on this play button",
+      "start": 210.959,
+      "duration": 5.2
+    },
+    {
+      "text": "right here and there you go Goodbye",
+      "start": 213.439,
+      "duration": 5.44
+    },
+    {
+      "text": "World all right so hello world Goodbye",
+      "start": 216.159,
+      "duration": 4.921
+    },
+    {
+      "text": "World pretty easy right so let's",
+      "start": 218.879,
+      "duration": 5.681
+    },
+    {
+      "text": "actually make this say kushall says",
+      "start": 221.08,
+      "duration": 6.32
+    },
+    {
+      "text": "hello from",
+      "start": 224.56,
+      "duration": 2.84
+    },
+    {
+      "text": "YouTube what do you think this is going",
+      "start": 228.0,
+      "duration": 4.799
+    },
+    {
+      "text": "to do just pause the video and try to",
+      "start": 229.84,
+      "duration": 5.319
+    },
+    {
+      "text": "explain it to yourself if I were to",
+      "start": 232.799,
+      "duration": 3.72
+    },
+    {
+      "text": "click this play button what do you think",
+      "start": 235.159,
+      "duration": 3.28
+    },
+    {
+      "text": "this is going to do just pause the video",
+      "start": 236.519,
+      "duration": 7.121
+    },
+    {
+      "text": "and try to explain it 3 2 1 all right so",
+      "start": 238.439,
+      "duration": 7.52
+    },
+    {
+      "text": "if I click play as you can see it just",
+      "start": 243.64,
+      "duration": 4.76
+    },
+    {
+      "text": "prints Kusha say hello from YouTube so",
+      "start": 245.959,
+      "duration": 4.56
+    },
+    {
+      "text": "in other words whatever you put inside",
+      "start": 248.4,
+      "duration": 4.0
+    },
+    {
+      "text": "of this quotation mark right here inside",
+      "start": 250.519,
+      "duration": 4.201
+    },
+    {
+      "text": "of these quotation marks whatever you",
+      "start": 252.4,
+      "duration": 5.959
+    },
+    {
+      "text": "put in here will just go right over here",
+      "start": 254.72,
+      "duration": 5.199
+    },
+    {
+      "text": "all right so now that you guys got the",
+      "start": 258.359,
+      "duration": 3.521
+    },
+    {
+      "text": "hang of it let's actually move on to",
+      "start": 259.919,
+      "duration": 3.28
+    },
+    {
+      "text": "more fun things so we're just going to",
+      "start": 261.88,
+      "duration": 3.48
+    },
+    {
+      "text": "delete this right here and now I'm going",
+      "start": 263.199,
+      "duration": 4.161
+    },
+    {
+      "text": "to teach you how to tell the script I'm",
+      "start": 265.36,
+      "duration": 3.32
+    },
+    {
+      "text": "going to teach you how to tell this",
+      "start": 267.36,
+      "duration": 4.679
+    },
+    {
+      "text": "thing to add a new part into workspace",
+      "start": 268.68,
+      "duration": 5.56
+    },
+    {
+      "text": "so for example last time remember what",
+      "start": 272.039,
+      "duration": 4.0
+    },
+    {
+      "text": "we just did we clicked on home we",
+      "start": 274.24,
+      "duration": 3.76
+    },
+    {
+      "text": "clicked on part and then we added this",
+      "start": 276.039,
+      "duration": 3.561
+    },
+    {
+      "text": "thing right here and it was added right",
+      "start": 278.0,
+      "duration": 4.199
+    },
+    {
+      "text": "into workspace that's exactly what we",
+      "start": 279.6,
+      "duration": 5.76
+    },
+    {
+      "text": "just did right so now we're going to",
+      "start": 282.199,
+      "duration": 5.681
+    },
+    {
+      "text": "learn how to basically tell this script",
+      "start": 285.36,
+      "duration": 5.0
+    },
+    {
+      "text": "to do that for us so how do we tell this",
+      "start": 287.88,
+      "duration": 4.92
+    },
+    {
+      "text": "script to add a part and put it inside",
+      "start": 290.36,
+      "duration": 3.839
+    },
+    {
+      "text": "of workspace that's what we're about to",
+      "start": 292.8,
+      "duration": 3.32
+    },
+    {
+      "text": "learn right",
+      "start": 294.199,
+      "duration": 4.601
+    },
+    {
+      "text": "now so go back into your script window",
+      "start": 296.12,
+      "duration": 4.84
+    },
+    {
+      "text": "and just type EX exactly what I type",
+      "start": 298.8,
+      "duration": 6.399
+    },
+    {
+      "text": "local my part equals instance. new",
+      "start": 300.96,
+      "duration": 9.44
+    },
+    {
+      "text": "parentheses quotation marks part comma",
+      "start": 305.199,
+      "duration": 7.44
+    },
+    {
+      "text": "workspace now what in the world did I",
+      "start": 310.4,
+      "duration": 4.079
+    },
+    {
+      "text": "just type if you're like my friend Bob",
+      "start": 312.639,
+      "duration": 3.721
+    },
+    {
+      "text": "here your head is probably looking at",
+      "start": 314.479,
+      "duration": 3.601
+    },
+    {
+      "text": "that line of code and spinning just like",
+      "start": 316.36,
+      "duration": 3.279
+    },
+    {
+      "text": "this",
+      "start": 318.08,
+      "duration": 4.64
+    },
+    {
+      "text": "like don't worry I'll explain it to you",
+      "start": 319.639,
+      "duration": 6.321
+    },
+    {
+      "text": "so this right here instance. new this",
+      "start": 322.72,
+      "duration": 5.64
+    },
+    {
+      "text": "thing right here means Roblox creat",
+      "start": 325.96,
+      "duration": 4.799
+    },
+    {
+      "text": "something for me so in that new means I",
+      "start": 328.36,
+      "duration": 7.52
+    },
+    {
+      "text": "want to create a new instance of a part",
+      "start": 330.759,
+      "duration": 6.801
+    },
+    {
+      "text": "okay that's what that means I want to",
+      "start": 335.88,
+      "duration": 4.96
+    },
+    {
+      "text": "create a new instance of a part and I",
+      "start": 337.56,
+      "duration": 6.16
+    },
+    {
+      "text": "want to set that part's parent meaning I",
+      "start": 340.84,
+      "duration": 5.799
+    },
+    {
+      "text": "want to put that part inside of",
+      "start": 343.72,
+      "duration": 4.96
+    },
+    {
+      "text": "workspace let's do let me go through",
+      "start": 346.639,
+      "duration": 4.961
+    },
+    {
+      "text": "that again instance. new that means I",
+      "start": 348.68,
+      "duration": 7.239
+    },
+    {
+      "text": "want to create a new instance of a part",
+      "start": 351.6,
+      "duration": 6.719
+    },
+    {
+      "text": "and I want to put that part inside of",
+      "start": 355.919,
+      "duration": 4.481
+    },
+    {
+      "text": "workspace Now what is is workspace",
+      "start": 358.319,
+      "duration": 4.16
+    },
+    {
+      "text": "workspace is just this thing right here",
+      "start": 360.4,
+      "duration": 3.72
+    },
+    {
+      "text": "and if you remember when we clicked on",
+      "start": 362.479,
+      "duration": 3.84
+    },
+    {
+      "text": "part over here it literally just created",
+      "start": 364.12,
+      "duration": 3.639
+    },
+    {
+      "text": "a new part and it put it inside of",
+      "start": 366.319,
+      "duration": 3.361
+    },
+    {
+      "text": "workspace so that is why we have",
+      "start": 367.759,
+      "duration": 3.44
+    },
+    {
+      "text": "workspace right",
+      "start": 369.68,
+      "duration": 4.48
+    },
+    {
+      "text": "here so all we're saying with these two",
+      "start": 371.199,
+      "duration": 5.72
+    },
+    {
+      "text": "lines right here is I want to give",
+      "start": 374.16,
+      "duration": 4.439
+    },
+    {
+      "text": "everything to the right of this equal",
+      "start": 376.919,
+      "duration": 3.601
+    },
+    {
+      "text": "sign so I want to give this whole thing",
+      "start": 378.599,
+      "duration": 4.6
+    },
+    {
+      "text": "a nickname and I want the nickname of",
+      "start": 380.52,
+      "duration": 5.48
+    },
+    {
+      "text": "this thing to be that thing that's all",
+      "start": 383.199,
+      "duration": 5.44
+    },
+    {
+      "text": "we're saying so create a new part put it",
+      "start": 386.0,
+      "duration": 4.16
+    },
+    {
+      "text": "in workspace",
+      "start": 388.639,
+      "duration": 4.0
+    },
+    {
+      "text": "and give that part a nickname called my",
+      "start": 390.16,
+      "duration": 4.72
+    },
+    {
+      "text": "part hopefully that can make sense right",
+      "start": 392.639,
+      "duration": 4.161
+    },
+    {
+      "text": "hopefully that makes sense just creating",
+      "start": 394.88,
+      "duration": 4.0
+    },
+    {
+      "text": "a new part inside of workspace and we're",
+      "start": 396.8,
+      "duration": 4.08
+    },
+    {
+      "text": "just going to call it my part that's it",
+      "start": 398.88,
+      "duration": 3.96
+    },
+    {
+      "text": "so what's my part oh it's just a new",
+      "start": 400.88,
+      "duration": 4.319
+    },
+    {
+      "text": "part inside of workspace so if you click",
+      "start": 402.84,
+      "duration": 5.4
+    },
+    {
+      "text": "play would you look at that you have",
+      "start": 405.199,
+      "duration": 5.041
+    },
+    {
+      "text": "your part and also this is uh this is",
+      "start": 408.24,
+      "duration": 4.0
+    },
+    {
+      "text": "the old part let me actually get rid of",
+      "start": 410.24,
+      "duration": 4.72
+    },
+    {
+      "text": "that so all we're saying here with these",
+      "start": 412.24,
+      "duration": 5.92
+    },
+    {
+      "text": "two words is I want to give everything",
+      "start": 414.96,
+      "duration": 5.12
+    },
+    {
+      "text": "to the right of this equal sign so I",
+      "start": 418.16,
+      "duration": 4.84
+    },
+    {
+      "text": "want to give everything here a nickname",
+      "start": 420.08,
+      "duration": 5.48
+    },
+    {
+      "text": "and I want that nickname to be my part",
+      "start": 423.0,
+      "duration": 4.96
+    },
+    {
+      "text": "that's all it is that's all it is so",
+      "start": 425.56,
+      "duration": 7.039
+    },
+    {
+      "text": "we're saying let my part be equal to a",
+      "start": 427.96,
+      "duration": 7.28
+    },
+    {
+      "text": "new part inside of workspace does that",
+      "start": 432.599,
+      "duration": 5.6
+    },
+    {
+      "text": "make sense so a new part inside of",
+      "start": 435.24,
+      "duration": 4.2
+    },
+    {
+      "text": "workspace and we're just going to call",
+      "start": 438.199,
+      "duration": 3.84
+    },
+    {
+      "text": "it my part so what's my part it's just a",
+      "start": 439.44,
+      "duration": 4.439
+    },
+    {
+      "text": "new part inside of workspace that's all",
+      "start": 442.039,
+      "duration": 2.641
+    },
+    {
+      "text": "it",
+      "start": 443.879,
+      "duration": 5.201
+    },
+    {
+      "text": "is so now if you click play you can see",
+      "start": 444.68,
+      "duration": 6.48
+    },
+    {
+      "text": "there it is there's your part this right",
+      "start": 449.08,
+      "duration": 4.44
+    },
+    {
+      "text": "here this is my part see right there",
+      "start": 451.16,
+      "duration": 5.159
+    },
+    {
+      "text": "this my part this my part is referring",
+      "start": 453.52,
+      "duration": 5.64
+    },
+    {
+      "text": "to this part right here it's really",
+      "start": 456.319,
+      "duration": 5.841
+    },
+    {
+      "text": "really really simple now remember last",
+      "start": 459.16,
+      "duration": 6.039
+    },
+    {
+      "text": "time we also set this part's color to a",
+      "start": 462.16,
+      "duration": 5.599
+    },
+    {
+      "text": "different color we set it equal to that",
+      "start": 465.199,
+      "duration": 3.881
+    },
+    {
+      "text": "crazy word I couldn't pronounce at the",
+      "start": 467.759,
+      "duration": 4.241
+    },
+    {
+      "text": "beginning Canan right Canan yes that's",
+      "start": 469.08,
+      "duration": 6.839
+    },
+    {
+      "text": "what it was we set that Parts color to",
+      "start": 472.0,
+      "duration": 7.68
+    },
+    {
+      "text": "can and uh right here so we set this",
+      "start": 475.919,
+      "duration": 6.24
+    },
+    {
+      "text": "Parts color to C and what we did was we",
+      "start": 479.68,
+      "duration": 5.359
+    },
+    {
+      "text": "basically set the parts brick color to",
+      "start": 482.159,
+      "duration": 4.841
+    },
+    {
+      "text": "Canan that's all we did now what if I",
+      "start": 485.039,
+      "duration": 3.801
+    },
+    {
+      "text": "want this part's brick color to be set",
+      "start": 487.0,
+      "duration": 5.36
+    },
+    {
+      "text": "to this color right here well this brick",
+      "start": 488.84,
+      "duration": 6.079
+    },
+    {
+      "text": "color the name of this brick color is",
+      "start": 492.36,
+      "duration": 4.72
+    },
+    {
+      "text": "new yellow so if I wanted to set this",
+      "start": 494.919,
+      "duration": 4.481
+    },
+    {
+      "text": "part's brick color to a yellow color all",
+      "start": 497.08,
+      "duration": 4.64
+    },
+    {
+      "text": "I have to do is click here and then",
+      "start": 499.4,
+      "duration": 3.96
+    },
+    {
+      "text": "click on this yellow button right here",
+      "start": 501.72,
+      "duration": 3.64
+    },
+    {
+      "text": "and it sets the brick color to new",
+      "start": 503.36,
+      "duration": 5.08
+    },
+    {
+      "text": "yell but wait how on Earth do we do that",
+      "start": 505.36,
+      "duration": 5.36
+    },
+    {
+      "text": "with a script how on Earth do we do that",
+      "start": 508.44,
+      "duration": 5.079
+    },
+    {
+      "text": "with a script in a script there's no",
+      "start": 510.72,
+      "duration": 4.4
+    },
+    {
+      "text": "color button where I can just choose my",
+      "start": 513.519,
+      "duration": 3.481
+    },
+    {
+      "text": "color right so how on Earth do we do",
+      "start": 515.12,
+      "duration": 4.399
+    },
+    {
+      "text": "that well it's actually pretty simple we",
+      "start": 517.0,
+      "duration": 5.599
+    },
+    {
+      "text": "just have to my part remember my part is",
+      "start": 519.519,
+      "duration": 5.841
+    },
+    {
+      "text": "that part we just created and then dot",
+      "start": 522.599,
+      "duration": 4.041
+    },
+    {
+      "text": "now what is the thing that we're trying",
+      "start": 525.36,
+      "duration": 2.52
+    },
+    {
+      "text": "to change we're trying to change the",
+      "start": 526.64,
+      "duration": 3.759
+    },
+    {
+      "text": "color and specifically we're trying to",
+      "start": 527.88,
+      "duration": 4.639
+    },
+    {
+      "text": "change the brick color so you can just",
+      "start": 530.399,
+      "duration": 3.841
+    },
+    {
+      "text": "double click this or just type out brick",
+      "start": 532.519,
+      "duration": 5.801
+    },
+    {
+      "text": "color so my part. brick color equals and",
+      "start": 534.24,
+      "duration": 7.2
+    },
+    {
+      "text": "then brick color",
+      "start": 538.32,
+      "duration": 6.759
+    },
+    {
+      "text": "new parentheses quotation and right here",
+      "start": 541.44,
+      "duration": 5.16
+    },
+    {
+      "text": "you're just going to put the name of the",
+      "start": 545.079,
+      "duration": 3.681
+    },
+    {
+      "text": "brick color that you want to set it to",
+      "start": 546.6,
+      "duration": 4.919
+    },
+    {
+      "text": "so in our case we're going to use new",
+      "start": 548.76,
+      "duration": 5.519
+    },
+    {
+      "text": "yellow and this also has to be spelled",
+      "start": 551.519,
+      "duration": 6.56
+    },
+    {
+      "text": "exactly as it is shown over here so as",
+      "start": 554.279,
+      "duration": 6.041
+    },
+    {
+      "text": "you can see now my parts brick color is",
+      "start": 558.079,
+      "duration": 4.76
+    },
+    {
+      "text": "new yellow so if you click over here you",
+      "start": 560.32,
+      "duration": 5.24
+    },
+    {
+      "text": "can choose any color you want like our",
+      "start": 562.839,
+      "duration": 5.601
+    },
+    {
+      "text": "favorite give me a second Canan Canan",
+      "start": 565.56,
+      "duration": 4.959
+    },
+    {
+      "text": "that's how you say it just just like",
+      "start": 568.44,
+      "duration": 4.519
+    },
+    {
+      "text": "this science color right here you click",
+      "start": 570.519,
+      "duration": 4.44
+    },
+    {
+      "text": "it and then you click on whatever color",
+      "start": 572.959,
+      "duration": 3.801
+    },
+    {
+      "text": "you want and then remember the name of",
+      "start": 574.959,
+      "duration": 4.361
+    },
+    {
+      "text": "that so science c y a an and make sure",
+      "start": 576.76,
+      "duration": 4.28
+    },
+    {
+      "text": "that you spell this exactly as it's",
+      "start": 579.32,
+      "duration": 5.04
+    },
+    {
+      "text": "shown here so the C has to be Capital so",
+      "start": 581.04,
+      "duration": 4.88
+    },
+    {
+      "text": "instead of new yell maybe I want it to",
+      "start": 584.36,
+      "duration": 3.76
+    },
+    {
+      "text": "be a sign color I can just type it right",
+      "start": 585.92,
+      "duration": 5.52
+    },
+    {
+      "text": "here click play and there you have it",
+      "start": 588.12,
+      "duration": 6.36
+    },
+    {
+      "text": "there it is simple enough right let's do",
+      "start": 591.44,
+      "duration": 4.76
+    },
+    {
+      "text": "it one more time right from the",
+      "start": 594.48,
+      "duration": 3.16
+    },
+    {
+      "text": "beginning so remember we're going to",
+      "start": 596.2,
+      "duration": 3.92
+    },
+    {
+      "text": "start with local local",
+      "start": 597.64,
+      "duration": 5.0
+    },
+    {
+      "text": "my part this is the nickname so we're",
+      "start": 600.12,
+      "duration": 5.64
+    },
+    {
+      "text": "saying let my part be equal to a new",
+      "start": 602.64,
+      "duration": 5.879
+    },
+    {
+      "text": "instance instance. new a new instance of",
+      "start": 605.76,
+      "duration": 5.319
+    },
+    {
+      "text": "a part and put that part inside of",
+      "start": 608.519,
+      "duration": 5.88
+    },
+    {
+      "text": "workspace and then set my parts brick",
+      "start": 611.079,
+      "duration": 6.601
+    },
+    {
+      "text": "color to a new brick color and then you",
+      "start": 614.399,
+      "duration": 4.721
+    },
+    {
+      "text": "just put whatever brick color you want",
+      "start": 617.68,
+      "duration": 3.64
+    },
+    {
+      "text": "here so for example maybe",
+      "start": 619.12,
+      "duration": 5.6
+    },
+    {
+      "text": "toothpaste and then click on play and",
+      "start": 621.32,
+      "duration": 5.72
+    },
+    {
+      "text": "there you have it there's the part and",
+      "start": 624.72,
+      "duration": 4.119
+    },
+    {
+      "text": "as you can see if you click on the part",
+      "start": 627.04,
+      "duration": 3.88
+    },
+    {
+      "text": "inside of the the brick color you have",
+      "start": 628.839,
+      "duration": 4.12
+    },
+    {
+      "text": "toothpaste all right ready for the first",
+      "start": 630.92,
+      "duration": 6.359
+    },
+    {
+      "text": "quiz so I want this part to be a really",
+      "start": 632.959,
+      "duration": 7.601
+    },
+    {
+      "text": "red color Okay a really red color now",
+      "start": 637.279,
+      "duration": 7.921
+    },
+    {
+      "text": "when I say really red I mean really red",
+      "start": 640.56,
+      "duration": 8.04
+    },
+    {
+      "text": "whoop really red I want this part to",
+      "start": 645.2,
+      "duration": 7.319
+    },
+    {
+      "text": "have a brick color that is really red so",
+      "start": 648.6,
+      "duration": 5.0
+    },
+    {
+      "text": "hopefully that gives you enough",
+      "start": 652.519,
+      "duration": 3.241
+    },
+    {
+      "text": "information you can pause the video now",
+      "start": 653.6,
+      "duration": 3.799
+    },
+    {
+      "text": "I'm going to count to five and then I'm",
+      "start": 655.76,
+      "duration": 7.6
+    },
+    {
+      "text": "going to show you the solution so 1 2 3",
+      "start": 657.399,
+      "duration": 12.201
+    },
+    {
+      "text": "4 5 five okay so this is how you do it",
+      "start": 663.36,
+      "duration": 8.479
+    },
+    {
+      "text": "so you just have to set this toothpaste",
+      "start": 669.6,
+      "duration": 4.96
+    },
+    {
+      "text": "it's really red that's it and then click",
+      "start": 671.839,
+      "duration": 5.401
+    },
+    {
+      "text": "play and there you have it the really",
+      "start": 674.56,
+      "duration": 4.719
+    },
+    {
+      "text": "red part is inside of workspace and",
+      "start": 677.24,
+      "duration": 4.8
+    },
+    {
+      "text": "there you go there you have it now if",
+      "start": 679.279,
+      "duration": 5.68
+    },
+    {
+      "text": "you got this quiz correct good job",
+      "start": 682.04,
+      "duration": 4.799
+    },
+    {
+      "text": "you've earned your first point you did",
+      "start": 684.959,
+      "duration": 4.361
+    },
+    {
+      "text": "it make sure you like the video Let's MO",
+      "start": 686.839,
+      "duration": 5.12
+    },
+    {
+      "text": "move on all right all right all right",
+      "start": 689.32,
+      "duration": 5.36
+    },
+    {
+      "text": "all right so we've done the brick color",
+      "start": 691.959,
+      "duration": 5.56
+    },
+    {
+      "text": "now what else can we do well let's click",
+      "start": 694.68,
+      "duration": 5.88
+    },
+    {
+      "text": "play here and here's my part now if you",
+      "start": 697.519,
+      "duration": 4.88
+    },
+    {
+      "text": "click on the part inside of properties",
+      "start": 700.56,
+      "duration": 3.839
+    },
+    {
+      "text": "you can actually see there's something",
+      "start": 702.399,
+      "duration": 4.921
+    },
+    {
+      "text": "called transparency and I really like",
+      "start": 704.399,
+      "duration": 5.361
+    },
+    {
+      "text": "this property because this is actually",
+      "start": 707.32,
+      "duration": 4.519
+    },
+    {
+      "text": "what I use during Halloween events to",
+      "start": 709.76,
+      "duration": 4.759
+    },
+    {
+      "text": "create spooky things like ghosts so what",
+      "start": 711.839,
+      "duration": 5.081
+    },
+    {
+      "text": "we're going to do is we're going to",
+      "start": 714.519,
+      "duration": 4.12
+    },
+    {
+      "text": "experiment with this so right now the",
+      "start": 716.92,
+      "duration": 3.68
+    },
+    {
+      "text": "transparency is zero what happens if I",
+      "start": 718.639,
+      "duration": 3.681
+    },
+    {
+      "text": "set it to",
+      "start": 720.6,
+      "duration": 7.239
+    },
+    {
+      "text": "0.5 would you look at that part is",
+      "start": 722.32,
+      "duration": 9.0
+    },
+    {
+      "text": "now the part is now half visible right",
+      "start": 727.839,
+      "duration": 5.721
+    },
+    {
+      "text": "it's like half transparent now what do",
+      "start": 731.32,
+      "duration": 4.48
+    },
+    {
+      "text": "you think will happen if I set this 0.5",
+      "start": 733.56,
+      "duration": 3.12
+    },
+    {
+      "text": "to",
+      "start": 735.8,
+      "duration": 3.839
+    },
+    {
+      "text": "0.9 would you look at that now you can",
+      "start": 736.68,
+      "duration": 5.48
+    },
+    {
+      "text": "barely see the part it's it's there but",
+      "start": 739.639,
+      "duration": 4.721
+    },
+    {
+      "text": "like it's harder to see right now what",
+      "start": 742.16,
+      "duration": 3.799
+    },
+    {
+      "text": "do you think will happen if I set this",
+      "start": 744.36,
+      "duration": 5.76
+    },
+    {
+      "text": "part's transparency to 0.99",
+      "start": 745.959,
+      "duration": 5.801
+    },
+    {
+      "text": "I can barely even see that it's there",
+      "start": 750.12,
+      "duration": 4.279
+    },
+    {
+      "text": "can you even see that I can't even I",
+      "start": 751.76,
+      "duration": 4.16
+    },
+    {
+      "text": "can't even tell where it is but if I",
+      "start": 754.399,
+      "duration": 3.601
+    },
+    {
+      "text": "walk around look at that see that bump",
+      "start": 755.92,
+      "duration": 4.84
+    },
+    {
+      "text": "yeah that that's where my part is okay",
+      "start": 758.0,
+      "duration": 5.24
+    },
+    {
+      "text": "that's pretty cool that's pretty cool so",
+      "start": 760.76,
+      "duration": 5.4
+    },
+    {
+      "text": "I hope you've noticed that if you have",
+      "start": 763.24,
+      "duration": 4.8
+    },
+    {
+      "text": "the transparency if you have this number",
+      "start": 766.16,
+      "duration": 4.4
+    },
+    {
+      "text": "be closer and closer to one then it",
+      "start": 768.04,
+      "duration": 4.84
+    },
+    {
+      "text": "becomes more and more invisible right so",
+      "start": 770.56,
+      "duration": 4.2
+    },
+    {
+      "text": "if you set the transparency to one then",
+      "start": 772.88,
+      "duration": 4.04
+    },
+    {
+      "text": "you can't see it at all it's completely",
+      "start": 774.76,
+      "duration": 4.48
+    },
+    {
+      "text": "invisible and if the transparency is",
+      "start": 776.92,
+      "duration": 4.12
+    },
+    {
+      "text": "zero then you can see the entire thing",
+      "start": 779.24,
+      "duration": 4.36
+    },
+    {
+      "text": "it's completely visible and any number",
+      "start": 781.04,
+      "duration": 4.08
+    },
+    {
+      "text": "in between you can use a slider right",
+      "start": 783.6,
+      "duration": 3.12
+    },
+    {
+      "text": "here any number in",
+      "start": 785.12,
+      "duration": 4.76
+    },
+    {
+      "text": "between will change the transparency and",
+      "start": 786.72,
+      "duration": 5.2
+    },
+    {
+      "text": "it will make it somewhat visible and",
+      "start": 789.88,
+      "duration": 4.56
+    },
+    {
+      "text": "somewhat invisible so just like that you",
+      "start": 791.92,
+      "duration": 4.12
+    },
+    {
+      "text": "can see the different effects of",
+      "start": 794.44,
+      "duration": 3.04
+    },
+    {
+      "text": "different",
+      "start": 796.04,
+      "duration": 4.44
+    },
+    {
+      "text": "numbers all right cool now how do you do",
+      "start": 797.48,
+      "duration": 5.0
+    },
+    {
+      "text": "that with a script well remember how we",
+      "start": 800.48,
+      "duration": 5.76
+    },
+    {
+      "text": "did brick color my part. brick color",
+      "start": 802.48,
+      "duration": 7.799
+    },
+    {
+      "text": "equals brick color. new something and",
+      "start": 806.24,
+      "duration": 5.36
+    },
+    {
+      "text": "then you just put whatever color you",
+      "start": 810.279,
+      "duration": 4.081
+    },
+    {
+      "text": "want over here well this is nice this is",
+      "start": 811.6,
+      "duration": 5.16
+    },
+    {
+      "text": "fun however for transparency it's a",
+      "start": 814.36,
+      "duration": 3.88
+    },
+    {
+      "text": "little bit different it's actually",
+      "start": 816.76,
+      "duration": 3.96
+    },
+    {
+      "text": "easier you don't need this brick color.",
+      "start": 818.24,
+      "duration": 5.08
+    },
+    {
+      "text": "new stuff you can just say my part my",
+      "start": 820.72,
+      "duration": 5.6
+    },
+    {
+      "text": "part. transparency equals and then you",
+      "start": 823.32,
+      "duration": 4.56
+    },
+    {
+      "text": "just have to give it whatever number you",
+      "start": 826.32,
+      "duration": 3.56
+    },
+    {
+      "text": "want so if I want the transparency to be",
+      "start": 827.88,
+      "duration": 4.519
+    },
+    {
+      "text": "0.6 I just have to type it in here so",
+      "start": 829.88,
+      "duration": 4.24
+    },
+    {
+      "text": "all we're seeing here set the",
+      "start": 832.399,
+      "duration": 5.601
+    },
+    {
+      "text": "transparency of my part to 0.6 if you",
+      "start": 834.12,
+      "duration": 5.48
+    },
+    {
+      "text": "click play",
+      "start": 838.0,
+      "duration": 6.0
+    },
+    {
+      "text": "there you have it the part is now 0.6",
+      "start": 839.6,
+      "duration": 6.28
+    },
+    {
+      "text": "transparency and whatever I set this",
+      "start": 844.0,
+      "duration": 3.6
+    },
+    {
+      "text": "number to will be the new transparency",
+      "start": 845.88,
+      "duration": 3.24
+    },
+    {
+      "text": "so if I set this to",
+      "start": 847.6,
+      "duration": 3.44
+    },
+    {
+      "text": "0.2 then that will be the new",
+      "start": 849.12,
+      "duration": 3.719
+    },
+    {
+      "text": "transparency of my part so if you look",
+      "start": 851.04,
+      "duration": 4.12
+    },
+    {
+      "text": "over here you can see right here the",
+      "start": 852.839,
+      "duration": 4.721
+    },
+    {
+      "text": "transparency set to 0.2 which is the",
+      "start": 855.16,
+      "duration": 4.919
+    },
+    {
+      "text": "same number that I had over here all",
+      "start": 857.56,
+      "duration": 4.16
+    },
+    {
+      "text": "right cool I hope you're ready for your",
+      "start": 860.079,
+      "duration": 6.961
+    },
+    {
+      "text": "next Quiz so we're going to do this now",
+      "start": 861.72,
+      "duration": 8.4
+    },
+    {
+      "text": "so as I told you before I like Halloween",
+      "start": 867.04,
+      "duration": 5.32
+    },
+    {
+      "text": "I like transparency because this thing",
+      "start": 870.12,
+      "duration": 4.24
+    },
+    {
+      "text": "right here allows me to create something",
+      "start": 872.36,
+      "duration": 4.44
+    },
+    {
+      "text": "that I personally like to call a ghost",
+      "start": 874.36,
+      "duration": 5.36
+    },
+    {
+      "text": "part okay and what I'm going to do is",
+      "start": 876.8,
+      "duration": 5.08
+    },
+    {
+      "text": "I'm going to show you a ghost part I'm",
+      "start": 879.72,
+      "duration": 4.039
+    },
+    {
+      "text": "going to actually make one without using",
+      "start": 881.88,
+      "duration": 4.879
+    },
+    {
+      "text": "code and your challenge your quiz will",
+      "start": 883.759,
+      "duration": 5.481
+    },
+    {
+      "text": "be to code it okay so here's what a",
+      "start": 886.759,
+      "duration": 5.64
+    },
+    {
+      "text": "ghost part looks like home",
+      "start": 889.24,
+      "duration": 7.279
+    },
+    {
+      "text": "part and then the brick color is set to",
+      "start": 892.399,
+      "duration": 6.8
+    },
+    {
+      "text": "any white color so we can use ghost Gray",
+      "start": 896.519,
+      "duration": 4.12
+    },
+    {
+      "text": "so it could be a ghost gray color",
+      "start": 899.199,
+      "duration": 3.76
+    },
+    {
+      "text": "doesn't have to be white it kind of",
+      "start": 900.639,
+      "duration": 4.161
+    },
+    {
+      "text": "looks white or you can set it to like",
+      "start": 902.959,
+      "duration": 4.24
+    },
+    {
+      "text": "institutional white or Pearl any one of",
+      "start": 904.8,
+      "duration": 4.08
+    },
+    {
+      "text": "these three colors okay we're just going",
+      "start": 907.199,
+      "duration": 2.801
+    },
+    {
+      "text": "to use ghost gray because you know it's",
+      "start": 908.88,
+      "duration": 4.72
+    },
+    {
+      "text": "a ghost part but a ghost part is this",
+      "start": 910.0,
+      "duration": 6.399
+    },
+    {
+      "text": "whitish grayish color and it also has a",
+      "start": 913.6,
+      "duration": 4.239
+    },
+    {
+      "text": "transparency of",
+      "start": 916.399,
+      "duration": 3.921
+    },
+    {
+      "text": "0.7 this right here I call this a ghost",
+      "start": 917.839,
+      "duration": 5.281
+    },
+    {
+      "text": "part hopefully you can see why because",
+      "start": 920.32,
+      "duration": 5.92
+    },
+    {
+      "text": "it looks kind of like a ghost",
+      "start": 923.12,
+      "duration": 6.519
+    },
+    {
+      "text": "part so once again the brick color is",
+      "start": 926.24,
+      "duration": 5.64
+    },
+    {
+      "text": "Ghost gray the transparency is",
+      "start": 929.639,
+      "duration": 5.44
+    },
+    {
+      "text": "0.7 now you my friend go ahead and code",
+      "start": 931.88,
+      "duration": 5.48
+    },
+    {
+      "text": "it let's see what you come up with I'm",
+      "start": 935.079,
+      "duration": 3.68
+    },
+    {
+      "text": "going to give you 5 Seconds you can go",
+      "start": 937.36,
+      "duration": 2.919
+    },
+    {
+      "text": "ahead and pause the video and take as",
+      "start": 938.759,
+      "duration": 3.0
+    },
+    {
+      "text": "long as you need but I'm going to",
+      "start": 940.279,
+      "duration": 7.521
+    },
+    {
+      "text": "continue in 5 seconds so 5 4 3 2 1 all",
+      "start": 941.759,
+      "duration": 9.041
+    },
+    {
+      "text": "right let's continue all right so by now",
+      "start": 947.8,
+      "duration": 5.399
+    },
+    {
+      "text": "hopefully you've created your ghost part",
+      "start": 950.8,
+      "duration": 4.24
+    },
+    {
+      "text": "so now I'm going to teach you how I",
+      "start": 953.199,
+      "duration": 4.241
+    },
+    {
+      "text": "would do it so I'm just going to start",
+      "start": 955.04,
+      "duration": 5.599
+    },
+    {
+      "text": "from the beginning so my part equals",
+      "start": 957.44,
+      "duration": 4.73
+    },
+    {
+      "text": "instance. new",
+      "start": 960.639,
+      "duration": 3.041
+    },
+    {
+      "text": "[Music]",
+      "start": 962.17,
+      "duration": 5.109
+    },
+    {
+      "text": "part oh my goodness workspace and then",
+      "start": 963.68,
+      "duration": 6.519
+    },
+    {
+      "text": "my part. transparency equals 0.7 because",
+      "start": 967.279,
+      "duration": 5.48
+    },
+    {
+      "text": "it's a ghost part which I defined as",
+      "start": 970.199,
+      "duration": 5.0
+    },
+    {
+      "text": "having a transparency of 0.7 and then",
+      "start": 972.759,
+      "duration": 4.361
+    },
+    {
+      "text": "the my parts brick color is going to be",
+      "start": 975.199,
+      "duration": 4.721
+    },
+    {
+      "text": "a new brick color so brick color. new",
+      "start": 977.12,
+      "duration": 5.6
+    },
+    {
+      "text": "and then just call it ghost gray and",
+      "start": 979.92,
+      "duration": 4.24
+    },
+    {
+      "text": "there's how you could do it this is one",
+      "start": 982.72,
+      "duration": 3.2
+    },
+    {
+      "text": "way of doing it now of course you could",
+      "start": 984.16,
+      "duration": 3.88
+    },
+    {
+      "text": "have done the brick color first like",
+      "start": 985.92,
+      "duration": 3.919
+    },
+    {
+      "text": "this and then then the transparency you",
+      "start": 988.04,
+      "duration": 4.44
+    },
+    {
+      "text": "know whatever works with you it's okay",
+      "start": 989.839,
+      "duration": 4.601
+    },
+    {
+      "text": "as long as you created a ghost part and",
+      "start": 992.48,
+      "duration": 3.76
+    },
+    {
+      "text": "let's actually see what this looks like",
+      "start": 994.44,
+      "duration": 3.24
+    },
+    {
+      "text": "if we click the play button so I'm going",
+      "start": 996.24,
+      "duration": 4.279
+    },
+    {
+      "text": "to click play and here's my ghost part",
+      "start": 997.68,
+      "duration": 4.32
+    },
+    {
+      "text": "hopefully you guys were able to produce",
+      "start": 1000.519,
+      "duration": 3.8
+    },
+    {
+      "text": "something like this if you were really",
+      "start": 1002.0,
+      "duration": 4.24
+    },
+    {
+      "text": "really good job you you've been paying",
+      "start": 1004.319,
+      "duration": 3.64
+    },
+    {
+      "text": "attention very actively and",
+      "start": 1006.24,
+      "duration": 3.36
+    },
+    {
+      "text": "congratulations you got your second",
+      "start": 1007.959,
+      "duration": 4.44
+    },
+    {
+      "text": "point so you're now at two points now of",
+      "start": 1009.6,
+      "duration": 4.0
+    },
+    {
+      "text": "course that's assuming you got the first",
+      "start": 1012.399,
+      "duration": 2.92
+    },
+    {
+      "text": "one but you know if you got this far you",
+      "start": 1013.6,
+      "duration": 3.56
+    },
+    {
+      "text": "probably got the first one right so yeah",
+      "start": 1015.319,
+      "duration": 4.08
+    },
+    {
+      "text": "you're probably at two points by now if",
+      "start": 1017.16,
+      "duration": 4.44
+    },
+    {
+      "text": "you haven't gotten two points maybe this",
+      "start": 1019.399,
+      "duration": 4.881
+    },
+    {
+      "text": "is a little bit tough it's okay it's",
+      "start": 1021.6,
+      "duration": 5.16
+    },
+    {
+      "text": "totally fine we're just going to take",
+      "start": 1024.28,
+      "duration": 5.559
+    },
+    {
+      "text": "things one step at a time and you will",
+      "start": 1026.76,
+      "duration": 4.76
+    },
+    {
+      "text": "understand it even if you even if you",
+      "start": 1029.839,
+      "duration": 3.84
+    },
+    {
+      "text": "didn't get the point for this one at",
+      "start": 1031.52,
+      "duration": 3.76
+    },
+    {
+      "text": "least you understand how it works right",
+      "start": 1033.679,
+      "duration": 3.76
+    },
+    {
+      "text": "that's the most important part all right",
+      "start": 1035.28,
+      "duration": 3.88
+    },
+    {
+      "text": "now really quickly if you guys feel like",
+      "start": 1037.439,
+      "duration": 4.0
+    },
+    {
+      "text": "you're learning really well so far I",
+      "start": 1039.16,
+      "duration": 3.639
+    },
+    {
+      "text": "just want to give you two quick",
+      "start": 1041.439,
+      "duration": 3.441
+    },
+    {
+      "text": "resources the first thing is completely",
+      "start": 1042.799,
+      "duration": 4.76
+    },
+    {
+      "text": "free this is a Blog where I literally",
+      "start": 1044.88,
+      "duration": 4.48
+    },
+    {
+      "text": "just write tutorial",
+      "start": 1047.559,
+      "duration": 3.041
+    },
+    {
+      "text": "and I try to do this every single",
+      "start": 1049.36,
+      "duration": 4.439
+    },
+    {
+      "text": "morning so here are some uh free Roblox",
+      "start": 1050.6,
+      "duration": 5.68
+    },
+    {
+      "text": "scripting tutorials and there's actually",
+      "start": 1053.799,
+      "duration": 4.801
+    },
+    {
+      "text": "a whole bunch of other stuff like all of",
+      "start": 1056.28,
+      "duration": 4.12
+    },
+    {
+      "text": "this and there's actually a developers",
+      "start": 1058.6,
+      "duration": 3.24
+    },
+    {
+      "text": "corner where you can find all of these",
+      "start": 1060.4,
+      "duration": 4.48
+    },
+    {
+      "text": "other articles for example um you can",
+      "start": 1061.84,
+      "duration": 4.88
+    },
+    {
+      "text": "learn about the Roblox algorithm you can",
+      "start": 1064.88,
+      "duration": 2.919
+    },
+    {
+      "text": "learn about how you can motivate",
+      "start": 1066.72,
+      "duration": 3.28
+    },
+    {
+      "text": "yourself to learn stuff whole bunch of",
+      "start": 1067.799,
+      "duration": 4.12
+    },
+    {
+      "text": "really really cool and fun stuff for",
+      "start": 1070.0,
+      "duration": 4.4
+    },
+    {
+      "text": "free so you get access to all of these",
+      "start": 1071.919,
+      "duration": 3.921
+    },
+    {
+      "text": "articles for free I think there's like",
+      "start": 1074.4,
+      "duration": 4.04
+    },
+    {
+      "text": "38 articles so far completely for free",
+      "start": 1075.84,
+      "duration": 3.64
+    },
+    {
+      "text": "you just have to to go in the link in",
+      "start": 1078.44,
+      "duration": 3.8
+    },
+    {
+      "text": "the description and yeah now the second",
+      "start": 1079.48,
+      "duration": 4.12
+    },
+    {
+      "text": "thing that you might like this one is",
+      "start": 1082.24,
+      "duration": 3.28
+    },
+    {
+      "text": "paid if you want to support me and you",
+      "start": 1083.6,
+      "duration": 3.36
+    },
+    {
+      "text": "feel like you've learning you've been",
+      "start": 1085.52,
+      "duration": 3.92
+    },
+    {
+      "text": "learning really really well so far then",
+      "start": 1086.96,
+      "duration": 4.24
+    },
+    {
+      "text": "you might be interested in this book",
+      "start": 1089.44,
+      "duration": 4.44
+    },
+    {
+      "text": "that I wrote this is the uh beginner",
+      "start": 1091.2,
+      "duration": 4.76
+    },
+    {
+      "text": "guide to Roblox scripting book and",
+      "start": 1093.88,
+      "duration": 4.36
+    },
+    {
+      "text": "basically the book is structured in a",
+      "start": 1095.96,
+      "duration": 4.04
+    },
+    {
+      "text": "way where every single line is explained",
+      "start": 1098.24,
+      "duration": 3.799
+    },
+    {
+      "text": "to you there's vocabulary lists at the",
+      "start": 1100.0,
+      "duration": 4.12
+    },
+    {
+      "text": "end of every chapter with tons and tons",
+      "start": 1102.039,
+      "duration": 4.12
+    },
+    {
+      "text": "of code samples there's quizzes just",
+      "start": 1104.12,
+      "duration": 3.439
+    },
+    {
+      "text": "like what you're doing right now and",
+      "start": 1106.159,
+      "duration": 2.841
+    },
+    {
+      "text": "everything is explained to you in way",
+      "start": 1107.559,
+      "duration": 3.201
+    },
+    {
+      "text": "where you can understand it and then at",
+      "start": 1109.0,
+      "duration": 4.039
+    },
+    {
+      "text": "the end of the at the end of the book",
+      "start": 1110.76,
+      "duration": 3.48
+    },
+    {
+      "text": "there's actually a chapter where you'll",
+      "start": 1113.039,
+      "duration": 3.201
+    },
+    {
+      "text": "be able to code your own admin commands",
+      "start": 1114.24,
+      "duration": 4.04
+    },
+    {
+      "text": "from scratch like completely from",
+      "start": 1116.24,
+      "duration": 3.799
+    },
+    {
+      "text": "scratch where you will be able to do it",
+      "start": 1118.28,
+      "duration": 3.6
+    },
+    {
+      "text": "all by yourself so if that sounds like",
+      "start": 1120.039,
+      "duration": 3.161
+    },
+    {
+      "text": "something you'd be interested in make",
+      "start": 1121.88,
+      "duration": 2.679
+    },
+    {
+      "text": "sure you check the other Link in the",
+      "start": 1123.2,
+      "duration": 4.0
+    },
+    {
+      "text": "description and let's resume all right",
+      "start": 1124.559,
+      "duration": 4.24
+    },
+    {
+      "text": "so that's cool and all but what if I",
+      "start": 1127.2,
+      "duration": 3.56
+    },
+    {
+      "text": "want to change the shape of this thing",
+      "start": 1128.799,
+      "duration": 3.681
+    },
+    {
+      "text": "like what if I don't want this",
+      "start": 1130.76,
+      "duration": 4.12
+    },
+    {
+      "text": "rectangular prism looking thing maybe I",
+      "start": 1132.48,
+      "duration": 4.52
+    },
+    {
+      "text": "want this thing to be a different shape",
+      "start": 1134.88,
+      "duration": 4.24
+    },
+    {
+      "text": "well if you scroll down you you see",
+      "start": 1137.0,
+      "duration": 4.0
+    },
+    {
+      "text": "there's a property called shape instead",
+      "start": 1139.12,
+      "duration": 4.32
+    },
+    {
+      "text": "of block you have all of these options",
+      "start": 1141.0,
+      "duration": 4.84
+    },
+    {
+      "text": "right here so I can make it a ball I can",
+      "start": 1143.44,
+      "duration": 5.32
+    },
+    {
+      "text": "make it a wedge I can make it a cylinder",
+      "start": 1145.84,
+      "duration": 4.8
+    },
+    {
+      "text": "I can make it a corner wedge so this is",
+      "start": 1148.76,
+      "duration": 5.399
+    },
+    {
+      "text": "like a special type of wedge and there's",
+      "start": 1150.64,
+      "duration": 6.48
+    },
+    {
+      "text": "all these options so let's start with",
+      "start": 1154.159,
+      "duration": 5.88
+    },
+    {
+      "text": "ball so how would you actually script",
+      "start": 1157.12,
+      "duration": 6.08
+    },
+    {
+      "text": "this how would you create a ball well",
+      "start": 1160.039,
+      "duration": 5.921
+    },
+    {
+      "text": "think about it isn't this isn't the quiz",
+      "start": 1163.2,
+      "duration": 5.88
+    },
+    {
+      "text": "yet but think about it you have the part",
+      "start": 1165.96,
+      "duration": 5.48
+    },
+    {
+      "text": "and we had just set the shape to ball",
+      "start": 1169.08,
+      "duration": 4.32
+    },
+    {
+      "text": "now remember what if we wanted to change",
+      "start": 1171.44,
+      "duration": 4.16
+    },
+    {
+      "text": "transparency we just had to do my part.",
+      "start": 1173.4,
+      "duration": 4.639
+    },
+    {
+      "text": "transparency equals and then maybe like",
+      "start": 1175.6,
+      "duration": 5.52
+    },
+    {
+      "text": "0.5 well wouldn't it seem probable that",
+      "start": 1178.039,
+      "duration": 5.0
+    },
+    {
+      "text": "if you want to change the shape of this",
+      "start": 1181.12,
+      "duration": 3.88
+    },
+    {
+      "text": "my part you could just do something like",
+      "start": 1183.039,
+      "duration": 4.801
+    },
+    {
+      "text": "my part do shape and then equals ball",
+      "start": 1185.0,
+      "duration": 5.559
+    },
+    {
+      "text": "like shouldn't that just work well yes",
+      "start": 1187.84,
+      "duration": 6.64
+    },
+    {
+      "text": "this is very very very close except that",
+      "start": 1190.559,
+      "duration": 8.161
+    },
+    {
+      "text": "Roblox thinks that this ball is a name a",
+      "start": 1194.48,
+      "duration": 5.6
+    },
+    {
+      "text": "nickname Roblox thinks this is a",
+      "start": 1198.72,
+      "duration": 3.439
+    },
+    {
+      "text": "nickname just like how we've set this",
+      "start": 1200.08,
+      "duration": 4.599
+    },
+    {
+      "text": "part's nickname to my part Roblox think",
+      "start": 1202.159,
+      "duration": 4.841
+    },
+    {
+      "text": "this ball is a nickname for something",
+      "start": 1204.679,
+      "duration": 4.12
+    },
+    {
+      "text": "which isn't right this is not this is",
+      "start": 1207.0,
+      "duration": 4.0
+    },
+    {
+      "text": "not a nickname so we have to do is we",
+      "start": 1208.799,
+      "duration": 4.041
+    },
+    {
+      "text": "have to put this in quotation",
+      "start": 1211.0,
+      "duration": 4.2
+    },
+    {
+      "text": "marks and this basically tells Roblox",
+      "start": 1212.84,
+      "duration": 4.719
+    },
+    {
+      "text": "this is not a nickname this is a string",
+      "start": 1215.2,
+      "duration": 4.92
+    },
+    {
+      "text": "a string is anything in quotation marks",
+      "start": 1217.559,
+      "duration": 4.24
+    },
+    {
+      "text": "so right here get so we actually have",
+      "start": 1220.12,
+      "duration": 4.36
+    },
+    {
+      "text": "two strings in this code right here we",
+      "start": 1221.799,
+      "duration": 4.321
+    },
+    {
+      "text": "have ball which is a string and part",
+      "start": 1224.48,
+      "duration": 3.04
+    },
+    {
+      "text": "which is a string anything with",
+      "start": 1226.12,
+      "duration": 3.6
+    },
+    {
+      "text": "quotation marks is a",
+      "start": 1227.52,
+      "duration": 5.48
+    },
+    {
+      "text": "string so now if you run this we should",
+      "start": 1229.72,
+      "duration": 6.36
+    },
+    {
+      "text": "we should have a ball which is 50%",
+      "start": 1233.0,
+      "duration": 4.84
+    },
+    {
+      "text": "transparent and that's exactly what we",
+      "start": 1236.08,
+      "duration": 3.88
+    },
+    {
+      "text": "have here now one thing that you've",
+      "start": 1237.84,
+      "duration": 6.28
+    },
+    {
+      "text": "probably noticed is this right here this",
+      "start": 1239.96,
+      "duration": 8.04
+    },
+    {
+      "text": "the ball just okay I must have kicked it",
+      "start": 1244.12,
+      "duration": 5.16
+    },
+    {
+      "text": "well one thing that you might have",
+      "start": 1248.0,
+      "duration": 3.559
+    },
+    {
+      "text": "noticed is this stud looking thing right",
+      "start": 1249.28,
+      "duration": 4.56
+    },
+    {
+      "text": "here this you know those things in Legos",
+      "start": 1251.559,
+      "duration": 4.841
+    },
+    {
+      "text": "that have those uh those I don't know",
+      "start": 1253.84,
+      "duration": 5.24
+    },
+    {
+      "text": "what they're called but this this thing",
+      "start": 1256.4,
+      "duration": 5.48
+    },
+    {
+      "text": "right here the stud looking thing if you",
+      "start": 1259.08,
+      "duration": 4.56
+    },
+    {
+      "text": "want to get rid of it roblox actually",
+      "start": 1261.88,
+      "duration": 4.52
+    },
+    {
+      "text": "has something called material and you",
+      "start": 1263.64,
+      "duration": 5.08
+    },
+    {
+      "text": "just have to set the material to smooth",
+      "start": 1266.4,
+      "duration": 4.92
+    },
+    {
+      "text": "plastic and it'll go away so once again",
+      "start": 1268.72,
+      "duration": 6.079
+    },
+    {
+      "text": "material by default Roblox sets it to",
+      "start": 1271.32,
+      "duration": 6.16
+    },
+    {
+      "text": "plastic uh it's right here it looks like",
+      "start": 1274.799,
+      "duration": 4.841
+    },
+    {
+      "text": "this but if you want this thing to be",
+      "start": 1277.48,
+      "duration": 4.0
+    },
+    {
+      "text": "gone you just have to set it to smooth",
+      "start": 1279.64,
+      "duration": 4.0
+    },
+    {
+      "text": "plastic and it has to be spelled like",
+      "start": 1281.48,
+      "duration": 4.199
+    },
+    {
+      "text": "this now how do you think we change the",
+      "start": 1283.64,
+      "duration": 4.279
+    },
+    {
+      "text": "material well how did we change the",
+      "start": 1285.679,
+      "duration": 6.0
+    },
+    {
+      "text": "shape just do the same thing my part dot",
+      "start": 1287.919,
+      "duration": 6.36
+    },
+    {
+      "text": "material equals and you'd probably think",
+      "start": 1291.679,
+      "duration": 5.201
+    },
+    {
+      "text": "oh I would just type smooth plastic here",
+      "start": 1294.279,
+      "duration": 5.321
+    },
+    {
+      "text": "right and this is very probable this is",
+      "start": 1296.88,
+      "duration": 5.039
+    },
+    {
+      "text": "this is what anyone would do however",
+      "start": 1299.6,
+      "duration": 3.6
+    },
+    {
+      "text": "once again Roblox thinks this is a",
+      "start": 1301.919,
+      "duration": 2.841
+    },
+    {
+      "text": "variable Roblox thinks this is a",
+      "start": 1303.2,
+      "duration": 3.16
+    },
+    {
+      "text": "nickname for something but that's not",
+      "start": 1304.76,
+      "duration": 3.48
+    },
+    {
+      "text": "the case so we have to tell Roblox to",
+      "start": 1306.36,
+      "duration": 4.88
+    },
+    {
+      "text": "string and that's how we do it and this",
+      "start": 1308.24,
+      "duration": 5.6
+    },
+    {
+      "text": "right here will create an awesome ball",
+      "start": 1311.24,
+      "duration": 5.039
+    },
+    {
+      "text": "which doesn't have any um stud looking",
+      "start": 1313.84,
+      "duration": 4.16
+    },
+    {
+      "text": "things on it so this is a smooth plastic",
+      "start": 1316.279,
+      "duration": 2.961
+    },
+    {
+      "text": "ball",
+      "start": 1318.0,
+      "duration": 3.52
+    },
+    {
+      "text": "all right quiz number three let's here's",
+      "start": 1319.24,
+      "duration": 4.84
+    },
+    {
+      "text": "some opportunity to earn another point I",
+      "start": 1321.52,
+      "duration": 4.8
+    },
+    {
+      "text": "want you guys to code this it's going to",
+      "start": 1324.08,
+      "duration": 6.28
+    },
+    {
+      "text": "be a red ball just like this I want you",
+      "start": 1326.32,
+      "duration": 6.32
+    },
+    {
+      "text": "guys to code this right here this is a",
+      "start": 1330.36,
+      "duration": 5.28
+    },
+    {
+      "text": "really red ball with the material as",
+      "start": 1332.64,
+      "duration": 4.96
+    },
+    {
+      "text": "smooth plastic so I want it to look just",
+      "start": 1335.64,
+      "duration": 4.8
+    },
+    {
+      "text": "like that so go ahead and pause the",
+      "start": 1337.6,
+      "duration": 5.92
+    },
+    {
+      "text": "video and I will show the solution in 5",
+      "start": 1340.44,
+      "duration": 8.64
+    },
+    {
+      "text": "4 3 2 1 all right cool",
+      "start": 1343.52,
+      "duration": 7.6
+    },
+    {
+      "text": "here's how you would Cod it so you have",
+      "start": 1349.08,
+      "duration": 4.24
+    },
+    {
+      "text": "your part you can just do the same thing",
+      "start": 1351.12,
+      "duration": 4.439
+    },
+    {
+      "text": "that we did before so my part. shape",
+      "start": 1353.32,
+      "duration": 4.599
+    },
+    {
+      "text": "equals ball or you could have set the",
+      "start": 1355.559,
+      "duration": 5.12
+    },
+    {
+      "text": "color to red or you know the material to",
+      "start": 1357.919,
+      "duration": 4.0
+    },
+    {
+      "text": "smooth plastic it doesn't matter what",
+      "start": 1360.679,
+      "duration": 3.961
+    },
+    {
+      "text": "order you do it in as long as you have",
+      "start": 1361.919,
+      "duration": 6.281
+    },
+    {
+      "text": "it like this smooth plastic and then my",
+      "start": 1364.64,
+      "duration": 6.519
+    },
+    {
+      "text": "part do brick color equals brick color.",
+      "start": 1368.2,
+      "duration": 6.839
+    },
+    {
+      "text": "new really red just like that and that's",
+      "start": 1371.159,
+      "duration": 6.681
+    },
+    {
+      "text": "how you create the red ball which is",
+      "start": 1375.039,
+      "duration": 4.441
+    },
+    {
+      "text": "right here",
+      "start": 1377.84,
+      "duration": 3.64
+    },
+    {
+      "text": "all right now we're going to make things",
+      "start": 1379.48,
+      "duration": 4.12
+    },
+    {
+      "text": "really really really really fun okay now",
+      "start": 1381.48,
+      "duration": 3.559
+    },
+    {
+      "text": "it's going to get really really cool",
+      "start": 1383.6,
+      "duration": 3.0
+    },
+    {
+      "text": "this is going to be awesome like trust",
+      "start": 1385.039,
+      "duration": 4.281
+    },
+    {
+      "text": "me just keep watching okay all right so",
+      "start": 1386.6,
+      "duration": 4.4
+    },
+    {
+      "text": "I don't know if you guys have noticed",
+      "start": 1389.32,
+      "duration": 4.2
+    },
+    {
+      "text": "yet but whenever we create anything",
+      "start": 1391.0,
+      "duration": 5.039
+    },
+    {
+      "text": "using a script it just seems to place",
+      "start": 1393.52,
+      "duration": 4.08
+    },
+    {
+      "text": "the ball right over here right like",
+      "start": 1396.039,
+      "duration": 3.361
+    },
+    {
+      "text": "isn't that just an odd spot why is it",
+      "start": 1397.6,
+      "duration": 3.6
+    },
+    {
+      "text": "over here why doesn't it just put the",
+      "start": 1399.4,
+      "duration": 4.08
+    },
+    {
+      "text": "ball like over here or like up in the",
+      "start": 1401.2,
+      "duration": 5.68
+    },
+    {
+      "text": "sky right well that's just how Roblox",
+      "start": 1403.48,
+      "duration": 5.52
+    },
+    {
+      "text": "does it but as scriptor we can tell",
+      "start": 1406.88,
+      "duration": 5.36
+    },
+    {
+      "text": "Roblox to do other things so I want this",
+      "start": 1409.0,
+      "duration": 6.12
+    },
+    {
+      "text": "ball to from now on I want this ball to",
+      "start": 1412.24,
+      "duration": 7.2
+    },
+    {
+      "text": "spawn all the way over here and it's",
+      "start": 1415.12,
+      "duration": 6.159
+    },
+    {
+      "text": "okay if it falls because you know",
+      "start": 1419.44,
+      "duration": 4.56
+    },
+    {
+      "text": "gravity but I want this ball to spawn",
+      "start": 1421.279,
+      "duration": 4.4
+    },
+    {
+      "text": "like over here and I want it to fall",
+      "start": 1424.0,
+      "duration": 3.72
+    },
+    {
+      "text": "just like that how do you think I could",
+      "start": 1425.679,
+      "duration": 5.081
+    },
+    {
+      "text": "do that well we have something called",
+      "start": 1427.72,
+      "duration": 4.839
+    },
+    {
+      "text": "position which is right here so if you",
+      "start": 1430.76,
+      "duration": 3.44
+    },
+    {
+      "text": "scroll down under the properties of your",
+      "start": 1432.559,
+      "duration": 3.6
+    },
+    {
+      "text": "part long as as long as it's selected",
+      "start": 1434.2,
+      "duration": 3.719
+    },
+    {
+      "text": "here you can scroll down you'll see",
+      "start": 1436.159,
+      "duration": 4.76
+    },
+    {
+      "text": "position which is right here and this",
+      "start": 1437.919,
+      "duration": 4.76
+    },
+    {
+      "text": "position right here basically defines",
+      "start": 1440.919,
+      "duration": 3.161
+    },
+    {
+      "text": "where this ball",
+      "start": 1442.679,
+      "duration": 3.921
+    },
+    {
+      "text": "is and this",
+      "start": 1444.08,
+      "duration": 4.839
+    },
+    {
+      "text": "position this position is three",
+      "start": 1446.6,
+      "duration": 5.8
+    },
+    {
+      "text": "different numbers so we have x y and z",
+      "start": 1448.919,
+      "duration": 6.681
+    },
+    {
+      "text": "now y right here this basically means",
+      "start": 1452.4,
+      "duration": 5.759
+    },
+    {
+      "text": "where it is up and down okay think about",
+      "start": 1455.6,
+      "duration": 4.84
+    },
+    {
+      "text": "it like that where is this ball located",
+      "start": 1458.159,
+      "duration": 7.961
+    },
+    {
+      "text": "up and down and if you set this y to 10",
+      "start": 1460.44,
+      "duration": 9.719
+    },
+    {
+      "text": "guess what this is now 10 units above",
+      "start": 1466.12,
+      "duration": 6.039
+    },
+    {
+      "text": "the ground that's what that means when Y",
+      "start": 1470.159,
+      "duration": 5.601
+    },
+    {
+      "text": "is set to 10 it's now 10 units up there",
+      "start": 1472.159,
+      "duration": 6.76
+    },
+    {
+      "text": "okay and what if I set y to 50 well now",
+      "start": 1475.76,
+      "duration": 6.519
+    },
+    {
+      "text": "it's 50 units up there and what if I set",
+      "start": 1478.919,
+      "duration": 5.081
+    },
+    {
+      "text": "y to 100 well now it's going to fall all",
+      "start": 1482.279,
+      "duration": 5.0
+    },
+    {
+      "text": "the way from the sky right and this x",
+      "start": 1484.0,
+      "duration": 4.96
+    },
+    {
+      "text": "and z right here just tell you how far",
+      "start": 1487.279,
+      "duration": 4.76
+    },
+    {
+      "text": "away it is on the left and right so for",
+      "start": 1488.96,
+      "duration": 4.8
+    },
+    {
+      "text": "example if you set this to 10 the ball",
+      "start": 1492.039,
+      "duration": 4.201
+    },
+    {
+      "text": "moved right if you set this back to zero",
+      "start": 1493.76,
+      "duration": 5.0
+    },
+    {
+      "text": "the ball is left if you set this to like",
+      "start": 1496.24,
+      "duration": 4.6
+    },
+    {
+      "text": "20 the ball went all the way over here",
+      "start": 1498.76,
+      "duration": 4.159
+    },
+    {
+      "text": "what if I set this to 50 well now the",
+      "start": 1500.84,
+      "duration": 4.0
+    },
+    {
+      "text": "ball's all the way over there right so",
+      "start": 1502.919,
+      "duration": 3.841
+    },
+    {
+      "text": "that's on the left and right and the Z",
+      "start": 1504.84,
+      "duration": 3.839
+    },
+    {
+      "text": "is on the front and back so maybe I'll",
+      "start": 1506.76,
+      "duration": 4.399
+    },
+    {
+      "text": "set this to five as you can see it went",
+      "start": 1508.679,
+      "duration": 6.081
+    },
+    {
+      "text": "five backward you can set it to -10 and",
+      "start": 1511.159,
+      "duration": 6.441
+    },
+    {
+      "text": "then went forward because it's negative",
+      "start": 1514.76,
+      "duration": 4.0
+    },
+    {
+      "text": "and you know you can just mess around",
+      "start": 1517.6,
+      "duration": 2.959
+    },
+    {
+      "text": "with these but for for now all we care",
+      "start": 1518.76,
+      "duration": 3.68
+    },
+    {
+      "text": "about is this y all we care about is",
+      "start": 1520.559,
+      "duration": 4.12
+    },
+    {
+      "text": "going up and down okay so if you set",
+      "start": 1522.44,
+      "duration": 4.719
+    },
+    {
+      "text": "this to 500 it's falling from the sky I",
+      "start": 1524.679,
+      "duration": 4.801
+    },
+    {
+      "text": "don't know right there see it boom boom",
+      "start": 1527.159,
+      "duration": 4.681
+    },
+    {
+      "text": "and it just",
+      "start": 1529.48,
+      "duration": 7.04
+    },
+    {
+      "text": "bounces and now if you want to set the",
+      "start": 1531.84,
+      "duration": 8.12
+    },
+    {
+      "text": "position so what we just saw of anything",
+      "start": 1536.52,
+      "duration": 5.279
+    },
+    {
+      "text": "you're going to do my part of of any",
+      "start": 1539.96,
+      "duration": 3.68
+    },
+    {
+      "text": "like part then you're going to do my",
+      "start": 1541.799,
+      "duration": 5.921
+    },
+    {
+      "text": "part. position equals and then remember",
+      "start": 1543.64,
+      "duration": 6.72
+    },
+    {
+      "text": "we had to give it three numbers right so",
+      "start": 1547.72,
+      "duration": 4.88
+    },
+    {
+      "text": "we had to actually give the part so when",
+      "start": 1550.36,
+      "duration": 4.08
+    },
+    {
+      "text": "we created a part we had to give it",
+      "start": 1552.6,
+      "duration": 4.16
+    },
+    {
+      "text": "three numbers so right here position it",
+      "start": 1554.44,
+      "duration": 4.239
+    },
+    {
+      "text": "wants three numbers it wants an X a y",
+      "start": 1556.76,
+      "duration": 3.12
+    },
+    {
+      "text": "and a",
+      "start": 1558.679,
+      "duration": 5.561
+    },
+    {
+      "text": "z and we can't just so we can't just say",
+      "start": 1559.88,
+      "duration": 7.96
+    },
+    {
+      "text": "050 we can't just do this and the reason",
+      "start": 1564.24,
+      "duration": 5.039
+    },
+    {
+      "text": "is because Roblox wants us to use",
+      "start": 1567.84,
+      "duration": 3.719
+    },
+    {
+      "text": "something called a vector 3 Vector 3.",
+      "start": 1569.279,
+      "duration": 4.161
+    },
+    {
+      "text": "new just like what we did with brick",
+      "start": 1571.559,
+      "duration": 4.201
+    },
+    {
+      "text": "color. new remember remember we did my",
+      "start": 1573.44,
+      "duration": 4.719
+    },
+    {
+      "text": "part. brick color equals brick color.",
+      "start": 1575.76,
+      "duration": 3.6
+    },
+    {
+      "text": "new and then we said something like",
+      "start": 1578.159,
+      "duration": 2.361
+    },
+    {
+      "text": "really",
+      "start": 1579.36,
+      "duration": 3.679
+    },
+    {
+      "text": "red just like this right here we're just",
+      "start": 1580.52,
+      "duration": 4.0
+    },
+    {
+      "text": "using something called a vector 3 that's",
+      "start": 1583.039,
+      "duration": 4.081
+    },
+    {
+      "text": "all it is and we're using position so",
+      "start": 1584.52,
+      "duration": 6.039
+    },
+    {
+      "text": "this right here this means go 50 up okay",
+      "start": 1587.12,
+      "duration": 7.039
+    },
+    {
+      "text": "50 studs up so 50 above the ground and",
+      "start": 1590.559,
+      "duration": 5.441
+    },
+    {
+      "text": "if I run this it's going to create a",
+      "start": 1594.159,
+      "duration": 4.601
+    },
+    {
+      "text": "part and it's going to spawn it 50 studs",
+      "start": 1596.0,
+      "duration": 5.76
+    },
+    {
+      "text": "above the ground so if I click play it",
+      "start": 1598.76,
+      "duration": 5.2
+    },
+    {
+      "text": "actually fell okay let me try it again",
+      "start": 1601.76,
+      "duration": 4.399
+    },
+    {
+      "text": "with 500 to really show it to you so",
+      "start": 1603.96,
+      "duration": 3.599
+    },
+    {
+      "text": "it's going to actually spawn all the way",
+      "start": 1606.159,
+      "duration": 2.961
+    },
+    {
+      "text": "in the sky and as you can see it just",
+      "start": 1607.559,
+      "duration": 4.0
+    },
+    {
+      "text": "clovered me it's just bouncing on my",
+      "start": 1609.12,
+      "duration": 4.96
+    },
+    {
+      "text": "head so that basically means spawned",
+      "start": 1611.559,
+      "duration": 5.161
+    },
+    {
+      "text": "apart all the way in the sky that's what",
+      "start": 1614.08,
+      "duration": 5.4
+    },
+    {
+      "text": "this 500 means so 5 500 is the distance",
+      "start": 1616.72,
+      "duration": 4.76
+    },
+    {
+      "text": "from the ground all the way to the sky",
+      "start": 1619.48,
+      "duration": 4.0
+    },
+    {
+      "text": "or from the ground to where that part is",
+      "start": 1621.48,
+      "duration": 4.319
+    },
+    {
+      "text": "spawned so if I want to spawn anything",
+      "start": 1623.48,
+      "duration": 3.88
+    },
+    {
+      "text": "that falls from the sky you just have to",
+      "start": 1625.799,
+      "duration": 4.12
+    },
+    {
+      "text": "set I just have to set this y right here",
+      "start": 1627.36,
+      "duration": 4.96
+    },
+    {
+      "text": "to a really high number like if you set",
+      "start": 1629.919,
+      "duration": 4.681
+    },
+    {
+      "text": "it to 900 then it's going to fall like",
+      "start": 1632.32,
+      "duration": 4.04
+    },
+    {
+      "text": "all the way from the sky like it's",
+      "start": 1634.6,
+      "duration": 4.559
+    },
+    {
+      "text": "falling from space so that's how you can",
+      "start": 1636.36,
+      "duration": 6.799
+    },
+    {
+      "text": "make anything fall from the sky so you",
+      "start": 1639.159,
+      "duration": 6.201
+    },
+    {
+      "text": "know what I want you to do for the next",
+      "start": 1643.159,
+      "duration": 6.64
+    },
+    {
+      "text": "Quiz I want you to create a falling red",
+      "start": 1645.36,
+      "duration": 8.0
+    },
+    {
+      "text": "ball okay so hopefully you understood",
+      "start": 1649.799,
+      "duration": 5.561
+    },
+    {
+      "text": "that right a falling red ball so",
+      "start": 1653.36,
+      "duration": 4.0
+    },
+    {
+      "text": "basically what we just created but I",
+      "start": 1655.36,
+      "duration": 5.48
+    },
+    {
+      "text": "want it to fall from the sky that's it",
+      "start": 1657.36,
+      "duration": 6.12
+    },
+    {
+      "text": "go ahead falling red ball from the sky",
+      "start": 1660.84,
+      "duration": 4.959
+    },
+    {
+      "text": "make sure the material smooth plastic",
+      "start": 1663.48,
+      "duration": 4.28
+    },
+    {
+      "text": "and pause the video go ahead and try it",
+      "start": 1665.799,
+      "duration": 8.72
+    },
+    {
+      "text": "out 1 2 3 4 five all right here's how",
+      "start": 1667.76,
+      "duration": 9.519
+    },
+    {
+      "text": "you do it my part. brick color equals",
+      "start": 1674.519,
+      "duration": 5.841
+    },
+    {
+      "text": "brick color. new really red remember",
+      "start": 1677.279,
+      "duration": 6.441
+    },
+    {
+      "text": "this is a really red ball my part. shape",
+      "start": 1680.36,
+      "duration": 6.28
+    },
+    {
+      "text": "is equal to ball and then my part.",
+      "start": 1683.72,
+      "duration": 5.839
+    },
+    {
+      "text": "material is equal to smooth",
+      "start": 1686.64,
+      "duration": 6.24
+    },
+    {
+      "text": "plastic and lastly the new line of code",
+      "start": 1689.559,
+      "duration": 5.521
+    },
+    {
+      "text": "is we just have to add this right here",
+      "start": 1692.88,
+      "duration": 3.96
+    },
+    {
+      "text": "which basically makes the ball fall from",
+      "start": 1695.08,
+      "duration": 5.52
+    },
+    {
+      "text": "the sky as you can",
+      "start": 1696.84,
+      "duration": 3.76
+    },
+    {
+      "text": "see and it fell from the sky and because",
+      "start": 1701.039,
+      "duration": 4.321
+    },
+    {
+      "text": "it's a ball it's literally just rolling",
+      "start": 1703.2,
+      "duration": 5.4
+    },
+    {
+      "text": "away all right so that's how you do it",
+      "start": 1705.36,
+      "duration": 6.159
+    },
+    {
+      "text": "now the last part is I'm going to teach",
+      "start": 1708.6,
+      "duration": 6.319
+    },
+    {
+      "text": "you about something called a for Loop",
+      "start": 1711.519,
+      "duration": 5.601
+    },
+    {
+      "text": "now this is going to be a little bit",
+      "start": 1714.919,
+      "duration": 4.161
+    },
+    {
+      "text": "challenging for some people but bear",
+      "start": 1717.12,
+      "duration": 3.6
+    },
+    {
+      "text": "with me I think you're going to",
+      "start": 1719.08,
+      "duration": 3.16
+    },
+    {
+      "text": "understand it do you remember in the",
+      "start": 1720.72,
+      "duration": 3.36
+    },
+    {
+      "text": "beginning of the video we had print",
+      "start": 1722.24,
+      "duration": 4.039
+    },
+    {
+      "text": "hello",
+      "start": 1724.08,
+      "duration": 4.839
+    },
+    {
+      "text": "world right we had this thing right here",
+      "start": 1726.279,
+      "duration": 5.24
+    },
+    {
+      "text": "print hello world and what did this do",
+      "start": 1728.919,
+      "duration": 5.201
+    },
+    {
+      "text": "well it basically printed hello world",
+      "start": 1731.519,
+      "duration": 4.441
+    },
+    {
+      "text": "onto the output right so when you click",
+      "start": 1734.12,
+      "duration": 4.2
+    },
+    {
+      "text": "play it just put hello world there and",
+      "start": 1735.96,
+      "duration": 4.599
+    },
+    {
+      "text": "remember that we did a Goodbye World",
+      "start": 1738.32,
+      "duration": 4.52
+    },
+    {
+      "text": "here too so whatever you put in here",
+      "start": 1740.559,
+      "duration": 4.12
+    },
+    {
+      "text": "will go right in here so if you put",
+      "start": 1742.84,
+      "duration": 3.64
+    },
+    {
+      "text": "Goodbye World there you go there's",
+      "start": 1744.679,
+      "duration": 5.441
+    },
+    {
+      "text": "Goodbye World now I want what if I want",
+      "start": 1746.48,
+      "duration": 5.559
+    },
+    {
+      "text": "to print hello world but I want to print",
+      "start": 1750.12,
+      "duration": 5.48
+    },
+    {
+      "text": "it a 100 times well one way of doing it",
+      "start": 1752.039,
+      "duration": 7.401
+    },
+    {
+      "text": "is by torturing yourself and by manually",
+      "start": 1755.6,
+      "duration": 6.52
+    },
+    {
+      "text": "typing it all out right so I can",
+      "start": 1759.44,
+      "duration": 4.719
+    },
+    {
+      "text": "literally just type out print hello",
+      "start": 1762.12,
+      "duration": 5.799
+    },
+    {
+      "text": "world and I can do this 100 times and",
+      "start": 1764.159,
+      "duration": 6.041
+    },
+    {
+      "text": "that would really suck now a better way",
+      "start": 1767.919,
+      "duration": 4.88
+    },
+    {
+      "text": "of doing it is by copying it and then",
+      "start": 1770.2,
+      "duration": 4.319
+    },
+    {
+      "text": "pasting it and then you're just doing",
+      "start": 1772.799,
+      "duration": 4.201
+    },
+    {
+      "text": "this 100 times so look at the line",
+      "start": 1774.519,
+      "duration": 4.321
+    },
+    {
+      "text": "number on the left side right here you",
+      "start": 1777.0,
+      "duration": 3.559
+    },
+    {
+      "text": "can see this is the 12th line that means",
+      "start": 1778.84,
+      "duration": 4.04
+    },
+    {
+      "text": "I've done it 12 times and I can just",
+      "start": 1780.559,
+      "duration": 5.801
+    },
+    {
+      "text": "keep on doing this but an even better",
+      "start": 1782.88,
+      "duration": 5.6
+    },
+    {
+      "text": "way that I'm about to teach you is by",
+      "start": 1786.36,
+      "duration": 4.439
+    },
+    {
+      "text": "using something called a for Loop so if",
+      "start": 1788.48,
+      "duration": 4.679
+    },
+    {
+      "text": "I want this to print 10 times I can just",
+      "start": 1790.799,
+      "duration": 3.88
+    },
+    {
+      "text": "do this and it's just going to print it",
+      "start": 1793.159,
+      "duration": 6.441
+    },
+    {
+      "text": "10 times so 1 2 3 4 5 6 7 8 8 9 10 if I",
+      "start": 1794.679,
+      "duration": 7.6
+    },
+    {
+      "text": "click play there you have it 10 times",
+      "start": 1799.6,
+      "duration": 5.079
+    },
+    {
+      "text": "hello world has been printed now if I",
+      "start": 1802.279,
+      "duration": 4.841
+    },
+    {
+      "text": "want to do this 10 times I can actually",
+      "start": 1804.679,
+      "duration": 4.24
+    },
+    {
+      "text": "do it in an easier way by using",
+      "start": 1807.12,
+      "duration": 3.72
+    },
+    {
+      "text": "something called a for Loop so a for",
+      "start": 1808.919,
+      "duration": 4.561
+    },
+    {
+      "text": "Loop goes like",
+      "start": 1810.84,
+      "duration": 2.64
+    },
+    {
+      "text": "this and then I can type print hello",
+      "start": 1814.039,
+      "duration": 5.52
+    },
+    {
+      "text": "world so let me actually explain what",
+      "start": 1817.12,
+      "duration": 5.52
+    },
+    {
+      "text": "all of this means so this four right",
+      "start": 1819.559,
+      "duration": 5.081
+    },
+    {
+      "text": "here means I want to create a for Loop a",
+      "start": 1822.64,
+      "duration": 3.519
+    },
+    {
+      "text": "for Loop is basically something that",
+      "start": 1824.64,
+      "duration": 3.36
+    },
+    {
+      "text": "tells Roblox to do something over and",
+      "start": 1826.159,
+      "duration": 3.801
+    },
+    {
+      "text": "over and over again so I want to create",
+      "start": 1828.0,
+      "duration": 3.88
+    },
+    {
+      "text": "a new for Loop you don't have to worry",
+      "start": 1829.96,
+      "duration": 5.24
+    },
+    {
+      "text": "about this I so 4 I equal 1 means start",
+      "start": 1831.88,
+      "duration": 6.799
+    },
+    {
+      "text": "at 1 and then stop at 10 and then do",
+      "start": 1835.2,
+      "duration": 6.88
+    },
+    {
+      "text": "whatever is in here okay so whatever is",
+      "start": 1838.679,
+      "duration": 6.161
+    },
+    {
+      "text": "in between this do and this end will",
+      "start": 1842.08,
+      "duration": 5.12
+    },
+    {
+      "text": "happen 10 times and how do I know it's",
+      "start": 1844.84,
+      "duration": 4.04
+    },
+    {
+      "text": "going to happen 10 times because this",
+      "start": 1847.2,
+      "duration": 3.56
+    },
+    {
+      "text": "number is 10 right here so we're",
+      "start": 1848.88,
+      "duration": 3.679
+    },
+    {
+      "text": "starting at one and then we're going to",
+      "start": 1850.76,
+      "duration": 6.68
+    },
+    {
+      "text": "go 1 2 3 4 5 6 7 8 9 10 and that's going",
+      "start": 1852.559,
+      "duration": 6.12
+    },
+    {
+      "text": "to stop",
+      "start": 1857.44,
+      "duration": 3.32
+    },
+    {
+      "text": "so this right here basically says print",
+      "start": 1858.679,
+      "duration": 4.801
+    },
+    {
+      "text": "hello world 10 times that's all it means",
+      "start": 1860.76,
+      "duration": 4.919
+    },
+    {
+      "text": "so if I click play it printed hello",
+      "start": 1863.48,
+      "duration": 5.76
+    },
+    {
+      "text": "world 10 times as you can see right",
+      "start": 1865.679,
+      "duration": 5.88
+    },
+    {
+      "text": "here so what if I want to print hello",
+      "start": 1869.24,
+      "duration": 6.24
+    },
+    {
+      "text": "world 90 times well I don't have to do",
+      "start": 1871.559,
+      "duration": 5.521
+    },
+    {
+      "text": "copy and pasting right I don't have to",
+      "start": 1875.48,
+      "duration": 4.4
+    },
+    {
+      "text": "copy and paste I can just set this to 90",
+      "start": 1877.08,
+      "duration": 5.319
+    },
+    {
+      "text": "it's going to print hello world 90 times",
+      "start": 1879.88,
+      "duration": 4.919
+    },
+    {
+      "text": "and there you have it as you can see",
+      "start": 1882.399,
+      "duration": 5.24
+    },
+    {
+      "text": "that's a lot of hello worlds right 90",
+      "start": 1884.799,
+      "duration": 4.561
+    },
+    {
+      "text": "times s I've printed hello world and I",
+      "start": 1887.639,
+      "duration": 3.92
+    },
+    {
+      "text": "didn't even have to copy and paste it's",
+      "start": 1889.36,
+      "duration": 5.919
+    },
+    {
+      "text": "genius it's absolutely genius now here",
+      "start": 1891.559,
+      "duration": 4.6
+    },
+    {
+      "text": "we",
+      "start": 1895.279,
+      "duration": 3.921
+    },
+    {
+      "text": "go this is going to be great this is",
+      "start": 1896.159,
+      "duration": 4.161
+    },
+    {
+      "text": "going to be a little bit of a challenge",
+      "start": 1899.2,
+      "duration": 3.199
+    },
+    {
+      "text": "let me give you a quick hint first so",
+      "start": 1900.32,
+      "duration": 4.12
+    },
+    {
+      "text": "what if I want to spawn 90 parts so",
+      "start": 1902.399,
+      "duration": 3.841
+    },
+    {
+      "text": "remember we don't just have to print 90",
+      "start": 1904.44,
+      "duration": 3.599
+    },
+    {
+      "text": "things we can do other things right what",
+      "start": 1906.24,
+      "duration": 4.279
+    },
+    {
+      "text": "if I want to spawn 90 Parts well local",
+      "start": 1908.039,
+      "duration": 6.161
+    },
+    {
+      "text": "my part equals instance. new part",
+      "start": 1910.519,
+      "duration": 5.681
+    },
+    {
+      "text": "workspace there you have it this is",
+      "start": 1914.2,
+      "duration": 4.359
+    },
+    {
+      "text": "going to spawn 90 parts okay I'm going",
+      "start": 1916.2,
+      "duration": 4.16
+    },
+    {
+      "text": "to click part I'm going to click play",
+      "start": 1918.559,
+      "duration": 4.681
+    },
+    {
+      "text": "and there you have it 90 Parts have",
+      "start": 1920.36,
+      "duration": 5.6
+    },
+    {
+      "text": "spawned it's actually really really cool",
+      "start": 1923.24,
+      "duration": 4.6
+    },
+    {
+      "text": "now some of you are going to go oh wow",
+      "start": 1925.96,
+      "duration": 3.76
+    },
+    {
+      "text": "that's pretty cool what if I set this to",
+      "start": 1927.84,
+      "duration": 3.959
+    },
+    {
+      "text": "90 bajillion and then this is going to",
+      "start": 1929.72,
+      "duration": 3.76
+    },
+    {
+      "text": "like probably crash your Roblox studio",
+      "start": 1931.799,
+      "duration": 3.12
+    },
+    {
+      "text": "so you probably don't want to do this",
+      "start": 1933.48,
+      "duration": 4.159
+    },
+    {
+      "text": "but this right here is going to create",
+      "start": 1934.919,
+      "duration": 5.24
+    },
+    {
+      "text": "90 instances of this part so hopefully",
+      "start": 1937.639,
+      "duration": 5.121
+    },
+    {
+      "text": "this makes sense to you so what if I",
+      "start": 1940.159,
+      "duration": 4.48
+    },
+    {
+      "text": "want to make 200 I just have to set this",
+      "start": 1942.76,
+      "duration": 4.84
+    },
+    {
+      "text": "to 200 and then it creates 200 Parts",
+      "start": 1944.639,
+      "duration": 6.16
+    },
+    {
+      "text": "Little more laggy right this is a lot of",
+      "start": 1947.6,
+      "duration": 6.64
+    },
+    {
+      "text": "parts all right last and final quiz for",
+      "start": 1950.799,
+      "duration": 6.161
+    },
+    {
+      "text": "the fifth point I want you guys to spawn",
+      "start": 1954.24,
+      "duration": 7.0
+    },
+    {
+      "text": "200 falling red balls yes 200 yes it's",
+      "start": 1956.96,
+      "duration": 5.679
+    },
+    {
+      "text": "going to it's going to look cool too",
+      "start": 1961.24,
+      "duration": 4.88
+    },
+    {
+      "text": "okay trust me so I'm going to tell you",
+      "start": 1962.639,
+      "duration": 5.481
+    },
+    {
+      "text": "that you don't have to change anything",
+      "start": 1966.12,
+      "duration": 2.96
+    },
+    {
+      "text": "here and you don't have to change",
+      "start": 1968.12,
+      "duration": 2.88
+    },
+    {
+      "text": "anything here you just type all your",
+      "start": 1969.08,
+      "duration": 4.0
+    },
+    {
+      "text": "code here type all of your code here and",
+      "start": 1971.0,
+      "duration": 4.919
+    },
+    {
+      "text": "it will work fine so go ahead try it out",
+      "start": 1973.08,
+      "duration": 4.479
+    },
+    {
+      "text": "pause the video I'm going to give you",
+      "start": 1975.919,
+      "duration": 4.36
+    },
+    {
+      "text": "the answer in 5 seconds so pause the",
+      "start": 1977.559,
+      "duration": 9.881
+    },
+    {
+      "text": "video 1 2 3 4 5 all right let's do this",
+      "start": 1980.279,
+      "duration": 8.88
+    },
+    {
+      "text": "so you have a for Loop right here so",
+      "start": 1987.44,
+      "duration": 5.479
+    },
+    {
+      "text": "this is saying do it 200 times and then",
+      "start": 1989.159,
+      "duration": 5.88
+    },
+    {
+      "text": "set the parts brick color to Brick",
+      "start": 1992.919,
+      "duration": 7.681
+    },
+    {
+      "text": "color. New really red my part do um hold",
+      "start": 1995.039,
+      "duration": 7.441
+    },
+    {
+      "text": "on oh yeah we're creating balls shape",
+      "start": 2000.6,
+      "duration": 4.36
+    },
+    {
+      "text": "equals ball and then my part down",
+      "start": 2002.48,
+      "duration": 5.36
+    },
+    {
+      "text": "material equals smooth plastic and then",
+      "start": 2004.96,
+      "duration": 6.199
+    },
+    {
+      "text": "and the last thing is we have to set the",
+      "start": 2007.84,
+      "duration": 5.799
+    },
+    {
+      "text": "position and I'm going to use 300 you",
+      "start": 2011.159,
+      "duration": 4.64
+    },
+    {
+      "text": "could have as long as your part spawns",
+      "start": 2013.639,
+      "duration": 4.64
+    },
+    {
+      "text": "and Falls it's okay I'm actually going",
+      "start": 2015.799,
+      "duration": 4.921
+    },
+    {
+      "text": "to use 600 to illustrate my point this",
+      "start": 2018.279,
+      "duration": 5.0
+    },
+    {
+      "text": "will create six or two this will create",
+      "start": 2020.72,
+      "duration": 5.4
+    },
+    {
+      "text": "200 falling red balls let's try it okay",
+      "start": 2023.279,
+      "duration": 8.321
+    },
+    {
+      "text": "ready set go uh-oh I'm about to get",
+      "start": 2026.12,
+      "duration": 8.32
+    },
+    {
+      "text": "yeah that's that's actually that let's",
+      "start": 2031.6,
+      "duration": 5.88
+    },
+    {
+      "text": "actually verify that's 200 yep 200 Parts",
+      "start": 2034.44,
+      "duration": 5.199
+    },
+    {
+      "text": "those are all 200 parts now really",
+      "start": 2037.48,
+      "duration": 3.88
+    },
+    {
+      "text": "quickly that might have you know that",
+      "start": 2039.639,
+      "duration": 3.04
+    },
+    {
+      "text": "might have looked a little bit weird to",
+      "start": 2041.36,
+      "duration": 2.64
+    },
+    {
+      "text": "you I'm going to introduce you to",
+      "start": 2042.679,
+      "duration": 3.96
+    },
+    {
+      "text": "something called task. weight this right",
+      "start": 2044.0,
+      "duration": 4.879
+    },
+    {
+      "text": "here tells Roblox to wait so this right",
+      "start": 2046.639,
+      "duration": 4.44
+    },
+    {
+      "text": "here is telling Roblox to wait 1 second",
+      "start": 2048.879,
+      "duration": 4.76
+    },
+    {
+      "text": "so create a red ball and then wait 1",
+      "start": 2051.079,
+      "duration": 4.921
+    },
+    {
+      "text": "second it's going to do it again so it's",
+      "start": 2053.639,
+      "duration": 4.52
+    },
+    {
+      "text": "going to create a red ball wait 1 second",
+      "start": 2056.0,
+      "duration": 4.24
+    },
+    {
+      "text": "create a red ball wait 1 second create a",
+      "start": 2058.159,
+      "duration": 4.24
+    },
+    {
+      "text": "red ball wait 1 second create a red ball",
+      "start": 2060.24,
+      "duration": 3.599
+    },
+    {
+      "text": "wait one sec it's going to do it 200",
+      "start": 2062.399,
+      "duration": 3.2
+    },
+    {
+      "text": "times so it's going to keep on doing",
+      "start": 2063.839,
+      "duration": 3.721
+    },
+    {
+      "text": "that and we call that a loop you know",
+      "start": 2065.599,
+      "duration": 3.76
+    },
+    {
+      "text": "what we call it a loop because it starts",
+      "start": 2067.56,
+      "duration": 3.68
+    },
+    {
+      "text": "here goes here and then it goes back to",
+      "start": 2069.359,
+      "duration": 4.52
+    },
+    {
+      "text": "where it started like a loop and now if",
+      "start": 2071.24,
+      "duration": 6.76
+    },
+    {
+      "text": "you click play my character will get hit",
+      "start": 2073.879,
+      "duration": 6.28
+    },
+    {
+      "text": "by many many many oh they're actually",
+      "start": 2078.0,
+      "duration": 3.839
+    },
+    {
+      "text": "colliding with each other so that it's",
+      "start": 2080.159,
+      "duration": 4.2
+    },
+    {
+      "text": "going to spawn 200 balls just like that",
+      "start": 2081.839,
+      "duration": 4.201
+    },
+    {
+      "text": "and there you have it and if you",
+      "start": 2084.359,
+      "duration": 3.601
+    },
+    {
+      "text": "actually set this to like",
+      "start": 2086.04,
+      "duration": 4.4
+    },
+    {
+      "text": "0.05 I'm actually going to run this in a",
+      "start": 2087.96,
+      "duration": 6.48
+    },
+    {
+      "text": "different way you can see the actual 200",
+      "start": 2090.44,
+      "duration": 6.96
+    },
+    {
+      "text": "red balls that have been created by our",
+      "start": 2094.44,
+      "duration": 4.399
+    },
+    {
+      "text": "Cod wow they're actually wow they're",
+      "start": 2097.4,
+      "duration": 3.24
+    },
+    {
+      "text": "actually lining up quite straight wait",
+      "start": 2098.839,
+      "duration": 4.161
+    },
+    {
+      "text": "why aren they falling wait wait wait",
+      "start": 2100.64,
+      "duration": 4.88
+    },
+    {
+      "text": "wait oh my God that's so",
+      "start": 2103.0,
+      "duration": 7.079
+    },
+    {
+      "text": "many wow is this like perfectly",
+      "start": 2105.52,
+      "duration": 7.44
+    },
+    {
+      "text": "balanced okay well there you have it 200",
+      "start": 2110.079,
+      "duration": 4.601
+    },
+    {
+      "text": "red balls I really hope you guys enjoy",
+      "start": 2112.96,
+      "duration": 2.879
+    },
+    {
+      "text": "this video make sure to like And",
+      "start": 2114.68,
+      "duration": 2.32
+    },
+    {
+      "text": "subscribe and I'll see you in the next",
+      "start": 2115.839,
+      "duration": 3.601
+    },
+    {
+      "text": "video",
+      "start": 2117.0,
+      "duration": 2.44
+    }
+  ]
+}

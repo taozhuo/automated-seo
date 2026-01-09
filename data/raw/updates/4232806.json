@@ -1,0 +1,178 @@
+{
+  "id": 4232806,
+  "title": "Release Notes for 703",
+  "slug": "release-notes-for-703",
+  "url": "https://devforum.roblox.com/t/release-notes-for-703/4232806",
+  "category_id": 62,
+  "category_name": "Updates",
+  "created_at": "2026-01-08T21:11:43.587Z",
+  "last_posted_at": "2026-01-08T21:55:36.331Z",
+  "views": 477,
+  "reply_count": 10,
+  "like_count": 28,
+  "tags": [],
+  "posts": [
+    {
+      "id": 13663054,
+      "username": "naahchos",
+      "content_raw": "",
+      "content_html": "<p>Happy new year! Here are the <a href=\"https://create.roblox.com/docs/release-notes/release-notes-703\">release notes for 703</a>.</p>",
+      "created_at": "2026-01-08T21:11:43.817Z",
+      "likes": 0,
+      "post_number": 1
+    },
+    {
+      "id": 13663078,
+      "username": "Mauio64",
+      "content_raw": "",
+      "content_html": "<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"//devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/original/5X/3/9/f/8/39f8d68dcce21deb1b2c1a268ebf74c3cc06c3ca.png\" data-download-href=\"/uploads/short-url/8gQlDvLlkDDCmXJrdyyEq5iQa9k.png?dl=1\" title=\"image\" rel=\"noopener nofollow ugc\"><img src=\"//devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/optimized/5X/3/9/f/8/39f8d68dcce21deb1b2c1a268ebf74c3cc06c3ca_2_690x69.png\" alt=\"image\" data-base62-sha1=\"8gQlDvLlkDDCmXJrdyyEq5iQa9k\" width=\"690\" height=\"69\" srcset=\"//devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/optimized/5X/3/9/f/8/39f8d68dcce21deb1b2c1a268ebf74c3cc06c3ca_2_690x69.png, //devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/optimized/5X/3/9/f/8/39f8d68dcce21deb1b2c1a268ebf74c3cc06c3ca_2_1035x103.png 1.5x, //devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/original/5X/3/9/f/8/39f8d68dcce21deb1b2c1a268ebf74c3cc06c3ca.png 2x\" data-dominant-color=\"212327\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">1178×118 13 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div><br>\nDelicious.</p>",
+      "created_at": "2026-01-08T21:14:36.484Z",
+      "likes": 0,
+      "post_number": 2
+    },
+    {
+      "id": 13663099,
+      "username": "devlvn",
+      "content_raw": "",
+      "content_html": "<p>An error on line <strong>67</strong><br>\n<img src=\"//devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/original/5X/7/f/9/e/7f9e9f76ae71c16e63d96e0651dad042b1e93041.png\" alt=\"image\" data-base62-sha1=\"icYub4RcToIvIGgbG4IKTq25qKZ\" width=\"690\" height=\"48\" data-dominant-color=\"272624\"></p>\n<p>Anyways, happy new year everyone</p>",
+      "created_at": "2026-01-08T21:16:27.431Z",
+      "likes": 0,
+      "post_number": 3
+    },
+    {
+      "id": 13663100,
+      "username": "Dango360",
+      "content_raw": "",
+      "content_html": "<p>Didn’t realise that you couldn’t get RunService that way. Well, up until now. Good update!</p>",
+      "created_at": "2026-01-08T21:16:31.691Z",
+      "likes": 0,
+      "post_number": 4
+    },
+    {
+      "id": 13663114,
+      "username": "Uzixt",
+      "content_raw": "",
+      "content_html": "<p><img src=\"//devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/optimized/5X/b/2/2/3/b2239bbfc266a9999d88dd3f48e5adbe3e15e1b4_2_690x62.png\" alt=\"image\" data-base62-sha1=\"ppThnKWuoPUqWQVynQBjp1yIrVq\" width=\"690\" height=\"62\" srcset=\"//devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/optimized/5X/b/2/2/3/b2239bbfc266a9999d88dd3f48e5adbe3e15e1b4_2_690x62.png, //devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/optimized/5X/b/2/2/3/b2239bbfc266a9999d88dd3f48e5adbe3e15e1b4_2_1035x93.png 1.5x, //devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/original/5X/b/2/2/3/b2239bbfc266a9999d88dd3f48e5adbe3e15e1b4.png 2x\" data-dominant-color=\"242220\"><br>\nfinally lol</p>",
+      "created_at": "2026-01-08T21:18:02.873Z",
+      "likes": 0,
+      "post_number": 5
+    },
+    {
+      "id": 13663152,
+      "username": "2Doggo4",
+      "content_raw": "",
+      "content_html": "<p>Please bring back the old studio ui</p>",
+      "created_at": "2026-01-08T21:21:00.105Z",
+      "likes": 0,
+      "post_number": 6
+    },
+    {
+      "id": 13663234,
+      "username": "tnavarts",
+      "content_raw": "",
+      "content_html": "<p>If you take issue with the new UI, please direct your energy at asking for the specific things you want changed about it rather than just blanket asking for the old one back, because the new one is decidedly here to stay.</p>",
+      "created_at": "2026-01-08T21:30:18.350Z",
+      "likes": 0,
+      "post_number": 7
+    },
+    {
+      "id": 13663252,
+      "username": "mrjamie100",
+      "content_raw": "",
+      "content_html": "<p>what was wrong with the old one? if it aint broke dont “fix” it</p>",
+      "created_at": "2026-01-08T21:31:35.162Z",
+      "likes": 0,
+      "post_number": 8
+    },
+    {
+      "id": 13663268,
+      "username": "Tutterey",
+      "content_raw": "",
+      "content_html": "<p>lack of customization, they added it and now everyone’s complaining.</p>",
+      "created_at": "2026-01-08T21:33:29.941Z",
+      "likes": 0,
+      "post_number": 9
+    },
+    {
+      "id": 13663285,
+      "username": "ToyotaPanzer",
+      "content_raw": "",
+      "content_html": "<p>To be fair, it was actually ‘broken’. In the original devforum post, they listed some reasons as to why the UI was redone. One big reason is user customizability, so you are able to edit things to get it closer to what you’re familiar with, which I think is well worth doing.</p>",
+      "created_at": "2026-01-08T21:35:16.754Z",
+      "likes": 0,
+      "post_number": 10
+    },
+    {
+      "id": 13663301,
+      "username": "Vikram200526",
+      "content_raw": "",
+      "content_html": "<p><img src=\"/secure-uploads/uploads/original/5X/0/d/a/c/0dacfe07ee982ef505a829e28ce0eac1474f7276.png\" alt=\"image\" data-base62-sha1=\"1WYQarJMSeMsUDdklspWGGCyLhc\" width=\"690\" height=\"127\"><br>\nCould we make it so we can add tools / dividers to the default tabs like Home? Main problem i had with this new UI was i just couldn’t find specific buttons, it would be alot better rather than making a new tab just for specific buttons that dont relate to each other (or even remaking the entire home tab just to add a few more tools)</p>",
+      "created_at": "2026-01-08T21:37:14.434Z",
+      "likes": 0,
+      "post_number": 11
+    },
+    {
+      "id": 13663328,
+      "username": "tnavarts",
+      "content_raw": "",
+      "content_html": "<aside class=\"quote no-group\" data-username=\"Vikram200526\" data-post=\"11\" data-topic=\"4232806\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://doy2mn9upadnk.cloudfront.net/user_avatar/devforum.roblox.com/vikram200526/60/7230383_2.png\" class=\"avatar\"> Vikram200526:</div>\n<blockquote>\n<p>Could we make it so we can add tools / dividers to the default tabs like Home?</p>\n</blockquote>\n</aside>\n<p>You can actually do this already (the custom tabs use the same json definition the built in ones do so they support anything you see in the ribbon) but it requires manually editing the json file backing your custom tab. The visual editing capability will improve over time and I’m sure you’ll also see some third party tools created for customizing the layout.</p>",
+      "created_at": "2026-01-08T21:40:12.759Z",
+      "likes": 0,
+      "post_number": 12
+    },
+    {
+      "id": 13663361,
+      "username": "BanuTheCat",
+      "content_raw": "",
+      "content_html": "<p>I hate the Newgen studio, my muscle memory is complete gone, you made multiple of people crash, just add a feature where you can turn on the old UI. This new ui looks disgusting for me, multiple of people want the old studio back.</p>\n<p>I don’t think I’ll work on my game until this is a thing, if you don’t add it back, I might as well quit</p>",
+      "created_at": "2026-01-08T21:44:41.366Z",
+      "likes": 0,
+      "post_number": 13
+    },
+    {
+      "id": 13663370,
+      "username": "0wknh",
+      "content_raw": "",
+      "content_html": "<p><img src=\"/secure-uploads/uploads/original/5X/c/f/8/7/cf87220a2a960cc4876ba6bf8d3f6b83b1af6500.png\" alt=\"image\" data-base62-sha1=\"tBSm9XM8nkzV2zSt5xiweQhnBcI\" width=\"690\" height=\"143\"><br>\nThank you for adding this im going to have fun with it. Amazing release notes for this week. However the new studio UI is pretty awful im not gonna lie.</p>",
+      "created_at": "2026-01-08T21:46:39.919Z",
+      "likes": 0,
+      "post_number": 14
+    },
+    {
+      "id": 13663398,
+      "username": "Walsh_cola2",
+      "content_raw": "",
+      "content_html": "<p>What does the texture content do and why are they adding it to everything?</p>",
+      "created_at": "2026-01-08T21:50:53.751Z",
+      "likes": 0,
+      "post_number": 15
+    },
+    {
+      "id": 13663420,
+      "username": "Pismyren",
+      "content_raw": "",
+      "content_html": "<p>2026 btw</p>",
+      "created_at": "2026-01-08T21:53:17.967Z",
+      "likes": 0,
+      "post_number": 16
+    },
+    {
+      "id": 13663435,
+      "username": "xSixtyFour",
+      "content_raw": "",
+      "content_html": "<p>make an old layout then. was ruining our muscle memory the whole purpose? we wanted a good, modern and <strong>readable</strong> UX, and your team had just enough time to accomplish that.</p>",
+      "created_at": "2026-01-08T21:55:16.178Z",
+      "likes": 0,
+      "post_number": 17
+    },
+    {
+      "id": 13663436,
+      "username": "Pismyren",
+      "content_raw": "",
+      "content_html": "<p>Big day for both the employed and unemployeed.<br>\n<img src=\"/secure-uploads/uploads/original/5X/c/8/4/0/c8407d7c825b2a747baf837d7db1788a53893d0b.png\" alt=\"image\" data-base62-sha1=\"szvF985ZRpLrBj8COQfPD2vqfUv\" width=\"690\" height=\"62\"></p>\n<p>Also kinda big day for the people I mentioned above:<br>\n<img src=\"/secure-uploads/uploads/original/5X/d/0/4/e/d04e5af7ca1add672ab537c4d75ee1b712b02b38.png\" alt=\"image\" data-base62-sha1=\"tILbK3VGDoNg65jsJmaUVKrG35m\" width=\"690\" height=\"51\"></p>",
+      "created_at": "2026-01-08T21:55:36.331Z",
+      "likes": 0,
+      "post_number": 18
+    }
+  ]
+}

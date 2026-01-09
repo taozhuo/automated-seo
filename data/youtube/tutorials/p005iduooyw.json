@@ -1,0 +1,5003 @@
+{
+  "id": "p005iduooyw",
+  "title": "The ULTIMATE Beginner Guide to Roblox Studio.. (Start BUILDING Now!)",
+  "channel": "SmartyRBX",
+  "views": 4068614,
+  "duration": "39:33",
+  "upload_date": "",
+  "description": "",
+  "url": "https://www.youtube.com/watch?v=p005iduooyw",
+  "transcript": "so Timmy wants to be a Roblox developer and instead of opening Roblox Studio he searches how to become a Roblox Dev and he just searches for hours just to find an easy way to become a Roblox developer he tries and tries and tries but it's just not enough for him why can't I get this he says any rage quits he just decides to give up on his dream of becoming a Roblox Dev and going back to playing pet simulator wait Timmy what are you doing the light at the end of the tunnel arrives Lord regulus the pro developer who climbed to the top of the front page in blazing speed with 15 games that hit the front page and hundreds of millions of visits and Robux made he can teach Timmy right Jimmy just open up studio and start messing around you'll start to get it with enough work okay so Underlord regulus's guidance Timmy goes ahead and tries it he opens up studio and starts messing around placing parts and trying to make the games of his Wireless streams and with enough time and dedication he begins to move Parts at the speed of light he makes the game of his dreams and starts to see it all come to you hold up hold up hold up this is not gonna happen that easy but at least it's somewhat relatable this guide right here is going to show you exactly how to use Roblox Studio from start to finish exactly down to the Last Detail this is the best guide you're going to see on it I started just like you with zero experience and now you are lucky to get this very video I wish I had when I got started it would have been way easier and I would have learned way faster saving me days or weeks maybe even months of time so let's get started first we need to download Roblox Studio of course now this is pretty easy obviously if you've downloaded Roblox on your computer you should already have studio and all we need to do is search for it so if you're on Mac you can click the search button on the top right of your menu bar at the top of your screen or if you're on Windows like me go ahead and click the search button down here and you can go ahead and click and you can type in Roblox Studio it should show up and if doesn't you can go ahead to roblox.com create and there will be a download link there I'll also link it in the description for you to go ahead and head over there one of the first links in the description cool now let's let Roblox Studio load up and let's get into it so we want to make our first game Roblox Studio has a few different sections where you can make a game and edit all the games you've made in the past and these sections of Roblox Studio are on the left hand side you can go ahead and see there is a new project button there's a my games button there's a recent button and there's an archive button now the most important one when we get started is new because this has all of our templates where we can choose different templates to get us started with and really you only need to worry about these first three the other ones are not that great to be honest and you can go ahead and see your games here and all your group games and then recent we'll show you recent projects you've opened on the computer that you're using so let's just start with a base plate a basic new base plate right here not classic base plate let's just use the normal one and there we go you've made your first Roblox game congrats you can close this video now wait wait no never mind uh keep watching and your first quote-unquote game but there's a lot more to understand to get started in Roblox studio so let's go the UI of Roblox studio so the first thing we're going to look at is the UI or user interface of Roblox Studio which includes all of the buttons panels and menus in Roblox studio now I'm not trying to overwhelm you with a bunch of stuff so I'm gonna go ahead and show you the main panels and we'll get into everything else later first is the top bar of Roblox Studio this is where we're gonna get started so first one in the in the top left is file and this has what you'd expect from your average program so as you can see we can see our recent games we've edited you can see new you can see open from file open from Roblox close Place Etc now you can save to a file which will save as a Roblox Place file which will allow you to access your place on the computer or send that place to somebody else as a file so they can edit that instance of the place but don't worry about that the main one you need to worry about is publish to Roblox publish to Roblox allows you to put it on the website public so that it can be played by everyone of course if you set it to public and save to Roblox saves it but it does not make the changes public so I can go ahead and publish and that's going to be seen by everyone below this menu bar below this top menu bar up here we have a selection of items which are very important to the use of Roblox studio and especially to building so to go ahead and move around in Roblox Studio we can right click to go ahead and look around in Roblox Studio we can look around in what we call the viewport which is in the middle of the screen lets us see everything inside the game and we can use the a wsd Keys just like a game to go ahead and move back and forth but there's an additional two keys which you can use to move around which is the Q and the E Keys Q will move down and E will move up now you can right click look around but there's one last thing you can scroll to go ahead and go really fast and move around faster Zoom if you will so yeah the first button that we should take a look at is the part button part button will go ahead and place a part in our game if we click it and as you can see it has a drop down here which allows us to see block sphere wedge Corner wedge cylinder so we can choose different shape parts to use in our game now of course the main one you're going to be using is a normal block so now that we've placed this we can actually drag this around and we can choose where we want to place it now you might notice that mine is moving really smoothly and one really important thing is the increment so you can actually change the increment that this moves at and this brings us to these different tabs here which include home model Avatar test View and plugins view has all of the different things in Roblox studio and we can show them and hide them Tess has the play button start button and several other options for you to test Avatar has Avatar options for animating and designing avatars and model has most of the features that we need for building it has a little bit more than home but home has all the main ones but if we go to model it actually has this thing called Snap to grid now snap to grid is actually going to allow us to go ahead and change the increment that we move and scale Parts at so if we change this to be checked off I'm not sure most the time most the time yours should already be checked and it should say one stud by default and 45 degrees as your rotate now this is horrible by the way 45 degrees is bad for rotation as you can see it rotates really really really stiffly we don't want this and so I usually have mine at 15 and then I leave my move at either 0.1 0.25 or 0.5 and then sometimes I turn it off when I'm moving around bushes and stuff but a really good one to start with is probably 0.5 or even one stud because one stud is good and one method you could do is you can start building with one stud and then later you can go ahead and switch to smaller ones as you get more into the deep details of your build now you'll notice that on both the Home tab and the model tab there is a select move scale and rotate tool and these are very self-explanatory select is very useful when you just want to drag stuff and you know move things around without worrying about moving it with any other type of dragger and having these in the way you can just drag it select it deselect it now move is for more exact movements so you can of course always move your part by just dragging it but you're going to notice pretty quickly that building things well using that dragging feature is going to be horrible so I highly recommend that you go ahead and use the move tools for more exact movements so we can go ahead and drag and we can move it up and down left to right and that type of thing and by the way this moves on the y axis this moves on the x axis and this moves on the Z axis and these represent different positions inside of the game world now we'll get into that more later but it's good to know X Y and Z especially if you're going to go into scripting later and especially if you want to be an advanced Builder now back to the UI around the rest of the screen we have several different panels and by default you have the toolbox or you should have the toolbox the properties window which is right here and usually I believe that it is right here actually and we also have the output window and this will spit out different things from your code but we don't really have to worry about this right now so let's close that now if you do not see any one of these menus you can go ahead up here to view and we can select Explorer and you'll will see it disappears and appears and there is a chance that it might be stacking up with other windows and glitching out in that case you can click it a ton of times until you see it on your screen or you can close out windows until you see it so I can go ahead and close out tool grip editor and all this stuff and then I'll be able to cycle through these easier so let's go ahead and look at each individual one of these main panels so toolbox you can get your models that you've made in the past in the inventory section or in this one that lets you see the models you've made and this one shows you recent models you've used this one it's your models these are very similar tags except this one allows you to see group models too now this one is the interesting one you've heard about free models right and if you're really new to development you probably don't necessarily even know how to get them but you can go ahead and get free models from this you can get all kinds of different models that people have made now most of these are not the best quality and a lot of them if you use all three models as you've probably seen all free model games nothing matches up it's horrible to use all free models unless you're very careful with it which it does take some time and practice honing your own building skills to know how to match together different free models but with that in mind they're okay to look at and learn from but I would not recommend making entire games with them you can practice with it you can practice dragging stuff in practice handling models with these it's very good but we don't want you sitting around throwing free models in studio that's not going to do anybody any good and that's how I started but look that's not how we want to start if we're trying to learn this quickly and trying to skip all the randomness so next up Explorer now the Explorer the Explorer window is very crucial so pay attention it is very much so one of the most important windows in Roblox studio so you need to see this so each one of these inside of the Explorer window is called a service a service is a different piece of the Roblox engine that does a different function and it allows us to go ahead and do different things inside our game and contain different aspects of our game so the most important one and the main one that we'll be using is called workspace everything that exists visibly in your game that is an object not the lighting we'll get into that later but that's also visible everything that is in workspace is all that you can see in the game aside from light don't worry about that yet but everything you can see in the game is in workspace so this right here this is in workspace as you can see if we select it we'll see it right here this is a spawn location now face split this is our base plate it's in workspace if we hit the delete key it's gone and it's also gone from the Explorer so I'm going to go ahead and click control Z or command Z on Mac to undo that and by the way to redo it is control shift Z or command shift Z on Mac now lighting is the other one you can see and you can change different aspects of how the game's lighting looks so for example we can raise our brightness do a bunch of cool stuff there's a bunch of different properties in lighting which allow you to change how the game looks and can go ahead and see how to use all of these in the video in the right hand corner you can go ahead and pop that open in a new tab and watch that after this so you can learn lighting if you would like because it is a very interesting and fun thing to do so you can actually make quite a bit of Robux easily by making lighting because in my opinion lighting if you have an eye for it is really easy to go ahead and start making Robux from because it's like one of the easiest things to make in Roblox studio so just a note there for any of you who want to learn a skill that can make you Robux fast lighting do it next up the basics of building so in this section of the video we are going to look at the basics of building and I'm going to show you how to build now that we're out of the way of the boring UI we're into building so if we go ahead and choose select by clicking on it if it's not already chosen so if it's dark gray like mine that means that it's selected if it's not dark gray then it's not selected then we can hover our cursor over a part and drag it wherever we want so for anyone over this but yeah but now let's look at the scale tool so the scale tool very similar in how it works to the move tool except you grab one of these draggers and you can go ahead and move it and see it stretch into the sky alright so now we're going to turn this part into a wall we're gonna build a wall so you can scale your part up and you can say you know I want to make this a huge wall and I want to stretch it over the whole base plate alright so we've built our wall so now what we need to do we need to look at the different ways you can scale parts so we've scaled this wall outright I've scaled out really long on both sides but there are a few different ways that you can scale Parts which are going to be really useful in building one way is by holding control and dragging one of these and you can go ahead and stretch it out on both sides and you can hold shift to stretch it out on all sides in One Direction if we hit Ctrl Z we can go ahead and undo that and if you go ahead and click control shift click you can go ahead and stretch it out evenly from the middle or the origin Point here and you can stretch it out in all directions that way now more keybinds you can go ahead and click control R and you can go ahead and turn it 90 degrees now you can click Ctrl T and this will turn it vertically 90 degrees interesting right control T though is a little bit is a little bit weird though alright now let's go ahead and delete this now we're going to look at some more keybinds of building and let's start actually building a basic building so I'm going to go ahead and add a new part in the model tab I'm going to click the part button and now we're going to hold Ctrl scale that down then I'm going to stretch this out let's make it a good length go ahead and make this taller we'll go ahead and click control D to duplicate this part we're going to stretch it all the way down here stretch it out to the length of wall we want move this move this out one stud and you don't want anything overlapping while you while you're building this is really important because if you have stuff over lapping let me show you so let's go ahead and select the part go to our properties panel and change the brick color to teal now if I stretch this over this you'll see that it starts flickering this is called Z fighting and Z fighting is a horrible looking glitch so you know this is normal and it's gonna happen on accident but we want to avoid this as much as possible so that's partly why I'm doing that to make sure we don't have any Z fighting I know that we aren't recoloring this we're going to leave it as medium Stone gray but it's good to keep in mind also while we're on colors there is a custom color property which I recommend using as much as possible because these are not really enough especially as you get more advanced in your builds now let's go ahead and click on this and hold shift and we can go ahead and have both of these selected at once then I'm going to click Ctrl D to duplicate then I'm going to click control r twice and now we have this on both sides now let's go ahead and add a roof but with the roof let's use a different kind of bar so let's click this let's add a wedge and then we're going to click Ctrl R drag this up here and then we're going to go ahead and stretch this out now one thing I want to do is I want to select this wall and check the size so it's 36 if your wall is uneven sized you might want to change it to something that's even but 36 divided by 2 is 18. so if we go ahead and make this 18 studs wide we can go ahead and make that good and then if we click control D Ctrl R twice we can go ahead and drag this back here and there we go so now we have our basic shape of a house or a building so if we go ahead and flick this and hold shift and click on this let's go ahead and recolor this let's make it let's make this white so I'm going to go ahead and choose a nice kind of quilt I think quill gray looks good and then I'm going to go ahead and I'm going to add a block all right then I'm going to drag this up here and stretch it out to the same size as the top of our roof maybe change this down to 0.25 see if that now we're having a little bit of an alignment issue here not exactly sure why this is happening let's see the size this might be fixed by changing the height of this if we had to add more of an even angle I believe it would be better but it doesn't really matter for now so I'm going to change the brick color to a nice Brown so we have our roof go ahead and click Ctrl D and then hit Ctrl r twice and then now we run into a predicament right so this is very important in building and I feel like a lot of people don't even know this but if you go ahead and see these draggers they're very they're lined up with the part right this is called local space and local space is the basically the position of the part the move tool is being based on the position of the part the rotation of the part it's using its own space to go ahead and calculate how it's going to move but obviously this isn't really going to work too well if we're trying to move it over there unless we did a this but it's gonna be hard to line up so what we can do is we can go ahead and right click and click use World space and we can change that to World space so now it's based off the whole world it's based off the world rather than the part so it's going to say the same direction as what we'd expect and now we can go ahead and move this in place with no problem and there we go another issue it's not lining up what okay this is weird now we could do the simple fix which is just to drag this but I do recommend the plug-in which is called resize a line I'll go ahead and Link it below for you it's really useful and it allows you to resize stuff and align edges so you can go ahead and go to your plugins tab after you download it and you can usually just get it in plugins actually on the toolbox so if you go to plugins search up resize align we can go ahead and get that stravent resize align and use that so geom tools we'll open that up if you have multiple by this guy I recommend all of these by the way but resize the line now we can go ahead and click on this click on that and align those two edges up and now it's good no problems there anymore now I'm gonna go ahead and I'm going to select this actually let's not do that yet I'm going to select I'm going to box select click from this corner drag select all of these I'm going to make the walls a nice red but then I'm going to go in here change this to be a darker red and we'll call that good right there and now I kind of want to extend these walls out just give it some depth you know let's just do that on one side let's just do that on this side just a little bit there we go not the greatest not the greatest but very good for starters now let's go ahead and look at how we can make windows and doors and that kind of thing inside of your building so one way you can do this is by simply hitting Ctrl D on this part holding control and then now we have a center right we have a center part and we can say that's our Center and then we can just go ahead and resize this down and I'm gonna go back to 0.5 I'm going to use resize one real quick and yeah so okay go back down to 0.5 and now that we have a center we can go ahead and go off of this I'm gonna align these with resize the line and now one two three four five I'm gonna I'm gonna do one stud okay so that was two and a half studs all right drag that now I'm gonna hit Ctrl D to duplicate that and I'm gonna go ahead and move that over here and there we go so that is how you can get a centered up hole or window now we can just go ahead and duplicate this boom and grab resize the line resize those Ctrl D that scale it down and there you go you pretty much get the gist and go ahead and duplicate this we can go ahead and make some window sills and let's go ahead and go back down to 20.25 man so this is one issue with building studio and why I recommend learning blender because it can be really annoying to be doing all of these scaling and measurement Etc so yeah I'm gonna go ahead and duplicate that why is this not looking Center all right so I went ahead and added some stuff to my window now we can go ahead and duplicate a part in here hit Ctrl D we can go ahead and hold Ctrl scale that up let's uncheck the move make that thinner turn it to blue and then we can go in properties and we can go ahead and increase the transparency and also the reflectance to get a nice look for a window we can change the material to smooth plastic and we can go ahead and have a pretty nice looking window so pretty good not the greatest but we're going to improve with time as you build and get better at it now I could do a much better window than this but I'm not going to worry about it for now because we're just looking at the basics now another way is with what we call unions so unions in studio is another feature involved with building and this lets you cut Parts out of other parts and glue Parts together and all that kind of stuff personally I'm not the biggest fan of unions but for simple things I believe they're very useful sometimes and even necessary so you might run into problems and builds and you need to to You Know cover up a gap or fill something or do something really quick that is when I personally think unions are the best and otherwise you should probably use blender for it but unions can also be used for things like Windows so you can hit Ctrl D hold Ctrl hold Ctrl and we can go ahead and just scale this down uh we can right click and we can click negate to go ahead and turn this in to a negated part which will let us cut it out of another part but we can also hit control shift n or command shift n on Mac to go ahead and make this negated now you'll see it's like red transparent now if you hold shift and click on another part we can right click and hit Union or as you can see the keybind is Ctrl shift G so if you hit Ctrl shift G we go ahead and Union that together so now we have a union now one issue with unions is as you make more complex ones Roblox gets really bad at rendering these and they kind of are bad for your game's performance so you want to avoid using unions too much one other issue we won't be able to go through this usually because now we this is basically a mesh and a mesh is one object rather than a bunch of parts so it's it doesn't know exactly how to calculate this so that you can go through this hole but there is a fix to keep in mind so if we select this we can go ahead and go down in our properties and change the Collision Fidelity to precise convex deposition and we'll be able to go ahead and jump through this of course if the space allows example but yeah that gives you an idea of the basics of building now we're going to go ahead and look at some more stuff in studio such as how to publish and save our game we're going to go ahead and look at how to publish your game so if we go ahead and click publish to Roblox we can publish this game but I'm going to click publish to Roblox as just so that I can make a copy for an example for you guys so I'm gonna hit publish Roblox ads and we're gonna make a new game and now you'll see here that we can name it and we can name it whatever we want so we can name our game blah blah blah blah test I don't know and then we can do whatever we can create we can choose the Creator we can choose the group we want it to be in or you can have it created by yourself you can create the genre which helps Roblox catalog categorize your game a little bit and you can choose which devices it can be played on or recommend checking off console and team create team create lets you have people work with you in studio on your your project just like it was a game on Roblox like you're playing together except you're all in studio building at the same time which is a really great insanely useful feature that I use all the time with friends and development Partners so yeah really useful now once you're done setting this up you can hit create and it'll publish it on Roblox so some more about the studio UI now we can go ahead and look at file and we can see that we have several things and the first one I want to show you is Advanced now Advanced actually has something which is called customized shortcuts now you might have been wondering earlier how was I possibly opening up resize aligned so fast well I have a custom shortcut for resize a line so you can set shortcuts you can change the default ones to whatever you want so that you can go ahead and use stuff in studio way faster so let's go ahead and click customize shortcuts and we can go ahead and find resize align for example people and we can go ahead and click on the shortcut Box by double clicking it then we can click r or whatever you want I use R for mine and you'll go ahead and have a shortcut for resize a line or whatever you're setting a shortcut for so it's really useful and I really recommend doing this but be careful when you're doing this don't accidentally reset something like really useful you're going to mess some stuff up so I'm going to hit OK and then another thing is beta features so beta features allows you to see some of the new features in studio that they're adding and it allows you to get these new things in studio early so one thing I want you to make sure you have enabled is material generator now material generator is a new thing made by Roblox which lets you make AI materials really like they're really awesome so let's click make sure that's checked off and we'll go ahead and hit save now in the Home tab you should see it here I'm not seeing it for some reason so I'm going to go ahead and reopen my place alright now see it right here material generator and you might have to reopen Roblox Studio like I did to see it because it's a new feature but with this you can go ahead and generate materials for your game so rather than using the default ones like oh leafy grass mud all this stuff now instead of having to import your own or make some you can just have ai make it so go ahead and set this back to smooth plastic and now if we go ahead to the material generator we can go ahead and type in let's say what is it called exciting yeah it's called siding there we go then you can go ahead and hit enter or click generate and boom it's going to spit out some textures for us and these will be instantly able to be applied so wow actually these are really good so let's go ahead and try this one here and you can go ahead and scale it down change the studs per tile you can make it organic to make it kind of randomized looks pretty cool I'm gonna go ahead and see some other one this one I like this one it looks more cartoony but it always does have the PBR you can always take that off though hard choices huh I think I'm gonna choose this one I think this one's the best so and we'll go ahead and choose the base material I'm gonna make that wood planks and I'm going to click save and apply variant you can change the subs per tile to change the size and now we can go ahead and select all our parts and close this out and we can go ahead and go into we can hold shift to select those by the way we can go into material variant and change that to red house siding material and there we go so you might see we're gonna have some Z fighting so things aren't going to line up fully but that's an easy fix as we mentioned earlier although tedious it's pretty easy we can move these scale them to change how that looks you might need to do this you know pretty easy stuff I'm going to use resize line now that we have a key bind we can click R and go ahead and do that go ahead and scale that good enough for now now I'm gonna make a roof material just for fun Roofing horizontal black let's see what it spits out for us I kind of like that but I'm gonna ask for a more cartoony one so let's see what it does interesting huh interesting wow okay ah okay so I'm gonna use this one and let's try organic all right cool okay now there is another plug-in by the same person who made this it's called material flip and this will allow us to flip the materials you can get this in toolbox by searching it up and there we go so now it is the right way and I think I'm gonna extend the roof out one pretty nice with those materials so those are a lifesaver especially for new Builders really really insane so you're gonna be able to make some really unique stuff with that but if you right click this and you click insert object there are a ton of different objects you can mess with and I recommend trying out textures which allow you to make a tiling image of your own and decals which allow you to add an image so we can go ahead and insert a texture in here and do whatever we want with that but for now you've mastered most the basics of building in Roblox studio and you're ready to take your skills to the next level so now let's look at some more advanced building techniques so first up grouping and ungrouping so we've looked at unions and unions to let us combine Parts but this is a lot different this just lets you make different groups so if we go ahead and click up here and drag and box select our house and hit Ctrl G we can make a group now this is one combined group you'll see it's a model in workspace we can right click this and rename it of course and name it house one and by the way when you're naming I recommend not doing any spaces so it's easier for when a scripter goes ahead and works with it now we can go ahead and drag this around as one thing thing and this might happen that happens with models but that is fine if we go ahead and click this and change the primary part to Something in here it'll fix that issue for us so yeah grouping is pretty awesome we can also group as a folder a folder does not let you do this but it's much better for organization purposes so you can right click and click group as a folder or you click Ctrl alt G to go ahead and make it a folder next up the terrain editor the terrain editor is a very useful tool and it allows you to make some very awesome things in studio if we go to view we can go ahead and find the terrain editor and it should be up in here somewhere yeah right here so this is the terrain editor you can just click that so you see it on your screen and we can go ahead and click the edit button to go ahead and see our main terrain tools so terrain now we can go ahead and add terrain right we can add it adding terrain's all right but it's not the greatest tool aside from when you're just getting started my favorite way to get the Baseline layer of terrain is to go ahead and get a plug-in called part 2 terrain and what this does is it goes ahead and lets us make any part into terrain so I'm going to go ahead and choose grass and click on the base plate now again you can find this plugin by going to toolbox and going to plugins and searching for part two Terrain go ahead and get that plug-in now you might notice that this goes ahead and makes everything a little bit sunken in that's fine we can just drag it and do that or you can go ahead and move your base plate down before you change it into terrain but yeah now the tools so we did we did look at app now add as I said I don't really like the add tool I believe the grow tools better in most cases but you can go ahead and change the different properties of this like the size the pivot position lets us change like where it goes based on your mouse cursor the plane lock and you can change the material of course and you can go ahead and change what material each one of these is with material servers so you can see in material service we can go ahead and choose one of our material variants that we already made for cracked lava so we can scroll down to crack lava and okay wait wait we need we need a material variant for collect cracked lava so you let's let's make a replacement one so I'm going to add a part and we can go ahead and go to the material generator and let's make make something new to replace cracked lava because there's not many times when you need cracked lava so let's see what do we make let's add a nice Rocky texture and we'll see what this makes oh that's actually pretty fire all right I like that kind of it's a little bit weird though let's just run with this one and let's go ahead and let the base material be cracked lava make the pattern to organic oh yeah that's better save and apply that and boom now we have that material variant in here which you can go ahead and go back to material servers change cracklava's default variant to big rock material and we got ourselves that now it's red how do we fix that well you can go to terrain go to material colors and change that back to Gray and there we go so we're good now now let's go back to the tools I went on tangent there but we're gonna go ahead and subtract this so we can choose the subtract tool size that up and we can go ahead and start subtracting some of our terrain I'll just you know make sure we have plane lock on and just delete that so next up grow tools so you'll see we have this messy look here actually we're gonna fix it so I'm gonna change the base size to bigger and we're just going to scale all this terrain up we're gonna make some hills heels are nice make some nice area in here now let's make some really big hills and on the sides of these big Hills is where we're going to use our material that we made because on the sides of Hills we start getting this brown material and it doesn't look that good in my opinion so we can fix that now I'm going to go ahead and paint so the paint tool is very useful you can click the paint tool size that down then we'll go ahead and grab the cracked lava and ooh yeah I'm liking that a lot although I want this texture to be bigger so I'm going to turn off by the way I'm going to turn off plane lock because paint tool is horrible with playing plane look but I'm going to go back to our material service I'm going to click on our big rock material and I'm going to change the studs per tile to be a lot bigger and try out regular is regular look better I'm not really sure oh we can't type in a number for this 100 that looks weird this is an interesting texture to work with but I think we're just gonna run with it we can paint some more on here I'm going to change it to mud on here paint some mud you know mix it up mix it up choose some leafy grass now leafy grass solves this issue see this it's all poking through a little easy fix for leafy grass size That Base size up and it'll help fix that and then we can add like some pavement or something pretty cool stuff this is all great but what about scripting I know that a lot of you guys might want to be able to script on Roblox and maybe you don't even want to be a builder well it's good that you went ahead and learned this so congratulate yourself for that you did a great job today learning this if you followed along I do have a special thing for you this is called the scripting Secrets course and it's a full course for scripting and it includes everything that every other course does not include there's no better place to learn scripting on the entire internet it has everything from the basics of Lua down to the advanced game mechanics and also exactly how to make your game of success I've worked with the Roblox coach to bring you this new course I'm going to link that below for you but you can go ahead and click the video on screen to watch the beginner guide Roblox scripting it's going to get you started very good great place to start but I do recommend clicking the link in the description for the scripting Secrets course for the best possible place to learn thank you you for watching see you at the scripting guide and make sure to subscribe and have notifications on so you don't miss a new video",
+  "transcript_segments": [
+    {
+      "text": "so Timmy wants to be a Roblox developer",
+      "start": 0.42,
+      "duration": 5.1
+    },
+    {
+      "text": "and instead of opening Roblox Studio he",
+      "start": 3.0,
+      "duration": 5.639
+    },
+    {
+      "text": "searches how to become a Roblox Dev and",
+      "start": 5.52,
+      "duration": 5.28
+    },
+    {
+      "text": "he just searches for hours just to find",
+      "start": 8.639,
+      "duration": 4.141
+    },
+    {
+      "text": "an easy way to become a Roblox developer",
+      "start": 10.8,
+      "duration": 5.16
+    },
+    {
+      "text": "he tries and tries and tries but it's",
+      "start": 12.78,
+      "duration": 6.18
+    },
+    {
+      "text": "just not enough for him why can't I get",
+      "start": 15.96,
+      "duration": 6.3
+    },
+    {
+      "text": "this he says any rage quits he just",
+      "start": 18.96,
+      "duration": 4.68
+    },
+    {
+      "text": "decides to give up on his dream of",
+      "start": 22.26,
+      "duration": 3.12
+    },
+    {
+      "text": "becoming a Roblox Dev and going back to",
+      "start": 23.64,
+      "duration": 4.32
+    },
+    {
+      "text": "playing pet simulator wait Timmy what",
+      "start": 25.38,
+      "duration": 4.26
+    },
+    {
+      "text": "are you doing the light at the end of",
+      "start": 27.96,
+      "duration": 4.02
+    },
+    {
+      "text": "the tunnel arrives Lord regulus the pro",
+      "start": 29.64,
+      "duration": 4.14
+    },
+    {
+      "text": "developer who climbed to the top of the",
+      "start": 31.98,
+      "duration": 4.56
+    },
+    {
+      "text": "front page in blazing speed with 15",
+      "start": 33.78,
+      "duration": 4.619
+    },
+    {
+      "text": "games that hit the front page and",
+      "start": 36.54,
+      "duration": 4.08
+    },
+    {
+      "text": "hundreds of millions of visits and Robux",
+      "start": 38.399,
+      "duration": 5.521
+    },
+    {
+      "text": "made he can teach Timmy right Jimmy just",
+      "start": 40.62,
+      "duration": 5.099
+    },
+    {
+      "text": "open up studio and start messing around",
+      "start": 43.92,
+      "duration": 4.22
+    },
+    {
+      "text": "you'll start to get it with enough work",
+      "start": 45.719,
+      "duration": 5.52
+    },
+    {
+      "text": "okay so Underlord regulus's guidance",
+      "start": 48.14,
+      "duration": 5.739
+    },
+    {
+      "text": "Timmy goes ahead and tries it he opens",
+      "start": 51.239,
+      "duration": 4.201
+    },
+    {
+      "text": "up studio and starts messing around",
+      "start": 53.879,
+      "duration": 4.081
+    },
+    {
+      "text": "placing parts and trying to make the",
+      "start": 55.44,
+      "duration": 4.5
+    },
+    {
+      "text": "games of his Wireless streams and with",
+      "start": 57.96,
+      "duration": 4.259
+    },
+    {
+      "text": "enough time and dedication he begins to",
+      "start": 59.94,
+      "duration": 3.959
+    },
+    {
+      "text": "move Parts at the speed of light he",
+      "start": 62.219,
+      "duration": 3.481
+    },
+    {
+      "text": "makes the game of his dreams and starts",
+      "start": 63.899,
+      "duration": 5.04
+    },
+    {
+      "text": "to see it all come to you hold up hold",
+      "start": 65.7,
+      "duration": 5.52
+    },
+    {
+      "text": "up hold up this is not gonna happen that",
+      "start": 68.939,
+      "duration": 4.321
+    },
+    {
+      "text": "easy but at least it's somewhat",
+      "start": 71.22,
+      "duration": 3.96
+    },
+    {
+      "text": "relatable this guide right here is going",
+      "start": 73.26,
+      "duration": 3.24
+    },
+    {
+      "text": "to show you exactly how to use Roblox",
+      "start": 75.18,
+      "duration": 4.02
+    },
+    {
+      "text": "Studio from start to finish exactly down",
+      "start": 76.5,
+      "duration": 4.32
+    },
+    {
+      "text": "to the Last Detail this is the best",
+      "start": 79.2,
+      "duration": 3.0
+    },
+    {
+      "text": "guide you're going to see on it I",
+      "start": 80.82,
+      "duration": 2.82
+    },
+    {
+      "text": "started just like you with zero",
+      "start": 82.2,
+      "duration": 4.26
+    },
+    {
+      "text": "experience and now you are lucky to get",
+      "start": 83.64,
+      "duration": 4.799
+    },
+    {
+      "text": "this very video I wish I had when I got",
+      "start": 86.46,
+      "duration": 3.479
+    },
+    {
+      "text": "started it would have been way easier",
+      "start": 88.439,
+      "duration": 3.18
+    },
+    {
+      "text": "and I would have learned way faster",
+      "start": 89.939,
+      "duration": 4.32
+    },
+    {
+      "text": "saving me days or weeks maybe even",
+      "start": 91.619,
+      "duration": 4.441
+    },
+    {
+      "text": "months of time so let's get started",
+      "start": 94.259,
+      "duration": 3.9
+    },
+    {
+      "text": "first we need to download Roblox Studio",
+      "start": 96.06,
+      "duration": 3.84
+    },
+    {
+      "text": "of course now this is pretty easy",
+      "start": 98.159,
+      "duration": 4.021
+    },
+    {
+      "text": "obviously if you've downloaded Roblox on",
+      "start": 99.9,
+      "duration": 3.78
+    },
+    {
+      "text": "your computer you should already have",
+      "start": 102.18,
+      "duration": 3.18
+    },
+    {
+      "text": "studio and all we need to do is search",
+      "start": 103.68,
+      "duration": 3.54
+    },
+    {
+      "text": "for it so if you're on Mac you can click",
+      "start": 105.36,
+      "duration": 3.48
+    },
+    {
+      "text": "the search button on the top right of",
+      "start": 107.22,
+      "duration": 3.24
+    },
+    {
+      "text": "your menu bar at the top of your screen",
+      "start": 108.84,
+      "duration": 4.02
+    },
+    {
+      "text": "or if you're on Windows like me go ahead",
+      "start": 110.46,
+      "duration": 4.08
+    },
+    {
+      "text": "and click the search button down here",
+      "start": 112.86,
+      "duration": 4.38
+    },
+    {
+      "text": "and you can go ahead and click and you",
+      "start": 114.54,
+      "duration": 5.399
+    },
+    {
+      "text": "can type in Roblox Studio it should show",
+      "start": 117.24,
+      "duration": 5.159
+    },
+    {
+      "text": "up and if doesn't you can go ahead to",
+      "start": 119.939,
+      "duration": 3.921
+    },
+    {
+      "text": "roblox.com",
+      "start": 122.399,
+      "duration": 4.141
+    },
+    {
+      "text": "create and there will be a download link",
+      "start": 123.86,
+      "duration": 4.179
+    },
+    {
+      "text": "there I'll also link it in the",
+      "start": 126.54,
+      "duration": 3.419
+    },
+    {
+      "text": "description for you to go ahead and head",
+      "start": 128.039,
+      "duration": 3.301
+    },
+    {
+      "text": "over there one of the first links in the",
+      "start": 129.959,
+      "duration": 3.061
+    },
+    {
+      "text": "description cool now let's let Roblox",
+      "start": 131.34,
+      "duration": 5.039
+    },
+    {
+      "text": "Studio load up and let's get into it so",
+      "start": 133.02,
+      "duration": 4.859
+    },
+    {
+      "text": "we want to make our first game Roblox",
+      "start": 136.379,
+      "duration": 3.36
+    },
+    {
+      "text": "Studio has a few different sections",
+      "start": 137.879,
+      "duration": 4.321
+    },
+    {
+      "text": "where you can make a game and edit all",
+      "start": 139.739,
+      "duration": 4.321
+    },
+    {
+      "text": "the games you've made in the past and",
+      "start": 142.2,
+      "duration": 5.7
+    },
+    {
+      "text": "these sections of Roblox Studio are on",
+      "start": 144.06,
+      "duration": 5.46
+    },
+    {
+      "text": "the left hand side you can go ahead and",
+      "start": 147.9,
+      "duration": 4.32
+    },
+    {
+      "text": "see there is a new project button",
+      "start": 149.52,
+      "duration": 6.6
+    },
+    {
+      "text": "there's a my games button there's a",
+      "start": 152.22,
+      "duration": 5.58
+    },
+    {
+      "text": "recent button and there's an archive",
+      "start": 156.12,
+      "duration": 3.66
+    },
+    {
+      "text": "button now the most important one when",
+      "start": 157.8,
+      "duration": 4.14
+    },
+    {
+      "text": "we get started is new because this has",
+      "start": 159.78,
+      "duration": 4.08
+    },
+    {
+      "text": "all of our templates where we can choose",
+      "start": 161.94,
+      "duration": 3.96
+    },
+    {
+      "text": "different templates to get us started",
+      "start": 163.86,
+      "duration": 4.32
+    },
+    {
+      "text": "with and really you only need to worry",
+      "start": 165.9,
+      "duration": 3.78
+    },
+    {
+      "text": "about these first three the other ones",
+      "start": 168.18,
+      "duration": 4.199
+    },
+    {
+      "text": "are not that great to be honest and you",
+      "start": 169.68,
+      "duration": 4.559
+    },
+    {
+      "text": "can go ahead and see your games here and",
+      "start": 172.379,
+      "duration": 3.36
+    },
+    {
+      "text": "all your group games and then recent",
+      "start": 174.239,
+      "duration": 2.941
+    },
+    {
+      "text": "we'll show you recent projects you've",
+      "start": 175.739,
+      "duration": 3.541
+    },
+    {
+      "text": "opened on the computer that you're using",
+      "start": 177.18,
+      "duration": 4.86
+    },
+    {
+      "text": "so let's just start with a base plate a",
+      "start": 179.28,
+      "duration": 5.22
+    },
+    {
+      "text": "basic new base plate right here not",
+      "start": 182.04,
+      "duration": 3.9
+    },
+    {
+      "text": "classic base plate let's just use the",
+      "start": 184.5,
+      "duration": 3.3
+    },
+    {
+      "text": "normal one and there we go you've made",
+      "start": 185.94,
+      "duration": 4.2
+    },
+    {
+      "text": "your first Roblox game congrats you can",
+      "start": 187.8,
+      "duration": 5.64
+    },
+    {
+      "text": "close this video now wait wait no never",
+      "start": 190.14,
+      "duration": 6.0
+    },
+    {
+      "text": "mind uh keep watching and your first",
+      "start": 193.44,
+      "duration": 4.68
+    },
+    {
+      "text": "quote-unquote game but there's a lot",
+      "start": 196.14,
+      "duration": 3.84
+    },
+    {
+      "text": "more to understand to get started in",
+      "start": 198.12,
+      "duration": 4.259
+    },
+    {
+      "text": "Roblox studio so let's go the UI of",
+      "start": 199.98,
+      "duration": 4.02
+    },
+    {
+      "text": "Roblox studio so the first thing we're",
+      "start": 202.379,
+      "duration": 3.841
+    },
+    {
+      "text": "going to look at is the UI or user",
+      "start": 204.0,
+      "duration": 3.84
+    },
+    {
+      "text": "interface of Roblox Studio which",
+      "start": 206.22,
+      "duration": 4.62
+    },
+    {
+      "text": "includes all of the buttons panels and",
+      "start": 207.84,
+      "duration": 5.399
+    },
+    {
+      "text": "menus in Roblox studio now I'm not",
+      "start": 210.84,
+      "duration": 4.2
+    },
+    {
+      "text": "trying to overwhelm you with a bunch of",
+      "start": 213.239,
+      "duration": 3.661
+    },
+    {
+      "text": "stuff so I'm gonna go ahead and show you",
+      "start": 215.04,
+      "duration": 3.779
+    },
+    {
+      "text": "the main panels and we'll get into",
+      "start": 216.9,
+      "duration": 5.16
+    },
+    {
+      "text": "everything else later first is the top",
+      "start": 218.819,
+      "duration": 5.941
+    },
+    {
+      "text": "bar of Roblox Studio this is where we're",
+      "start": 222.06,
+      "duration": 5.28
+    },
+    {
+      "text": "gonna get started so first one in the in",
+      "start": 224.76,
+      "duration": 4.92
+    },
+    {
+      "text": "the top left is file and this has what",
+      "start": 227.34,
+      "duration": 4.86
+    },
+    {
+      "text": "you'd expect from your average program",
+      "start": 229.68,
+      "duration": 5.279
+    },
+    {
+      "text": "so as you can see we can see our recent",
+      "start": 232.2,
+      "duration": 6.0
+    },
+    {
+      "text": "games we've edited you can see new you",
+      "start": 234.959,
+      "duration": 5.881
+    },
+    {
+      "text": "can see open from file open from Roblox",
+      "start": 238.2,
+      "duration": 4.74
+    },
+    {
+      "text": "close Place",
+      "start": 240.84,
+      "duration": 4.86
+    },
+    {
+      "text": "Etc now you can save to a file which",
+      "start": 242.94,
+      "duration": 5.579
+    },
+    {
+      "text": "will save as a Roblox Place file which",
+      "start": 245.7,
+      "duration": 4.5
+    },
+    {
+      "text": "will allow you to access your place on",
+      "start": 248.519,
+      "duration": 4.92
+    },
+    {
+      "text": "the computer or send that place to",
+      "start": 250.2,
+      "duration": 5.28
+    },
+    {
+      "text": "somebody else as a file so they can edit",
+      "start": 253.439,
+      "duration": 4.26
+    },
+    {
+      "text": "that instance of the place but don't",
+      "start": 255.48,
+      "duration": 3.659
+    },
+    {
+      "text": "worry about that the main one you need",
+      "start": 257.699,
+      "duration": 3.801
+    },
+    {
+      "text": "to worry about is publish to Roblox",
+      "start": 259.139,
+      "duration": 4.981
+    },
+    {
+      "text": "publish to Roblox allows you to put it",
+      "start": 261.5,
+      "duration": 5.44
+    },
+    {
+      "text": "on the website public so that it can be",
+      "start": 264.12,
+      "duration": 4.799
+    },
+    {
+      "text": "played by everyone of course if you set",
+      "start": 266.94,
+      "duration": 4.92
+    },
+    {
+      "text": "it to public and save to Roblox saves it",
+      "start": 268.919,
+      "duration": 4.861
+    },
+    {
+      "text": "but it does not make the changes public",
+      "start": 271.86,
+      "duration": 3.66
+    },
+    {
+      "text": "so I can go ahead and publish and that's",
+      "start": 273.78,
+      "duration": 3.96
+    },
+    {
+      "text": "going to be seen by everyone below this",
+      "start": 275.52,
+      "duration": 5.22
+    },
+    {
+      "text": "menu bar below this top menu bar up here",
+      "start": 277.74,
+      "duration": 6.54
+    },
+    {
+      "text": "we have a selection of items which are",
+      "start": 280.74,
+      "duration": 5.04
+    },
+    {
+      "text": "very important to the use of Roblox",
+      "start": 284.28,
+      "duration": 4.979
+    },
+    {
+      "text": "studio and especially to building",
+      "start": 285.78,
+      "duration": 6.18
+    },
+    {
+      "text": "so to go ahead and move around in Roblox",
+      "start": 289.259,
+      "duration": 5.88
+    },
+    {
+      "text": "Studio we can right click to go ahead",
+      "start": 291.96,
+      "duration": 5.58
+    },
+    {
+      "text": "and look around in Roblox Studio we can",
+      "start": 295.139,
+      "duration": 4.321
+    },
+    {
+      "text": "look around in what we call the viewport",
+      "start": 297.54,
+      "duration": 3.18
+    },
+    {
+      "text": "which is in the middle of the screen",
+      "start": 299.46,
+      "duration": 2.94
+    },
+    {
+      "text": "lets us see everything inside the game",
+      "start": 300.72,
+      "duration": 5.94
+    },
+    {
+      "text": "and we can use the a wsd Keys just like",
+      "start": 302.4,
+      "duration": 6.06
+    },
+    {
+      "text": "a game to go ahead and move back and",
+      "start": 306.66,
+      "duration": 5.16
+    },
+    {
+      "text": "forth but there's an additional two keys",
+      "start": 308.46,
+      "duration": 5.16
+    },
+    {
+      "text": "which you can use to move around which",
+      "start": 311.82,
+      "duration": 5.099
+    },
+    {
+      "text": "is the Q and the E Keys Q will move down",
+      "start": 313.62,
+      "duration": 6.24
+    },
+    {
+      "text": "and E will move up now you can right",
+      "start": 316.919,
+      "duration": 5.161
+    },
+    {
+      "text": "click look around but there's one last",
+      "start": 319.86,
+      "duration": 5.339
+    },
+    {
+      "text": "thing you can scroll to go ahead and go",
+      "start": 322.08,
+      "duration": 5.58
+    },
+    {
+      "text": "really fast and move around faster Zoom",
+      "start": 325.199,
+      "duration": 5.401
+    },
+    {
+      "text": "if you will so yeah the first button",
+      "start": 327.66,
+      "duration": 5.16
+    },
+    {
+      "text": "that we should take a look at is the",
+      "start": 330.6,
+      "duration": 3.42
+    },
+    {
+      "text": "part button",
+      "start": 332.82,
+      "duration": 3.24
+    },
+    {
+      "text": "part button will go ahead and place a",
+      "start": 334.02,
+      "duration": 4.38
+    },
+    {
+      "text": "part in our game if we click it and as",
+      "start": 336.06,
+      "duration": 3.84
+    },
+    {
+      "text": "you can see it has a drop down here",
+      "start": 338.4,
+      "duration": 3.78
+    },
+    {
+      "text": "which allows us to see block sphere",
+      "start": 339.9,
+      "duration": 4.5
+    },
+    {
+      "text": "wedge Corner wedge cylinder so we can",
+      "start": 342.18,
+      "duration": 4.14
+    },
+    {
+      "text": "choose different shape parts to use in",
+      "start": 344.4,
+      "duration": 3.48
+    },
+    {
+      "text": "our game now of course the main one",
+      "start": 346.32,
+      "duration": 3.84
+    },
+    {
+      "text": "you're going to be using is a normal",
+      "start": 347.88,
+      "duration": 6.06
+    },
+    {
+      "text": "block so now that we've placed this we",
+      "start": 350.16,
+      "duration": 5.64
+    },
+    {
+      "text": "can actually drag this around and we can",
+      "start": 353.94,
+      "duration": 3.539
+    },
+    {
+      "text": "choose where we want to place it now you",
+      "start": 355.8,
+      "duration": 3.72
+    },
+    {
+      "text": "might notice that mine is moving really",
+      "start": 357.479,
+      "duration": 4.381
+    },
+    {
+      "text": "smoothly and one really important thing",
+      "start": 359.52,
+      "duration": 5.04
+    },
+    {
+      "text": "is the increment so you can actually",
+      "start": 361.86,
+      "duration": 4.619
+    },
+    {
+      "text": "change the increment that this moves at",
+      "start": 364.56,
+      "duration": 3.6
+    },
+    {
+      "text": "and this brings us to these different",
+      "start": 366.479,
+      "duration": 4.28
+    },
+    {
+      "text": "tabs here which include home model",
+      "start": 368.16,
+      "duration": 6.84
+    },
+    {
+      "text": "Avatar test View and plugins view has",
+      "start": 370.759,
+      "duration": 5.5
+    },
+    {
+      "text": "all of the different things in Roblox",
+      "start": 375.0,
+      "duration": 3.0
+    },
+    {
+      "text": "studio and we can show them and hide",
+      "start": 376.259,
+      "duration": 5.041
+    },
+    {
+      "text": "them Tess has the play button start",
+      "start": 378.0,
+      "duration": 5.46
+    },
+    {
+      "text": "button and several other options for you",
+      "start": 381.3,
+      "duration": 4.8
+    },
+    {
+      "text": "to test Avatar has Avatar options for",
+      "start": 383.46,
+      "duration": 5.4
+    },
+    {
+      "text": "animating and designing avatars and",
+      "start": 386.1,
+      "duration": 6.18
+    },
+    {
+      "text": "model has most of the features that we",
+      "start": 388.86,
+      "duration": 5.52
+    },
+    {
+      "text": "need for building it has a little bit",
+      "start": 392.28,
+      "duration": 4.139
+    },
+    {
+      "text": "more than home but home has all the main",
+      "start": 394.38,
+      "duration": 4.68
+    },
+    {
+      "text": "ones but if we go to model it actually",
+      "start": 396.419,
+      "duration": 5.641
+    },
+    {
+      "text": "has this thing called Snap to grid now",
+      "start": 399.06,
+      "duration": 5.4
+    },
+    {
+      "text": "snap to grid is actually going to allow",
+      "start": 402.06,
+      "duration": 5.4
+    },
+    {
+      "text": "us to go ahead and change the increment",
+      "start": 404.46,
+      "duration": 6.12
+    },
+    {
+      "text": "that we move and scale Parts at so if we",
+      "start": 407.46,
+      "duration": 5.34
+    },
+    {
+      "text": "change this to be checked off I'm not",
+      "start": 410.58,
+      "duration": 4.86
+    },
+    {
+      "text": "sure most the time most the time yours",
+      "start": 412.8,
+      "duration": 4.019
+    },
+    {
+      "text": "should already be checked and it should",
+      "start": 415.44,
+      "duration": 4.44
+    },
+    {
+      "text": "say one stud by default and 45 degrees",
+      "start": 416.819,
+      "duration": 4.621
+    },
+    {
+      "text": "as your",
+      "start": 419.88,
+      "duration": 4.2
+    },
+    {
+      "text": "rotate now this is horrible by the way",
+      "start": 421.44,
+      "duration": 6.24
+    },
+    {
+      "text": "45 degrees is bad for rotation as you",
+      "start": 424.08,
+      "duration": 5.82
+    },
+    {
+      "text": "can see it rotates really really really",
+      "start": 427.68,
+      "duration": 5.82
+    },
+    {
+      "text": "stiffly we don't want this and so I",
+      "start": 429.9,
+      "duration": 5.7
+    },
+    {
+      "text": "usually have mine at 15 and then I leave",
+      "start": 433.5,
+      "duration": 5.72
+    },
+    {
+      "text": "my move at either 0.1",
+      "start": 435.6,
+      "duration": 8.28
+    },
+    {
+      "text": "0.25 or 0.5 and then sometimes I turn it",
+      "start": 439.22,
+      "duration": 6.58
+    },
+    {
+      "text": "off when I'm moving around bushes and",
+      "start": 443.88,
+      "duration": 3.48
+    },
+    {
+      "text": "stuff but a really good one to start",
+      "start": 445.8,
+      "duration": 4.14
+    },
+    {
+      "text": "with is probably 0.5 or even one stud",
+      "start": 447.36,
+      "duration": 5.88
+    },
+    {
+      "text": "because one stud is good and one method",
+      "start": 449.94,
+      "duration": 5.12
+    },
+    {
+      "text": "you could do is you can start building",
+      "start": 453.24,
+      "duration": 5.579
+    },
+    {
+      "text": "with one stud and then later you can go",
+      "start": 455.06,
+      "duration": 6.16
+    },
+    {
+      "text": "ahead and switch to smaller ones as you",
+      "start": 458.819,
+      "duration": 4.38
+    },
+    {
+      "text": "get more into the deep details of your",
+      "start": 461.22,
+      "duration": 4.919
+    },
+    {
+      "text": "build now you'll notice that on both the",
+      "start": 463.199,
+      "duration": 6.84
+    },
+    {
+      "text": "Home tab and the model tab there is a",
+      "start": 466.139,
+      "duration": 8.4
+    },
+    {
+      "text": "select move scale and rotate tool and",
+      "start": 470.039,
+      "duration": 6.961
+    },
+    {
+      "text": "these are very self-explanatory select",
+      "start": 474.539,
+      "duration": 4.201
+    },
+    {
+      "text": "is very useful when you just want to",
+      "start": 477.0,
+      "duration": 4.08
+    },
+    {
+      "text": "drag stuff and you know move things",
+      "start": 478.74,
+      "duration": 5.22
+    },
+    {
+      "text": "around without worrying about moving it",
+      "start": 481.08,
+      "duration": 5.28
+    },
+    {
+      "text": "with any other type of dragger and",
+      "start": 483.96,
+      "duration": 3.84
+    },
+    {
+      "text": "having these in the way you can just",
+      "start": 486.36,
+      "duration": 4.679
+    },
+    {
+      "text": "drag it select it deselect it now move",
+      "start": 487.8,
+      "duration": 6.6
+    },
+    {
+      "text": "is for more exact movements",
+      "start": 491.039,
+      "duration": 5.581
+    },
+    {
+      "text": "so you can of course always move your",
+      "start": 494.4,
+      "duration": 4.5
+    },
+    {
+      "text": "part by just dragging it but you're",
+      "start": 496.62,
+      "duration": 3.78
+    },
+    {
+      "text": "going to notice pretty quickly that",
+      "start": 498.9,
+      "duration": 4.979
+    },
+    {
+      "text": "building things well using that dragging",
+      "start": 500.4,
+      "duration": 6.419
+    },
+    {
+      "text": "feature is going to be horrible so I",
+      "start": 503.879,
+      "duration": 5.341
+    },
+    {
+      "text": "highly recommend that you go ahead and",
+      "start": 506.819,
+      "duration": 5.1
+    },
+    {
+      "text": "use the move tools for more exact",
+      "start": 509.22,
+      "duration": 4.499
+    },
+    {
+      "text": "movements so we can go ahead and drag",
+      "start": 511.919,
+      "duration": 4.56
+    },
+    {
+      "text": "and we can move it up and down",
+      "start": 513.719,
+      "duration": 6.12
+    },
+    {
+      "text": "left to right and that type of thing and",
+      "start": 516.479,
+      "duration": 8.221
+    },
+    {
+      "text": "by the way this moves on the y axis this",
+      "start": 519.839,
+      "duration": 8.341
+    },
+    {
+      "text": "moves on the x axis and this moves on",
+      "start": 524.7,
+      "duration": 6.319
+    },
+    {
+      "text": "the Z axis and these represent different",
+      "start": 528.18,
+      "duration": 7.08
+    },
+    {
+      "text": "positions inside of the game world now",
+      "start": 531.019,
+      "duration": 6.641
+    },
+    {
+      "text": "we'll get into that more later but it's",
+      "start": 535.26,
+      "duration": 5.28
+    },
+    {
+      "text": "good to know X Y and Z especially if",
+      "start": 537.66,
+      "duration": 4.38
+    },
+    {
+      "text": "you're going to go into scripting later",
+      "start": 540.54,
+      "duration": 4.02
+    },
+    {
+      "text": "and especially if you want to be an",
+      "start": 542.04,
+      "duration": 4.919
+    },
+    {
+      "text": "advanced Builder now back to the UI",
+      "start": 544.56,
+      "duration": 4.98
+    },
+    {
+      "text": "around the rest of the screen we have",
+      "start": 546.959,
+      "duration": 5.401
+    },
+    {
+      "text": "several different panels and by default",
+      "start": 549.54,
+      "duration": 5.76
+    },
+    {
+      "text": "you have the toolbox or you should have",
+      "start": 552.36,
+      "duration": 6.36
+    },
+    {
+      "text": "the toolbox the properties window which",
+      "start": 555.3,
+      "duration": 6.0
+    },
+    {
+      "text": "is right here and usually I believe that",
+      "start": 558.72,
+      "duration": 5.96
+    },
+    {
+      "text": "it is right here actually and we also",
+      "start": 561.3,
+      "duration": 7.26
+    },
+    {
+      "text": "have the output window and this will",
+      "start": 564.68,
+      "duration": 5.74
+    },
+    {
+      "text": "spit out different things from your code",
+      "start": 568.56,
+      "duration": 3.24
+    },
+    {
+      "text": "but we don't really have to worry about",
+      "start": 570.42,
+      "duration": 3.419
+    },
+    {
+      "text": "this right now so let's close that now",
+      "start": 571.8,
+      "duration": 4.92
+    },
+    {
+      "text": "if you do not see any one of these menus",
+      "start": 573.839,
+      "duration": 6.661
+    },
+    {
+      "text": "you can go ahead up here to view and we",
+      "start": 576.72,
+      "duration": 7.92
+    },
+    {
+      "text": "can select Explorer and you'll will see",
+      "start": 580.5,
+      "duration": 6.959
+    },
+    {
+      "text": "it disappears and appears and there is a",
+      "start": 584.64,
+      "duration": 4.92
+    },
+    {
+      "text": "chance that it might be stacking up with",
+      "start": 587.459,
+      "duration": 4.021
+    },
+    {
+      "text": "other windows and glitching out",
+      "start": 589.56,
+      "duration": 4.2
+    },
+    {
+      "text": "in that case you can click it a ton of",
+      "start": 591.48,
+      "duration": 4.979
+    },
+    {
+      "text": "times until you see it on your screen or",
+      "start": 593.76,
+      "duration": 5.579
+    },
+    {
+      "text": "you can close out windows until you see",
+      "start": 596.459,
+      "duration": 4.981
+    },
+    {
+      "text": "it so I can go ahead and close out tool",
+      "start": 599.339,
+      "duration": 3.961
+    },
+    {
+      "text": "grip editor and all this stuff and then",
+      "start": 601.44,
+      "duration": 3.0
+    },
+    {
+      "text": "I'll be able to cycle through these",
+      "start": 603.3,
+      "duration": 3.479
+    },
+    {
+      "text": "easier so let's go ahead and look at",
+      "start": 604.44,
+      "duration": 4.44
+    },
+    {
+      "text": "each individual one of these main panels",
+      "start": 606.779,
+      "duration": 5.701
+    },
+    {
+      "text": "so toolbox you can get your models that",
+      "start": 608.88,
+      "duration": 6.24
+    },
+    {
+      "text": "you've made in the past in the inventory",
+      "start": 612.48,
+      "duration": 5.22
+    },
+    {
+      "text": "section or in this one that lets you see",
+      "start": 615.12,
+      "duration": 4.98
+    },
+    {
+      "text": "the models you've made and this one",
+      "start": 617.7,
+      "duration": 4.8
+    },
+    {
+      "text": "shows you recent models you've used this",
+      "start": 620.1,
+      "duration": 4.2
+    },
+    {
+      "text": "one it's your models these are very",
+      "start": 622.5,
+      "duration": 3.839
+    },
+    {
+      "text": "similar tags except this one allows you",
+      "start": 624.3,
+      "duration": 5.039
+    },
+    {
+      "text": "to see group models too now this one is",
+      "start": 626.339,
+      "duration": 4.5
+    },
+    {
+      "text": "the interesting one you've heard about",
+      "start": 629.339,
+      "duration": 3.18
+    },
+    {
+      "text": "free models right and if you're really",
+      "start": 630.839,
+      "duration": 3.721
+    },
+    {
+      "text": "new to development you probably don't",
+      "start": 632.519,
+      "duration": 3.841
+    },
+    {
+      "text": "necessarily even know how to get them",
+      "start": 634.56,
+      "duration": 4.26
+    },
+    {
+      "text": "but you can go ahead and get free models",
+      "start": 636.36,
+      "duration": 4.32
+    },
+    {
+      "text": "from this you can get all kinds of",
+      "start": 638.82,
+      "duration": 3.06
+    },
+    {
+      "text": "different models that people have made",
+      "start": 640.68,
+      "duration": 4.02
+    },
+    {
+      "text": "now most of these are not the best",
+      "start": 641.88,
+      "duration": 5.16
+    },
+    {
+      "text": "quality and a lot of them if you use all",
+      "start": 644.7,
+      "duration": 4.319
+    },
+    {
+      "text": "three models as you've probably seen all",
+      "start": 647.04,
+      "duration": 5.4
+    },
+    {
+      "text": "free model games nothing matches up it's",
+      "start": 649.019,
+      "duration": 5.461
+    },
+    {
+      "text": "horrible to use all free models unless",
+      "start": 652.44,
+      "duration": 3.72
+    },
+    {
+      "text": "you're very careful with it which it",
+      "start": 654.48,
+      "duration": 3.66
+    },
+    {
+      "text": "does take some time and practice honing",
+      "start": 656.16,
+      "duration": 4.08
+    },
+    {
+      "text": "your own building skills to know how to",
+      "start": 658.14,
+      "duration": 4.5
+    },
+    {
+      "text": "match together different free models but",
+      "start": 660.24,
+      "duration": 5.039
+    },
+    {
+      "text": "with that in mind they're okay to look",
+      "start": 662.64,
+      "duration": 4.56
+    },
+    {
+      "text": "at and learn from but I would not",
+      "start": 665.279,
+      "duration": 3.961
+    },
+    {
+      "text": "recommend making entire games with them",
+      "start": 667.2,
+      "duration": 3.54
+    },
+    {
+      "text": "you can practice with it you can",
+      "start": 669.24,
+      "duration": 3.539
+    },
+    {
+      "text": "practice dragging stuff in practice",
+      "start": 670.74,
+      "duration": 3.96
+    },
+    {
+      "text": "handling models with these it's very",
+      "start": 672.779,
+      "duration": 3.901
+    },
+    {
+      "text": "good but we don't want you sitting",
+      "start": 674.7,
+      "duration": 4.02
+    },
+    {
+      "text": "around throwing free models in studio",
+      "start": 676.68,
+      "duration": 3.839
+    },
+    {
+      "text": "that's not going to do anybody any good",
+      "start": 678.72,
+      "duration": 4.559
+    },
+    {
+      "text": "and that's how I started but look that's",
+      "start": 680.519,
+      "duration": 4.44
+    },
+    {
+      "text": "not how we want to start if we're trying",
+      "start": 683.279,
+      "duration": 4.261
+    },
+    {
+      "text": "to learn this quickly and trying to skip",
+      "start": 684.959,
+      "duration": 6.301
+    },
+    {
+      "text": "all the randomness so next up Explorer",
+      "start": 687.54,
+      "duration": 6.479
+    },
+    {
+      "text": "now the Explorer the Explorer window is",
+      "start": 691.26,
+      "duration": 6.3
+    },
+    {
+      "text": "very crucial so pay attention it is very",
+      "start": 694.019,
+      "duration": 5.041
+    },
+    {
+      "text": "much so one of the most important",
+      "start": 697.56,
+      "duration": 4.8
+    },
+    {
+      "text": "windows in Roblox studio so you need to",
+      "start": 699.06,
+      "duration": 6.12
+    },
+    {
+      "text": "see this so each one of these inside of",
+      "start": 702.36,
+      "duration": 5.52
+    },
+    {
+      "text": "the Explorer window is called a service",
+      "start": 705.18,
+      "duration": 6.54
+    },
+    {
+      "text": "a service is a different",
+      "start": 707.88,
+      "duration": 7.98
+    },
+    {
+      "text": "piece of the Roblox engine that does a",
+      "start": 711.72,
+      "duration": 7.08
+    },
+    {
+      "text": "different function and it allows us to",
+      "start": 715.86,
+      "duration": 5.34
+    },
+    {
+      "text": "go ahead and do different things inside",
+      "start": 718.8,
+      "duration": 5.4
+    },
+    {
+      "text": "our game and contain different aspects",
+      "start": 721.2,
+      "duration": 5.819
+    },
+    {
+      "text": "of our game so the most important one",
+      "start": 724.2,
+      "duration": 5.28
+    },
+    {
+      "text": "and the main one that we'll be using is",
+      "start": 727.019,
+      "duration": 5.641
+    },
+    {
+      "text": "called workspace everything that exists",
+      "start": 729.48,
+      "duration": 6.0
+    },
+    {
+      "text": "visibly in your game that is an object",
+      "start": 732.66,
+      "duration": 4.739
+    },
+    {
+      "text": "not the lighting we'll get into that",
+      "start": 735.48,
+      "duration": 3.78
+    },
+    {
+      "text": "later but that's also visible everything",
+      "start": 737.399,
+      "duration": 4.261
+    },
+    {
+      "text": "that is in workspace is all that you can",
+      "start": 739.26,
+      "duration": 4.56
+    },
+    {
+      "text": "see in the game aside from light don't",
+      "start": 741.66,
+      "duration": 4.32
+    },
+    {
+      "text": "worry about that yet but everything you",
+      "start": 743.82,
+      "duration": 4.74
+    },
+    {
+      "text": "can see in the game is in workspace so",
+      "start": 745.98,
+      "duration": 4.919
+    },
+    {
+      "text": "this right here this is in workspace as",
+      "start": 748.56,
+      "duration": 3.899
+    },
+    {
+      "text": "you can see if we select it we'll see it",
+      "start": 750.899,
+      "duration": 4.68
+    },
+    {
+      "text": "right here this is a spawn location now",
+      "start": 752.459,
+      "duration": 5.701
+    },
+    {
+      "text": "face split this is our base plate it's",
+      "start": 755.579,
+      "duration": 4.981
+    },
+    {
+      "text": "in workspace if we hit the delete key",
+      "start": 758.16,
+      "duration": 4.859
+    },
+    {
+      "text": "it's gone and it's also gone from the",
+      "start": 760.56,
+      "duration": 4.019
+    },
+    {
+      "text": "Explorer so I'm going to go ahead and",
+      "start": 763.019,
+      "duration": 5.341
+    },
+    {
+      "text": "click control Z or command Z on Mac to",
+      "start": 764.579,
+      "duration": 7.081
+    },
+    {
+      "text": "undo that and by the way to redo it is",
+      "start": 768.36,
+      "duration": 7.08
+    },
+    {
+      "text": "control shift Z or command shift Z on",
+      "start": 771.66,
+      "duration": 5.7
+    },
+    {
+      "text": "Mac now lighting is the other one you",
+      "start": 775.44,
+      "duration": 3.0
+    },
+    {
+      "text": "can see and you can change different",
+      "start": 777.36,
+      "duration": 2.88
+    },
+    {
+      "text": "aspects of how the game's lighting looks",
+      "start": 778.44,
+      "duration": 3.6
+    },
+    {
+      "text": "so for example we can raise our",
+      "start": 780.24,
+      "duration": 4.08
+    },
+    {
+      "text": "brightness do a bunch of cool stuff",
+      "start": 782.04,
+      "duration": 3.84
+    },
+    {
+      "text": "there's a bunch of different properties",
+      "start": 784.32,
+      "duration": 3.6
+    },
+    {
+      "text": "in lighting which allow you to change",
+      "start": 785.88,
+      "duration": 4.92
+    },
+    {
+      "text": "how the game looks and can go ahead and",
+      "start": 787.92,
+      "duration": 6.12
+    },
+    {
+      "text": "see how to use all of these in the video",
+      "start": 790.8,
+      "duration": 4.62
+    },
+    {
+      "text": "in the right hand corner you can go",
+      "start": 794.04,
+      "duration": 3.96
+    },
+    {
+      "text": "ahead and pop that open in a new tab and",
+      "start": 795.42,
+      "duration": 4.02
+    },
+    {
+      "text": "watch that after this so you can learn",
+      "start": 798.0,
+      "duration": 3.959
+    },
+    {
+      "text": "lighting if you would like because it is",
+      "start": 799.44,
+      "duration": 4.56
+    },
+    {
+      "text": "a very interesting and fun thing to do",
+      "start": 801.959,
+      "duration": 4.081
+    },
+    {
+      "text": "so you can actually make quite a bit of",
+      "start": 804.0,
+      "duration": 3.959
+    },
+    {
+      "text": "Robux easily by making lighting because",
+      "start": 806.04,
+      "duration": 3.96
+    },
+    {
+      "text": "in my opinion lighting if you have an",
+      "start": 807.959,
+      "duration": 4.68
+    },
+    {
+      "text": "eye for it is really easy to go ahead",
+      "start": 810.0,
+      "duration": 6.72
+    },
+    {
+      "text": "and start making Robux from because it's",
+      "start": 812.639,
+      "duration": 5.82
+    },
+    {
+      "text": "like one of the easiest things to make",
+      "start": 816.72,
+      "duration": 4.2
+    },
+    {
+      "text": "in Roblox studio so just a note there",
+      "start": 818.459,
+      "duration": 4.5
+    },
+    {
+      "text": "for any of you who want to learn a skill",
+      "start": 820.92,
+      "duration": 4.14
+    },
+    {
+      "text": "that can make you Robux fast lighting do",
+      "start": 822.959,
+      "duration": 5.341
+    },
+    {
+      "text": "it next up the basics of building so in",
+      "start": 825.06,
+      "duration": 5.399
+    },
+    {
+      "text": "this section of the video we are going",
+      "start": 828.3,
+      "duration": 3.659
+    },
+    {
+      "text": "to look at the basics of building and",
+      "start": 830.459,
+      "duration": 4.44
+    },
+    {
+      "text": "I'm going to show you how to build now",
+      "start": 831.959,
+      "duration": 4.56
+    },
+    {
+      "text": "that we're out of the way of the boring",
+      "start": 834.899,
+      "duration": 4.5
+    },
+    {
+      "text": "UI we're into building so if we go ahead",
+      "start": 836.519,
+      "duration": 6.12
+    },
+    {
+      "text": "and choose select by clicking on it if",
+      "start": 839.399,
+      "duration": 5.581
+    },
+    {
+      "text": "it's not already chosen so if it's dark",
+      "start": 842.639,
+      "duration": 3.901
+    },
+    {
+      "text": "gray like mine that means that it's",
+      "start": 844.98,
+      "duration": 3.78
+    },
+    {
+      "text": "selected if it's not dark gray then it's",
+      "start": 846.54,
+      "duration": 4.32
+    },
+    {
+      "text": "not selected then we can hover our",
+      "start": 848.76,
+      "duration": 4.379
+    },
+    {
+      "text": "cursor over a part and drag it wherever",
+      "start": 850.86,
+      "duration": 4.56
+    },
+    {
+      "text": "we want so for anyone over this but yeah",
+      "start": 853.139,
+      "duration": 5.76
+    },
+    {
+      "text": "but now let's look at the scale tool so",
+      "start": 855.42,
+      "duration": 6.0
+    },
+    {
+      "text": "the scale tool very similar in how it",
+      "start": 858.899,
+      "duration": 4.081
+    },
+    {
+      "text": "works to the move tool except you grab",
+      "start": 861.42,
+      "duration": 3.419
+    },
+    {
+      "text": "one of these draggers and you can go",
+      "start": 862.98,
+      "duration": 4.38
+    },
+    {
+      "text": "ahead and move it and see it stretch",
+      "start": 864.839,
+      "duration": 4.62
+    },
+    {
+      "text": "into the sky alright so now we're going",
+      "start": 867.36,
+      "duration": 4.56
+    },
+    {
+      "text": "to turn this part into a wall we're",
+      "start": 869.459,
+      "duration": 5.761
+    },
+    {
+      "text": "gonna build a wall so you can scale your",
+      "start": 871.92,
+      "duration": 5.94
+    },
+    {
+      "text": "part up and you can say you know I want",
+      "start": 875.22,
+      "duration": 5.16
+    },
+    {
+      "text": "to make this a huge wall and I want to",
+      "start": 877.86,
+      "duration": 4.2
+    },
+    {
+      "text": "stretch it over the whole base plate",
+      "start": 880.38,
+      "duration": 5.459
+    },
+    {
+      "text": "alright so we've built our wall so now",
+      "start": 882.06,
+      "duration": 6.66
+    },
+    {
+      "text": "what we need to do we need to look at",
+      "start": 885.839,
+      "duration": 4.62
+    },
+    {
+      "text": "the different ways you can scale parts",
+      "start": 888.72,
+      "duration": 3.78
+    },
+    {
+      "text": "so we've scaled this wall outright I've",
+      "start": 890.459,
+      "duration": 5.161
+    },
+    {
+      "text": "scaled out really long on both sides but",
+      "start": 892.5,
+      "duration": 5.04
+    },
+    {
+      "text": "there are a few different ways that you",
+      "start": 895.62,
+      "duration": 3.659
+    },
+    {
+      "text": "can scale Parts which are going to be",
+      "start": 897.54,
+      "duration": 3.96
+    },
+    {
+      "text": "really useful in building one way is by",
+      "start": 899.279,
+      "duration": 4.62
+    },
+    {
+      "text": "holding control and dragging one of",
+      "start": 901.5,
+      "duration": 3.839
+    },
+    {
+      "text": "these and you can go ahead and stretch",
+      "start": 903.899,
+      "duration": 4.44
+    },
+    {
+      "text": "it out on both sides and you can hold",
+      "start": 905.339,
+      "duration": 6.12
+    },
+    {
+      "text": "shift to stretch it out on all sides in",
+      "start": 908.339,
+      "duration": 5.281
+    },
+    {
+      "text": "One Direction if we hit Ctrl Z we can go",
+      "start": 911.459,
+      "duration": 4.801
+    },
+    {
+      "text": "ahead and undo that and if you go ahead",
+      "start": 913.62,
+      "duration": 4.74
+    },
+    {
+      "text": "and click control",
+      "start": 916.26,
+      "duration": 3.6
+    },
+    {
+      "text": "shift",
+      "start": 918.36,
+      "duration": 4.02
+    },
+    {
+      "text": "click you can go ahead and stretch it",
+      "start": 919.86,
+      "duration": 4.979
+    },
+    {
+      "text": "out evenly from the middle or the origin",
+      "start": 922.38,
+      "duration": 4.259
+    },
+    {
+      "text": "Point here and you can stretch it out in",
+      "start": 924.839,
+      "duration": 3.601
+    },
+    {
+      "text": "all directions that way now more",
+      "start": 926.639,
+      "duration": 3.481
+    },
+    {
+      "text": "keybinds you can go ahead and click",
+      "start": 928.44,
+      "duration": 4.139
+    },
+    {
+      "text": "control R and you can go ahead and turn",
+      "start": 930.12,
+      "duration": 4.92
+    },
+    {
+      "text": "it 90 degrees now you can click Ctrl T",
+      "start": 932.579,
+      "duration": 4.741
+    },
+    {
+      "text": "and this will turn it vertically 90",
+      "start": 935.04,
+      "duration": 4.5
+    },
+    {
+      "text": "degrees interesting right control T",
+      "start": 937.32,
+      "duration": 3.959
+    },
+    {
+      "text": "though is a little bit is a little bit",
+      "start": 939.54,
+      "duration": 3.96
+    },
+    {
+      "text": "weird though alright now let's go ahead",
+      "start": 941.279,
+      "duration": 3.36
+    },
+    {
+      "text": "and delete this now we're going to look",
+      "start": 943.5,
+      "duration": 2.579
+    },
+    {
+      "text": "at some more keybinds of building and",
+      "start": 944.639,
+      "duration": 3.241
+    },
+    {
+      "text": "let's start actually building a basic",
+      "start": 946.079,
+      "duration": 3.901
+    },
+    {
+      "text": "building so I'm going to go ahead and",
+      "start": 947.88,
+      "duration": 4.139
+    },
+    {
+      "text": "add a new part in the model tab I'm",
+      "start": 949.98,
+      "duration": 4.44
+    },
+    {
+      "text": "going to click the part button and now",
+      "start": 952.019,
+      "duration": 4.44
+    },
+    {
+      "text": "we're going to hold Ctrl scale that down",
+      "start": 954.42,
+      "duration": 4.32
+    },
+    {
+      "text": "then I'm going to stretch this out let's",
+      "start": 956.459,
+      "duration": 5.281
+    },
+    {
+      "text": "make it a good length go ahead and make",
+      "start": 958.74,
+      "duration": 5.76
+    },
+    {
+      "text": "this taller we'll go ahead and click",
+      "start": 961.74,
+      "duration": 6.0
+    },
+    {
+      "text": "control D to duplicate this part we're",
+      "start": 964.5,
+      "duration": 4.32
+    },
+    {
+      "text": "going to stretch it all the way down",
+      "start": 967.74,
+      "duration": 2.82
+    },
+    {
+      "text": "here stretch it out to the length of",
+      "start": 968.82,
+      "duration": 4.74
+    },
+    {
+      "text": "wall we want move this move this out one",
+      "start": 970.56,
+      "duration": 4.26
+    },
+    {
+      "text": "stud and you don't want anything",
+      "start": 973.56,
+      "duration": 3.06
+    },
+    {
+      "text": "overlapping while you while you're",
+      "start": 974.82,
+      "duration": 3.36
+    },
+    {
+      "text": "building this is really important",
+      "start": 976.62,
+      "duration": 3.839
+    },
+    {
+      "text": "because if you have stuff over lapping",
+      "start": 978.18,
+      "duration": 4.14
+    },
+    {
+      "text": "let me show you so let's go ahead and",
+      "start": 980.459,
+      "duration": 3.841
+    },
+    {
+      "text": "select the part go to our properties",
+      "start": 982.32,
+      "duration": 5.28
+    },
+    {
+      "text": "panel and change the brick color to teal",
+      "start": 984.3,
+      "duration": 5.399
+    },
+    {
+      "text": "now if I stretch this over this you'll",
+      "start": 987.6,
+      "duration": 4.5
+    },
+    {
+      "text": "see that it starts flickering this is",
+      "start": 989.699,
+      "duration": 5.161
+    },
+    {
+      "text": "called Z fighting and Z fighting is a",
+      "start": 992.1,
+      "duration": 6.299
+    },
+    {
+      "text": "horrible looking glitch so you know this",
+      "start": 994.86,
+      "duration": 6.779
+    },
+    {
+      "text": "is normal and it's gonna happen on",
+      "start": 998.399,
+      "duration": 4.981
+    },
+    {
+      "text": "accident but we want to avoid this as",
+      "start": 1001.639,
+      "duration": 3.901
+    },
+    {
+      "text": "much as possible so that's partly why",
+      "start": 1003.38,
+      "duration": 3.78
+    },
+    {
+      "text": "I'm doing that to make sure we don't",
+      "start": 1005.54,
+      "duration": 3.299
+    },
+    {
+      "text": "have any Z fighting I know that we",
+      "start": 1007.16,
+      "duration": 3.84
+    },
+    {
+      "text": "aren't recoloring this we're going to",
+      "start": 1008.839,
+      "duration": 4.56
+    },
+    {
+      "text": "leave it as medium Stone gray but it's",
+      "start": 1011.0,
+      "duration": 4.32
+    },
+    {
+      "text": "good to keep in mind also while we're on",
+      "start": 1013.399,
+      "duration": 3.841
+    },
+    {
+      "text": "colors there is a custom color property",
+      "start": 1015.32,
+      "duration": 3.72
+    },
+    {
+      "text": "which I recommend using as much as",
+      "start": 1017.24,
+      "duration": 3.779
+    },
+    {
+      "text": "possible because these are not really",
+      "start": 1019.04,
+      "duration": 3.539
+    },
+    {
+      "text": "enough especially as you get more",
+      "start": 1021.019,
+      "duration": 4.44
+    },
+    {
+      "text": "advanced in your builds now let's go",
+      "start": 1022.579,
+      "duration": 7.801
+    },
+    {
+      "text": "ahead and click on this and hold shift",
+      "start": 1025.459,
+      "duration": 6.6
+    },
+    {
+      "text": "and we can go ahead and have both of",
+      "start": 1030.38,
+      "duration": 3.36
+    },
+    {
+      "text": "these selected at once then I'm going to",
+      "start": 1032.059,
+      "duration": 4.74
+    },
+    {
+      "text": "click Ctrl D to duplicate then I'm going",
+      "start": 1033.74,
+      "duration": 6.9
+    },
+    {
+      "text": "to click control r twice and now we have",
+      "start": 1036.799,
+      "duration": 7.38
+    },
+    {
+      "text": "this on both sides now let's go ahead",
+      "start": 1040.64,
+      "duration": 7.679
+    },
+    {
+      "text": "and add a roof but with the roof let's",
+      "start": 1044.179,
+      "duration": 6.481
+    },
+    {
+      "text": "use a different kind of bar so let's",
+      "start": 1048.319,
+      "duration": 5.341
+    },
+    {
+      "text": "click this let's add a wedge and then",
+      "start": 1050.66,
+      "duration": 6.12
+    },
+    {
+      "text": "we're going to click Ctrl R drag this up",
+      "start": 1053.66,
+      "duration": 5.46
+    },
+    {
+      "text": "here and then we're going to go ahead",
+      "start": 1056.78,
+      "duration": 5.1
+    },
+    {
+      "text": "and stretch this out now one thing I",
+      "start": 1059.12,
+      "duration": 4.5
+    },
+    {
+      "text": "want to do is I want to select this wall",
+      "start": 1061.88,
+      "duration": 4.98
+    },
+    {
+      "text": "and check the size so it's 36 if your",
+      "start": 1063.62,
+      "duration": 5.7
+    },
+    {
+      "text": "wall is uneven sized you might want to",
+      "start": 1066.86,
+      "duration": 4.199
+    },
+    {
+      "text": "change it to something that's even but",
+      "start": 1069.32,
+      "duration": 6.479
+    },
+    {
+      "text": "36 divided by 2 is 18. so if we go ahead",
+      "start": 1071.059,
+      "duration": 8.881
+    },
+    {
+      "text": "and make this 18 studs wide we can go",
+      "start": 1075.799,
+      "duration": 8.221
+    },
+    {
+      "text": "ahead and make that good and then if we",
+      "start": 1079.94,
+      "duration": 8.76
+    },
+    {
+      "text": "click control D Ctrl R twice we can go",
+      "start": 1084.02,
+      "duration": 7.2
+    },
+    {
+      "text": "ahead and drag this back here and there",
+      "start": 1088.7,
+      "duration": 4.32
+    },
+    {
+      "text": "we go so now",
+      "start": 1091.22,
+      "duration": 4.199
+    },
+    {
+      "text": "we have our basic shape of a house or a",
+      "start": 1093.02,
+      "duration": 4.5
+    },
+    {
+      "text": "building so if we go ahead and flick",
+      "start": 1095.419,
+      "duration": 3.841
+    },
+    {
+      "text": "this and hold shift and click on this",
+      "start": 1097.52,
+      "duration": 3.779
+    },
+    {
+      "text": "let's go ahead and recolor this let's",
+      "start": 1099.26,
+      "duration": 4.56
+    },
+    {
+      "text": "make it let's make this white so I'm",
+      "start": 1101.299,
+      "duration": 4.201
+    },
+    {
+      "text": "going to go ahead and choose a nice kind",
+      "start": 1103.82,
+      "duration": 3.359
+    },
+    {
+      "text": "of quilt I think quill gray looks good",
+      "start": 1105.5,
+      "duration": 3.84
+    },
+    {
+      "text": "and then I'm going to go ahead",
+      "start": 1107.179,
+      "duration": 4.561
+    },
+    {
+      "text": "and I'm going to add a block all right",
+      "start": 1109.34,
+      "duration": 5.579
+    },
+    {
+      "text": "then I'm going to drag this up here and",
+      "start": 1111.74,
+      "duration": 6.179
+    },
+    {
+      "text": "stretch it out to the same size as the",
+      "start": 1114.919,
+      "duration": 4.861
+    },
+    {
+      "text": "top of our roof",
+      "start": 1117.919,
+      "duration": 5.281
+    },
+    {
+      "text": "maybe change this down to 0.25 see if",
+      "start": 1119.78,
+      "duration": 4.92
+    },
+    {
+      "text": "that now we're having a little bit of an",
+      "start": 1123.2,
+      "duration": 3.96
+    },
+    {
+      "text": "alignment issue here not exactly sure",
+      "start": 1124.7,
+      "duration": 3.9
+    },
+    {
+      "text": "why this is happening",
+      "start": 1127.16,
+      "duration": 3.899
+    },
+    {
+      "text": "let's see the size this might be fixed",
+      "start": 1128.6,
+      "duration": 4.14
+    },
+    {
+      "text": "by changing the height of this if we had",
+      "start": 1131.059,
+      "duration": 3.661
+    },
+    {
+      "text": "to add more of an even angle I believe",
+      "start": 1132.74,
+      "duration": 3.6
+    },
+    {
+      "text": "it would be better but it doesn't really",
+      "start": 1134.72,
+      "duration": 3.36
+    },
+    {
+      "text": "matter for now so I'm going to change",
+      "start": 1136.34,
+      "duration": 4.56
+    },
+    {
+      "text": "the brick color to a nice Brown so we",
+      "start": 1138.08,
+      "duration": 6.479
+    },
+    {
+      "text": "have our roof go ahead and click Ctrl D",
+      "start": 1140.9,
+      "duration": 8.22
+    },
+    {
+      "text": "and then hit Ctrl r twice and then now",
+      "start": 1144.559,
+      "duration": 6.841
+    },
+    {
+      "text": "we run into a predicament right so this",
+      "start": 1149.12,
+      "duration": 4.26
+    },
+    {
+      "text": "is very important in building and I feel",
+      "start": 1151.4,
+      "duration": 3.24
+    },
+    {
+      "text": "like a lot of people don't even know",
+      "start": 1153.38,
+      "duration": 4.799
+    },
+    {
+      "text": "this but if you go ahead and see these",
+      "start": 1154.64,
+      "duration": 5.279
+    },
+    {
+      "text": "draggers they're very they're lined up",
+      "start": 1158.179,
+      "duration": 4.441
+    },
+    {
+      "text": "with the part right this is called local",
+      "start": 1159.919,
+      "duration": 6.781
+    },
+    {
+      "text": "space and local space is the",
+      "start": 1162.62,
+      "duration": 7.02
+    },
+    {
+      "text": "basically the position of the part the",
+      "start": 1166.7,
+      "duration": 5.28
+    },
+    {
+      "text": "move tool is being based on the position",
+      "start": 1169.64,
+      "duration": 3.84
+    },
+    {
+      "text": "of the part the rotation of the part",
+      "start": 1171.98,
+      "duration": 3.84
+    },
+    {
+      "text": "it's using its own",
+      "start": 1173.48,
+      "duration": 5.699
+    },
+    {
+      "text": "space to go ahead and calculate how it's",
+      "start": 1175.82,
+      "duration": 5.76
+    },
+    {
+      "text": "going to move but obviously this isn't",
+      "start": 1179.179,
+      "duration": 3.721
+    },
+    {
+      "text": "really going to work too well if we're",
+      "start": 1181.58,
+      "duration": 3.06
+    },
+    {
+      "text": "trying to move it over there unless we",
+      "start": 1182.9,
+      "duration": 3.72
+    },
+    {
+      "text": "did a this but it's gonna be hard to",
+      "start": 1184.64,
+      "duration": 4.44
+    },
+    {
+      "text": "line up so what we can do is we can go",
+      "start": 1186.62,
+      "duration": 4.679
+    },
+    {
+      "text": "ahead and right click and click use",
+      "start": 1189.08,
+      "duration": 4.32
+    },
+    {
+      "text": "World space and we can change that to",
+      "start": 1191.299,
+      "duration": 4.5
+    },
+    {
+      "text": "World space so now it's based off the",
+      "start": 1193.4,
+      "duration": 4.08
+    },
+    {
+      "text": "whole world it's based off the world",
+      "start": 1195.799,
+      "duration": 3.481
+    },
+    {
+      "text": "rather than the part so it's going to",
+      "start": 1197.48,
+      "duration": 4.319
+    },
+    {
+      "text": "say the same direction as what we'd",
+      "start": 1199.28,
+      "duration": 4.259
+    },
+    {
+      "text": "expect and now we can go ahead and move",
+      "start": 1201.799,
+      "duration": 5.401
+    },
+    {
+      "text": "this in place with no problem and there",
+      "start": 1203.539,
+      "duration": 5.88
+    },
+    {
+      "text": "we go another issue",
+      "start": 1207.2,
+      "duration": 5.339
+    },
+    {
+      "text": "it's not lining up what okay this is",
+      "start": 1209.419,
+      "duration": 4.921
+    },
+    {
+      "text": "weird now",
+      "start": 1212.539,
+      "duration": 3.961
+    },
+    {
+      "text": "we could do the simple fix",
+      "start": 1214.34,
+      "duration": 4.86
+    },
+    {
+      "text": "which is just to drag this but I do",
+      "start": 1216.5,
+      "duration": 4.799
+    },
+    {
+      "text": "recommend the plug-in which is called",
+      "start": 1219.2,
+      "duration": 4.02
+    },
+    {
+      "text": "resize a line I'll go ahead and Link it",
+      "start": 1221.299,
+      "duration": 3.901
+    },
+    {
+      "text": "below for you it's really useful and it",
+      "start": 1223.22,
+      "duration": 5.16
+    },
+    {
+      "text": "allows you to resize stuff and align",
+      "start": 1225.2,
+      "duration": 5.58
+    },
+    {
+      "text": "edges so you can go ahead and go to your",
+      "start": 1228.38,
+      "duration": 4.5
+    },
+    {
+      "text": "plugins tab after you download it and",
+      "start": 1230.78,
+      "duration": 3.6
+    },
+    {
+      "text": "you can usually just get it in plugins",
+      "start": 1232.88,
+      "duration": 3.06
+    },
+    {
+      "text": "actually on the toolbox so if you go to",
+      "start": 1234.38,
+      "duration": 5.82
+    },
+    {
+      "text": "plugins search up resize align we can go",
+      "start": 1235.94,
+      "duration": 7.26
+    },
+    {
+      "text": "ahead and get that stravent resize align",
+      "start": 1240.2,
+      "duration": 6.78
+    },
+    {
+      "text": "and use that so geom tools we'll open",
+      "start": 1243.2,
+      "duration": 5.64
+    },
+    {
+      "text": "that up if you have multiple by this guy",
+      "start": 1246.98,
+      "duration": 3.9
+    },
+    {
+      "text": "I recommend all of these by the way but",
+      "start": 1248.84,
+      "duration": 4.98
+    },
+    {
+      "text": "resize the line now we can go ahead and",
+      "start": 1250.88,
+      "duration": 6.72
+    },
+    {
+      "text": "click on this click on that and align",
+      "start": 1253.82,
+      "duration": 6.42
+    },
+    {
+      "text": "those two edges up and now it's good no",
+      "start": 1257.6,
+      "duration": 5.819
+    },
+    {
+      "text": "problems there anymore now I'm gonna go",
+      "start": 1260.24,
+      "duration": 5.64
+    },
+    {
+      "text": "ahead and I'm going to select this",
+      "start": 1263.419,
+      "duration": 4.5
+    },
+    {
+      "text": "actually let's not do that yet I'm going",
+      "start": 1265.88,
+      "duration": 3.9
+    },
+    {
+      "text": "to select I'm going to box select click",
+      "start": 1267.919,
+      "duration": 4.021
+    },
+    {
+      "text": "from this corner drag select all of",
+      "start": 1269.78,
+      "duration": 4.32
+    },
+    {
+      "text": "these I'm going to make the walls a nice",
+      "start": 1271.94,
+      "duration": 4.02
+    },
+    {
+      "text": "red but then I'm going to go in here",
+      "start": 1274.1,
+      "duration": 4.98
+    },
+    {
+      "text": "change this to be a darker red and we'll",
+      "start": 1275.96,
+      "duration": 5.7
+    },
+    {
+      "text": "call that good right there and now I",
+      "start": 1279.08,
+      "duration": 5.16
+    },
+    {
+      "text": "kind of want to extend these walls out",
+      "start": 1281.66,
+      "duration": 4.86
+    },
+    {
+      "text": "just give it some depth you know let's",
+      "start": 1284.24,
+      "duration": 3.9
+    },
+    {
+      "text": "just do that on one side let's just do",
+      "start": 1286.52,
+      "duration": 3.539
+    },
+    {
+      "text": "that on this side just a little bit",
+      "start": 1288.14,
+      "duration": 3.659
+    },
+    {
+      "text": "there we go not the greatest not the",
+      "start": 1290.059,
+      "duration": 3.841
+    },
+    {
+      "text": "greatest but very good for starters now",
+      "start": 1291.799,
+      "duration": 4.081
+    },
+    {
+      "text": "let's go ahead and look at how we can",
+      "start": 1293.9,
+      "duration": 4.08
+    },
+    {
+      "text": "make windows and doors and that kind of",
+      "start": 1295.88,
+      "duration": 5.46
+    },
+    {
+      "text": "thing inside of your building so one way",
+      "start": 1297.98,
+      "duration": 6.179
+    },
+    {
+      "text": "you can do this is by simply hitting",
+      "start": 1301.34,
+      "duration": 7.02
+    },
+    {
+      "text": "Ctrl D on this part holding control and",
+      "start": 1304.159,
+      "duration": 6.121
+    },
+    {
+      "text": "then now we have a center right we have",
+      "start": 1308.36,
+      "duration": 5.52
+    },
+    {
+      "text": "a center part and we can say that's our",
+      "start": 1310.28,
+      "duration": 5.1
+    },
+    {
+      "text": "Center and then we can just go ahead and",
+      "start": 1313.88,
+      "duration": 5.22
+    },
+    {
+      "text": "resize this down and I'm gonna go back",
+      "start": 1315.38,
+      "duration": 6.62
+    },
+    {
+      "text": "to 0.5",
+      "start": 1319.1,
+      "duration": 6.92
+    },
+    {
+      "text": "I'm going to use resize one real quick",
+      "start": 1322.0,
+      "duration": 8.039
+    },
+    {
+      "text": "and yeah so okay go back down to 0.5",
+      "start": 1326.02,
+      "duration": 7.06
+    },
+    {
+      "text": "and now that we have a center we can go",
+      "start": 1330.039,
+      "duration": 5.081
+    },
+    {
+      "text": "ahead and go off of this",
+      "start": 1333.08,
+      "duration": 4.68
+    },
+    {
+      "text": "I'm gonna align these with resize the",
+      "start": 1335.12,
+      "duration": 9.12
+    },
+    {
+      "text": "line and now one two three four five",
+      "start": 1337.76,
+      "duration": 8.64
+    },
+    {
+      "text": "I'm gonna I'm gonna do one stud okay so",
+      "start": 1344.24,
+      "duration": 4.439
+    },
+    {
+      "text": "that was two and a half studs all right",
+      "start": 1346.4,
+      "duration": 5.399
+    },
+    {
+      "text": "drag that now I'm gonna hit Ctrl D to",
+      "start": 1348.679,
+      "duration": 4.801
+    },
+    {
+      "text": "duplicate that and I'm gonna go ahead",
+      "start": 1351.799,
+      "duration": 4.5
+    },
+    {
+      "text": "and move that over here and there we go",
+      "start": 1353.48,
+      "duration": 6.179
+    },
+    {
+      "text": "so that is how you can get a centered up",
+      "start": 1356.299,
+      "duration": 5.701
+    },
+    {
+      "text": "hole or window now we can just go ahead",
+      "start": 1359.659,
+      "duration": 6.241
+    },
+    {
+      "text": "and duplicate this boom and grab resize",
+      "start": 1362.0,
+      "duration": 7.64
+    },
+    {
+      "text": "the line resize those",
+      "start": 1365.9,
+      "duration": 3.74
+    },
+    {
+      "text": "Ctrl D that",
+      "start": 1370.039,
+      "duration": 5.301
+    },
+    {
+      "text": "scale it down",
+      "start": 1372.98,
+      "duration": 4.86
+    },
+    {
+      "text": "and there you go you pretty much get the",
+      "start": 1375.34,
+      "duration": 6.459
+    },
+    {
+      "text": "gist and go ahead and duplicate this we",
+      "start": 1377.84,
+      "duration": 6.42
+    },
+    {
+      "text": "can go ahead and make some window sills",
+      "start": 1381.799,
+      "duration": 4.701
+    },
+    {
+      "text": "and let's go ahead and go back down to",
+      "start": 1384.26,
+      "duration": 5.88
+    },
+    {
+      "text": "20.25 man so this is one issue with",
+      "start": 1386.5,
+      "duration": 5.86
+    },
+    {
+      "text": "building studio and why I recommend",
+      "start": 1390.14,
+      "duration": 4.44
+    },
+    {
+      "text": "learning blender because it can be",
+      "start": 1392.36,
+      "duration": 4.799
+    },
+    {
+      "text": "really annoying to be doing all of these",
+      "start": 1394.58,
+      "duration": 5.4
+    },
+    {
+      "text": "scaling and measurement Etc",
+      "start": 1397.159,
+      "duration": 5.461
+    },
+    {
+      "text": "so yeah I'm gonna go ahead and duplicate",
+      "start": 1399.98,
+      "duration": 6.24
+    },
+    {
+      "text": "that why is this not looking Center all",
+      "start": 1402.62,
+      "duration": 5.16
+    },
+    {
+      "text": "right so I went ahead and added some",
+      "start": 1406.22,
+      "duration": 4.38
+    },
+    {
+      "text": "stuff to my window now we can go ahead",
+      "start": 1407.78,
+      "duration": 5.34
+    },
+    {
+      "text": "and duplicate a part in here hit Ctrl D",
+      "start": 1410.6,
+      "duration": 5.1
+    },
+    {
+      "text": "we can go ahead and hold Ctrl scale that",
+      "start": 1413.12,
+      "duration": 3.419
+    },
+    {
+      "text": "up",
+      "start": 1415.7,
+      "duration": 3.9
+    },
+    {
+      "text": "let's uncheck the move make that thinner",
+      "start": 1416.539,
+      "duration": 5.64
+    },
+    {
+      "text": "turn it to blue and then we can go in",
+      "start": 1419.6,
+      "duration": 4.26
+    },
+    {
+      "text": "properties and we can go ahead and",
+      "start": 1422.179,
+      "duration": 4.201
+    },
+    {
+      "text": "increase the transparency and also the",
+      "start": 1423.86,
+      "duration": 5.64
+    },
+    {
+      "text": "reflectance to get a nice look for a",
+      "start": 1426.38,
+      "duration": 5.4
+    },
+    {
+      "text": "window we can change the material to",
+      "start": 1429.5,
+      "duration": 4.32
+    },
+    {
+      "text": "smooth plastic and we can go ahead and",
+      "start": 1431.78,
+      "duration": 3.779
+    },
+    {
+      "text": "have a pretty nice looking window so",
+      "start": 1433.82,
+      "duration": 5.7
+    },
+    {
+      "text": "pretty good not the greatest but we're",
+      "start": 1435.559,
+      "duration": 6.36
+    },
+    {
+      "text": "going to improve with time as you build",
+      "start": 1439.52,
+      "duration": 5.22
+    },
+    {
+      "text": "and get better at it now I could do a",
+      "start": 1441.919,
+      "duration": 5.821
+    },
+    {
+      "text": "much better window than this but I'm not",
+      "start": 1444.74,
+      "duration": 4.08
+    },
+    {
+      "text": "going to worry about it for now because",
+      "start": 1447.74,
+      "duration": 3.179
+    },
+    {
+      "text": "we're just looking at the basics now",
+      "start": 1448.82,
+      "duration": 6.239
+    },
+    {
+      "text": "another way is with what we call unions",
+      "start": 1450.919,
+      "duration": 7.441
+    },
+    {
+      "text": "so unions in studio is another feature",
+      "start": 1455.059,
+      "duration": 5.641
+    },
+    {
+      "text": "involved with building and this lets you",
+      "start": 1458.36,
+      "duration": 4.74
+    },
+    {
+      "text": "cut Parts out of other parts and glue",
+      "start": 1460.7,
+      "duration": 4.02
+    },
+    {
+      "text": "Parts together and all that kind of",
+      "start": 1463.1,
+      "duration": 3.72
+    },
+    {
+      "text": "stuff personally I'm not the biggest fan",
+      "start": 1464.72,
+      "duration": 4.38
+    },
+    {
+      "text": "of unions but for simple things I",
+      "start": 1466.82,
+      "duration": 3.54
+    },
+    {
+      "text": "believe they're very useful sometimes",
+      "start": 1469.1,
+      "duration": 4.199
+    },
+    {
+      "text": "and even necessary so you might run into",
+      "start": 1470.36,
+      "duration": 6.96
+    },
+    {
+      "text": "problems and builds and you need to to",
+      "start": 1473.299,
+      "duration": 6.301
+    },
+    {
+      "text": "You Know cover up a gap or fill",
+      "start": 1477.32,
+      "duration": 4.38
+    },
+    {
+      "text": "something or do something really quick",
+      "start": 1479.6,
+      "duration": 4.98
+    },
+    {
+      "text": "that is when I personally think unions",
+      "start": 1481.7,
+      "duration": 4.26
+    },
+    {
+      "text": "are the best and otherwise you should",
+      "start": 1484.58,
+      "duration": 3.54
+    },
+    {
+      "text": "probably use blender for it but unions",
+      "start": 1485.96,
+      "duration": 3.959
+    },
+    {
+      "text": "can also be used for things like Windows",
+      "start": 1488.12,
+      "duration": 5.28
+    },
+    {
+      "text": "so you can hit Ctrl D hold Ctrl hold",
+      "start": 1489.919,
+      "duration": 5.76
+    },
+    {
+      "text": "Ctrl and we can go ahead and just scale",
+      "start": 1493.4,
+      "duration": 4.62
+    },
+    {
+      "text": "this down uh we can right click and we",
+      "start": 1495.679,
+      "duration": 4.98
+    },
+    {
+      "text": "can click negate to go ahead and turn",
+      "start": 1498.02,
+      "duration": 4.98
+    },
+    {
+      "text": "this in to a negated part which will let",
+      "start": 1500.659,
+      "duration": 4.621
+    },
+    {
+      "text": "us cut it out of another part but we can",
+      "start": 1503.0,
+      "duration": 6.299
+    },
+    {
+      "text": "also hit control shift n or command",
+      "start": 1505.28,
+      "duration": 6.899
+    },
+    {
+      "text": "shift n on Mac to go ahead and make this",
+      "start": 1509.299,
+      "duration": 4.681
+    },
+    {
+      "text": "negated now you'll see it's like red",
+      "start": 1512.179,
+      "duration": 4.561
+    },
+    {
+      "text": "transparent now if you hold shift and",
+      "start": 1513.98,
+      "duration": 5.28
+    },
+    {
+      "text": "click on another part we can right click",
+      "start": 1516.74,
+      "duration": 5.46
+    },
+    {
+      "text": "and hit Union or as you can see the",
+      "start": 1519.26,
+      "duration": 5.159
+    },
+    {
+      "text": "keybind is Ctrl shift G so if you hit",
+      "start": 1522.2,
+      "duration": 5.099
+    },
+    {
+      "text": "Ctrl shift G we go ahead and Union that",
+      "start": 1524.419,
+      "duration": 4.981
+    },
+    {
+      "text": "together so now we have a union",
+      "start": 1527.299,
+      "duration": 5.521
+    },
+    {
+      "text": "now one issue with unions is as you make",
+      "start": 1529.4,
+      "duration": 6.54
+    },
+    {
+      "text": "more complex ones Roblox gets really bad",
+      "start": 1532.82,
+      "duration": 6.239
+    },
+    {
+      "text": "at rendering these and they kind of are",
+      "start": 1535.94,
+      "duration": 5.339
+    },
+    {
+      "text": "bad for your game's performance so you",
+      "start": 1539.059,
+      "duration": 4.98
+    },
+    {
+      "text": "want to avoid using unions too much one",
+      "start": 1541.279,
+      "duration": 4.02
+    },
+    {
+      "text": "other issue we won't be able to go",
+      "start": 1544.039,
+      "duration": 4.081
+    },
+    {
+      "text": "through this usually because now we this",
+      "start": 1545.299,
+      "duration": 5.521
+    },
+    {
+      "text": "is basically a mesh and a mesh is one",
+      "start": 1548.12,
+      "duration": 4.62
+    },
+    {
+      "text": "object rather than a bunch of parts so",
+      "start": 1550.82,
+      "duration": 3.42
+    },
+    {
+      "text": "it's it doesn't know exactly how to",
+      "start": 1552.74,
+      "duration": 2.76
+    },
+    {
+      "text": "calculate this so that you can go",
+      "start": 1554.24,
+      "duration": 3.24
+    },
+    {
+      "text": "through this hole but there is a fix to",
+      "start": 1555.5,
+      "duration": 4.32
+    },
+    {
+      "text": "keep in mind so if we select this we can",
+      "start": 1557.48,
+      "duration": 4.14
+    },
+    {
+      "text": "go ahead and go down in our properties",
+      "start": 1559.82,
+      "duration": 4.68
+    },
+    {
+      "text": "and change the Collision Fidelity to",
+      "start": 1561.62,
+      "duration": 5.939
+    },
+    {
+      "text": "precise convex deposition and we'll be",
+      "start": 1564.5,
+      "duration": 4.799
+    },
+    {
+      "text": "able to go ahead and jump through this",
+      "start": 1567.559,
+      "duration": 4.201
+    },
+    {
+      "text": "of course if the space allows",
+      "start": 1569.299,
+      "duration": 4.86
+    },
+    {
+      "text": "example but yeah that gives you an idea",
+      "start": 1571.76,
+      "duration": 4.44
+    },
+    {
+      "text": "of the basics of building now we're",
+      "start": 1574.159,
+      "duration": 4.441
+    },
+    {
+      "text": "going to go ahead and look at some more",
+      "start": 1576.2,
+      "duration": 4.32
+    },
+    {
+      "text": "stuff in studio such as how to publish",
+      "start": 1578.6,
+      "duration": 3.42
+    },
+    {
+      "text": "and save our game we're going to go",
+      "start": 1580.52,
+      "duration": 3.42
+    },
+    {
+      "text": "ahead and look at how to publish your",
+      "start": 1582.02,
+      "duration": 4.2
+    },
+    {
+      "text": "game so if we go ahead and click publish",
+      "start": 1583.94,
+      "duration": 4.859
+    },
+    {
+      "text": "to Roblox we can publish this game but",
+      "start": 1586.22,
+      "duration": 4.439
+    },
+    {
+      "text": "I'm going to click publish to Roblox as",
+      "start": 1588.799,
+      "duration": 4.561
+    },
+    {
+      "text": "just so that I can make a copy for an",
+      "start": 1590.659,
+      "duration": 4.081
+    },
+    {
+      "text": "example for you guys so I'm gonna hit",
+      "start": 1593.36,
+      "duration": 3.54
+    },
+    {
+      "text": "publish Roblox ads and we're gonna make",
+      "start": 1594.74,
+      "duration": 6.36
+    },
+    {
+      "text": "a new game and now you'll see here that",
+      "start": 1596.9,
+      "duration": 6.72
+    },
+    {
+      "text": "we can name it and we can name it",
+      "start": 1601.1,
+      "duration": 5.36
+    },
+    {
+      "text": "whatever we want so we can name our game",
+      "start": 1603.62,
+      "duration": 7.14
+    },
+    {
+      "text": "blah blah blah blah test I don't know",
+      "start": 1606.46,
+      "duration": 6.339
+    },
+    {
+      "text": "and then we can do whatever we can",
+      "start": 1610.76,
+      "duration": 3.539
+    },
+    {
+      "text": "create we can choose the Creator we can",
+      "start": 1612.799,
+      "duration": 3.12
+    },
+    {
+      "text": "choose the group we want it to be in or",
+      "start": 1614.299,
+      "duration": 3.601
+    },
+    {
+      "text": "you can have it created by yourself you",
+      "start": 1615.919,
+      "duration": 4.201
+    },
+    {
+      "text": "can create the genre which helps Roblox",
+      "start": 1617.9,
+      "duration": 4.5
+    },
+    {
+      "text": "catalog categorize your game a little",
+      "start": 1620.12,
+      "duration": 4.38
+    },
+    {
+      "text": "bit and you can choose which devices it",
+      "start": 1622.4,
+      "duration": 3.6
+    },
+    {
+      "text": "can be played on or recommend checking",
+      "start": 1624.5,
+      "duration": 3.9
+    },
+    {
+      "text": "off console and team create team create",
+      "start": 1626.0,
+      "duration": 5.22
+    },
+    {
+      "text": "lets you have people work with you in",
+      "start": 1628.4,
+      "duration": 5.04
+    },
+    {
+      "text": "studio on your your project just like it",
+      "start": 1631.22,
+      "duration": 4.26
+    },
+    {
+      "text": "was a game on Roblox like you're playing",
+      "start": 1633.44,
+      "duration": 3.9
+    },
+    {
+      "text": "together except you're all in studio",
+      "start": 1635.48,
+      "duration": 3.54
+    },
+    {
+      "text": "building at the same time which is a",
+      "start": 1637.34,
+      "duration": 3.42
+    },
+    {
+      "text": "really great insanely useful feature",
+      "start": 1639.02,
+      "duration": 4.44
+    },
+    {
+      "text": "that I use all the time with friends and",
+      "start": 1640.76,
+      "duration": 5.039
+    },
+    {
+      "text": "development Partners so yeah really",
+      "start": 1643.46,
+      "duration": 4.8
+    },
+    {
+      "text": "useful now once you're done setting this",
+      "start": 1645.799,
+      "duration": 4.5
+    },
+    {
+      "text": "up you can hit create and it'll publish",
+      "start": 1648.26,
+      "duration": 4.799
+    },
+    {
+      "text": "it on Roblox so some more about the",
+      "start": 1650.299,
+      "duration": 5.521
+    },
+    {
+      "text": "studio UI now we can go ahead and look",
+      "start": 1653.059,
+      "duration": 5.341
+    },
+    {
+      "text": "at file and we can see that we have",
+      "start": 1655.82,
+      "duration": 4.68
+    },
+    {
+      "text": "several things and the first one I want",
+      "start": 1658.4,
+      "duration": 4.98
+    },
+    {
+      "text": "to show you is Advanced now Advanced",
+      "start": 1660.5,
+      "duration": 5.9
+    },
+    {
+      "text": "actually has something which is called",
+      "start": 1663.38,
+      "duration": 5.159
+    },
+    {
+      "text": "customized shortcuts now you might have",
+      "start": 1666.4,
+      "duration": 4.18
+    },
+    {
+      "text": "been wondering earlier how was I",
+      "start": 1668.539,
+      "duration": 4.5
+    },
+    {
+      "text": "possibly opening up resize aligned so",
+      "start": 1670.58,
+      "duration": 5.82
+    },
+    {
+      "text": "fast well I have a custom shortcut for",
+      "start": 1673.039,
+      "duration": 5.76
+    },
+    {
+      "text": "resize a line so you can set shortcuts",
+      "start": 1676.4,
+      "duration": 4.139
+    },
+    {
+      "text": "you can change the default ones to",
+      "start": 1678.799,
+      "duration": 3.541
+    },
+    {
+      "text": "whatever you want so that you can go",
+      "start": 1680.539,
+      "duration": 3.901
+    },
+    {
+      "text": "ahead and use stuff in studio way faster",
+      "start": 1682.34,
+      "duration": 4.38
+    },
+    {
+      "text": "so let's go ahead and click customize",
+      "start": 1684.44,
+      "duration": 5.099
+    },
+    {
+      "text": "shortcuts and we can go ahead and find",
+      "start": 1686.72,
+      "duration": 5.88
+    },
+    {
+      "text": "resize align for example people and we",
+      "start": 1689.539,
+      "duration": 4.681
+    },
+    {
+      "text": "can go ahead and click on the shortcut",
+      "start": 1692.6,
+      "duration": 3.54
+    },
+    {
+      "text": "Box by double clicking it then we can",
+      "start": 1694.22,
+      "duration": 4.319
+    },
+    {
+      "text": "click r or whatever you want I use R for",
+      "start": 1696.14,
+      "duration": 4.44
+    },
+    {
+      "text": "mine and you'll go ahead and have a",
+      "start": 1698.539,
+      "duration": 3.841
+    },
+    {
+      "text": "shortcut for resize a line or whatever",
+      "start": 1700.58,
+      "duration": 3.719
+    },
+    {
+      "text": "you're setting a shortcut for so it's",
+      "start": 1702.38,
+      "duration": 3.539
+    },
+    {
+      "text": "really useful and I really recommend",
+      "start": 1704.299,
+      "duration": 4.021
+    },
+    {
+      "text": "doing this but be careful when you're",
+      "start": 1705.919,
+      "duration": 4.321
+    },
+    {
+      "text": "doing this don't accidentally reset",
+      "start": 1708.32,
+      "duration": 3.959
+    },
+    {
+      "text": "something like really useful you're",
+      "start": 1710.24,
+      "duration": 4.08
+    },
+    {
+      "text": "going to mess some stuff up so I'm going",
+      "start": 1712.279,
+      "duration": 3.121
+    },
+    {
+      "text": "to hit OK",
+      "start": 1714.32,
+      "duration": 3.78
+    },
+    {
+      "text": "and then another thing is beta features",
+      "start": 1715.4,
+      "duration": 5.46
+    },
+    {
+      "text": "so beta features allows you to see some",
+      "start": 1718.1,
+      "duration": 4.62
+    },
+    {
+      "text": "of the new features in studio that",
+      "start": 1720.86,
+      "duration": 3.78
+    },
+    {
+      "text": "they're adding and it allows you to get",
+      "start": 1722.72,
+      "duration": 5.699
+    },
+    {
+      "text": "these new things in studio early so one",
+      "start": 1724.64,
+      "duration": 5.1
+    },
+    {
+      "text": "thing I want you to make sure you have",
+      "start": 1728.419,
+      "duration": 5.041
+    },
+    {
+      "text": "enabled is material generator now",
+      "start": 1729.74,
+      "duration": 5.88
+    },
+    {
+      "text": "material generator is a new thing made",
+      "start": 1733.46,
+      "duration": 3.9
+    },
+    {
+      "text": "by Roblox which lets you make AI",
+      "start": 1735.62,
+      "duration": 4.5
+    },
+    {
+      "text": "materials really like they're really",
+      "start": 1737.36,
+      "duration": 5.34
+    },
+    {
+      "text": "awesome so let's click make sure that's",
+      "start": 1740.12,
+      "duration": 4.5
+    },
+    {
+      "text": "checked off and we'll go ahead and hit",
+      "start": 1742.7,
+      "duration": 4.74
+    },
+    {
+      "text": "save now in the Home tab you should see",
+      "start": 1744.62,
+      "duration": 4.26
+    },
+    {
+      "text": "it here I'm not seeing it for some",
+      "start": 1747.44,
+      "duration": 2.339
+    },
+    {
+      "text": "reason so I'm going to go ahead and",
+      "start": 1748.88,
+      "duration": 4.08
+    },
+    {
+      "text": "reopen my place alright now",
+      "start": 1749.779,
+      "duration": 6.301
+    },
+    {
+      "text": "see it right here material generator and",
+      "start": 1752.96,
+      "duration": 4.68
+    },
+    {
+      "text": "you might have to reopen Roblox Studio",
+      "start": 1756.08,
+      "duration": 4.079
+    },
+    {
+      "text": "like I did to see it because it's a new",
+      "start": 1757.64,
+      "duration": 4.38
+    },
+    {
+      "text": "feature but with this you can go ahead",
+      "start": 1760.159,
+      "duration": 4.201
+    },
+    {
+      "text": "and generate materials for your game so",
+      "start": 1762.02,
+      "duration": 4.08
+    },
+    {
+      "text": "rather than using the default ones like",
+      "start": 1764.36,
+      "duration": 6.179
+    },
+    {
+      "text": "oh leafy grass mud all this stuff now",
+      "start": 1766.1,
+      "duration": 6.36
+    },
+    {
+      "text": "instead of having to import your own or",
+      "start": 1770.539,
+      "duration": 4.441
+    },
+    {
+      "text": "make some you can just have ai make it",
+      "start": 1772.46,
+      "duration": 4.62
+    },
+    {
+      "text": "so go ahead and set this back to smooth",
+      "start": 1774.98,
+      "duration": 4.919
+    },
+    {
+      "text": "plastic and now if we go ahead to the",
+      "start": 1777.08,
+      "duration": 4.319
+    },
+    {
+      "text": "material generator we can go ahead and",
+      "start": 1779.899,
+      "duration": 4.861
+    },
+    {
+      "text": "type in let's say what is it called",
+      "start": 1781.399,
+      "duration": 5.581
+    },
+    {
+      "text": "exciting yeah it's called siding there",
+      "start": 1784.76,
+      "duration": 3.84
+    },
+    {
+      "text": "we go then you can go ahead and hit",
+      "start": 1786.98,
+      "duration": 3.48
+    },
+    {
+      "text": "enter or click generate and boom it's",
+      "start": 1788.6,
+      "duration": 3.48
+    },
+    {
+      "text": "going to spit out some textures for us",
+      "start": 1790.46,
+      "duration": 3.48
+    },
+    {
+      "text": "and these will be instantly able to be",
+      "start": 1792.08,
+      "duration": 3.839
+    },
+    {
+      "text": "applied so wow actually these are really",
+      "start": 1793.94,
+      "duration": 4.32
+    },
+    {
+      "text": "good so let's go ahead and try this one",
+      "start": 1795.919,
+      "duration": 3.421
+    },
+    {
+      "text": "here",
+      "start": 1798.26,
+      "duration": 3.18
+    },
+    {
+      "text": "and you can go ahead and scale it down",
+      "start": 1799.34,
+      "duration": 4.5
+    },
+    {
+      "text": "change the studs per tile you can make",
+      "start": 1801.44,
+      "duration": 5.119
+    },
+    {
+      "text": "it organic to make it kind of randomized",
+      "start": 1803.84,
+      "duration": 5.339
+    },
+    {
+      "text": "looks pretty cool I'm gonna go ahead and",
+      "start": 1806.559,
+      "duration": 4.301
+    },
+    {
+      "text": "see some other one",
+      "start": 1809.179,
+      "duration": 3.72
+    },
+    {
+      "text": "this one I like this one it looks more",
+      "start": 1810.86,
+      "duration": 4.319
+    },
+    {
+      "text": "cartoony but it always does have the PBR",
+      "start": 1812.899,
+      "duration": 4.981
+    },
+    {
+      "text": "you can always take that off though hard",
+      "start": 1815.179,
+      "duration": 4.5
+    },
+    {
+      "text": "choices huh I think I'm gonna choose",
+      "start": 1817.88,
+      "duration": 4.14
+    },
+    {
+      "text": "this one I think this one's the best so",
+      "start": 1819.679,
+      "duration": 4.141
+    },
+    {
+      "text": "and we'll go ahead and choose the base",
+      "start": 1822.02,
+      "duration": 4.32
+    },
+    {
+      "text": "material I'm gonna make that wood planks",
+      "start": 1823.82,
+      "duration": 4.68
+    },
+    {
+      "text": "and I'm going to click save and apply",
+      "start": 1826.34,
+      "duration": 3.66
+    },
+    {
+      "text": "variant you can change the subs per tile",
+      "start": 1828.5,
+      "duration": 4.08
+    },
+    {
+      "text": "to change the size and now we can go",
+      "start": 1830.0,
+      "duration": 5.22
+    },
+    {
+      "text": "ahead and select all our parts",
+      "start": 1832.58,
+      "duration": 4.56
+    },
+    {
+      "text": "and close this out",
+      "start": 1835.22,
+      "duration": 4.5
+    },
+    {
+      "text": "and we can go ahead and go into we can",
+      "start": 1837.14,
+      "duration": 4.259
+    },
+    {
+      "text": "hold shift to select those by the way we",
+      "start": 1839.72,
+      "duration": 4.079
+    },
+    {
+      "text": "can go into material variant and change",
+      "start": 1841.399,
+      "duration": 5.101
+    },
+    {
+      "text": "that to red house siding material and",
+      "start": 1843.799,
+      "duration": 4.561
+    },
+    {
+      "text": "there we go so you might see we're gonna",
+      "start": 1846.5,
+      "duration": 3.48
+    },
+    {
+      "text": "have some Z fighting so things aren't",
+      "start": 1848.36,
+      "duration": 3.36
+    },
+    {
+      "text": "going to line up fully but that's an",
+      "start": 1849.98,
+      "duration": 3.72
+    },
+    {
+      "text": "easy fix as we mentioned earlier",
+      "start": 1851.72,
+      "duration": 4.14
+    },
+    {
+      "text": "although tedious it's pretty easy we can",
+      "start": 1853.7,
+      "duration": 4.8
+    },
+    {
+      "text": "move these scale them to change how that",
+      "start": 1855.86,
+      "duration": 5.76
+    },
+    {
+      "text": "looks you might need to do this you know",
+      "start": 1858.5,
+      "duration": 5.64
+    },
+    {
+      "text": "pretty easy stuff I'm going to use",
+      "start": 1861.62,
+      "duration": 4.62
+    },
+    {
+      "text": "resize line now that we have a key bind",
+      "start": 1864.14,
+      "duration": 5.159
+    },
+    {
+      "text": "we can click R and go ahead and do that",
+      "start": 1866.24,
+      "duration": 5.64
+    },
+    {
+      "text": "go ahead and scale that",
+      "start": 1869.299,
+      "duration": 4.561
+    },
+    {
+      "text": "good enough for now now I'm gonna make a",
+      "start": 1871.88,
+      "duration": 4.94
+    },
+    {
+      "text": "roof material just for fun Roofing",
+      "start": 1873.86,
+      "duration": 6.36
+    },
+    {
+      "text": "horizontal black let's see what it spits",
+      "start": 1876.82,
+      "duration": 5.8
+    },
+    {
+      "text": "out for us I kind of like that but I'm",
+      "start": 1880.22,
+      "duration": 5.28
+    },
+    {
+      "text": "gonna ask for a more cartoony one so",
+      "start": 1882.62,
+      "duration": 5.96
+    },
+    {
+      "text": "let's see what it does interesting huh",
+      "start": 1885.5,
+      "duration": 6.72
+    },
+    {
+      "text": "interesting wow okay ah okay so I'm",
+      "start": 1888.58,
+      "duration": 5.86
+    },
+    {
+      "text": "gonna use this one and let's try organic",
+      "start": 1892.22,
+      "duration": 5.579
+    },
+    {
+      "text": "all right cool okay now there is another",
+      "start": 1894.44,
+      "duration": 5.64
+    },
+    {
+      "text": "plug-in by the same person who made this",
+      "start": 1897.799,
+      "duration": 3.961
+    },
+    {
+      "text": "it's called material flip and this will",
+      "start": 1900.08,
+      "duration": 3.719
+    },
+    {
+      "text": "allow us to flip the materials you can",
+      "start": 1901.76,
+      "duration": 3.86
+    },
+    {
+      "text": "get this in toolbox by searching it up",
+      "start": 1903.799,
+      "duration": 4.801
+    },
+    {
+      "text": "and there we go so now it is the right",
+      "start": 1905.62,
+      "duration": 5.32
+    },
+    {
+      "text": "way and I think I'm gonna extend the",
+      "start": 1908.6,
+      "duration": 4.26
+    },
+    {
+      "text": "roof out one pretty nice with those",
+      "start": 1910.94,
+      "duration": 3.359
+    },
+    {
+      "text": "materials so those are a lifesaver",
+      "start": 1912.86,
+      "duration": 3.78
+    },
+    {
+      "text": "especially for new Builders really",
+      "start": 1914.299,
+      "duration": 4.081
+    },
+    {
+      "text": "really insane so you're gonna be able to",
+      "start": 1916.64,
+      "duration": 3.24
+    },
+    {
+      "text": "make some really unique stuff with that",
+      "start": 1918.38,
+      "duration": 3.779
+    },
+    {
+      "text": "but if you right click this and you",
+      "start": 1919.88,
+      "duration": 4.799
+    },
+    {
+      "text": "click insert object there are a ton of",
+      "start": 1922.159,
+      "duration": 4.561
+    },
+    {
+      "text": "different objects you can mess with and",
+      "start": 1924.679,
+      "duration": 5.401
+    },
+    {
+      "text": "I recommend trying out textures",
+      "start": 1926.72,
+      "duration": 5.64
+    },
+    {
+      "text": "which allow you to make a tiling image",
+      "start": 1930.08,
+      "duration": 5.339
+    },
+    {
+      "text": "of your own and decals which allow you",
+      "start": 1932.36,
+      "duration": 4.62
+    },
+    {
+      "text": "to add an image so we can go ahead and",
+      "start": 1935.419,
+      "duration": 3.841
+    },
+    {
+      "text": "insert a texture in here and do whatever",
+      "start": 1936.98,
+      "duration": 4.559
+    },
+    {
+      "text": "we want with that but for now you've",
+      "start": 1939.26,
+      "duration": 4.44
+    },
+    {
+      "text": "mastered most the basics of building in",
+      "start": 1941.539,
+      "duration": 4.201
+    },
+    {
+      "text": "Roblox studio and you're ready to take",
+      "start": 1943.7,
+      "duration": 4.979
+    },
+    {
+      "text": "your skills to the next level so now",
+      "start": 1945.74,
+      "duration": 5.88
+    },
+    {
+      "text": "let's look at some more advanced",
+      "start": 1948.679,
+      "duration": 7.261
+    },
+    {
+      "text": "building techniques so first up grouping",
+      "start": 1951.62,
+      "duration": 6.96
+    },
+    {
+      "text": "and ungrouping so we've looked at unions",
+      "start": 1955.94,
+      "duration": 5.04
+    },
+    {
+      "text": "and unions to let us combine Parts but",
+      "start": 1958.58,
+      "duration": 4.199
+    },
+    {
+      "text": "this is a lot different this just lets",
+      "start": 1960.98,
+      "duration": 4.14
+    },
+    {
+      "text": "you make different groups so if we go",
+      "start": 1962.779,
+      "duration": 4.5
+    },
+    {
+      "text": "ahead and click up here and drag and box",
+      "start": 1965.12,
+      "duration": 5.34
+    },
+    {
+      "text": "select our house and hit Ctrl G we can",
+      "start": 1967.279,
+      "duration": 5.941
+    },
+    {
+      "text": "make a group now this is one combined",
+      "start": 1970.46,
+      "duration": 4.319
+    },
+    {
+      "text": "group you'll see it's a model in",
+      "start": 1973.22,
+      "duration": 3.72
+    },
+    {
+      "text": "workspace we can right click this and",
+      "start": 1974.779,
+      "duration": 3.841
+    },
+    {
+      "text": "rename it of course and name it house",
+      "start": 1976.94,
+      "duration": 4.32
+    },
+    {
+      "text": "one and by the way when you're naming I",
+      "start": 1978.62,
+      "duration": 5.039
+    },
+    {
+      "text": "recommend not doing any spaces so it's",
+      "start": 1981.26,
+      "duration": 4.919
+    },
+    {
+      "text": "easier for when a scripter goes ahead",
+      "start": 1983.659,
+      "duration": 4.861
+    },
+    {
+      "text": "and works with it now we can go ahead",
+      "start": 1986.179,
+      "duration": 4.38
+    },
+    {
+      "text": "and drag this around as one thing thing",
+      "start": 1988.52,
+      "duration": 4.8
+    },
+    {
+      "text": "and this might happen that happens with",
+      "start": 1990.559,
+      "duration": 5.581
+    },
+    {
+      "text": "models but that is fine if we go ahead",
+      "start": 1993.32,
+      "duration": 3.959
+    },
+    {
+      "text": "and",
+      "start": 1996.14,
+      "duration": 3.72
+    },
+    {
+      "text": "click this and change the primary part",
+      "start": 1997.279,
+      "duration": 4.74
+    },
+    {
+      "text": "to Something in here it'll fix that",
+      "start": 1999.86,
+      "duration": 5.159
+    },
+    {
+      "text": "issue for us so yeah grouping is pretty",
+      "start": 2002.019,
+      "duration": 5.88
+    },
+    {
+      "text": "awesome we can also group as a folder a",
+      "start": 2005.019,
+      "duration": 5.04
+    },
+    {
+      "text": "folder does not let you do this but it's",
+      "start": 2007.899,
+      "duration": 4.681
+    },
+    {
+      "text": "much better for organization purposes",
+      "start": 2010.059,
+      "duration": 5.041
+    },
+    {
+      "text": "so you can right click and click group",
+      "start": 2012.58,
+      "duration": 4.86
+    },
+    {
+      "text": "as a folder or you click Ctrl alt G to",
+      "start": 2015.1,
+      "duration": 3.84
+    },
+    {
+      "text": "go ahead and make it a folder next up",
+      "start": 2017.44,
+      "duration": 5.04
+    },
+    {
+      "text": "the terrain editor the terrain editor is",
+      "start": 2018.94,
+      "duration": 5.82
+    },
+    {
+      "text": "a very useful tool and it allows you to",
+      "start": 2022.48,
+      "duration": 5.34
+    },
+    {
+      "text": "make some very awesome things in studio",
+      "start": 2024.76,
+      "duration": 5.399
+    },
+    {
+      "text": "if we go to view we can go ahead and",
+      "start": 2027.82,
+      "duration": 4.92
+    },
+    {
+      "text": "find the terrain editor and it should be",
+      "start": 2030.159,
+      "duration": 5.4
+    },
+    {
+      "text": "up in here somewhere yeah right here so",
+      "start": 2032.74,
+      "duration": 4.559
+    },
+    {
+      "text": "this is the terrain editor you can just",
+      "start": 2035.559,
+      "duration": 3.541
+    },
+    {
+      "text": "click that so you see it on your screen",
+      "start": 2037.299,
+      "duration": 4.441
+    },
+    {
+      "text": "and we can go ahead and click the edit",
+      "start": 2039.1,
+      "duration": 4.319
+    },
+    {
+      "text": "button to go ahead and see our main",
+      "start": 2041.74,
+      "duration": 5.7
+    },
+    {
+      "text": "terrain tools so terrain now we can go",
+      "start": 2043.419,
+      "duration": 6.24
+    },
+    {
+      "text": "ahead and add terrain right we can add",
+      "start": 2047.44,
+      "duration": 4.919
+    },
+    {
+      "text": "it adding terrain's all right but it's",
+      "start": 2049.659,
+      "duration": 4.44
+    },
+    {
+      "text": "not the greatest tool aside from when",
+      "start": 2052.359,
+      "duration": 3.24
+    },
+    {
+      "text": "you're just getting started my favorite",
+      "start": 2054.099,
+      "duration": 4.441
+    },
+    {
+      "text": "way to get the Baseline layer of terrain",
+      "start": 2055.599,
+      "duration": 4.921
+    },
+    {
+      "text": "is to go ahead and get a plug-in called",
+      "start": 2058.54,
+      "duration": 4.379
+    },
+    {
+      "text": "part 2 terrain and what this does is it",
+      "start": 2060.52,
+      "duration": 5.159
+    },
+    {
+      "text": "goes ahead and lets us make any part",
+      "start": 2062.919,
+      "duration": 4.44
+    },
+    {
+      "text": "into terrain so I'm going to go ahead",
+      "start": 2065.679,
+      "duration": 3.781
+    },
+    {
+      "text": "and choose grass and click on the base",
+      "start": 2067.359,
+      "duration": 4.56
+    },
+    {
+      "text": "plate now again you can find this plugin",
+      "start": 2069.46,
+      "duration": 5.28
+    },
+    {
+      "text": "by going to toolbox and going to plugins",
+      "start": 2071.919,
+      "duration": 6.661
+    },
+    {
+      "text": "and searching for part two Terrain",
+      "start": 2074.74,
+      "duration": 5.399
+    },
+    {
+      "text": "go ahead and get that plug-in now you",
+      "start": 2078.58,
+      "duration": 3.059
+    },
+    {
+      "text": "might notice that this goes ahead and",
+      "start": 2080.139,
+      "duration": 3.24
+    },
+    {
+      "text": "makes everything a little bit sunken in",
+      "start": 2081.639,
+      "duration": 4.26
+    },
+    {
+      "text": "that's fine we can just drag it and do",
+      "start": 2083.379,
+      "duration": 4.561
+    },
+    {
+      "text": "that or you can go ahead and move your",
+      "start": 2085.899,
+      "duration": 3.661
+    },
+    {
+      "text": "base plate down before you change it",
+      "start": 2087.94,
+      "duration": 4.199
+    },
+    {
+      "text": "into terrain but yeah now the tools so",
+      "start": 2089.56,
+      "duration": 5.94
+    },
+    {
+      "text": "we did we did look at app now add as I",
+      "start": 2092.139,
+      "duration": 5.22
+    },
+    {
+      "text": "said I don't really like the add tool I",
+      "start": 2095.5,
+      "duration": 3.48
+    },
+    {
+      "text": "believe the grow tools better in most",
+      "start": 2097.359,
+      "duration": 4.201
+    },
+    {
+      "text": "cases but you can go ahead and change",
+      "start": 2098.98,
+      "duration": 4.32
+    },
+    {
+      "text": "the different properties of this like",
+      "start": 2101.56,
+      "duration": 4.02
+    },
+    {
+      "text": "the size the pivot position lets us",
+      "start": 2103.3,
+      "duration": 4.86
+    },
+    {
+      "text": "change like where it goes based on your",
+      "start": 2105.58,
+      "duration": 6.06
+    },
+    {
+      "text": "mouse cursor the plane lock and you can",
+      "start": 2108.16,
+      "duration": 5.76
+    },
+    {
+      "text": "change the material of course and you",
+      "start": 2111.64,
+      "duration": 4.439
+    },
+    {
+      "text": "can go ahead and change what material",
+      "start": 2113.92,
+      "duration": 4.5
+    },
+    {
+      "text": "each one of these is with material",
+      "start": 2116.079,
+      "duration": 4.26
+    },
+    {
+      "text": "servers so you can see in material",
+      "start": 2118.42,
+      "duration": 3.48
+    },
+    {
+      "text": "service we can go ahead and choose one",
+      "start": 2120.339,
+      "duration": 3.301
+    },
+    {
+      "text": "of our material variants that we already",
+      "start": 2121.9,
+      "duration": 4.38
+    },
+    {
+      "text": "made for cracked lava so we can scroll",
+      "start": 2123.64,
+      "duration": 5.88
+    },
+    {
+      "text": "down to crack lava and okay wait wait we",
+      "start": 2126.28,
+      "duration": 4.98
+    },
+    {
+      "text": "need we need a material variant for",
+      "start": 2129.52,
+      "duration": 3.48
+    },
+    {
+      "text": "collect cracked lava so you let's let's",
+      "start": 2131.26,
+      "duration": 3.12
+    },
+    {
+      "text": "make a replacement one so I'm going to",
+      "start": 2133.0,
+      "duration": 3.48
+    },
+    {
+      "text": "add a part and we can go ahead and go to",
+      "start": 2134.38,
+      "duration": 4.14
+    },
+    {
+      "text": "the material generator and let's make",
+      "start": 2136.48,
+      "duration": 4.08
+    },
+    {
+      "text": "make something new to replace cracked",
+      "start": 2138.52,
+      "duration": 3.78
+    },
+    {
+      "text": "lava because there's not many times when",
+      "start": 2140.56,
+      "duration": 4.44
+    },
+    {
+      "text": "you need cracked lava so let's see what",
+      "start": 2142.3,
+      "duration": 4.92
+    },
+    {
+      "text": "do we make let's add a nice Rocky",
+      "start": 2145.0,
+      "duration": 4.5
+    },
+    {
+      "text": "texture and we'll see what this makes oh",
+      "start": 2147.22,
+      "duration": 4.859
+    },
+    {
+      "text": "that's actually pretty fire all right I",
+      "start": 2149.5,
+      "duration": 4.5
+    },
+    {
+      "text": "like that kind of it's a little bit",
+      "start": 2152.079,
+      "duration": 3.54
+    },
+    {
+      "text": "weird though let's just run with this",
+      "start": 2154.0,
+      "duration": 3.48
+    },
+    {
+      "text": "one and let's go ahead and let the base",
+      "start": 2155.619,
+      "duration": 5.161
+    },
+    {
+      "text": "material be cracked lava make the",
+      "start": 2157.48,
+      "duration": 5.28
+    },
+    {
+      "text": "pattern to organic oh yeah that's better",
+      "start": 2160.78,
+      "duration": 5.4
+    },
+    {
+      "text": "save and apply that and boom now we have",
+      "start": 2162.76,
+      "duration": 6.18
+    },
+    {
+      "text": "that material variant in here which you",
+      "start": 2166.18,
+      "duration": 4.26
+    },
+    {
+      "text": "can go ahead and go back to material",
+      "start": 2168.94,
+      "duration": 3.54
+    },
+    {
+      "text": "servers change cracklava's default",
+      "start": 2170.44,
+      "duration": 5.88
+    },
+    {
+      "text": "variant to big rock material and we got",
+      "start": 2172.48,
+      "duration": 5.76
+    },
+    {
+      "text": "ourselves that now it's red how do we",
+      "start": 2176.32,
+      "duration": 3.48
+    },
+    {
+      "text": "fix that well",
+      "start": 2178.24,
+      "duration": 4.08
+    },
+    {
+      "text": "you can go to terrain go to material",
+      "start": 2179.8,
+      "duration": 7.02
+    },
+    {
+      "text": "colors and change that back to Gray and",
+      "start": 2182.32,
+      "duration": 6.48
+    },
+    {
+      "text": "there we go so",
+      "start": 2186.82,
+      "duration": 4.14
+    },
+    {
+      "text": "we're good now now let's go back to the",
+      "start": 2188.8,
+      "duration": 4.38
+    },
+    {
+      "text": "tools I went on tangent there but we're",
+      "start": 2190.96,
+      "duration": 5.46
+    },
+    {
+      "text": "gonna go ahead and subtract this so we",
+      "start": 2193.18,
+      "duration": 5.04
+    },
+    {
+      "text": "can choose the subtract tool size that",
+      "start": 2196.42,
+      "duration": 3.419
+    },
+    {
+      "text": "up and we can go ahead and start",
+      "start": 2198.22,
+      "duration": 3.6
+    },
+    {
+      "text": "subtracting some of our terrain I'll",
+      "start": 2199.839,
+      "duration": 4.141
+    },
+    {
+      "text": "just you know make sure we have plane",
+      "start": 2201.82,
+      "duration": 4.5
+    },
+    {
+      "text": "lock on and just delete that so next up",
+      "start": 2203.98,
+      "duration": 4.74
+    },
+    {
+      "text": "grow tools so you'll see we have this",
+      "start": 2206.32,
+      "duration": 5.1
+    },
+    {
+      "text": "messy look here actually we're gonna fix",
+      "start": 2208.72,
+      "duration": 5.82
+    },
+    {
+      "text": "it so I'm gonna change the base size to",
+      "start": 2211.42,
+      "duration": 6.179
+    },
+    {
+      "text": "bigger and we're just going to scale all",
+      "start": 2214.54,
+      "duration": 4.799
+    },
+    {
+      "text": "this terrain up we're gonna make some",
+      "start": 2217.599,
+      "duration": 3.0
+    },
+    {
+      "text": "hills",
+      "start": 2219.339,
+      "duration": 3.901
+    },
+    {
+      "text": "heels are nice make some nice area in",
+      "start": 2220.599,
+      "duration": 4.201
+    },
+    {
+      "text": "here now let's make some really big",
+      "start": 2223.24,
+      "duration": 3.42
+    },
+    {
+      "text": "hills and on the sides of these big",
+      "start": 2224.8,
+      "duration": 3.24
+    },
+    {
+      "text": "Hills is where we're going to use our",
+      "start": 2226.66,
+      "duration": 3.24
+    },
+    {
+      "text": "material that we made because on the",
+      "start": 2228.04,
+      "duration": 3.36
+    },
+    {
+      "text": "sides of Hills we start getting this",
+      "start": 2229.9,
+      "duration": 3.6
+    },
+    {
+      "text": "brown material and it doesn't look that",
+      "start": 2231.4,
+      "duration": 7.08
+    },
+    {
+      "text": "good in my opinion so we can fix that",
+      "start": 2233.5,
+      "duration": 7.079
+    },
+    {
+      "text": "now I'm going to go ahead and paint so",
+      "start": 2238.48,
+      "duration": 3.599
+    },
+    {
+      "text": "the paint tool is very useful you can",
+      "start": 2240.579,
+      "duration": 3.121
+    },
+    {
+      "text": "click the paint tool",
+      "start": 2242.079,
+      "duration": 4.201
+    },
+    {
+      "text": "size that down then we'll go ahead and",
+      "start": 2243.7,
+      "duration": 6.06
+    },
+    {
+      "text": "grab the cracked lava and ooh yeah I'm",
+      "start": 2246.28,
+      "duration": 5.04
+    },
+    {
+      "text": "liking that a lot",
+      "start": 2249.76,
+      "duration": 3.24
+    },
+    {
+      "text": "although I want this texture to be",
+      "start": 2251.32,
+      "duration": 3.9
+    },
+    {
+      "text": "bigger so I'm going to turn off by the",
+      "start": 2253.0,
+      "duration": 3.48
+    },
+    {
+      "text": "way I'm going to turn off plane lock",
+      "start": 2255.22,
+      "duration": 3.0
+    },
+    {
+      "text": "because paint tool is horrible with",
+      "start": 2256.48,
+      "duration": 4.32
+    },
+    {
+      "text": "playing plane look but I'm going to go",
+      "start": 2258.22,
+      "duration": 5.04
+    },
+    {
+      "text": "back to our material service I'm going",
+      "start": 2260.8,
+      "duration": 5.039
+    },
+    {
+      "text": "to click on our big rock material and",
+      "start": 2263.26,
+      "duration": 4.079
+    },
+    {
+      "text": "I'm going to change the studs per tile",
+      "start": 2265.839,
+      "duration": 4.02
+    },
+    {
+      "text": "to be a lot bigger and try out regular",
+      "start": 2267.339,
+      "duration": 4.801
+    },
+    {
+      "text": "is regular look better I'm not really",
+      "start": 2269.859,
+      "duration": 4.681
+    },
+    {
+      "text": "sure oh we can't type in a number for",
+      "start": 2272.14,
+      "duration": 3.6
+    },
+    {
+      "text": "this",
+      "start": 2274.54,
+      "duration": 4.319
+    },
+    {
+      "text": "100 that looks weird this is an",
+      "start": 2275.74,
+      "duration": 5.04
+    },
+    {
+      "text": "interesting texture to work with but I",
+      "start": 2278.859,
+      "duration": 3.361
+    },
+    {
+      "text": "think we're just gonna run with it we",
+      "start": 2280.78,
+      "duration": 3.96
+    },
+    {
+      "text": "can paint some more on here I'm going to",
+      "start": 2282.22,
+      "duration": 5.78
+    },
+    {
+      "text": "change it to mud on here paint some mud",
+      "start": 2284.74,
+      "duration": 6.9
+    },
+    {
+      "text": "you know mix it up mix it up choose some",
+      "start": 2288.0,
+      "duration": 6.099
+    },
+    {
+      "text": "leafy grass now leafy grass solves this",
+      "start": 2291.64,
+      "duration": 4.92
+    },
+    {
+      "text": "issue see this it's all poking through a",
+      "start": 2294.099,
+      "duration": 4.321
+    },
+    {
+      "text": "little easy fix for leafy grass size",
+      "start": 2296.56,
+      "duration": 4.799
+    },
+    {
+      "text": "That Base size up and it'll help fix",
+      "start": 2298.42,
+      "duration": 5.28
+    },
+    {
+      "text": "that and then we can add like some",
+      "start": 2301.359,
+      "duration": 3.24
+    },
+    {
+      "text": "pavement",
+      "start": 2303.7,
+      "duration": 3.72
+    },
+    {
+      "text": "or something pretty cool stuff this is",
+      "start": 2304.599,
+      "duration": 6.0
+    },
+    {
+      "text": "all great but what about scripting I",
+      "start": 2307.42,
+      "duration": 4.98
+    },
+    {
+      "text": "know that a lot of you guys might want",
+      "start": 2310.599,
+      "duration": 3.781
+    },
+    {
+      "text": "to be able to script on Roblox and maybe",
+      "start": 2312.4,
+      "duration": 3.719
+    },
+    {
+      "text": "you don't even want to be a builder well",
+      "start": 2314.38,
+      "duration": 2.82
+    },
+    {
+      "text": "it's good that you went ahead and",
+      "start": 2316.119,
+      "duration": 2.941
+    },
+    {
+      "text": "learned this so congratulate yourself",
+      "start": 2317.2,
+      "duration": 3.659
+    },
+    {
+      "text": "for that you did a great job today",
+      "start": 2319.06,
+      "duration": 4.5
+    },
+    {
+      "text": "learning this if you followed along I do",
+      "start": 2320.859,
+      "duration": 5.641
+    },
+    {
+      "text": "have a special thing for you this is",
+      "start": 2323.56,
+      "duration": 6.18
+    },
+    {
+      "text": "called the scripting Secrets course and",
+      "start": 2326.5,
+      "duration": 5.28
+    },
+    {
+      "text": "it's a full course for scripting and it",
+      "start": 2329.74,
+      "duration": 3.78
+    },
+    {
+      "text": "includes everything that every other",
+      "start": 2331.78,
+      "duration": 3.6
+    },
+    {
+      "text": "course does not include there's no",
+      "start": 2333.52,
+      "duration": 3.66
+    },
+    {
+      "text": "better place to learn scripting on the",
+      "start": 2335.38,
+      "duration": 3.78
+    },
+    {
+      "text": "entire internet it has everything from",
+      "start": 2337.18,
+      "duration": 3.899
+    },
+    {
+      "text": "the basics of Lua down to the advanced",
+      "start": 2339.16,
+      "duration": 5.34
+    },
+    {
+      "text": "game mechanics and also exactly how to",
+      "start": 2341.079,
+      "duration": 4.921
+    },
+    {
+      "text": "make your game of success I've worked",
+      "start": 2344.5,
+      "duration": 3.359
+    },
+    {
+      "text": "with the Roblox coach to bring you this",
+      "start": 2346.0,
+      "duration": 3.9
+    },
+    {
+      "text": "new course I'm going to link that below",
+      "start": 2347.859,
+      "duration": 4.921
+    },
+    {
+      "text": "for you but you can go ahead and click",
+      "start": 2349.9,
+      "duration": 5.219
+    },
+    {
+      "text": "the video on screen to watch the",
+      "start": 2352.78,
+      "duration": 4.02
+    },
+    {
+      "text": "beginner guide Roblox scripting it's",
+      "start": 2355.119,
+      "duration": 3.421
+    },
+    {
+      "text": "going to get you started very good great",
+      "start": 2356.8,
+      "duration": 3.059
+    },
+    {
+      "text": "place to start but I do recommend",
+      "start": 2358.54,
+      "duration": 2.94
+    },
+    {
+      "text": "clicking the link in the description for",
+      "start": 2359.859,
+      "duration": 3.181
+    },
+    {
+      "text": "the scripting Secrets course for the",
+      "start": 2361.48,
+      "duration": 3.0
+    },
+    {
+      "text": "best possible place to learn thank you",
+      "start": 2363.04,
+      "duration": 3.299
+    },
+    {
+      "text": "you for watching see you at the",
+      "start": 2364.48,
+      "duration": 3.9
+    },
+    {
+      "text": "scripting guide and make sure to",
+      "start": 2366.339,
+      "duration": 4.201
+    },
+    {
+      "text": "subscribe and have notifications on so",
+      "start": 2368.38,
+      "duration": 5.479
+    },
+    {
+      "text": "you don't miss a new video",
+      "start": 2370.54,
+      "duration": 3.319
+    }
+  ]
+}

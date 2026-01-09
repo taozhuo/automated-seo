@@ -1,0 +1,55 @@
+{
+  "id": 4228047,
+  "title": "Questions about game optimization",
+  "slug": "questions-about-game-optimization",
+  "url": "https://devforum.roblox.com/t/questions-about-game-optimization/4228047",
+  "category_id": 55,
+  "category_name": "Scripting Support",
+  "created_at": "2026-01-07T23:38:21.822Z",
+  "last_posted_at": "2026-01-08T16:52:34.862Z",
+  "views": 87,
+  "reply_count": 1,
+  "like_count": 1,
+  "tags": [
+    "scripting",
+    "studio"
+  ],
+  "posts": [
+    {
+      "id": 13654479,
+      "username": "davemaster9000",
+      "content_raw": "",
+      "content_html": "<p>I have a few questions about optimization when it comes to FPS systems.</p>\n<p>The system I have right now uses a local script for mouse input, does client to server where it will play the animations, and based on what character you are, it goes to the module script that has the data for that character (if it has any specific logic i want to run when the bullet hits something, damage, speed, etc) and then does ANOTHER module to module where this next module does bullet logic.</p>\n<p>I need help figuring out if this is an efficient system.<br>\nRight now, all my bullets that move in a linear motion are held in a single table, and moved each frame with a single loop.</p>\n<p>Right now, I just need a method of optimization, not really code. How would I make the bullet visuals client-side without having to wire up tons of remote event spams?</p>",
+      "created_at": "2026-01-07T23:38:22.325Z",
+      "likes": 0,
+      "post_number": 1
+    },
+    {
+      "id": 13656938,
+      "username": "PuffoThePufferfish",
+      "content_raw": "",
+      "content_html": "<p>so long as theyre deterministic (which they are, being linear): you should be fine to have the client run their own bullet code</p>\n<p>you can start the logic with a <code>Remote</code>, <code>CollectionService</code>, a bullet folder with <code>.ChildAdded</code>, etc</p>\n<p>you dont even need the serverside bullets to be visible (or in the workspace)</p>\n<p>there will always be slight misrepresentations with any netcoding method you try, best you can do is hide stuff with FX &amp; reconcile desyncs</p>",
+      "created_at": "2026-01-08T03:42:15.329Z",
+      "likes": 0,
+      "post_number": 2
+    },
+    {
+      "id": 13660657,
+      "username": "jonbyte",
+      "content_raw": "",
+      "content_html": "<aside class=\"quote no-group\" data-username=\"davemaster9000\" data-post=\"1\" data-topic=\"4228047\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://doy2mn9upadnk.cloudfront.net/user_avatar/devforum.roblox.com/davemaster9000/60/7366545_2.png\" class=\"avatar\"> ChristmasDave:</div>\n<blockquote>\n<p>Right now, I just need a method of optimization, not really code. How would I make the bullet visuals client-side without having to wire up tons of remote event spams?</p>\n</blockquote>\n</aside>\n<p>I would recommend looking up a method called “hitscan”. Manually tracking each projectile is overkill. Bullet visuals should be client-only. The server only needs hit information from the hitscan and it may do other validations.</p>",
+      "created_at": "2026-01-08T16:24:11.701Z",
+      "likes": 0,
+      "post_number": 3
+    },
+    {
+      "id": 13660855,
+      "username": "davemaster9000",
+      "content_raw": "",
+      "content_html": "<p><a class=\"mention\" href=\"/u/jonbyte\">@jonbyte</a> Alright, I MIGHT understand.. I’m not sure.</p>\n<p>I create a startPos on the server, speed and direction. I find the nextPos: Direction * speed * DeltaTime (i think that’s right hopefully) and each frame that goes on, i would do a raycast in between the currentPosition and the nextPosition, if there is something blocking the NextPosition from the raycast, delete it. This is on the server logic side for damage and stuff like that. No need to rely on using the physical bullet part for position and stuff for that part.</p>\n<p>But if I wanted to delete the visual projectile on the client when it hits something, I could either do a remote event where the server tells the client to delete the bullet since it touched something, or I could possibly just do the same ray logic on the client, but only delete the visual bullet when the ray is touched.</p>\n<p>Some of the bullets in my game are slow moving (like rocket launcher bullets,) so I would have to delete them the moment that they get hit so it doesn’t look odd.<br>\nWould this be correct?</p>",
+      "created_at": "2026-01-08T16:52:34.862Z",
+      "likes": 0,
+      "post_number": 4
+    }
+  ]
+}

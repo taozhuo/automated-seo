@@ -1,0 +1,103 @@
+{
+  "id": "JDtWh5-Dil8",
+  "title": "How to Evenly Space Parts Between 2 Points in Roblox Studio! #robloxStudio #Roblox #robloxtutorial",
+  "channel": "Catulus",
+  "views": 4327728,
+  "duration": "40",
+  "upload_date": "",
+  "description": "",
+  "url": "https://www.youtube.com/watch?v=JDtWh5-Dil8",
+  "transcript": "don't bother trying to manually space out a bunch of objects in Roblox Studio instead make a copy of the object you want a bunch of and stretch it out and decide how many objects you want double that number and add one then use the part divider plugin to split your objects into that many parts okay no more math I promise select the parts on the ends and every other part in between and delete them copy the size of your original object select all the others and paste the size just like that that you have perfectly spaced objects but you also have links to all the plugins that I used in this short because I provided them in the pinned comment have fun",
+  "transcript_segments": [
+    {
+      "text": "don't bother trying to manually space",
+      "start": 0.04,
+      "duration": 3.919
+    },
+    {
+      "text": "out a bunch of objects in Roblox Studio",
+      "start": 1.719,
+      "duration": 4.321
+    },
+    {
+      "text": "instead make a copy of the object you",
+      "start": 3.959,
+      "duration": 4.041
+    },
+    {
+      "text": "want a bunch of and stretch it out and",
+      "start": 6.04,
+      "duration": 4.639
+    },
+    {
+      "text": "decide how many objects you want double",
+      "start": 8.0,
+      "duration": 5.32
+    },
+    {
+      "text": "that number and add one then use the",
+      "start": 10.679,
+      "duration": 4.561
+    },
+    {
+      "text": "part divider plugin to split your",
+      "start": 13.32,
+      "duration": 4.719
+    },
+    {
+      "text": "objects into that many parts okay no",
+      "start": 15.24,
+      "duration": 5.32
+    },
+    {
+      "text": "more math I promise select the parts on",
+      "start": 18.039,
+      "duration": 5.0
+    },
+    {
+      "text": "the ends and every other part in between",
+      "start": 20.56,
+      "duration": 4.76
+    },
+    {
+      "text": "and delete them copy the size of your",
+      "start": 23.039,
+      "duration": 4.601
+    },
+    {
+      "text": "original object select all the others",
+      "start": 25.32,
+      "duration": 5.16
+    },
+    {
+      "text": "and paste the size just like that that",
+      "start": 27.64,
+      "duration": 5.24
+    },
+    {
+      "text": "you have perfectly spaced objects but",
+      "start": 30.48,
+      "duration": 4.28
+    },
+    {
+      "text": "you also have links to all the plugins",
+      "start": 32.88,
+      "duration": 3.839
+    },
+    {
+      "text": "that I used in this short because I",
+      "start": 34.76,
+      "duration": 4.44
+    },
+    {
+      "text": "provided them in the pinned comment have",
+      "start": 36.719,
+      "duration": 5.041
+    },
+    {
+      "text": "fun",
+      "start": 39.2,
+      "duration": 2.56
+    }
+  ]
+}

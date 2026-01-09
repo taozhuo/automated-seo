@@ -1,0 +1,198 @@
+{
+  "id": 4226101,
+  "title": "Age Check Requirement to Chat Now Live Globally",
+  "slug": "age-check-requirement-to-chat-now-live-globally",
+  "url": "https://devforum.roblox.com/t/age-check-requirement-to-chat-now-live-globally/4226101",
+  "category_id": 36,
+  "category_name": "Updates",
+  "created_at": "2026-01-07T17:00:55.664Z",
+  "last_posted_at": "2026-01-08T22:00:36.779Z",
+  "views": 46686,
+  "reply_count": 664,
+  "like_count": 18407,
+  "tags": [
+    "featured"
+  ],
+  "posts": [
+    {
+      "id": 13650439,
+      "username": "RbxRocketMan",
+      "content_raw": "",
+      "content_html": "<p>Hi Creators,</p>\n<p>Our <a href=\"https://devforum.roblox.com/t/age-checks-to-access-chat-studio-team-create-and-links-on-roblox/4079702\">age-check requirement</a> to chat is rolling out globally wherever chat is available. Starting today, users in the U.S. and select regions who have not already completed an age check will see in-app prompts asking them to complete one to continue chatting with others. Over the next week, this requirement will roll out to all regions where chat is available.</p>\n<p>            <iframe src=\"https://www.youtube.com/embed/1EhPECwVvUo?feature=oembed&amp;wmode=opaque\" width=\"480\" height=\"360\" frameborder=\"0\" allowfullscreen=\"\" class=\"youtube-onebox\" seamless=\"seamless\" sandbox=\"allow-same-origin allow-scripts allow-forms allow-popups allow-popups-to-escape-sandbox allow-presentation\"></iframe>\n</p>\n<p>While launching these age checks is a priority for safety, we’ll continue to build features to minimize the impact on your experiences, especially more social games. We’re working on better ways to help you identify chat-eligible users, improve experience moderation, and support safe communication across different age groups.</p>\n<p>We also know how important it is to protect the privacy of users – as a reminder, all <a href=\"https://corp.roblox.com/age-estimation\">Facial Age Estimation</a> images and videos for all age checks are deleted immediately after our vendor, Persona, processes and completes the check.</p>\n<p>Tens of millions of daily active users have already completed an age check, and we expect many more to follow. In Australia, New Zealand, and the Netherlands, where age checks have been required to chat <a href=\"https://corp.roblox.com/newsroom/2025/12/safety-snapshot-age-checks-for-chat\">since early December</a>, more than 50% of daily active users have completed the process*.</p>\n<p>You can read more on our <a href=\"https://corp.roblox.com/newsroom/2026/01/roblox-age-checks-required-to-chat\">Newsroom.</a></p>\n<p><sup>*As of the seven days ended 12/31/2025.</sup></p>\n<h3><a name=\"p-13650439-how-age-based-chat-works-1\" class=\"anchor\" href=\"#p-13650439-how-age-based-chat-works-1\"></a>How Age-based Chat Works</h3>\n<p>Age-based chat is designed to prevent children younger than 16 from communicating with adults. By default, users in each age group can chat with users in the groups directly above and below theirs (i.e., users 9-12 can chat with users in their own group, as well as those in the under 9 and 13-15 groups.)</p>\n<div align=\"center\">\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"//devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/original/5X/f/6/9/4/f694c22ea57124a177b7bc38eaa5bb2838f767ac.png\" data-download-href=\"/uploads/short-url/zbmaCR8sQu4rWqAH8va974rWYO0.png?dl=1\" title=\"image1\"><img src=\"//devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/optimized/5X/f/6/9/4/f694c22ea57124a177b7bc38eaa5bb2838f767ac_2_690x388.png\" alt=\"image1\" data-base62-sha1=\"zbmaCR8sQu4rWqAH8va974rWYO0\" width=\"690\" height=\"388\" srcset=\"//devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/optimized/5X/f/6/9/4/f694c22ea57124a177b7bc38eaa5bb2838f767ac_2_690x388.png, //devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/optimized/5X/f/6/9/4/f694c22ea57124a177b7bc38eaa5bb2838f767ac_2_1035x582.png 1.5x, //devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/optimized/5X/f/6/9/4/f694c22ea57124a177b7bc38eaa5bb2838f767ac_2_1380x776.png 2x\" data-dominant-color=\"F5F5F6\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image1</span><span class=\"informations\">1546×870 38.1 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>\n</div>\n<p>Age-based chat makes it easy for users to communicate with others in similar age groups for age-appropriate conversations.</p>\n<ul>\n<li><strong>Parental consent</strong> is required for users younger than 9 to access chat features.</li>\n<li><strong>Trusted Connections</strong>: Age-checked users 13 and older can connect and chat more freely with people they know beyond their immediate age group.</li>\n<li>We’re also working on systems to make it easier for children to chat with their family members in different age groups.</li>\n</ul>\n<h3><a name=\"p-13650439-how-to-optimize-your-experience-for-age-based-chat-2\" class=\"anchor\" href=\"#p-13650439-how-to-optimize-your-experience-for-age-based-chat-2\"></a>How to Optimize Your Experience for Age-based Chat</h3>\n<p>With these new requirements, we wanted to share some tips on how you can ensure that your experience stays fun and engaging for your users, especially if chat is an important part of gameplay.</p>\n<h4><a name=\"p-13650439-route-all-text-based-communication-through-textchatservice-3\" class=\"anchor\" href=\"#p-13650439-route-all-text-based-communication-through-textchatservice-3\"></a>Route all text-based communication through TextChatService</h4>\n<p>All text-based player-to-player communication is required to go through <a href=\"https://create.roblox.com/docs/reference/engine/classes/TextChatService\">TextChatService</a> to comply with our <a href=\"https://en.help.roblox.com/hc/en-us/articles/203313410-Roblox-Community-Standards\">Community Standards</a>. We’ve heard your questions on non-text based communication and features to allow users to join and coordinate in-game activity and we’ll share updates here soon.</p>\n<h4><a name=\"p-13650439-use-the-new-text-chat-matchmaking-signal-4\" class=\"anchor\" href=\"#p-13650439-use-the-new-text-chat-matchmaking-signal-4\"></a>Use the new Text Chat Matchmaking Signal</h4>\n<p>Last month we launched the <a href=\"https://devforum.roblox.com/t/updates-to-matchmaking-introducing-the-new-text-chat-signal/4116099/\">Text Chat signal</a> and integrated it into the default matchmaking settings for every experience. If chat is essential to your gameplay, you can increase the weight of the Text Chat signal with Custom Matchmaking to group players who are able to talk to one another. Check out our <a href=\"https://devforum.roblox.com/t/optimizing-your-experience-for-age-based-chat-a-guide-to-custom-matchmaking/4164379\">Matchmaking Experiment Guide</a> for setup instructions.</p>\n<div align=\"center\">\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"//devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/original/5X/7/d/1/e/7d1ed2f16d185f1ba921df4c87f16b8000688d54.png\" data-download-href=\"/uploads/short-url/hQRISIVhqCo4xmrdEGyjw4J4HRy.png?dl=1\" title=\"image2\"><img src=\"//devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/optimized/5X/7/d/1/e/7d1ed2f16d185f1ba921df4c87f16b8000688d54_2_690x403.png\" alt=\"image2\" data-base62-sha1=\"hQRISIVhqCo4xmrdEGyjw4J4HRy\" width=\"690\" height=\"403\" srcset=\"//devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/optimized/5X/7/d/1/e/7d1ed2f16d185f1ba921df4c87f16b8000688d54_2_690x403.png, //devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/optimized/5X/7/d/1/e/7d1ed2f16d185f1ba921df4c87f16b8000688d54_2_1035x604.png 1.5x, //devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/optimized/5X/7/d/1/e/7d1ed2f16d185f1ba921df4c87f16b8000688d54_2_1380x806.png 2x\" data-dominant-color=\"1A191E\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image2</span><span class=\"informations\">1546×905 81.7 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>\n</div>\n<hr>\n<h3><a name=\"p-13650439-upcoming-changes-5\" class=\"anchor\" href=\"#p-13650439-upcoming-changes-5\"></a>Upcoming Changes</h3>\n<p>As we mentioned <a href=\"https://devforum.roblox.com/t/age-checks-to-access-chat-studio-team-create-and-links-on-roblox/4079702\">last month</a>, there will be similar age check requirements for other surfaces on Roblox where users can communicate or interact.</p>\n<ol>\n<li>\n<p><strong>In February, we will implement these changes to social media links:</strong>  Social Media links on Experience Details Pages, Communities, and Profiles will only be available to 13+ age checked users.</p>\n<ul>\n<li>Social Media links on Experience Details Pages, Communities, and Profiles will only be available to 13+ age checked users.</li>\n<li>Access to social media links on user Profiles will align with age-based communication rules. Users can only view social links from people in their own age group and similar age groups.</li>\n<li>As <a href=\"https://devforum.roblox.com/t/age-checks-to-access-chat-studio-team-create-and-links-on-roblox/4079702\">announced</a> in November, creators will no longer be able to share social media links in-experience. The PolicyServiceAPI.GetExternalLinkReference endpoint will be sunset and return an empty list to prevent breaking existing implementations. See the FAQ below for examples of what’s still allowed in-experience.</li>\n</ul>\n</li>\n<li>\n<p><strong>In March, age checks will be required to collaborate with other creators through the Team Create feature in Studio.</strong> You can still collaborate across age groups via <a href=\"https://en.help.roblox.com/hc/en-us/articles/37725513985812-Unlocking-Trusted-Connections-Expressive-Chat-Features-Party-Voice-chat-without-filters\">Trusted Connections</a> or with parental permission for younger creators. We’ll share more details on this later this month.</p>\n</li>\n<li>\n<p><strong>Over the next few months, we’ll enable creators and moderators to effectively moderate their experience’s chat,</strong> introduce new ways for them to identify any potential safety issues in their experience and report them to Roblox, and will open up more options for community feedback (bug reports, forums, polls) through Roblox Communities</p>\n</li>\n</ol>\n<p>For more on the technology and philosophy behind these changes, watch our latest “Tech Talks” podcast.<br>\n            <iframe src=\"https://www.youtube.com/embed/m5vqnNSCFCI?feature=oembed&amp;wmode=opaque\" width=\"480\" height=\"360\" frameborder=\"0\" allowfullscreen=\"\" class=\"youtube-onebox\" seamless=\"seamless\" sandbox=\"allow-same-origin allow-scripts allow-forms allow-popups allow-popups-to-escape-sandbox allow-presentation\"></iframe>\n</p>\n<h3><a name=\"p-13650439-faqs-6\" class=\"anchor\" href=\"#p-13650439-faqs-6\"></a>FAQs</h3>\n<details>\n<summary>\nClick here to view</summary>\n<p><strong>Why did Roblox choose Persona as their partner, and how can we trust it will not discriminate?</strong></p>\n<ul>\n<li>Persona’s technology has no material bias across age, sex, skin tone, or demographics based on separate evaluations by NIST and the ACCS. If the Facial Age Estimation gets the age wrong, users can verify with an ID or have a linked parent account adjust it.</li>\n</ul>\n<p><strong>How can I communicate with users in my experience?</strong></p>\n<ul>\n<li>For communicating and broadcasting important information, you can still use <a href=\"https://create.roblox.com/docs/reference/engine/classes/TextChannel#DisplaySystemMessage\">TextChannel:DisplaySystemMessage</a> to send system messages at key moments to users in your experience.</li>\n</ul>\n<p><strong>What will a user see if they walk up to another user they cannot chat with?</strong></p>\n<ul>\n<li>Currently, the user’s chat will not appear. We’re investigating adding clear in-experience indicators that will tell you who you can chat with.</li>\n</ul>\n<p><strong>Sharing my socials inside a game helps me build my community and get bug reports in a timely manner. How do I do that now?</strong></p>\n<ul>\n<li>\n<p>Here are examples of how you can still reference your social media accounts and communities in-game</p>\n<ul>\n<li>\n<p><img src=\"https://doy2mn9upadnk.cloudfront.net/images/emoji/twitter/white_check_mark.png?v=14\" title=\":white_check_mark:\" class=\"emoji\" alt=\":white_check_mark:\" loading=\"lazy\" width=\"20\" height=\"20\">“Check out our social media links on our game’s page”</p>\n</li>\n<li>\n<p><img src=\"https://doy2mn9upadnk.cloudfront.net/images/emoji/twitter/white_check_mark.png?v=14\" title=\":white_check_mark:\" class=\"emoji\" alt=\":white_check_mark:\" loading=\"lazy\" width=\"20\" height=\"20\">“Follow us on social media for merch. Links on our game’s page”</p>\n</li>\n<li>\n<p><img src=\"https://doy2mn9upadnk.cloudfront.net/images/emoji/twitter/white_check_mark.png?v=14\" title=\":white_check_mark:\" class=\"emoji\" alt=\":white_check_mark:\" loading=\"lazy\" width=\"20\" height=\"20\">“Join us in our Community Server. Links on our game’s page”</p>\n</li>\n</ul>\n</li>\n<li>\n<p>Whereas, here is what’s not allowed to be displayed in-game, per our <a href=\"https://en.help.roblox.com/hc/en-us/articles/203313410-Roblox-Community-Standards#directing-users-off-platform\">Community Standards</a></p>\n<ul>\n<li>\n<p><img src=\"https://doy2mn9upadnk.cloudfront.net/images/emoji/twitter/cross_mark.png?v=14\" title=\":cross_mark:\" class=\"emoji\" alt=\":cross_mark:\" loading=\"lazy\" width=\"20\" height=\"20\">“Follow for merch on <a href=\"http://X.com/abc%E2%80%9D\">X.com/abc”</a><br>\n<em>This was allowed for via <code>AllowedExternalLinkReferences</code> of PolicyServiceAPI and will no longer be allowed from early 2026</em></p>\n</li>\n<li>\n<p><img src=\"https://doy2mn9upadnk.cloudfront.net/images/emoji/twitter/cross_mark.png?v=14\" title=\":cross_mark:\" class=\"emoji\" alt=\":cross_mark:\" loading=\"lazy\" width=\"20\" height=\"20\">“Join our Discord discord.gg/invitecode”<br>\n<em>This was allowed only via the <code>AllowedExternalLinkReferences</code> of PolicyServiceAPI and will no longer be allowed from early 2026</em></p>\n</li>\n<li>\n<p><img src=\"https://doy2mn9upadnk.cloudfront.net/images/emoji/twitter/cross_mark.png?v=14\" title=\":cross_mark:\" class=\"emoji\" alt=\":cross_mark:\" loading=\"lazy\" width=\"20\" height=\"20\">“Send bug reports to <a href=\"mailto:abc@xyz.com\">abc@xyz.com</a>”<br>\n<em>This has never been allowed.</em></p>\n</li>\n</ul>\n</li>\n</ul>\n</details>",
+      "created_at": "2026-01-07T17:00:56.116Z",
+      "likes": 0,
+      "post_number": 1
+    },
+    {
+      "id": 13650465,
+      "username": "2Doggo4",
+      "content_raw": "",
+      "content_html": "<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"//devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/original/5X/9/e/3/b/9e3be9ecfe53fed05d8b5c7f1f9c816c067e9538.jpeg\" data-download-href=\"/uploads/short-url/mzNNUpcx3pwIWnZQFGXKQpLoAiY.jpeg?dl=1\" title=\"OIP (6)\" rel=\"noopener nofollow ugc\"><img src=\"/secure-uploads/uploads/original/5X/9/e/3/b/9e3be9ecfe53fed05d8b5c7f1f9c816c067e9538.jpeg\" alt=\"OIP (6)\" data-base62-sha1=\"mzNNUpcx3pwIWnZQFGXKQpLoAiY\" width=\"200\" height=\"200\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">OIP (6)</span><span class=\"informations\">200×200 9.76 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>",
+      "created_at": "2026-01-07T17:03:06.911Z",
+      "likes": 0,
+      "post_number": 2
+    },
+    {
+      "id": 13650473,
+      "username": "Mythiclys",
+      "content_raw": "",
+      "content_html": "<p>Doomsday is upon us it seems… The day has come.</p>",
+      "created_at": "2026-01-07T17:03:51.026Z",
+      "likes": 0,
+      "post_number": 3
+    },
+    {
+      "id": 13650474,
+      "username": "vvv331",
+      "content_raw": "",
+      "content_html": "<p>No. Thanks. Stop being in your echo chamber, unplug your ears.<br>\nAnd listen to the community FOR F’IN ONCE. FOUR THOUSAND REPLIES OF NOTHING BUT HATE AND YOU STILL DON’T GIVE A F ABOUT US.</p>",
+      "created_at": "2026-01-07T17:03:52.084Z",
+      "likes": 0,
+      "post_number": 4
+    },
+    {
+      "id": 13650476,
+      "username": "Imperiector",
+      "content_raw": "",
+      "content_html": "<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"//devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/original/5X/3/1/d/d/31dd3ce2b70c48e92de6e1d6de10504461b29934.jpeg\" data-download-href=\"/uploads/short-url/777oxWhBbKP4Xrdj1XocdQarNg8.jpeg?dl=1\" title=\"verify2\" rel=\"noopener nofollow ugc\"><img src=\"//devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/original/5X/3/1/d/d/31dd3ce2b70c48e92de6e1d6de10504461b29934.jpeg\" alt=\"verify2\" data-base62-sha1=\"777oxWhBbKP4Xrdj1XocdQarNg8\" width=\"690\" height=\"477\" data-dominant-color=\"B49A91\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">verify2</span><span class=\"informations\">910×630 95.3 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>",
+      "created_at": "2026-01-07T17:03:55.720Z",
+      "likes": 0,
+      "post_number": 5
+    },
+    {
+      "id": 13650477,
+      "username": "pyxfluff",
+      "content_raw": "",
+      "content_html": "<p>usually i disagree with the word “ragebait” but continuously ignoring all of us and having this be the FIRST thing back from the new years has to literally be satire because ???</p>",
+      "created_at": "2026-01-07T17:03:58.230Z",
+      "likes": 0,
+      "post_number": 6
+    },
+    {
+      "id": 13650479,
+      "username": "bapakny_agnesbotak",
+      "content_raw": "",
+      "content_html": "<p>oh no</p>",
+      "created_at": "2026-01-07T17:04:05.839Z",
+      "likes": 0,
+      "post_number": 7
+    },
+    {
+      "id": 13650482,
+      "username": "Crab_Wrangler",
+      "content_raw": "",
+      "content_html": "<aside class=\"quote group-Roblox_Staff\" data-username=\"RbxRocketMan\" data-post=\"1\" data-topic=\"4226101\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://doy2mn9upadnk.cloudfront.net/user_avatar/devforum.roblox.com/rbxrocketman/60/6886102_2.png\" class=\"avatar\"> RbxRocketMan:</div>\n<blockquote>\n<p><strong>What will a user see if they walk up to another user they cannot chat with?</strong></p>\n<ul>\n<li>Currently, the user’s chat will not appear. We’re investigating adding clear in-experience indicators that will tell you who you can chat with.</li>\n</ul>\n</blockquote>\n</aside>\n<p>This would be incredibly helpful, please prioritize this!</p>",
+      "created_at": "2026-01-07T17:04:22.926Z",
+      "likes": 0,
+      "post_number": 8
+    },
+    {
+      "id": 13650485,
+      "username": "Lonegwadiator",
+      "content_raw": "",
+      "content_html": "<p>I can just feel my browser hanging again from the onslaught of people rushing to respond</p>",
+      "created_at": "2026-01-07T17:04:43.109Z",
+      "likes": 0,
+      "post_number": 9
+    },
+    {
+      "id": 13650486,
+      "username": "Alex645ca",
+      "content_raw": "",
+      "content_html": "<p>Haha, no. I made my account 17 years ago and still need to do this? Get Baszucki outta here and put Schlep in his place as CEO or something, there’s someone who was actually putting in work over the pedo infestation.</p>",
+      "created_at": "2026-01-07T17:04:55.294Z",
+      "likes": 0,
+      "post_number": 10
+    },
+    {
+      "id": 13650489,
+      "username": "Mateufil",
+      "content_raw": "",
+      "content_html": "<p>Let’s see how this update goes.</p>",
+      "created_at": "2026-01-07T17:05:02.600Z",
+      "likes": 0,
+      "post_number": 12
+    },
+    {
+      "id": 13650490,
+      "username": "osctrcx",
+      "content_raw": "",
+      "content_html": "<p>Let’s restrict all this instead of just improving moderation, I hope nothing goes wrong!</p>",
+      "created_at": "2026-01-07T17:05:03.789Z",
+      "likes": 0,
+      "post_number": 13
+    },
+    {
+      "id": 13650491,
+      "username": "TheNexusAvenger",
+      "content_raw": "",
+      "content_html": "<p>So, 2 months later, over 4,000 replies, <a href=\"https://devforum.roblox.com/t/age-checks-to-access-chat-studio-team-create-and-links-on-roblox/4079702/5\">over 900 likes to my reply</a>, and no changes. Just a lot of nothing.</p>\n<ul>\n<li>Social groups with smaller servers, like the Sci-Fi groups I represent, being crippled? Not a mention.</li>\n<li>Social events from Roblox event organizers, like <a href=\"https://www.youtube.com/watch?v=qlz_Hzil5a4\" rel=\"noopener nofollow ugc\">Astral Central (Sci-Fi group convention held on Roblox)</a>, also being crippled? Not a mention as well.</li>\n<li>Community moderation being crippled? Also not mentioned.</li>\n<li>Players changing between being able to chat and not able to chat due to birthdays (details in my original reply)? Nope, no mention as well.</li>\n<li>Realtime developer feedback being crippled unless we off-platform people to a Discord, a platform that allows porn? Again, not a mention.</li>\n<li>Players getting enraged by being ignored when they can’t see the messages? <a href=\"https://github.com/Innovation-Inc-Roblox/Glint\" rel=\"noopener nofollow ugc\">Do it yourself</a>.</li>\n<li>Want to talk to your 12-year-old child or cousin? Too bad; not even a trusted connection is enough.</li>\n<li>News outlets covering the age estimation being wrong? Here is the list of awards saying otherwise.</li>\n<li><a href=\"https://thenexusavenger.io/article/42/robloxs-upcoming-privacy-nightmare-a-guide-on-how-to-get-your-players-ages\" rel=\"noopener nofollow ugc\">Developers can age profile</a>? No comment?!</li>\n</ul>\n<p>Do better. This is platform changing, and literally <em>nothing</em> changed.</p>\n<p>Roblox: cripling imagination, and powering data collection.</p>",
+      "created_at": "2026-01-07T17:05:17.202Z",
+      "likes": 0,
+      "post_number": 14
+    },
+    {
+      "id": 13650501,
+      "username": "Radical18Account",
+      "content_raw": "",
+      "content_html": "<p>roblox you should mostly keep this as like a 1 day test to see how people react, if they react badly, remove it! a little tip of advice.</p>",
+      "created_at": "2026-01-07T17:05:43.091Z",
+      "likes": 0,
+      "post_number": 15
+    },
+    {
+      "id": 13650502,
+      "username": "di_VIbilDev",
+      "content_raw": "",
+      "content_html": "<p>it is unfortunate that our beloved roblox employees are in kindergarten and they did not learn how to read yet</p>",
+      "created_at": "2026-01-07T17:05:43.463Z",
+      "likes": 0,
+      "post_number": 16
+    },
+    {
+      "id": 13650510,
+      "username": "alien19797",
+      "content_raw": "",
+      "content_html": "<p>The worst new year gift imaginable.</p>",
+      "created_at": "2026-01-07T17:06:03.019Z",
+      "likes": 0,
+      "post_number": 17
+    },
+    {
+      "id": 13650514,
+      "username": "TrotswithBugs",
+      "content_raw": "",
+      "content_html": "<p>As a creator and parent that is directly affected by this update in multiple ways, I implore you to please listen to the community and feedback. This age estimation system flags kids and adults alike as the wrong age way too often for comfort. It has already IMO put a massive dent in the traffic that Roblox sees and likewise the money creators and Roblox makes.</p>\n<p>This was not researched or tested well enough before you put it out and now you seem to be steamrolling through with it regardless of the backlash and fallout. Please, we want to create and succeed on your platform and as it is now this does not help any of us do better.</p>",
+      "created_at": "2026-01-07T17:06:24.593Z",
+      "likes": 0,
+      "post_number": 18
+    },
+    {
+      "id": 13650515,
+      "username": "wesoree",
+      "content_raw": "",
+      "content_html": "<p>we’re basically forced to shut down the chat in our own experiences. This is going to do more damage than good, and yet you guys are still incompetitent fucks and yes, i think i’m going to quit roblox now<br>\n<div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"//devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/original/5X/e/e/c/9/eec9827279f958513a6643c8baff4e7b21e083cf.jpeg\" data-download-href=\"/uploads/short-url/y4pmX4zrNRqkH6LK9YW1vCD2xe7.jpeg?dl=1\" title=\"image\" rel=\"noopener nofollow ugc\"><img src=\"//devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/original/5X/e/e/c/9/eec9827279f958513a6643c8baff4e7b21e083cf.jpeg\" alt=\"image\" data-base62-sha1=\"y4pmX4zrNRqkH6LK9YW1vCD2xe7\" width=\"640\" height=\"430\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">640×430 62.6 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div><br>\nalso you guys have not addressed the elephant in the room.</p>",
+      "created_at": "2026-01-07T17:06:36.127Z",
+      "likes": 0,
+      "post_number": 19
+    },
+    {
+      "id": 13650521,
+      "username": "R0bl0xianDeveloper",
+      "content_raw": "",
+      "content_html": "<p>it’s so over, we are cooked… goodbye roblox.</p>",
+      "created_at": "2026-01-07T17:07:29.763Z",
+      "likes": 0,
+      "post_number": 20
+    },
+    {
+      "id": 13650522,
+      "username": "Frostbyte501",
+      "content_raw": "",
+      "content_html": "<p>what a garbage excuse of a “safety” feature</p>",
+      "created_at": "2026-01-07T17:07:30.164Z",
+      "likes": 0,
+      "post_number": 21
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": 4226487,
+  "title": "Is there a way to make server changes in studio while playtesting?",
+  "slug": "is-there-a-way-to-make-server-changes-in-studio-while-playtesting",
+  "url": "https://devforum.roblox.com/t/is-there-a-way-to-make-server-changes-in-studio-while-playtesting/4226487",
+  "category_id": 55,
+  "category_name": "Scripting Support",
+  "created_at": "2026-01-07T18:39:46.350Z",
+  "last_posted_at": "2026-01-08T16:22:21.029Z",
+  "views": 82,
+  "reply_count": 3,
+  "like_count": 5,
+  "tags": [
+    "studio"
+  ],
+  "posts": [
+    {
+      "id": 13651331,
+      "username": "pIaycosa",
+      "content_raw": "",
+      "content_html": "<p>Going back and forth from client to server while playtesting is tedious. Is there a shortcut or a different playtest option? I could have sworn there was a studio feature like this some years back that allowed you to edit the server while in solo play</p>\n<p>Edit: People are saying they’re confused. Im wondering if there is a test type that allows the changes I make to save without having to toggle between server and client.</p>",
+      "created_at": "2026-01-07T18:39:46.568Z",
+      "likes": 0,
+      "post_number": 1
+    },
+    {
+      "id": 13651783,
+      "username": "BonesIsUseless",
+      "content_raw": "",
+      "content_html": "<p>i don’t think i understand your question</p>\n<p>you can interact with the explorer while playtesting, but your changes won’t save</p>",
+      "created_at": "2026-01-07T19:33:01.423Z",
+      "likes": 0,
+      "post_number": 2
+    },
+    {
+      "id": 13651863,
+      "username": "Zer0Wit",
+      "content_raw": "",
+      "content_html": "<p>You can edit the server by clicking on the computer icon on the top bar, although your changes will get removed once you end the play test .</p>\n<p>If you are referring to starting on the server, you can change the play test context to <code>Run</code>.</p>",
+      "created_at": "2026-01-07T19:38:55.100Z",
+      "likes": 0,
+      "post_number": 3
+    },
+    {
+      "id": 13652559,
+      "username": "2112Jay",
+      "content_raw": "",
+      "content_html": "<p>In the Test menu there is that toggle view option.. Not sure if that’s what you’re talking about.</p>",
+      "created_at": "2026-01-07T20:50:15.702Z",
+      "likes": 0,
+      "post_number": 4
+    },
+    {
+      "id": 13655423,
+      "username": "pIaycosa",
+      "content_raw": "",
+      "content_html": "<p>Yea, I was asking if there is a shortcut to toggle client &amp; server or if I could interact so that the changes save</p>",
+      "created_at": "2026-01-08T00:55:29.189Z",
+      "likes": 0,
+      "post_number": 5
+    },
+    {
+      "id": 13656340,
+      "username": "2112Jay",
+      "content_raw": "",
+      "content_html": "<p>You can do something then copy it while testing, then paste that back when done..</p>",
+      "created_at": "2026-01-08T02:25:20.743Z",
+      "likes": 0,
+      "post_number": 6
+    },
+    {
+      "id": 13660646,
+      "username": "BonesIsUseless",
+      "content_raw": "",
+      "content_html": "<p>you’re able to set a shortcut for toggling server and client view (just go to shortcut customization and search it). your changes still won’t save after simulation though.</p>",
+      "created_at": "2026-01-08T16:22:21.029Z",
+      "likes": 0,
+      "post_number": 7
+    }
+  ]
+}

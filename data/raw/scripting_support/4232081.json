@@ -1,0 +1,54 @@
+{
+  "id": 4232081,
+  "title": "How do I add equip cooldown without disabling backpack?",
+  "slug": "how-do-i-add-equip-cooldown-without-disabling-backpack",
+  "url": "https://devforum.roblox.com/t/how-do-i-add-equip-cooldown-without-disabling-backpack/4232081",
+  "category_id": 55,
+  "category_name": "Scripting Support",
+  "created_at": "2026-01-08T18:32:31.714Z",
+  "last_posted_at": "2026-01-08T20:10:07.339Z",
+  "views": 25,
+  "reply_count": 2,
+  "like_count": 0,
+  "tags": [
+    "scripting"
+  ],
+  "posts": [
+    {
+      "id": 13661707,
+      "username": "Mehmet11334",
+      "content_raw": "",
+      "content_html": "<p>I need help with how to add equip cooldown to tool.</p>\n<p>Logic behind It is that I have looked all devforum posts and tried all of their solutions but It doesn’t work from Re-enterancy event error.</p>\n<p>I’m trying to do a system where we can use normal backpack ui and when you equip a tool,It will give a cooldown for other tool to be used.</p>\n<p>Within that cooldown no other tools can be equipped.Even If It has attempted to equip a new tool while old tool’s cooldown is still present,It will replace new tool with old tool and continue the cooldown.</p>\n<p>I have asked this question but the solution didn’t satisfy me since It actually didn’t block equipping.</p>",
+      "created_at": "2026-01-08T18:32:32.229Z",
+      "likes": 0,
+      "post_number": 1
+    },
+    {
+      "id": 13661779,
+      "username": "Extrenious",
+      "content_raw": "",
+      "content_html": "<p>not sure what you mean by \"<em>Re-enterancy event error</em> \"</p>\n<p>I am also very curious why this system must remain in the old backpack system? is there any requirement besides reducing complexity?</p>\n<p>I feel like removing the concept of “old backpack” enitrely and whipping up ur own would make this very easy to achieve you just need to understand tables. and how to setup ur new tool system.</p>",
+      "created_at": "2026-01-08T18:43:07.023Z",
+      "likes": 0,
+      "post_number": 2
+    },
+    {
+      "id": 13662428,
+      "username": "Mehmet11334",
+      "content_raw": "",
+      "content_html": "<p>I want to keep the old backpack system for compatitability with other tools within game (like from other developers,etc)</p>\n<p>Maximum Re-entreancy error happens when It fires events like looped.</p>",
+      "created_at": "2026-01-08T20:02:30.862Z",
+      "likes": 0,
+      "post_number": 3
+    },
+    {
+      "id": 13662502,
+      "username": "Versus_WasTaken",
+      "content_raw": "",
+      "content_html": "<p>Making custom backpack system doesn’t mean it can’t be compatible with normal tools. You can still use the backpack feature in every player instance, this way any tool instance that gets added will normally be registered in your custom backpack ui. You can just disable the core ui and make your own, but keep the way your backpack system works similarly to original backpack ui provided by Roblox.</p>",
+      "created_at": "2026-01-08T20:10:07.339Z",
+      "likes": 0,
+      "post_number": 4
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": 4230182,
+  "title": "Issue with SpringConstraint",
+  "slug": "issue-with-springconstraint",
+  "url": "https://devforum.roblox.com/t/issue-with-springconstraint/4230182",
+  "category_id": 55,
+  "category_name": "Scripting Support",
+  "created_at": "2026-01-08T08:21:10.620Z",
+  "last_posted_at": "2026-01-08T14:25:02.050Z",
+  "views": 50,
+  "reply_count": 1,
+  "like_count": 0,
+  "tags": [],
+  "posts": [
+    {
+      "id": 13658376,
+      "username": "Astarteus",
+      "content_raw": "",
+      "content_html": "<p>Not sure if this is the right category, but I’m having an issue with the spring constraints on my vehicle: <a href=\"https://gyazo.com/c86fc80f75834d0b8d8229a268558b69\" rel=\"noopener nofollow ugc\">here a clip of the problem</a></p>\n<p>When the center of mass is centered, the suspension behaves correctly. However, when I shift the center of mass by adding parts to the left side, the vehicle tilts left as expected, but then the suspension is strangely pushed back up as if the vehicle were in equilibrium which shouldn’t be possible, since most of the mass is concentrated on the left side.</p>\n<p>I tried playing with SpringConstraint properties (increasing damping and stiffness) but it didn’t work.</p>",
+      "created_at": "2026-01-08T08:21:10.856Z",
+      "likes": 0,
+      "post_number": 1
+    },
+    {
+      "id": 13659707,
+      "username": "ostalhatp",
+      "content_raw": "",
+      "content_html": "<p>If that’s purely physics-based, it shouldn’t be pushing back up like that</p>\n<p>My guess is you have some sort of <strong>Anti-Roll Bar logic</strong> running in your scripts. It looks like the code is trying to level out the car because it thinks it’s rolling over, so it fights the extra weight you added</p>\n<p>Also, check if your <code>PrismaticConstraints</code> are binding (getting stuck) at that angle, but usually, this “bouncing back” motion means a script is interfering</p>",
+      "created_at": "2026-01-08T13:37:55.350Z",
+      "likes": 0,
+      "post_number": 2
+    },
+    {
+      "id": 13659937,
+      "username": "Astarteus",
+      "content_raw": "",
+      "content_html": "<p>There is no script in the game, it’s just constraints.<br>\nBy the way I’m not using Prismatic but CylindricalConstraints and I forgot to say but that bug only happens when the vehicle is moving (I do that by increasing the velocity of CylindricalConstraints)</p>",
+      "created_at": "2026-01-08T14:25:02.050Z",
+      "likes": 0,
+      "post_number": 3
+    }
+  ]
+}

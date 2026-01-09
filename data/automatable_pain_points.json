@@ -1,0 +1,911 @@
+[
+  {
+    "video_id": "p005iduooyw",
+    "title": "The ULTIMATE Beginner Guide to Roblox Studio.. (Start BUILDING Now!)",
+    "problem": "Complexity of basic asset creation and custom parts beyond primitive shapes",
+    "frequency": "1",
+    "urgency": "medium",
+    "can_automate": true,
+    "automation_approach": "A coding agent can generate Luau scripts to programmatically create complex geometry through Constructive Solid Geometry (CSG) operations like UnionAsync and SubtractAsync."
+  },
+  {
+    "video_id": "p005iduooyw",
+    "title": "The ULTIMATE Beginner Guide to Roblox Studio.. (Start BUILDING Now!)",
+    "problem": "Dependency on specific plugins (like ResizeAlign) for basic building tasks",
+    "frequency": "1",
+    "urgency": "low",
+    "can_automate": true,
+    "automation_approach": "Develop a standard library of Luau snippets that handle part alignment, snapping, and scaling natively without requiring third-party plugins."
+  },
+  {
+    "video_id": "p005iduooyw",
+    "title": "The ULTIMATE Beginner Guide to Roblox Studio.. (Start BUILDING Now!)",
+    "problem": "Confusion regarding game deployment and the publishing workflow",
+    "frequency": "1",
+    "urgency": "medium",
+    "can_automate": true,
+    "automation_approach": "An agent can provide a checklist or automated CLI script using OpenCloud APIs to handle versioning and publishing directly from a repository."
+  },
+  {
+    "video_id": "p005iduooyw",
+    "title": "The ULTIMATE Beginner Guide to Roblox Studio.. (Start BUILDING Now!)",
+    "problem": "Lack of simplified server management and backend configuration",
+    "frequency": "1",
+    "urgency": "medium",
+    "can_automate": true,
+    "automation_approach": "Automate the generation of boilerplate code for DataStore management, player session handling, and server-side validation."
+  },
+  {
+    "video_id": "jUuqBZwwkQw",
+    "title": "Lua in 100 Seconds",
+    "problem": "Syntax interference from Python (writing Python syntax in Lua environments)",
+    "frequency": "1 mention of specific muscle memory conflict",
+    "urgency": "medium",
+    "can_automate": true,
+    "automation_approach": "An AI-powered linter or transpiler agent that detects common Python-specific keywords (e.g., 'def', 'elif', 'None', or list comprehensions) and automatically suggests or converts them to valid Luau syntax."
+  },
+  {
+    "video_id": "jUuqBZwwkQw",
+    "title": "Lua in 100 Seconds",
+    "problem": "High information density and fast pacing preventing conceptual understanding for beginners",
+    "frequency": "5 comments mentioning confusion or speed",
+    "urgency": "high",
+    "can_automate": true,
+    "automation_approach": "A coding agent can act as an interactive 'tutorial expander' that takes a high-level summary and generates commented, executable code blocks for each mentioned concept (variables, tables, metatables) to allow for hands-on practice."
+  },
+  {
+    "video_id": "jUuqBZwwkQw",
+    "title": "Lua in 100 Seconds",
+    "problem": "Complexity of advanced features like Metatables for OOP",
+    "frequency": "1 mention of it being 'more powerful than it looks'",
+    "urgency": "medium",
+    "can_automate": true,
+    "automation_approach": "An agent that generates boilerplate metatable structures for class-based logic in Roblox, abstracting the complexity of __index and metamethods for the user."
+  },
+  {
+    "video_id": "vUN2cJD4mUk",
+    "title": "How I Learned To Make Roblox Games in a Week",
+    "problem": "Difficulty transitioning from basic scripting to complex game logic",
+    "frequency": "2",
+    "urgency": "high",
+    "can_automate": true,
+    "automation_approach": "A coding agent could provide a progressive curriculum or auto-generate boilerplate code that bridges the gap between 'button activation' and 'game systems'."
+  },
+  {
+    "video_id": "vUN2cJD4mUk",
+    "title": "How I Learned To Make Roblox Games in a Week",
+    "problem": "Lack of centralized, accessible reference materials and cheat sheets (Notepads)",
+    "frequency": "3",
+    "urgency": "medium",
+    "can_automate": true,
+    "automation_approach": "An agent could provide real-time Lua syntax lookups or a searchable library of the most common Roblox-specific functions and snippets mentioned in tutorials."
+  },
+  {
+    "video_id": "vUN2cJD4mUk",
+    "title": "How I Learned To Make Roblox Games in a Week",
+    "problem": "Overwhelming complexity for returning developers with outdated knowledge",
+    "frequency": "1",
+    "urgency": "medium",
+    "can_automate": true,
+    "automation_approach": "A tool that translates legacy Roblox logic (2012-era) into modern API equivalents or explains new sophisticated features in simple terms."
+  },
+  {
+    "video_id": "vUN2cJD4mUk",
+    "title": "How I Learned To Make Roblox Games in a Week",
+    "problem": "Technical debt and 'if it works, don't fix it' mentality leading to unoptimized code",
+    "frequency": "1",
+    "urgency": "low",
+    "can_automate": true,
+    "automation_approach": "A code review agent that refactors 'working' but messy code into optimized, best-practice patterns."
+  },
+  {
+    "video_id": "S9Mpa_0wTrM",
+    "title": "Beginners Roblox Lua Scripting Tutorial - Crash Course",
+    "problem": "Roblox Studio connectivity and environment setup errors (Error 404)",
+    "frequency": "1 comment",
+    "urgency": "medium",
+    "can_automate": true,
+    "automation_approach": "A coding agent could provide a diagnostic script or checklist to verify network settings, firewall exceptions, and Studio installation integrity to resolve 404 errors."
+  },
+  {
+    "video_id": "S9Mpa_0wTrM",
+    "title": "Beginners Roblox Lua Scripting Tutorial - Crash Course",
+    "problem": "External script execution or tool detection failure",
+    "frequency": "1 comment",
+    "urgency": "high",
+    "can_automate": true,
+    "automation_approach": "An agent could analyze the injection or detection logic to ensure the script correctly identifies the game process and active player session, providing real-time debugging logs for the user."
+  },
+  {
+    "video_id": "S9Mpa_0wTrM",
+    "title": "Beginners Roblox Lua Scripting Tutorial - Crash Course",
+    "problem": "Translating programming concepts from other languages (specifically Python) to Lua",
+    "frequency": "1 comment",
+    "urgency": "low",
+    "can_automate": true,
+    "automation_approach": "A coding agent can provide a 'Rosetta Stone' style syntax mapping, converting common Python snippets into functional Roblox Luau code."
+  },
+  {
+    "video_id": "fivk8yp-VT4",
+    "title": "How pro Roblox developers learnt to script",
+    "problem": "High entry barrier for absolute beginners who do not know where to start or how to structure their learning.",
+    "frequency": "3 comments",
+    "urgency": "high",
+    "can_automate": true,
+    "automation_approach": "An AI agent could generate a personalized 'Zero to Expert' roadmap based on a user's specific game idea, breaking it down into sequential learning modules."
+  },
+  {
+    "video_id": "fivk8yp-VT4",
+    "title": "How pro Roblox developers learnt to script",
+    "problem": "Mechanical copying (Tutorial Hell) where learners copy code from videos without understanding the logic, leading to failure when they try to script independently.",
+    "frequency": "2 comments",
+    "urgency": "high",
+    "can_automate": true,
+    "automation_approach": "A coding agent could provide interactive code explanations, asking the user questions about why a line of code works before letting them proceed, ensuring conceptual understanding."
+  },
+  {
+    "video_id": "fivk8yp-VT4",
+    "title": "How pro Roblox developers learnt to script",
+    "problem": "Inefficient debugging and 'trial and error' learning through free models and vague error messages.",
+    "frequency": "3 comments",
+    "urgency": "medium",
+    "can_automate": true,
+    "automation_approach": "A real-time debugging agent that intercepts Roblox Studio output errors, explains the 'why' behind the error, and suggests fixes specifically tailored to the user's code context."
+  },
+  {
+    "video_id": "fivk8yp-VT4",
+    "title": "How pro Roblox developers learnt to script",
+    "problem": "Scripting perceived as a 'chore' or a barrier to the creative hobby of game design rather than an enjoyable activity.",
+    "frequency": "1 comment",
+    "urgency": "medium",
+    "can_automate": true,
+    "automation_approach": "A boilerplate generation agent that handles the 'chore' aspects of scripting (like basic data stores or leaderstats) allowing developers to focus on unique gameplay logic."
+  },
+  {
+    "video_id": "UoVYIZYKPOI",
+    "title": "Advanced Roblox Scripting Tutorial #1 - Tools (Beginner to Pro 2019)",
+    "problem": "Tools preventing player movement or causing unexpected teleportation",
+    "frequency": "2 comments",
+    "urgency": "high",
+    "can_automate": true,
+    "automation_approach": "A coding agent can scan the tool model to ensure no parts are 'Anchored' and that 'CanCollide' is appropriately set, and automatically generate WeldConstraints for multi-part tools."
+  },
+  {
+    "video_id": "UoVYIZYKPOI",
+    "title": "Advanced Roblox Scripting Tutorial #1 - Tools (Beginner to Pro 2019)",
+    "problem": "Difficulty converting external 3D models (e.g., Blender) into functional Roblox tools",
+    "frequency": "1 comment",
+    "urgency": "medium",
+    "can_automate": true,
+    "automation_approach": "An agent can automate the 'Handle' assignment process, create a tool structure from a Model, and set up the necessary Tool properties for external meshes."
+  },
+  {
+    "video_id": "UoVYIZYKPOI",
+    "title": "Advanced Roblox Scripting Tutorial #1 - Tools (Beginner to Pro 2019)",
+    "problem": "Confusion regarding object-event compatibility (e.g., trying to use Tool-specific events on Parts)",
+    "frequency": "1 comment",
+    "urgency": "medium",
+    "can_automate": true,
+    "automation_approach": "Static analysis or a linter can detect when a script attempts to connect a 'Tool.Activated' event to a 'Part' and suggest using 'ClickDetector' or checking the parent-child hierarchy."
+  },
+  {
+    "video_id": "UoVYIZYKPOI",
+    "title": "Advanced Roblox Scripting Tutorial #1 - Tools (Beginner to Pro 2019)",
+    "problem": "Implementing distance-based interaction logic (limiting tool range)",
+    "frequency": "1 comment",
+    "urgency": "medium",
+    "can_automate": true,
+    "automation_approach": "An agent can generate a standardized Magnitude check snippet to verify the distance between the Character's HumanoidRootPart and the target object."
+  },
+  {
+    "video_id": "H4X8L5namhA",
+    "title": "You CAN Script. Let me PROVE IT to you..",
+    "problem": "Transitioning from basic syntax to complex game systems like combat and VFX",
+    "frequency": "2",
+    "urgency": "high",
+    "can_automate": true,
+    "automation_approach": "A coding agent could provide modular templates or boilerplate code for combat frameworks and VFX emitters that build upon basic variable/function logic."
+  },
+  {
+    "video_id": "H4X8L5namhA",
+    "title": "You CAN Script. Let me PROVE IT to you..",
+    "problem": "Lack of knowledge regarding API discoverability (knowing what commands/functions exist)",
+    "frequency": "1",
+    "urgency": "medium",
+    "can_automate": true,
+    "automation_approach": "A coding agent can act as a natural-language search engine for documentation, mapping user intent (e.g., 'make thing move') to specific Roblox API methods (e.g., 'TweenService' or 'LinearVelocity')."
+  },
+  {
+    "video_id": "H4X8L5namhA",
+    "title": "You CAN Script. Let me PROVE IT to you..",
+    "problem": "Implementing procedural generation for gameplay (randomly generated levels/obbies)",
+    "frequency": "1",
+    "urgency": "high",
+    "can_automate": true,
+    "automation_approach": "An agent can generate algorithms for cloning and positioning assets based on a set of predefined modules and randomness parameters."
+  },
+  {
+    "video_id": "H4X8L5namhA",
+    "title": "You CAN Script. Let me PROVE IT to you..",
+    "problem": "Performance issues and game crashes caused by inefficient instance management (spawning too many parts)",
+    "frequency": "1",
+    "urgency": "medium",
+    "can_automate": true,
+    "automation_approach": "A static analysis tool or agent could detect 'while' loops without proper waits or logic that spawns excessive instances, and suggest 'Task.wait' or 'Debris' service implementation."
+  },
+  {
+    "video_id": "H4X8L5namhA",
+    "title": "You CAN Script. Let me PROVE IT to you..",
+    "problem": "Setting up inter-game teleportation and lobby systems",
+    "frequency": "1",
+    "urgency": "medium",
+    "can_automate": true,
+    "automation_approach": "The agent can generate the boilerplate TeleportService code required to move players between places or servers."
+  },
+  {
+    "video_id": "aXw240ZR9Js",
+    "title": "ScriptMate \ud83d\udcdc How to Script on Roblox",
+    "problem": "High financial barrier for scripting assistance tools",
+    "frequency": "12",
+    "urgency": "high",
+    "can_automate": true,
+    "automation_approach": "Develop a free, open-source LLM-powered plugin or VS Code extension that provides Luau-specific code completions without a subscription fee."
+  },
+  {
+    "video_id": "aXw240ZR9Js",
+    "title": "ScriptMate \ud83d\udcdc How to Script on Roblox",
+    "problem": "Difficulty in beginning the scripting process / 'homeless' scripting skills",
+    "frequency": "4",
+    "urgency": "medium",
+    "can_automate": true,
+    "automation_approach": "An AI agent that generates boilerplate Roblox scripts (Leaderboards, DataStores, Tools) based on natural language prompts to bridge the gap for beginners."
+  },
+  {
+    "video_id": "aXw240ZR9Js",
+    "title": "ScriptMate \ud83d\udcdc How to Script on Roblox",
+    "problem": "Security concerns and lack of trust in third-party plugins",
+    "frequency": "1",
+    "urgency": "medium",
+    "can_automate": true,
+    "automation_approach": "An automated security scanner agent that audits plugin source code or scripts for suspicious patterns like 'getfenv', 'loadstring', or obfuscated 'require' calls."
+  },
+  {
+    "video_id": "aXw240ZR9Js",
+    "title": "ScriptMate \ud83d\udcdc How to Script on Roblox",
+    "problem": "Lack of clarity on tool installation and basic usage",
+    "frequency": "3",
+    "urgency": "low",
+    "can_automate": true,
+    "automation_approach": "An interactive AI onboarding assistant that guides the user through the installation steps and provides real-time tooltips for Luau functions."
+  },
+  {
+    "video_id": "9v3GvfX_qr8",
+    "title": "\ud83d\udd25 How to Make an Obby on Roblox Studio | Beginners Scripting Tutorial \ud83c\udfae",
+    "problem": "Sequential Checkpoint/Spawn System implementation",
+    "frequency": "3 comments",
+    "urgency": "high",
+    "can_automate": true,
+    "automation_approach": "A coding agent can generate a comprehensive leaderstat-based checkpoint script that updates the Player.RespawnLocation property whenever a player touches a specific part."
+  },
+  {
+    "video_id": "9v3GvfX_qr8",
+    "title": "\ud83d\udd25 How to Make an Obby on Roblox Studio | Beginners Scripting Tutorial \ud83c\udfae",
+    "problem": "Unanchored parts causing the map to fall",
+    "frequency": "1 comment",
+    "urgency": "medium",
+    "can_automate": true,
+    "automation_approach": "A script or plugin can iterate through all BaseParts in a folder or workspace and automatically set 'Anchored' to true."
+  },
+  {
+    "video_id": "9v3GvfX_qr8",
+    "title": "\ud83d\udd25 How to Make an Obby on Roblox Studio | Beginners Scripting Tutorial \ud83c\udfae",
+    "problem": "Expired or broken external code snippets (Pastebin links)",
+    "frequency": "3 comments",
+    "urgency": "high",
+    "can_automate": true,
+    "automation_approach": "An AI coding agent can generate the Lua script directly within the interface based on the video's logic, removing the dependency on external links."
+  },
+  {
+    "video_id": "9v3GvfX_qr8",
+    "title": "\ud83d\udd25 How to Make an Obby on Roblox Studio | Beginners Scripting Tutorial \ud83c\udfae",
+    "problem": "Property persistence (CanCollide resetting during play)",
+    "frequency": "1 comment",
+    "urgency": "medium",
+    "can_automate": true,
+    "automation_approach": "An agent can write a script to enforce specific collision properties at runtime or check for conflicting scripts that might be modifying the property."
+  },
+  {
+    "video_id": "KuJyYmdhu7E",
+    "title": "How To Script In ROBLOX Studio! (EASIEST Beginner Scripting Tutorial)",
+    "problem": "Confusion over function parameters and naming abstraction (e.g., why name a parameter 'part' instead of a specific object name like 'redPart')",
+    "frequency": "1",
+    "urgency": "medium",
+    "can_automate": true,
+    "automation_approach": "A coding agent could provide real-time documentation or tooltips explaining that parameters are placeholders for passed arguments, suggesting context-aware names."
+  },
+  {
+    "video_id": "KuJyYmdhu7E",
+    "title": "How To Script In ROBLOX Studio! (EASIEST Beginner Scripting Tutorial)",
+    "problem": "Struggling with the syntax and purpose of Roblox Services (game:GetService)",
+    "frequency": "1",
+    "urgency": "medium",
+    "can_automate": true,
+    "automation_approach": "An agent can automatically suggest and insert the correct GetService boilerplate when a user types a common service name like 'Players' or 'TweenService'."
+  },
+  {
+    "video_id": "KuJyYmdhu7E",
+    "title": "How To Script In ROBLOX Studio! (EASIEST Beginner Scripting Tutorial)",
+    "problem": "Syntax errors in basic scripting (missing parentheses, incorrect dot notation like 'local Part.workspace', and case-sensitivity issues)",
+    "frequency": "3",
+    "urgency": "high",
+    "can_automate": true,
+    "automation_approach": "Implement an AI-powered linter that doesn't just flag errors but explains the fix in natural language for beginners."
+  },
+  {
+    "video_id": "KuJyYmdhu7E",
+    "title": "How To Script In ROBLOX Studio! (EASIEST Beginner Scripting Tutorial)",
+    "problem": "Information overload and lack of retention for fundamental concepts (variables, objects, and strings)",
+    "frequency": "2",
+    "urgency": "high",
+    "can_automate": true,
+    "automation_approach": "An agent could generate micro-coding challenges based on a tutorial to test the user's knowledge immediately after a concept is introduced."
+  },
+  {
+    "video_id": "KuJyYmdhu7E",
+    "title": "How To Script In ROBLOX Studio! (EASIEST Beginner Scripting Tutorial)",
+    "problem": "Scope confusion (the difference between 'local function' and 'function')",
+    "frequency": "1",
+    "urgency": "low",
+    "can_automate": true,
+    "automation_approach": "Automated code refactoring tool that optimizes script scope and provides comments explaining why 'local' is preferred for performance/scope."
+  },
+  {
+    "video_id": "6MEND-14yzo",
+    "title": "How to USE AI to make ROBLOX MATERIALS in 30 seconds! (2023 Roblox AI Tutorial)",
+    "problem": "Users cannot find or access the Material Generator tool due to UI changes or feature renaming",
+    "frequency": "7 comments",
+    "urgency": "high",
+    "can_automate": true,
+    "automation_approach": "A coding agent could provide a script or plugin that programmatically opens the 'Material Service' or 'Material Manager' and checks if the AI feature is enabled for the current Studio version."
+  },
+  {
+    "video_id": "6MEND-14yzo",
+    "title": "How to USE AI to make ROBLOX MATERIALS in 30 seconds! (2023 Roblox AI Tutorial)",
+    "problem": "AI generates 2D textures only, failing to create physical depth (Normal/Displacement maps) for a 'bumpy' 3D effect",
+    "frequency": "1 comment",
+    "urgency": "medium",
+    "can_automate": true,
+    "automation_approach": "A coding agent can interface with PBR generation APIs (like Materialize or AI depth generators) to automatically create Normal, Roughness, and Metalness maps from a single AI-generated diffuse texture."
+  },
+  {
+    "video_id": "6MEND-14yzo",
+    "title": "How to USE AI to make ROBLOX MATERIALS in 30 seconds! (2023 Roblox AI Tutorial)",
+    "problem": "Inability to export or save generated material files for use outside the specific project or in external editors",
+    "frequency": "1 comment",
+    "urgency": "low",
+    "can_automate": true,
+    "automation_approach": "A script could be written to batch download the 'TextureId' assets from the MaterialVariant objects and save them locally as PNG/JPG files."
+  },
+  {
+    "video_id": "LcjRb6tiuMk",
+    "title": "ROBLOX Studio Tutorial for Beginners!",
+    "problem": "Lost or hidden UI panels (Explorer, Toolbox, and Properties) making it impossible to follow the tutorial.",
+    "frequency": "1 comment",
+    "urgency": "high",
+    "can_automate": true,
+    "automation_approach": "A plugin or script that resets the Roblox Studio layout to a 'Tutorial Mode' configuration or detects missing panels and prompts the user to re-enable them via the View tab."
+  },
+  {
+    "video_id": "LcjRb6tiuMk",
+    "title": "ROBLOX Studio Tutorial for Beginners!",
+    "problem": "Transitioning from building/UI basics to actual Luau scripting and coding logic.",
+    "frequency": "2 comments",
+    "urgency": "medium",
+    "can_automate": true,
+    "automation_approach": "A coding agent can provide boilerplate templates for common tasks like character movement or camera interpolation, similar to the ChatGPT code pasted by users, but with contextual explanations."
+  },
+  {
+    "video_id": "LcjRb6tiuMk",
+    "title": "ROBLOX Studio Tutorial for Beginners!",
+    "problem": "High demand for 'smooth' movement mechanics (Camera and Character) which are complex for beginners to write from scratch.",
+    "frequency": "4 comments",
+    "urgency": "medium",
+    "can_automate": true,
+    "automation_approach": "An AI agent can generate custom CFrame interpolation scripts for 'smooth movement' based on user-defined destinations."
+  },
+  {
+    "video_id": "4xUg9yZGiMQ",
+    "title": "The EASIEST Way to Learn Scripting (Roblox)",
+    "problem": "Outdated tutorials for complex features like DataStores",
+    "frequency": "1 comment specifically mentions the struggle with outdated resources",
+    "urgency": "high",
+    "can_automate": true,
+    "automation_approach": "A coding agent can use the latest Roblox API documentation to generate valid, modern DataStore2 or standard DataStore scripts that aren't prone to the deprecation issues found in older videos."
+  },
+  {
+    "video_id": "4xUg9yZGiMQ",
+    "title": "The EASIEST Way to Learn Scripting (Roblox)",
+    "problem": "Lack of hands-on syntax and implementation in tutorials",
+    "frequency": "Multiple comments complaining about 'therapy sessions' vs actual coding",
+    "urgency": "medium",
+    "can_automate": true,
+    "automation_approach": "An agent can provide immediate interactive code templates (Boilerplates) for common requests like 'making a part talk' or 'kill bricks' to provide the instant technical feedback users are missing."
+  },
+  {
+    "video_id": "4xUg9yZGiMQ",
+    "title": "The EASIEST Way to Learn Scripting (Roblox)",
+    "problem": "Fundamental misunderstanding of Luau syntax and hierarchy",
+    "frequency": "Multiple comments showing incorrect code or asking how to do basic tasks like printing text",
+    "urgency": "high",
+    "can_automate": true,
+    "automation_approach": "A coding agent can provide real-time syntax linting and visual diagrams of the Roblox DataModel (Parent/Child relationships) to explain why code like 'local.KillBrick.parent' is syntactically invalid."
+  },
+  {
+    "video_id": "4xUg9yZGiMQ",
+    "title": "The EASIEST Way to Learn Scripting (Roblox)",
+    "problem": "Solo developers struggling with massive project scope",
+    "frequency": "1 comment about a beginner trying to make a 'super big game' with no experience",
+    "urgency": "medium",
+    "can_automate": true,
+    "automation_approach": "An agent can act as a technical project manager, breaking down a 'super big game' into small, scriptable tasks and modules to prevent burnout and overwhelm."
+  },
+  {
+    "video_id": "GE6Z1n57yDU",
+    "title": "How to ACTUALLY LEARN to Script in Roblox Studio (5 Steps to learn)",
+    "problem": "Tutorial Hell: Difficulty transitioning from understanding syntax/definitions to independent implementation without a step-by-step guide.",
+    "frequency": 2,
+    "urgency": "high",
+    "can_automate": true,
+    "automation_approach": "A coding agent could provide 'faded scaffolds' where it provides the structure of a script but requires the user to fill in the logic, or offer real-time logic-to-syntax conversion prompts."
+  },
+  {
+    "video_id": "GE6Z1n57yDU",
+    "title": "How to ACTUALLY LEARN to Script in Roblox Studio (5 Steps to learn)",
+    "problem": "Debugging Fatigue: Spending disproportionate amounts of time (days) fixing 'stupid bugs' or simple logic errors in systems like day/night cycles.",
+    "frequency": 1,
+    "urgency": "medium",
+    "can_automate": true,
+    "automation_approach": "An AI agent can provide instant linting, explain why a specific logic flow is failing, and suggest specific fixes for Roblox-specific API quirks."
+  },
+  {
+    "video_id": "GE6Z1n57yDU",
+    "title": "How to ACTUALLY LEARN to Script in Roblox Studio (5 Steps to learn)",
+    "problem": "Curriculum Paralysis: Not knowing which specific tutorials to start with or the correct sequence of learning to achieve a specific game goal.",
+    "frequency": 1,
+    "urgency": "medium",
+    "can_automate": true,
+    "automation_approach": "An agent can generate a personalized learning roadmap based on a user's specific game idea (e.g., a store system) and recommend specific API documentation or mini-projects."
+  },
+  {
+    "video_id": "GE6Z1n57yDU",
+    "title": "How to ACTUALLY LEARN to Script in Roblox Studio (5 Steps to learn)",
+    "problem": "Passive Learning Boredom: Finding video tutorials unengaging and preferring hands-on, challenge-based learning.",
+    "frequency": 2,
+    "urgency": "medium",
+    "can_automate": true,
+    "automation_approach": "An agent can generate interactive coding challenges or 'gamified' scripting tasks that provide immediate feedback when code is run in a sandbox."
+  },
+  {
+    "video_id": "Y2voaJuzjSs",
+    "title": "Roblox Studio Tip 37: The Most Pointless Game Ever! #roblox #scripting #robloxstudio #coding",
+    "problem": "Difficulty accessing source code and script links",
+    "frequency": "5",
+    "urgency": "high",
+    "can_automate": true,
+    "automation_approach": "A coding agent can automatically parse video descriptions or external repositories to provide direct code snippets or download links for the specific scripts mentioned."
+  },
+  {
+    "video_id": "Y2voaJuzjSs",
+    "title": "Roblox Studio Tip 37: The Most Pointless Game Ever! #roblox #scripting #robloxstudio #coding",
+    "problem": "Implementation of DataStore for persistent time tracking",
+    "frequency": "2",
+    "urgency": "medium",
+    "can_automate": true,
+    "automation_approach": "The agent can generate a standardized Luau boilerplate script for DataStoreService that saves and loads player 'Time Played' values."
+  },
+  {
+    "video_id": "Y2voaJuzjSs",
+    "title": "Roblox Studio Tip 37: The Most Pointless Game Ever! #roblox #scripting #robloxstudio #coding",
+    "problem": "Syntax confusion with Color3 and RGB properties",
+    "frequency": "1",
+    "urgency": "low",
+    "can_automate": true,
+    "automation_approach": "A coding agent can provide autocompletion and explanation for the Color3.new() or Color3.fromRGB() constructors to prevent logic errors when manipulating part colors."
+  },
+  {
+    "video_id": "Y2voaJuzjSs",
+    "title": "Roblox Studio Tip 37: The Most Pointless Game Ever! #roblox #scripting #robloxstudio #coding",
+    "problem": "Code failure when copying long scripts (formatting/character limit issues)",
+    "frequency": "1",
+    "urgency": "high",
+    "can_automate": true,
+    "automation_approach": "The agent can host or generate code blocks in a clean, syntax-highlighted format to avoid the truncation and character limits typical of YouTube comments."
+  },
+  {
+    "video_id": "Y2voaJuzjSs",
+    "title": "Roblox Studio Tip 37: The Most Pointless Game Ever! #roblox #scripting #robloxstudio #coding",
+    "problem": "Lack of explanation/teaching (desire for logic breakdown over copy-pasting)",
+    "frequency": "1",
+    "urgency": "medium",
+    "can_automate": true,
+    "automation_approach": "The agent can perform a line-by-line breakdown of a script, explaining the 'why' behind specific API calls and events like CharacterAdded or PlayerAdded."
+  },
+  {
+    "video_id": "72jPOsUr_Bc",
+    "title": "Final Game - Roblox Beginners Scripting Tutorial #18 (2025)",
+    "problem": "Difficulty implementing efficient iteration (tables and loops) to manage multiple similar objects like coins or gates.",
+    "frequency": "4 mentions",
+    "urgency": "high",
+    "can_automate": true,
+    "automation_approach": "A coding agent can refactor redundant, hard-coded logic (e.g., separate functions for every coin) into a single loop using CollectionService tags or a folder-based 'for' loop."
+  },
+  {
+    "video_id": "72jPOsUr_Bc",
+    "title": "Final Game - Roblox Beginners Scripting Tutorial #18 (2025)",
+    "problem": "Silent script failures where the code executes without errors in the output but fails to produce the intended in-game result.",
+    "frequency": "3 mentions",
+    "urgency": "high",
+    "can_automate": true,
+    "automation_approach": "An agent can inject debug 'print' statements and sanity checks (e.g., verifying if CanTouch is true) to identify where the logic chain breaks."
+  },
+  {
+    "video_id": "72jPOsUr_Bc",
+    "title": "Final Game - Roblox Beginners Scripting Tutorial #18 (2025)",
+    "problem": "Inability to merge new features (like sound or visual effects) into existing scripts without breaking the original functionality.",
+    "frequency": "2 mentions",
+    "urgency": "medium",
+    "can_automate": true,
+    "automation_approach": "An agent can use a modular approach, wrapping new features in non-blocking tasks (task.spawn) or separate event connections to prevent 'ruining' the main logic flow."
+  },
+  {
+    "video_id": "72jPOsUr_Bc",
+    "title": "Final Game - Roblox Beginners Scripting Tutorial #18 (2025)",
+    "problem": "Struggling with the syntax and structural memory required to write scripts from scratch without constant guidance or AI help.",
+    "frequency": "3 mentions",
+    "urgency": "medium",
+    "can_automate": true,
+    "automation_approach": "An agent can provide standardized boilerplate templates and 'fill-in-the-blank' scaffolds for common Roblox patterns (Touched events, leaderstats, etc.)."
+  },
+  {
+    "video_id": "72jPOsUr_Bc",
+    "title": "Final Game - Roblox Beginners Scripting Tutorial #18 (2025)",
+    "problem": "Variable scoping errors where triggers (buttons) are incorrectly mapped to the wrong targets (doors).",
+    "frequency": "1 mention",
+    "urgency": "high",
+    "can_automate": true,
+    "automation_approach": "An agent can analyze object hierarchies and ensure that scripts inside specific models only reference children of that parent model rather than global Workspace paths."
+  },
+  {
+    "video_id": "33XdKs9u4oE",
+    "title": "The Only Thing You Need To Learn How To Script",
+    "problem": "Outdated educational content and API references (using 2018/2019 materials in current development environments)",
+    "frequency": "5",
+    "urgency": "high",
+    "can_automate": true,
+    "automation_approach": "An agent can scan legacy code snippets and automatically update them to use modern Luau syntax and the latest Roblox API methods."
+  },
+  {
+    "video_id": "33XdKs9u4oE",
+    "title": "The Only Thing You Need To Learn How To Script",
+    "problem": "Syntax and logic errors within published 'learning' scripts that confuse beginners",
+    "frequency": "2",
+    "urgency": "high",
+    "can_automate": true,
+    "automation_approach": "An AI debugger can analyze tutorial scripts, identify errors, and provide a 'Why' explanation to bridge the conceptual gap for the user."
+  },
+  {
+    "video_id": "33XdKs9u4oE",
+    "title": "The Only Thing You Need To Learn How To Script",
+    "problem": "High barrier to entry due to the cost of books, subscriptions ($99/mo), and physical shipping/import taxes",
+    "frequency": "4",
+    "urgency": "medium",
+    "can_automate": true,
+    "automation_approach": "Agents can scrape and synthesize free documentation from the Roblox Creator Hub and DevForum into customized, structured learning paths."
+  },
+  {
+    "video_id": "33XdKs9u4oE",
+    "title": "The Only Thing You Need To Learn How To Script",
+    "problem": "Conceptual disconnect where users 'read' or 'watch' but cannot actually 'script' or understand the logic",
+    "frequency": "3",
+    "urgency": "medium",
+    "can_automate": true,
+    "automation_approach": "Interactive code-along agents that provide real-time hints and explain the logic behind each line as the user types."
+  },
+  {
+    "video_id": "JIhERqx-Y0Y",
+    "title": "Using ChatGPT For Roblox Studio For The First Time",
+    "problem": "Lack of workspace context in AI responses",
+    "frequency": "4 comments",
+    "urgency": "high",
+    "can_automate": true,
+    "automation_approach": "Integrate the coding agent directly into Roblox Studio as a plugin to read the Explorer hierarchy, allowing it to know exact part names, scales, and CFrame properties."
+  },
+  {
+    "video_id": "JIhERqx-Y0Y",
+    "title": "Using ChatGPT For Roblox Studio For The First Time",
+    "problem": "Generation of deprecated or outdated Luau code",
+    "frequency": "2 comments",
+    "urgency": "medium",
+    "can_automate": true,
+    "automation_approach": "Provide the agent with up-to-date documentation on task.wait(), TweenService, and current Luau syntax via RAG (Retrieval-Augmented Generation) to avoid legacy code."
+  },
+  {
+    "video_id": "JIhERqx-Y0Y",
+    "title": "Using ChatGPT For Roblox Studio For The First Time",
+    "problem": "Logic errors in loops and physics leading to crashes or 'flinging'",
+    "frequency": "3 comments",
+    "urgency": "high",
+    "can_automate": true,
+    "automation_approach": "Implement a sandbox execution environment or linter that checks for missing yields (wait) in loops and validates CFrame math before providing the script."
+  },
+  {
+    "video_id": "JIhERqx-Y0Y",
+    "title": "Using ChatGPT For Roblox Studio For The First Time",
+    "problem": "Complexity in setting up DataStores",
+    "frequency": "1 comment",
+    "urgency": "high",
+    "can_automate": true,
+    "automation_approach": "Provide a template-based generation system for DataStoreService with built-in error handling and pcalls."
+  },
+  {
+    "video_id": "DB3_pehDYT4",
+    "title": "How to Make A POPULAR Roblox Game! (2026)",
+    "problem": "Lack of technical 'how-to' for actual game creation/scripting",
+    "frequency": "4 mentions",
+    "urgency": "high",
+    "can_automate": true,
+    "automation_approach": "A coding agent can provide boilerplate templates for common Roblox systems (Datastores, Player Controllers, and UI) based on user prompts to bridge the gap between marketing advice and technical execution."
+  },
+  {
+    "video_id": "DB3_pehDYT4",
+    "title": "How to Make A POPULAR Roblox Game! (2026)",
+    "problem": "Implementation of specific mechanics (Admin commands, Obby logic, and Server management)",
+    "frequency": "1 mention",
+    "urgency": "medium",
+    "can_automate": true,
+    "automation_approach": "Develop a Luau code generator that creates modular scripts for 'Obby' rewards, fly/kill admin commands, and server shutdown logic."
+  },
+  {
+    "video_id": "DB3_pehDYT4",
+    "title": "How to Make A POPULAR Roblox Game! (2026)",
+    "problem": "Confusion regarding the game publishing and deployment process",
+    "frequency": "1 mention",
+    "urgency": "medium",
+    "can_automate": true,
+    "automation_approach": "Integrate with the Roblox Cloud API to automate the publishing/uploading of assets and place files directly from a development environment."
+  },
+  {
+    "video_id": "udv7SG5ZTbQ",
+    "title": "Operators - Roblox Beginners Scripting Tutorial #10 (2025)",
+    "problem": "Unintentional Overtype/Insert mode in Roblox Studio editor",
+    "frequency": "1 comment",
+    "urgency": "medium",
+    "can_automate": true,
+    "automation_approach": "A coding agent could provide a quick-start guide or a troubleshooting plugin that detects common IDE configuration issues (like the Insert key being toggled) and provides UI tooltips to resolve them."
+  },
+  {
+    "video_id": "udv7SG5ZTbQ",
+    "title": "Operators - Roblox Beginners Scripting Tutorial #10 (2025)",
+    "problem": "High cognitive load/time consumption for beginners to implement basic logic",
+    "frequency": "2 comments",
+    "urgency": "low",
+    "can_automate": true,
+    "automation_approach": "A coding agent can use 'scaffold generation' where the user describes the logic in natural language (e.g., 'If I have enough money, buy this') and the agent generates the boilerplate code for them to study."
+  },
+  {
+    "video_id": "udv7SG5ZTbQ",
+    "title": "Operators - Roblox Beginners Scripting Tutorial #10 (2025)",
+    "problem": "Confusion regarding the execution context (LocalScript vs Server Script)",
+    "frequency": "1 comment",
+    "urgency": "medium",
+    "can_automate": true,
+    "automation_approach": "An agent can analyze the code and its intended purpose (e.g., UI changes vs data saving) and automatically suggest whether it should be placed in a Script or LocalScript."
+  },
+  {
+    "video_id": "4cxqWRmtqyY",
+    "title": "FindFirstChild & WaitForChild - Roblox Beginners Scripting Tutorial #14 (2025)",
+    "problem": "Exact code reproduction fails due to hierarchy/naming mismatches",
+    "frequency": "2 comments",
+    "urgency": "high",
+    "can_automate": true,
+    "automation_approach": "A tool that analyzes the user's Explorer hierarchy and automatically maps variable paths or provides a 'Hierarchy Validator' to ensure script targets actually exist."
+  },
+  {
+    "video_id": "4cxqWRmtqyY",
+    "title": "FindFirstChild & WaitForChild - Roblox Beginners Scripting Tutorial #14 (2025)",
+    "problem": "Misunderstanding of WaitForChild performance and yielding",
+    "frequency": "1 comment",
+    "urgency": "medium",
+    "can_automate": true,
+    "automation_approach": "Linter alerts that flag usage of WaitForChild without a timeout parameter or usage inside frequent events like .Touched, which can cause performance bottlenecks."
+  },
+  {
+    "video_id": "4cxqWRmtqyY",
+    "title": "FindFirstChild & WaitForChild - Roblox Beginners Scripting Tutorial #14 (2025)",
+    "problem": "Redundant logic and inefficient conditional checks",
+    "frequency": "1 comment",
+    "urgency": "low",
+    "can_automate": true,
+    "automation_approach": "A code optimizer agent that can collapse multiple 'if object then' checks into single scopes or suggest more idiomatic Luau patterns."
+  },
+  {
+    "video_id": "5lvsRkx6878",
+    "title": "I Learned How to CODE in 7 Days | Roblox",
+    "problem": "The 'Tutorial Wall': Difficulty transitioning from basic copy-paste scripting (like simple doors) to creating original, complex game logic.",
+    "frequency": "2",
+    "urgency": "high",
+    "can_automate": true,
+    "automation_approach": "A coding agent can act as a logic-first tutor, explaining the underlying principles of Luau scripts rather than just providing snippets, and can generate personalized practice exercises based on existing simple scripts."
+  },
+  {
+    "video_id": "5lvsRkx6878",
+    "title": "I Learned How to CODE in 7 Days | Roblox",
+    "problem": "Environment and Syncing Issues: Roblox Studio failing to save or sync changes correctly when running in Virtual Machines (common for Linux/Mac users).",
+    "frequency": "1",
+    "urgency": "medium",
+    "can_automate": true,
+    "automation_approach": "An agent can assist in setting up external source control tools like Rojo, which allows developers to code in VS Code locally and sync to Studio, bypassing VM-specific cloud-saving UI bugs."
+  },
+  {
+    "video_id": "5lvsRkx6878",
+    "title": "I Learned How to CODE in 7 Days | Roblox",
+    "problem": "Information Overload/Lack of Roadmap: Beginners are overwhelmed by where to start and the time required (mentions of '4 years of trying' without success).",
+    "frequency": "2",
+    "urgency": "high",
+    "can_automate": true,
+    "automation_approach": "A coding agent can provide a structured, project-based curriculum that breaks down game development into specific, achievable milestones (e.g., DataStores, RemoteEvents) based on a user's current skill level."
+  },
+  {
+    "video_id": "QpY8CPo1WXM",
+    "title": "How To Master Roblox Scripting (Even If You're Lost!)",
+    "problem": "Syntax application and structure creation (being able to read code but unable to write it from scratch)",
+    "frequency": "2",
+    "urgency": "high",
+    "can_automate": true,
+    "automation_approach": "A coding agent can provide 'fill-in-the-blank' scaffolding or boilerplate code structures that force the user to provide logic while the agent handles syntax."
+  },
+  {
+    "video_id": "QpY8CPo1WXM",
+    "title": "How To Master Roblox Scripting (Even If You're Lost!)",
+    "problem": "Character manipulation and cloning logic (specifically issues with Archivable properties, PivotTo, and ServerScriptService execution)",
+    "frequency": "1",
+    "urgency": "high",
+    "can_automate": true,
+    "automation_approach": "An AI debugger could analyze provided snippets, identify that character cloning often requires setting 'Archivable = true', and suggest the correct spatial math for offsets."
+  },
+  {
+    "video_id": "QpY8CPo1WXM",
+    "title": "How To Master Roblox Scripting (Even If You're Lost!)",
+    "problem": "Setting up basic GUI elements (difficulty with the fundamentals of the UI frame system)",
+    "frequency": "1",
+    "urgency": "high",
+    "can_automate": true,
+    "automation_approach": "An agent can generate the StarterGui hierarchy and basic layout scripts via natural language commands (e.g., 'Create a health bar UI')."
+  },
+  {
+    "video_id": "QpY8CPo1WXM",
+    "title": "How To Master Roblox Scripting (Even If You're Lost!)",
+    "problem": "Retention and learning continuity (forgetting where to start after a break)",
+    "frequency": "1",
+    "urgency": "medium",
+    "can_automate": true,
+    "automation_approach": "A coding assistant could maintain a 'project log' or 'knowledge graph' of what the user has learned and suggest the next logical step in their specific project."
+  },
+  {
+    "video_id": "rO-JTXh1nug",
+    "title": "How I Learned to Script on Roblox (My First EVER Game!)",
+    "problem": "Difficulty finding or accessing the Roblox Developer platform/Studio",
+    "frequency": 1,
+    "urgency": "medium",
+    "can_automate": true,
+    "automation_approach": "Create a browser extension or chatbot that provides direct deep-links to the Roblox Studio download and web dashboard based on the user's OS."
+  },
+  {
+    "video_id": "rO-JTXh1nug",
+    "title": "How I Learned to Script on Roblox (My First EVER Game!)",
+    "problem": "Lack of a structured, comprehensive curriculum from beginner to advanced Lua",
+    "frequency": 2,
+    "urgency": "high",
+    "can_automate": true,
+    "automation_approach": "An AI-driven learning path generator that assesses current script knowledge and creates a custom syllabus with links to specific documentation and video timestamps."
+  },
+  {
+    "video_id": "rO-JTXh1nug",
+    "title": "How I Learned to Script on Roblox (My First EVER Game!)",
+    "problem": "Inability to write custom scripts or translate game ideas into code",
+    "frequency": 3,
+    "urgency": "high",
+    "can_automate": true,
+    "automation_approach": "Deploy a specialized Roblox-Luau LLM agent that takes natural language descriptions (e.g., 'send me a script for a simulator') and generates functional, commented code blocks."
+  },
+  {
+    "video_id": "rO-JTXh1nug",
+    "title": "How I Learned to Script on Roblox (My First EVER Game!)",
+    "problem": "Inefficiency in manual tutorial following (typing while watching)",
+    "frequency": 1,
+    "urgency": "low",
+    "can_automate": true,
+    "automation_approach": "An OCR-based tool that extracts code snippets from YouTube video frames and converts them into downloadable .lua files or pastes them directly into the Studio API."
+  },
+  {
+    "video_id": "qJNv0hVLLnY",
+    "title": "Did you know this secret of Lua functions? #short",
+    "problem": "Variadic arguments capture (using {...}) fails to account for nil values in the sequence.",
+    "frequency": "1",
+    "urgency": "medium",
+    "can_automate": true,
+    "automation_approach": "A coding agent can detect the use of {...} in variadic functions and suggest or automatically refactor it to table.pack(...) to ensure nil values are preserved and the 'n' count is accurate."
+  },
+  {
+    "video_id": "qJNv0hVLLnY",
+    "title": "Did you know this secret of Lua functions? #short",
+    "problem": "Confusion regarding Luau's generalized iteration vs. standard Lua iterators (ipairs/pairs).",
+    "frequency": "4",
+    "urgency": "low",
+    "can_automate": true,
+    "automation_approach": "Linter-style transformation that adds explicit ipairs() or pairs() calls to loops for developers who prioritize cross-version Lua compatibility or readability."
+  },
+  {
+    "video_id": "qJNv0hVLLnY",
+    "title": "Did you know this secret of Lua functions? #short",
+    "problem": "Architectural uncertainty regarding when to use variadic functions (...) vs. passing a single table/list.",
+    "frequency": "5",
+    "urgency": "low",
+    "can_automate": true,
+    "automation_approach": "Analyze function calls across a codebase; if a variadic function is frequently called with a high number of arguments, an agent can recommend refactoring the signature to a single table object for better readability and maintainability."
+  },
+  {
+    "video_id": "IzjHaeRpFz8",
+    "title": "Why Roblox Studio is Confusing For Beginners",
+    "problem": "Bulk welding of selected parts is not a native one-click feature, requiring manual work or custom scripts.",
+    "frequency": "3",
+    "urgency": "medium",
+    "can_automate": true,
+    "automation_approach": "A script that iterates through all selected BaseParts and programmatically creates WeldConstraints relative to a primary part or a logical center."
+  },
+  {
+    "video_id": "IzjHaeRpFz8",
+    "title": "Why Roblox Studio is Confusing For Beginners",
+    "problem": "Datastore implementation requires too much boilerplate code (50-100 lines) for beginners to save simple player data.",
+    "frequency": "2",
+    "urgency": "high",
+    "can_automate": true,
+    "automation_approach": "Generating a standardized, modular DataStore template or wrapper script that handles GetAsync/SetAsync with pcall error handling automatically."
+  },
+  {
+    "video_id": "IzjHaeRpFz8",
+    "title": "Why Roblox Studio is Confusing For Beginners",
+    "problem": "UI scaling and responsiveness is difficult; frames don't auto-resize for different screens and cannot be easily rotated.",
+    "frequency": "2",
+    "urgency": "high",
+    "can_automate": true,
+    "automation_approach": "An agent can automatically traverse a UI folder to convert Offset-based sizes/positions to Scale-based ones and insert UIAspectRatioConstraints."
+  },
+  {
+    "video_id": "IzjHaeRpFz8",
+    "title": "Why Roblox Studio is Confusing For Beginners",
+    "problem": "Scaling a group of parts or models along a single axis is not supported by default tools.",
+    "frequency": "2",
+    "urgency": "medium",
+    "can_automate": true,
+    "automation_approach": "A script that calculates the collective bounding box of a selection and adjusts the Size and CFrame of individual parts based on a single-axis multiplier."
+  },
+  {
+    "video_id": "IzjHaeRpFz8",
+    "title": "Why Roblox Studio is Confusing For Beginners",
+    "problem": "Difficulty aligning and snapping parts together (walls not lining up) during the building process.",
+    "frequency": "2",
+    "urgency": "medium",
+    "can_automate": true,
+    "automation_approach": "A command-bar utility to snap the CFrame of a part to the nearest grid increment or the face of another targeted part."
+  },
+  {
+    "video_id": "IzjHaeRpFz8",
+    "title": "Why Roblox Studio is Confusing For Beginners",
+    "problem": "Confusion over Luau syntax patterns like 'for i, v in pairs', Enums, and error handling (pcall).",
+    "frequency": "2",
+    "urgency": "low",
+    "can_automate": true,
+    "automation_approach": "Translating natural language intent into boilerplate-free Luau code while providing inline explanations of iteration and error-catching logic."
+  }
+]

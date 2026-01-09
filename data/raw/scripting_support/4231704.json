@@ -1,0 +1,52 @@
+{
+  "id": 4231704,
+  "title": "Are hingeconstraints server or client sided?",
+  "slug": "are-hingeconstraints-server-or-client-sided",
+  "url": "https://devforum.roblox.com/t/are-hingeconstraints-server-or-client-sided/4231704",
+  "category_id": 55,
+  "category_name": "Scripting Support",
+  "created_at": "2026-01-08T17:03:26.030Z",
+  "last_posted_at": "2026-01-08T17:41:34.291Z",
+  "views": 35,
+  "reply_count": 0,
+  "like_count": 2,
+  "tags": [],
+  "posts": [
+    {
+      "id": 13660966,
+      "username": "megasuperalfonato",
+      "content_raw": "",
+      "content_html": "<p>This is just a quick question, I never really investigated in that theme until now. If they are client then all good, but if they are server, then that’s a problem for me, would i just change the network ownership of them? Thanks for the help (basically, it’s for an obby and i need players to step on these rotating parts)</p>",
+      "created_at": "2026-01-08T17:03:26.285Z",
+      "likes": 0,
+      "post_number": 1
+    },
+    {
+      "id": 13661093,
+      "username": "Brambes230605",
+      "content_raw": "",
+      "content_html": "<aside class=\"quote no-group\" data-username=\"megasuperalfonato\" data-post=\"1\" data-topic=\"4231704\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://doy2mn9upadnk.cloudfront.net/user_avatar/devforum.roblox.com/megasuperalfonato/60/7375003_2.png\" class=\"avatar\"> RonaldoR9:</div>\n<blockquote>\n<p>would i just change the network ownership of them?</p>\n</blockquote>\n</aside>\n<p>Exactly. A hingeconstraint is just a physics constraint that tells the engine how parts are allowed to move. It’s still the network owner who calculates the next step.</p>",
+      "created_at": "2026-01-08T17:19:06.016Z",
+      "likes": 0,
+      "post_number": 2
+    },
+    {
+      "id": 13661121,
+      "username": "real_ryanx",
+      "content_raw": "",
+      "content_html": "<p>I was expecting more from yellow programmers…<br>\nAnyways it’s just physiks</p>",
+      "created_at": "2026-01-08T17:22:47.164Z",
+      "likes": 0,
+      "post_number": 3
+    },
+    {
+      "id": 13661238,
+      "username": "megasuperalfonato",
+      "content_raw": "",
+      "content_html": "<p>i was suspecting it was like this thanks for the help</p>\n<aside class=\"quote no-group\" data-username=\"real_ryanx\" data-post=\"3\" data-topic=\"4231704\" data-full=\"true\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://doy2mn9upadnk.cloudfront.net/user_avatar/devforum.roblox.com/real_ryanx/60/7219479_2.png\" class=\"avatar\"> Ryan:</div>\n<blockquote>\n<p>I was expecting more from yellow programmers…<br>\nAnyways it’s just physiks</p>\n</blockquote>\n</aside>\n<p>you offended me and the yellow programmers so you are not going to get a solution today oops sorry but the yellow programmers chosen to give the person above you the solution</p>",
+      "created_at": "2026-01-08T17:41:34.291Z",
+      "likes": 0,
+      "post_number": 4
+    }
+  ]
+}

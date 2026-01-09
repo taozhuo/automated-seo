@@ -1,0 +1,36 @@
+{
+  "id": 4231644,
+  "title": "Large Scale Lighting is Inconsistent",
+  "slug": "large-scale-lighting-is-inconsistent",
+  "url": "https://devforum.roblox.com/t/large-scale-lighting-is-inconsistent/4231644",
+  "category_id": 55,
+  "category_name": "Scripting Support",
+  "created_at": "2026-01-08T16:47:49.202Z",
+  "last_posted_at": "2026-01-08T17:08:13.260Z",
+  "views": 22,
+  "reply_count": 0,
+  "like_count": 0,
+  "tags": [
+    "lighting"
+  ],
+  "posts": [
+    {
+      "id": 13660815,
+      "username": "packrat7",
+      "content_raw": "",
+      "content_html": "<p>Does anyone know how to fix this? The lighting jarringly changes its properties when entering dark areas such as caves, is there a way to disable this or at least minimize its effects? or is this something I’m just going to need to build around.</p>\n<p></p><div class=\"video-placeholder-container\" data-video-src=\"/secure-uploads/uploads/original/5X/2/b/6/c/2b6c0cc063241cc1f0507a6ba5b63822a7dc65fe.mp4\" data-thumbnail-src=\"//devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/original/5X/4/9/2/d/492d8058c65de14bd26943486f352ee1e0ba823f.png\" data-video-base62-sha1=\"6c81FksIe0fbs7iBl3ZqymxCRLE.mp4\">\n  </div><p></p>",
+      "created_at": "2026-01-08T16:47:49.458Z",
+      "likes": 0,
+      "post_number": 1
+    },
+    {
+      "id": 13661003,
+      "username": "fletc3her",
+      "content_raw": "",
+      "content_html": "<p>Do you have any Ambient Lighting? This will make interior areas have some lighting. Finding the right balance can make it feel like you’re inside but still allow you to see things.</p>\n<p><a href=\"https://create.roblox.com/docs/reference/engine/classes/Lighting#Ambient\">Ambient Lighting</a></p>",
+      "created_at": "2026-01-08T17:08:13.260Z",
+      "likes": 0,
+      "post_number": 2
+    }
+  ]
+}

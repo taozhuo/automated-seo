@@ -1,0 +1,133 @@
+{
+  "id": 4227153,
+  "title": "Help with animated textures script",
+  "slug": "help-with-animated-textures-script",
+  "url": "https://devforum.roblox.com/t/help-with-animated-textures-script/4227153",
+  "category_id": 55,
+  "category_name": "Scripting Support",
+  "created_at": "2026-01-07T21:03:48.909Z",
+  "last_posted_at": "2026-01-08T19:40:30.958Z",
+  "views": 71,
+  "reply_count": 10,
+  "like_count": 3,
+  "tags": [],
+  "posts": [
+    {
+      "id": 13652685,
+      "username": "magickahat",
+      "content_raw": "",
+      "content_html": "<p>Hello, today I’ve been trying to finish work on my animated textures script, which is supposed to play a tagged texture atlas as an animation. But I’m currently having trouble trying to get it to sync properly. At the moment individual parts, despite containing the same tags and textureid, are a few frames off from one another creating an effect that’s too distracting to ignore. I thought that its possible to change multiple parts properties at the same time in a script, but I’ve been told otherwise and I am now a little bit lost on how to handle this feature. Below will be the current script, any and all help figuring this out will be greatly appreciated &lt;3<br>\n</p><div class=\"video-placeholder-container\" data-video-src=\"/secure-uploads/uploads/original/5X/7/8/f/5/78f5bcc86afb2b5f89cd09fb13509d100e39d87b.mp4\" data-thumbnail-src=\"//devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/original/5X/4/b/e/3/4be32849465f1b0fff92ef6deb2480cb5c795513.png\" data-video-base62-sha1=\"hg3MLdj2EO4oJ0EIalzbMHpU9e3.mp4\">\n  </div><p></p>\n<pre data-code-wrap=\"lua\"><code class=\"lang-lua\">local AnimatedTextureService = {}\n-- Services\nlocal RunService = game:GetService(\"RunService\")\nlocal CollectionService = game:GetService(\"CollectionService\")\n\n-- Variables\nlocal frames = 1 -- Number of frames in a spritesheet\nlocal rows = 1 -- Number of rows in a spritesheet\nlocal columns = 1 -- Number of columns in a spritesheet\n\nlocal targetRate = 0.1 -- The smaller this number, the faster the animations will play\nlocal accumulatedTime = 0\n\nlocal connections: { [Texture]: RBXScriptConnection } = {}\n\nlocal shouldUpdate = false\nlocal needsUpdates: { () -&gt; () } = {}\nlocal amountOfTexturesNeedingUpdates = 0\nlocal amountOfTextures = 0\n\n-- Cleanup function\nlocal function cleanup(texture: Texture)\n\tconnections[texture]:Disconnect()\n\tconnections[texture] = nil\nend\n\n-- Connection function\nlocal function connect(texture: Texture)\n\tlocal currentFrame = 1\n\tlocal currentRow = 1\n\tlocal currentColumn = 1\n\tconnections[texture] = RunService.Heartbeat:Connect(function(deltaTime)\n\t\tif not shouldUpdate then\n\t\t\treturn\n\t\tend\n\n\t\tif texture.Parent == nil then\n\t\t\tcleanup(texture)\n\t\t\treturn\n\t\tend\n\n\t\tif amountOfTexturesNeedingUpdates &gt;= amountOfTextures then\n\t\t\tfor _, update in needsUpdates do\n\t\t\t\tupdate()\n\t\t\tend\n\t\t\ttable.clear(needsUpdates)\n\t\tend\n\n\t\tlocal size = texture.Parent.Size -- The spritesheet should be on the FRONT of the part\n\n\t\taccumulatedTime = accumulatedTime + deltaTime\n\n\t\tif accumulatedTime &gt;= targetRate then\n\t\t\tif texture:HasTag(\"Water\") then -- Water\n\t\t\t\tframes = 32\n\n\t\t\t\trows = 6\n\t\t\t\tcolumns = 6\n\n\t\t\t\ttexture.StudsPerTileU = columns * size.X\n\t\t\t\ttexture.StudsPerTileV = rows * size.Y\n\n\t\t\t\tcurrentColumn = currentColumn + 1\n\t\t\t\tif currentColumn &gt; columns then\n\t\t\t\t\tcurrentColumn = 1\n\t\t\t\t\tcurrentRow = currentRow + 1\n\t\t\t\tend\n\n\t\t\t\tif currentFrame &gt; frames then\n\t\t\t\t\tcurrentRow = 1\n\t\t\t\t\tcurrentColumn = 1\n\t\t\t\t\tcurrentFrame = 1\n\t\t\t\tend\n\n\t\t\t\ttexture.OffsetStudsU = size.X * (currentColumn - 1)\n\t\t\t\ttexture.OffsetStudsV = size.Y * (currentRow - 1)\n\t\t\t\tcurrentFrame = currentFrame + 1\n\t\t\tend\n\n\t\t\tif texture:HasTag(\"Seafoam\") then -- Seafoam\n\t\t\t\tframes = 27\n\n\t\t\t\trows = 9\n\t\t\t\tcolumns = 3\n\n\t\t\t\ttexture.StudsPerTileU = columns * size.X\n\t\t\t\ttexture.StudsPerTileV = rows * size.Y\n\n\t\t\t\tcurrentColumn = currentColumn + 1\n\t\t\t\tif currentColumn &gt; columns then\n\t\t\t\t\tcurrentColumn = 1\n\t\t\t\t\tcurrentRow = currentRow + 1\n\t\t\t\tend\n\n\t\t\t\tif currentFrame &gt; frames then\n\t\t\t\t\tcurrentRow = 1\n\t\t\t\t\tcurrentColumn = 1\n\t\t\t\t\tcurrentFrame = 1\n\t\t\t\tend\n\n\t\t\t\ttexture.OffsetStudsU = size.X * (currentColumn - 1)\n\t\t\t\ttexture.OffsetStudsV = size.Y * (currentRow - 1)\n\t\t\t\tcurrentFrame = currentFrame + 1\n\t\t\tend\n\n\t\t\taccumulatedTime -= targetRate\n\t\tend\n\tend)\nend\n\n-- CollectionService instances\nCollectionService:GetInstanceAddedSignal(\"AnimatedTexture\"):Connect(function(texture)\n\tif texture:IsA(\"Texture\") then\n\t\tamountOfTextures += 1\n\t\tconnect(texture)\n\telse\n\t\ttexture:RemoveTag(\"AnimatedTexture\")\n\tend\nend)\n\nCollectionService:GetInstanceRemovedSignal(\"AnimatedTexture\"):Connect(cleanup)\n\n-- For texture loop\nfor _, texture in CollectionService:GetTagged(\"AnimatedTexture\") do\n\tconnect(texture)\nend\n\n-- Initialization and start functions\nfunction AnimatedTextureService.Init()\n\treturn\nend\n\nfunction AnimatedTextureService.Start()\n\tshouldUpdate = true\n\treturn\nend\n\nreturn AnimatedTextureService\n</code></pre>",
+      "created_at": "2026-01-07T21:03:49.133Z",
+      "likes": 0,
+      "post_number": 1
+    },
+    {
+      "id": 13653155,
+      "username": "SirDynamotor",
+      "content_raw": "",
+      "content_html": "<p>Would <code>os.clock()</code> be possible for this case?</p>\n<p>For a better idea:</p>\n<pre data-code-wrap=\"lua\"><code class=\"lang-lua\">local FPS = 30\nlocal Frames = 32\n\nlocal CurrentFrame = math.floor(os.clock() * FPS) % Frames\n</code></pre>",
+      "created_at": "2026-01-07T21:46:33.123Z",
+      "likes": 0,
+      "post_number": 2
+    },
+    {
+      "id": 13653648,
+      "username": "2112Jay",
+      "content_raw": "",
+      "content_html": "<p>You’re off a bit and it’s adding up. These need to be right down to the pixel. Always takes me a lot of testing to get it right. The picture has to be perfect also..</p>\n<p>One of my templates set to a texture for this..</p>\n<details>\n<summary>\nSummary</summary>\n<pre data-code-wrap=\"lua\"><code class=\"lang-lua\">root = workspace:WaitForChild(\"Omega\"):WaitForChild(\"Parts\")\n\t:WaitForChild(\"PodC\"):WaitForChild(\"Faces\"):WaitForChild(\"Com\")\nlocal frame01 = root.Bridge01L.Display.AniTexture\n\nfunction AnimA(frame, xF, yF)\n\tlocal oU, oV = 0, 0\n\ttask.wait(0.7) \n\ttask.spawn(function()\n\t\twhile true do\n\t\t\tfor stepY = 1, 4  do\n\t\t\t\tlocal oV = ((yF * stepY) - yF) frame.OffsetStudsV = oV\n\t\t\t\tfor stepX = 1, 2  do\n\t\t\t\t\tlocal oU = ((xF * stepX) - xF) frame.OffsetStudsU = oU - 0.075\n\t\t\t\t\ttask.wait(0.3)\n\t\t\t\tend \n\t\t\tend \n\t\tend\n\tend)\nend\n\nAnimA(frame01, 8.875, 6)\n</code></pre>\n</details>",
+      "created_at": "2026-01-07T22:22:48.432Z",
+      "likes": 0,
+      "post_number": 3
+    },
+    {
+      "id": 13654253,
+      "username": "magickahat",
+      "content_raw": "",
+      "content_html": "<p>Hey! I see your template here but don’t fully understand it yet. Do you mind elaborating on it a bit further? Also, what how are your animated texture images setup? Is it the same as mine, one big image with different frames, or are you somehow using separate texture images?</p>",
+      "created_at": "2026-01-07T23:17:35.096Z",
+      "likes": 0,
+      "post_number": 4
+    },
+    {
+      "id": 13654319,
+      "username": "2112Jay",
+      "content_raw": "",
+      "content_html": "<p>Well, the picture is many shots lined up in a few rows. This one is 4 by 2<br>\nOOOO<br>\nOOOO<br>\nThen I’m using two for loops to run through them all and loop back.<br>\nThis is more about that picture being perfect than anything else.<br>\nAs you see it’s down to 8.875 moving horizontally for this shot,<br>\nIt can’t be 0.001 off, or it will show.</p>\n<p>For these, the trim offsets are local oU, oV = 0, 0. Looking at yours, it looks like your oU would need to be more than 0. These were re edited like 30 times to hit that perfect 0, 0. That is not really needed as long as the offset is right for the pictures. The move offset is 8.875 horizontally and 6 vertically.</p>",
+      "created_at": "2026-01-07T23:23:39.433Z",
+      "likes": 0,
+      "post_number": 5
+    },
+    {
+      "id": 13654504,
+      "username": "magickahat",
+      "content_raw": "",
+      "content_html": "<p>I hadn’t considered moving the frames along by pixels, I’ll try that out next. Using for loops to run through the frames over run service should be worth looking into as well. If I successfully model my code off of yours as you’ve described it, I will need to separate each texture into their own module scripts, which will actually be better for organization’s sake!  Below is the water texture I’m using, which has a resolution of 1000 x 1000.<br>\n<div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"//devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/original/5X/c/6/1/7/c617ec65640d772fb84d3af7fc0edecbb5249fe1.png\" data-download-href=\"/uploads/short-url/sgpNhnFyXNoGlJdoUCoWF1n7MfD.png?dl=1\" title=\"animatedwater\" rel=\"noopener nofollow ugc\"><img src=\"//devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/optimized/5X/c/6/1/7/c617ec65640d772fb84d3af7fc0edecbb5249fe1_2_500x500.png\" alt=\"animatedwater\" data-base62-sha1=\"sgpNhnFyXNoGlJdoUCoWF1n7MfD\" width=\"500\" height=\"500\" srcset=\"//devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/optimized/5X/c/6/1/7/c617ec65640d772fb84d3af7fc0edecbb5249fe1_2_500x500.png, //devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/optimized/5X/c/6/1/7/c617ec65640d772fb84d3af7fc0edecbb5249fe1_2_750x750.png 1.5x, //devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/optimized/5X/c/6/1/7/c617ec65640d772fb84d3af7fc0edecbb5249fe1_2_1000x1000.png 2x\" data-dominant-color=\"A3A3A3\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">animatedwater</span><span class=\"informations\">1000×1000 294 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>",
+      "created_at": "2026-01-07T23:40:31.006Z",
+      "likes": 0,
+      "post_number": 6
+    },
+    {
+      "id": 13654531,
+      "username": "2112Jay",
+      "content_raw": "",
+      "content_html": "<p>(post deleted by author)</p>",
+      "created_at": "2026-01-07T23:42:28.998Z",
+      "likes": 0,
+      "post_number": 7
+    },
+    {
+      "id": 13654701,
+      "username": "magickahat",
+      "content_raw": "",
+      "content_html": "<p>I’m not even sure how I can get it perfect, since I used programs to create this spritesheet from a gif and resize it to the proper resolution. Do you have any tips on how I should go about this? Sorry if this is an odd request, I’m just unfamiliar with this process xD</p>",
+      "created_at": "2026-01-07T23:54:44.289Z",
+      "likes": 0,
+      "post_number": 8
+    },
+    {
+      "id": 13654733,
+      "username": "2112Jay",
+      "content_raw": "",
+      "content_html": "<p>Looking at it, it’s perfectly off. That may not be off at all. Maybe that is six rows. It’s different than mine. I actually make the clips (frames) one by one to match each other, with the moment of course. This is a very old school way of doing a cycle animation.. frames, loops, and math.</p>\n<p>I think what we are looking at here is 6 rows cut into 36 frames.<br>\nThe one I’m showing is 2 rows cut into 8 frames.</p>\n<p>Considering you used a sprite sheet here. I’ll assume it is perfect..<br>\nIf it is, this maybe right.</p>\n<pre data-code-wrap=\"lua\"><code class=\"lang-lua\">function AnimA(frame, xF, yF)\n\ttask.wait(0.7)\n\ttask.spawn(function()\n\t\twhile true do\n\t\t\tfor stepY = 1, 6 do\n\t\t\t\tframe.OffsetStudsV = (yF * stepY) - yF\n\t\t\t\tfor stepX = 1, 6 do\n\t\t\t\t\tframe.OffsetStudsU = (xF * stepX) - xF\n\t\t\t\t\ttask.wait(0.3)\n\t\t\t\tend\n\t\t\tend\n\t\tend\n\tend)\nend\n\nAnimA(frame, 1000/6, 1000/6)\n</code></pre>\n<p>These things take a lot of tinkering..</p>",
+      "created_at": "2026-01-07T23:57:15.079Z",
+      "likes": 0,
+      "post_number": 9
+    },
+    {
+      "id": 13655359,
+      "username": "magickahat",
+      "content_raw": "",
+      "content_html": "<p>Its getting somewhat late where I am, I’ll return to this tomorrow. Thanks for helping me so far!!</p>",
+      "created_at": "2026-01-08T00:48:51.820Z",
+      "likes": 0,
+      "post_number": 10
+    },
+    {
+      "id": 13655725,
+      "username": "2112Jay",
+      "content_raw": "",
+      "content_html": "<p>No problem, this is good stuff. Good luck, it’s worth learning. Hard to go through all the steps here on the forums. I’m sure there is some tutorial showing how to do this. It’s been around forever.</p>\n<p>Also I’ll take a shot at your script ..</p>\n<details>\n<summary>\nSummary</summary>\n<pre data-code-wrap=\"lua\"><code class=\"lang-lua\">local AnimatedTextureService = {}\nlocal RunService = game:GetService(\"RunService\")\nlocal CollectionService = game:GetService(\"CollectionService\")\n\nlocal animations = {\n\tWater = {\n\t\tframes = 32,\n\t\trows = 6,\n\t\tcolumns = 6,\n\t\tfps = 10,\n\t},\n\tSeafoam = {\n\t\tframes = 27,\n\t\trows = 9,\n\t\tcolumns = 3,\n\t\tfps = 10,\n\t}\n}\n\nlocal currentTime = 0\nlocal shouldUpdate = false\nlocal textures = {}\nlocal connections = {}\nlocal animationConnection\n\nlocal function updateTexture(texture, config, size, frameIndex)\n\tlocal frameZeroIndex = frameIndex - 1\n\tlocal column = (frameZeroIndex % config.columns) + 1\n\tlocal row = math.floor(frameZeroIndex / config.columns) + 1\n\t\n\ttexture.StudsPerTileU = config.columns * size.X\n\ttexture.StudsPerTileV = config.rows * size.Y\n\ttexture.OffsetStudsU = size.X * (column - 1)\n\ttexture.OffsetStudsV = size.Y * (row - 1)\nend\n\nanimationConnection = RunService.Heartbeat:Connect(function(deltaTime)\n\tif not shouldUpdate then return end\n\t\n\tcurrentTime = currentTime + deltaTime\n\t\n\tfor texture, data in textures do\n\t\tif not texture.Parent then\n\t\t\ttextures[texture] = nil\n\t\t\tif connections[texture] then\n\t\t\t\tconnections[texture]:Disconnect()\n\t\t\t\tconnections[texture] = nil\n\t\t\tend\n\t\t\tcontinue\n\t\tend\n\t\t\n\t\tlocal config = animations[data.type]\n\t\tif not config then continue end\n\t\t\n\t\tlocal fps = config.fps\n\t\tlocal totalFrames = config.frames\n\t\tlocal frameTime = 1 / fps\n\t\t\n\t\tlocal animationTime = currentTime % (totalFrames * frameTime)\n\t\tlocal frameIndex = math.floor(animationTime / frameTime) + 1\n\t\t\n\t\tframeIndex = math.clamp(frameIndex, 1, totalFrames)\n\t\t\n\t\tupdateTexture(texture, config, data.size, frameIndex)\n\tend\nend)\n\nlocal function cleanup(texture)\n\tif connections[texture] then\n\t\tconnections[texture]:Disconnect()\n\t\tconnections[texture] = nil\n\tend\n\ttextures[texture] = nil\nend\n\nlocal function setupTexture(texture)\n\tif not texture:IsA(\"Texture\") then return end\n\t\n\tlocal animType = nil\n\tif texture:HasTag(\"Water\") then\n\t\tanimType = \"Water\"\n\telseif texture:HasTag(\"Seafoam\") then\n\t\tanimType = \"Seafoam\"\n\tend\n\t\n\tif not animType then return end\n\t\n\ttextures[texture] = {\n\t\ttype = animType,\n\t\tsize = texture.Parent and texture.Parent.Size or Vector3.new(1, 1, 1)\n\t}\n\t\n\tlocal parent = texture.Parent\n\tif parent then\n\t\tconnections[texture] = parent:GetPropertyChangedSignal(\"Size\"):Connect(function()\n\t\t\tif textures[texture] then\n\t\t\t\ttextures[texture].size = parent.Size\n\t\t\tend\n\t\tend)\n\tend\nend\n\nCollectionService:GetInstanceAddedSignal(\"AnimatedTexture\"):Connect(function(texture)\n\tsetupTexture(texture)\nend)\n\nCollectionService:GetInstanceRemovedSignal(\"AnimatedTexture\"):Connect(cleanup)\n\nfor _, texture in CollectionService:GetTagged(\"AnimatedTexture\") do\n\tsetupTexture(texture)\nend\n\nfunction AnimatedTextureService.Init()\n\treturn\nend\n\nfunction AnimatedTextureService.Start()\n\tshouldUpdate = true\n\treturn\nend\n\nfunction AnimatedTextureService.Stop()\n\tshouldUpdate = false\nend\n\nfunction AnimatedTextureService.Cleanup()\n\tanimationConnection:Disconnect()\n\tfor texture in pairs(textures) do\n\t\tcleanup(texture)\n\tend\n\ttable.clear(textures)\nend\n\nreturn AnimatedTextureService\n</code></pre>\n<p>Tried for a synchronized animation state: Instead of each texture having its own frame counter.</p>\n</details>",
+      "created_at": "2026-01-08T01:25:18.398Z",
+      "likes": 0,
+      "post_number": 11
+    },
+    {
+      "id": 13660663,
+      "username": "magickahat",
+      "content_raw": "",
+      "content_html": "<p>Your take on my script ended up working better than my original version, thank you! I’m sure I’ll be able to learn a new practice or to by studying it for my future scripts. Although in regards to a tutorial, I’ve searched a bit online but couldn’t find anything concrete on how to create this feature. In matter of fact it was a resource here on the forum that gave me the code to work into the script I originally posted. Maybe I’m just looking in the wrong places lol.<br>\n</p><div class=\"video-placeholder-container\" data-video-src=\"//devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/original/5X/f/e/d/7/fed7779e1a54e099aedf3dad067474ced2a7ddec.mp4\" data-thumbnail-src=\"//devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/original/5X/f/5/2/a/f52a7e57c869f1ebbb77d6004932dc5646b00c9d.png\" data-video-base62-sha1=\"AmqUFgBl9t29yKXuIqOfHzlGMX2.mp4\">\n  </div><br>\nNot too sure about these seams between the textures, but I have a few ideas on how I can hide them so I’m not too worried about them atm.<p></p>",
+      "created_at": "2026-01-08T16:24:45.226Z",
+      "likes": 0,
+      "post_number": 12
+    },
+    {
+      "id": 13662202,
+      "username": "2112Jay",
+      "content_raw": "",
+      "content_html": "<p>That looks sweet, you got it. As far as the other way that’s just moving the view to the next frame.</p>",
+      "created_at": "2026-01-08T19:40:30.958Z",
+      "likes": 0,
+      "post_number": 13
+    }
+  ]
+}

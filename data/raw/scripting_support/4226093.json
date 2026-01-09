@@ -1,0 +1,61 @@
+{
+  "id": 4226093,
+  "title": ":ApplyImpulseAtPosition() works strange?",
+  "slug": "applyimpulseatposition-works-strange",
+  "url": "https://devforum.roblox.com/t/applyimpulseatposition-works-strange/4226093",
+  "category_id": 55,
+  "category_name": "Scripting Support",
+  "created_at": "2026-01-07T16:58:52.005Z",
+  "last_posted_at": "2026-01-08T11:20:46.708Z",
+  "views": 70,
+  "reply_count": 3,
+  "like_count": 1,
+  "tags": [],
+  "posts": [
+    {
+      "id": 13650428,
+      "username": "mashkov_dev",
+      "content_raw": "",
+      "content_html": "<p>I tried to apply impulse at position which is not even a point inside of part. But I still have impulse applied to the part. How?</p>\n<p>Here is a file:</p>\n<p><a class=\"attachment\" href=\"/uploads/short-url/i8iwCPkmhJl7X104n9hUccPXvKR.rbxl\">impulseatposition.rbxl</a> (57.5 KB)</p>",
+      "created_at": "2026-01-07T16:58:52.209Z",
+      "likes": 0,
+      "post_number": 1
+    },
+    {
+      "id": 13650970,
+      "username": "nowodev",
+      "content_raw": "",
+      "content_html": "<p>ApplyImpulseAtPosition does not check if the point is inside the part, it just applies the impulse like if it were.</p>\n<p>If you only want impulse to be applied for points inside the part, check using APIs like <a href=\"https://create.roblox.com/docs/reference/engine/classes/BasePart#GetClosestPointOnSurface\"><code>BasePart:GetClosestPointOnSurface()</code></a>.</p>\n<p>For example:</p>\n<pre data-code-wrap=\"lua\"><code class=\"lang-lua\">local targetPart = workspace.PartA\nlocal pos = workspace.PartB.Position\n\nlocal tSurface = targetPart:GetClosestPointOnSurface(pos)\nlocal tDistance = (tSurface - pos).Magnitude\n\nif tDistance &lt; 0.02 then\n\tprint(\"inside target part!\")\nelse\n\tprint(\"outside target part!\")\nend\n</code></pre>\n<p></p><div class=\"video-placeholder-container\" data-video-src=\"/secure-uploads/uploads/original/5X/1/f/e/4/1fe42bccac48f5242959b0027e196b5f2cbaf198.mp4\" data-thumbnail-src=\"//devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/original/5X/7/0/d/f/70df93216265a465512b313320bb34b8224c874c.png\" data-video-base62-sha1=\"4y7EFfNyPticdTufBGOiepSVWA0.mp4\">\n  </div><p></p>",
+      "created_at": "2026-01-07T17:59:12.482Z",
+      "likes": 0,
+      "post_number": 2
+    },
+    {
+      "id": 13652352,
+      "username": "mashkov_dev",
+      "content_raw": "",
+      "content_html": "<p>Probably I wasn’t clear, but my question was how is it possible that impulse is still being applied despite the fact that I pass point outside of assembly. If I kick the air 10 meters away from the ball, ball will not move.</p>",
+      "created_at": "2026-01-07T20:28:26.881Z",
+      "likes": 0,
+      "post_number": 3
+    },
+    {
+      "id": 13655131,
+      "username": "nowodev",
+      "content_raw": "",
+      "content_html": "<p>Again, the method doesn’t check if the point is within the part, it will apply the impulse regardless. This isn’t real life.</p>",
+      "created_at": "2026-01-08T00:26:05.194Z",
+      "likes": 0,
+      "post_number": 4
+    },
+    {
+      "id": 13659074,
+      "username": "mashkov_dev",
+      "content_raw": "",
+      "content_html": "<p>Sorry, I misread what you have said.</p>",
+      "created_at": "2026-01-08T11:20:46.708Z",
+      "likes": 0,
+      "post_number": 5
+    }
+  ]
+}

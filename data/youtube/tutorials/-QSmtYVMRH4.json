@@ -1,0 +1,4303 @@
+{
+  "id": "-QSmtYVMRH4",
+  "title": "How to make your FIRST Roblox Game in 2024-2025 (Make Robux)",
+  "channel": "CodeBro29",
+  "views": 2207455,
+  "duration": "29:49",
+  "upload_date": "",
+  "description": "",
+  "url": "https://www.youtube.com/watch?v=-QSmtYVMRH4",
+  "transcript": "By the end of this video, if you follow all the steps that I'm going to be showing you, you will learn how to make this game by yourself. You're going to learn how to make an obby, and you're going to learn how to make Robux with this obby by adding a skip stage button where people can actually purchase this from you. And once they purchase it, they will actually get skipped to the next stage and you can earn Robux that way. Let's not waste any time. Let's just jump right into this. Enjoy, guys, and good luck. All right. To get started on your game making journey, you're going to have to go to roblox.com/create and you're going to be brought to this page. After that, click this big start creating button and it's going to check to see if you have Roblox Studio. If not, it'll ask you to download Studio. Go ahead and click this button and then move on. Once you've downloaded Roblox Studio, you can go ahead and double tap the app to open it up. And now you should actually be inside of Roblox Studio. I'm going to be showing you some of these windows right now. So, the first one is the new window. This will create new games for you. So you can go ahead and click new and that'll show you all the different templates you can use to create your games. The next one is going to be my games. This tab holds all your current games that you have made. So once you've already made a game, you can check in here to see where those games are. Recent shows you the most recent games you've been working on. After that, there's archive and tour, but we're not going to touch on those. So go ahead and go to the new tab and click this base plate button. That's going to give you a brand new game with a Roblox base plate. First thing we're going to do is learn how to move around and navigate through this 3D space. You can use W and D on your keyboard to move around just like you can in a Roblox game. Next, you can hold right click and move your mouse around, and that'll pan your camera. So, go ahead and hold right click and move your camera, and you can figure out how this camera system works. Takes a little bit of getting used to, but once you figure it out, it's easy peasy. Next, you can move around your mouse and hover over different objects in your game, and you can leftclick to select them. For example, I just selected the spawn location. If for whatever reason that's not working, head up here to this select button. Click that first, and then you can select tools or objects in your game. Okay, the next thing we're going to learn is how to navigate the different tabs. Right now, we are in the home tab, and you can see that up here at the top of my screen. It says home. This has a ton of different buttons. We're only going to get into a few of them. Uh, but first there, let's do move, scale, select, and rotate. If you select a part, you are using the select tool right here. Now, if you switch over to the move tool, you can actually move parts in your 3D world. So, as you can see, there are three different axes that we can move it on. There's the X, the Y, and the Z. So, we can use these arrows to drag around our objects in different dimensions in the three-dimensional world. And you can drag it all around and around and around. Okay. Next is the scale button. You can click that and then click a part. and you're going to see very similar things, but instead of arrows, it's just dots or circles. If you drag one of those, you can see it moves or it resizes it along that axis. So, we can go ahead and resize it this way. We can resize it this way. Okay. And last but not least, we have rotate. If you click the rotate button and you click something, you can rotate your parts. Uh, and you can rotate them whichever way you would like. There again, three ways because this is three dimensions. Okay. If you What if you want to undo all that though? Glad you asked. You can go ahead and hit control or command if you're on a Mac and Z. So you can do that as many times as you need and that will undo what you've done. As you can see, I've just clicked control-z a ton of times and now my spawn location is back to where it started. If you want to redo something, you can either click this arrow right here or you can click control shift Z and that'll redo what you just did. But I'm going to hit control-z again cuz I want my spawn location to stay right here. Next, there's the toolbox. this. If you click this, it'll open up with the toolbox window right here. These are all different free models that people and Roblox have provided uh for you to use in your games. Be careful though, a lot of them have hacks that will ruin your game. So, really be careful with what you choose in the toolbox. Next, we can insert parts. If you click this part right here, you'll see a new part has been added to our game. And we can move this around and around and around. Uh we can also add, if you click this little triangle under the part, you can choose a different part to add. For example, if I want a sphere, there we go. I have a sphere. Now, we can also go ahead and head over to this color right here. If we click this, maybe we want to make the sphere red. So, we can click the sphere, click this color, and change the color to red just by clicking the right color from here. Now, you'll notice if I click it now, it's not going to do anything, and that's because I don't have the sphere selected. Once I click the sphere, then I can change the color. Okay. Uh, after that, let's go ahead and delete these by clicking clicking them and clicking backspace or delete. That will go ahead and delete the parts in your game. The next thing, what if you get a part lost in your game? So, you can actually go ahead and insert another part. And let's say it's way over here and you want to go over to that without having to scroll all the way. Um, or use WD. That's another thing. You can scroll to move faster. If you scroll in, uh, you can move closer. And if you scroll out, you can move further away. But let's say that you're all the way over here and you want to just quickly go over there. Well, you can select it by dragging like a box over the part you want to go to and click F. and that'll focus your camera onto the part that you just selected. Okay, so now that we have all that down, I'm gonna select this part and go ahead and hit backspace again. Okay, another thing that you should know as we are getting into this is how to uh open other windows such as the explorer and properties. So, if you go ahead and hit view right here at the top, you can go ahead and click explorer and properties. Make sure that these two windows are open. You should see explorer and properties. And then let's just quickly go ahead and show you what this does. Uh you can select a part and uh you can find it in the explorer. So if you open up the workspace and you look in here, you should have something called part. You can click that part in the explorer and you can see now it's selected in the game. You can rename that part by clicking the name. And maybe we'll call this uh cube. And there we go. Now we have a part called cube inside of our game. Now if we want to change any of the properties, we can scroll down to the properties tab. So, if you click the part either in the explorer or in your game, you can mess with all these properties. You can change the color this way. You can change the transparency and all that. Uh, there's a lot you can do with this, but I'm just not going to get into that right yet because we're going to talk about that more once we start making the game. Okay, we are going to go ahead and now, as I've said that, start making our game because that's what you guys came here for. So, let's go ahead and now that you know how to move around studio, let's go ahead and make an awesome obby. So, uh, this is going to involve a little bit of scripting, a little bit of building, and, uh, a little bit kind of a little bit of everything. So, let's just go ahead and get started. Uh, and I'm just going to walk you through step by step everything you need to know, and by the end of the game or end of the video, you'll have made the game that I just showed you at the beginning. Okay? So, go ahead and select this base plate in the explorer and delete it. So, uh, if you missed that, make sure you go into the explorer, find this part called base plate, click it, and click backspace. That'll delete your base plate. Now, you can see we just have a spawn point. Okay, I'm going to insert one of those cartoony outlines to our uh our spawn location. So, the way you do that is by selecting the spawn location either in your game or in the explorer tab. Then, you can click this little plus icon right here. And you're going to search for a highlight. That's this object right here. You can go ahead and click that. Next thing to do is click that highlight. And I'm going to go ahead and change this fill transparency to one. That way there's it doesn't make our uh spawn location a weird color. So right here in the properties, fill transparency, set that to one right here. And then you can change this outline color by clicking the color right here and changing it to a black. If you're on a Windows, it might look a little different. And then hit okay. And there you go. Now there's this cartoony outline to your spawn pad. As you can see, it's it's going all the way around. Perfect. So, that's just a little touch to make it look a little bit fancier. Now, let's go ahead and make stage one. So, what I'm going to do is I'm going to insert a sphere into the game. And this sphere is going to be um the uh first object for players to climb on. So, I'm going to go ahead and redo that really quick so you guys can see everything I just did. Go ahead and come up here to the part, click the drop down, and click sphere. Now you have a sphere right here. You can click it and you can move it away from the spawn location. You can also go ahead and scale it and you can recolor it if you want. There we go. The next thing I'm going to do is I'm going to click that and I'm going to click controll D. That will duplicate this part. And as you can see now we have two parts in our explorer. Now we can click this move button and let's just move it out like this. And there we go. Now we have a second sphere. We can recolor this one as well. And we're just going to make a little ball jump obby. Okay. So, let's go ahead and do this again. Crl D to duplicate it. Click the move tool and move it around. Then recolor it. Ctrl D. Move with the move tool and recolor it. Ctrl D. Move with the move tool and recolor it. Okay. So, you may be thinking, I want to test this out. Hold your horses though. We got to fix something real quick. So, if you go ahead and play this game now, I'm just going to show you. Don't go ahead and play it right now. But if you play it right now, you're going to notice that all your spheres are going to disappear. And uh well, where did they go? Turns out they fell. They fell all the way through the map. Um that means that if I go ahead and select these, I'm going to just visualize what happened when I hit play. All these spheres just went boop down. Okay. So, if you want to fix that from happening, you're going to need to anchor these. So you can click each of these parts and you can click this button up here that says anchor or you can scroll down in the properties and make sure anchored is checked. I would personally just go ahead and select the sphere and click this anchor button up here. If you want to select more than one part at a time, you can hold shift. So if I hold shift and I select all three of these now you can see all three of them are selected and I can hit anchor and that'll anchor all these at the same time. Okay, let's go ahead and hit play now. And we should see that the spheres have stayed in the air. And yep, there they are. Right now, uh, we can go ahead and play this game. Let's jump, jump, jump, jump, and jump. Oh, I'm terrible at obies, so I missed that last one. But there you go. There is stage one. Okay. So, uh, we're going to go ahead and do a little scripting, though, because what we want to do is we want to have checkpoints. So, I'm going to insert another part. Uh, we're going to just insert a part. Uh, let's do it the way that we've been doing it. So, click this drop down and click block. Now, let's go ahead and move this to the end of the ball jump and we can go ahead and change the color of this. I'm going to make it a green so that people know this is a checkpoint and I'm going to go ahead and scale it way up like this. Here is our checkpoint. Make sure to anchor it now. And I'm going to go ahead and click it and click the materials right here in the properties tab. Go ahead and click that and select neon. that will make your part glow and people will be able to know, okay, that's my checkpoint. So, let's go ahead and click this part and where it's highlighted in the explorer, let's rename it by clicking the name and naming this checkpoint. Okay, next thing you want to do is click this plus icon on the checkpoint and insert a int value. Okay, so click the the plus, search for int value and insert this by clicking it. Okay, once you have one, go ahead and rename it to stage. Okay, this is going to be the current stage that they're on. So, if they press if they step on this block, we're going to set their stage to be two. So, inside of the properties of this stage, go ahead and set zero to two right here. So, that will mean, okay, once we hit this block, we're going to be on stage two. Okay. Now, because this isn't my beginner scripting series, I'm going to go ahead and do the scripting. And I'll leave the script in the description. So go ahead and what you're going to do is you're going to click this plus on the checkpoint. You're going to hover over our checkpoint, click a plus, and then search for script and insert this one. Not a local script, not a module script, but a regular script. Okay. And then you can rename this if you want. Uh I'm going to rename it to checkpoint script. Totally up to you though. And then I'm going to have this uh code in the description. So this script is going to be in the description. Make sure you look in the description for checkpoint script and then copy and paste this into the script. So go ahead and get rid of the print hello world at the top. The way you would do that is just by selecting it and uh and just clicking backspace. So you can drag your mouse. You can click and drag and then click backspace. Okay. And go ahead and paste this code into the script. Now you can close out of the script by clicking this X right here on the checkpoint script. There we go. Now we're out of the script. The next thing is to add a leader script. Uh, and again, this is going to be down in the description. Just a quick reminder though, if you have any trouble at all with this video or any of the tutorials on my channel, make sure to join my Discord server and ask the community uh how to solve your problem. There's a channel called scripting support and you can add ask any questions in there um or studio support. So, you can ask any questions in there uh and you can help get an answer quick and we can help you with an answer as quick as we can. Okay. Uh go ahead and in your explorer hover over server script service. You'll find it right here. And you can go ahead and click the plus and again add another script. Not a lo local script or a leader I mean a mod module script. You can rename this script to leader stats if you want. And then you're going to paste the second link or second code second script uh into this. So go down into the description and look for leader stats script next. You can paste it here. Okay. Okay. So, go ahead and copy and paste this script from the description into the uh into this new script. Uh and then you can click the X up here to close out of it. Then you can go ahead and hit this play button right here, this blue triangle. Uh it'll be next to your color. And then you can hit play and that'll spawn you into your game. So, let's go ahead and hit play. And as you can see, if you spawn in and you've done everything correctly so far, you should see this up in the corner. You should see your stage right here. And as you can see, it says I'm on stage one. But if we go ahead and complete the obby, if we go ahead and go all the way to the end and step on this, you can see that our stage is going up. Now, you can see that there's obviously a bug right now. I'll have that fixed for you. You guys don't need to worry about that at all. So, um, that should be fixed for you. That's just for me. And just to show you that I was telling the truth, I'm going to go ahead and complete this. And you can see that this bug has been fixed. There you go. Stage two. This should be fixed for you. You can just copy and paste the script in the description like I told you to. And uh there you go. Now, let's go ahead and add some more stages. Um but before we do that, actually, I need to make sure that players spawn where they're supposed to spawn when they die. So, uh let's go ahead. I'm going to go ahead and show you how to do that. Uh it's going to involve another script. So, in the workspace, go ahead and hover over workspace. Click the plus. Okay. And then insert a folder. You can search for that and insert a folder. Name this folder. This is super important. Name this folder spawns. And you can again do that either by clicking the name or you can go into the properties and change the name right here. Okay. The next thing you're going to need to do is click this checkpoint. Click it again. Left click it. And then drag it up to the spawns and then release it once the checkpoint is on top of spawns. That will put the checkpoint right here. This checkpoint inside of our spawns folder. This is super super important. So, make sure that you do that. Uh, and if you didn't get that, just rewatch that part of the video. Um, so make sure you have spawns folder and a checkpoint in there. Okay. Next, insert a script again into server script service. And you can rename this um, respawn script. Again, this will be in the description. Just look in the description for what says respawn script and paste it into here. So, go ahead and paste this code into the script. close out of it again by clicking X and hit play to test out your obby so far. If you go ahead and go past the uh the spheres, you can jump on top of them. And then if we hit the checkpoint, you'll see our stage is up to stage two. We can jump off and once we die, we should respawn on our checkpoint. And as you can see, yep, here I am on my checkpoint. All right, just a quick reminder. If you want to learn how to make these scripts for yourself and make your very very own Roblox games um without having to use YouTube tutorials, uh then make sure to go check out my beginner scripting series. I'll leave that linked down in the description. And uh yeah, it's uh it's hopefully going to be helpful to you. Okay, the next thing to do is to add more stages. So, uh I'm going to go ahead and let you guys go ahead and do this part, but I'm going to show you how. So, remember the toolbox earlier? Go ahead and open up the toolbox and search for obby. Okay. And in here you can see a ton of different options for your obies. Now again I I would be very very very careful with the um obby parts you insert. I would say make sure that when you hover over it, see these this little check mark, make sure that's green and it has a good amount of ratings. That means that a lot of people have uh have liked this and say it's a good model. Okay? Just just to keep you safe. Okay. So, how how can we actually go ahead and insert these? Well, you can go ahead and drag this into here. Okay. And now once you drag it on top of one of your other parts, you can see our our stage is right here. Now, I want to go ahead and move this so it's not in the middle of the other stages. So, I'm going to go ahead and click it. Click the move tool. And we can go ahead and move this out of the way like this. Okay. So, now we have our next stage of our obby. What we're going to do is we're going to click this checkpoint. We're going to duplicate it by clicking control D and we're going to move it to the end right here by clicking move. Okay, the next thing you need to do is to click this checkpoint and drop down. See where it's highlighted in the explorer. So find that. You can open up the spawns folder and open up your checkpoint and then change your stage to be three now. So click the stage inside of this checkpoint. So click the checkpoint, find stage right here, and click uh this value and change the two to be a three. So that'll tell my script that I have written for you guys, hey, now we're on stage three now that we've hit this button. And now you can go ahead and add as many stages as you want. I'm going to go ahead and add about two more. Okay. Now, you're going to get these pop-ups on some of these that say this includes scripts. This can be dangerous. So, if you want to be careful, go ahead and join my Discord server and just like ask, hey, do these scripts look good? Um, but I think some of some of them are okay. So, I'm going to go ahead and insert this one. I'm going to click okay. And I'm going to go ahead and rotate this. If you want to just rotate it 90°, you can hit CtrlR, and that will rotate a model 90° like that. And then we can click the move tool, and we can move it. Perfect. So, now we have our next stage. The next thing I'm going to do is click this checkpoint. I'm going to duplicate it by clicking Ctrl D. And I'm going to move it again. And once again, you need to click the checkpoint. You need to go into here into that checkpoint. Find the stage inside of that checkpoint. And now we're going to change it to four. And you can keep doing this for as many stages as you want. And if I go ahead and hit play, it's going to go ahead and Yep. There we go. So, we can go ahead and jump on these. And we're going to go into stage two. We can go across here. and we're going to get to stage three. Next, we can try and get past this. I'm not good at obies, though, so it probably won't happen. Um, but as you can see, once I die, I respawn at the checkpoint. And everything seems to be working just fine. Okay, perfect. So, and I can make it to Oh, I can't quite make it to the end of my hobby. That's okay. All right, the next thing I want to show you how to do is to make a skip stage button so that you can actually make Robux. But before we do that, I want to ask if this video has been helpful so far, if you would just quickly take a second out of your day to subscribe. It's completely free and you can always change your mind later. Now, let's get back to the video and help you make some Robux. And to do this, you're going to need to join my Discord server. What you're going to need to do is you're going to need to go to the announcements channel and click the pinned link or pinned uh button and then you're going to find the um the developer products script. Okay. So, uh, what we're going to do is we're going to create a, uh, GUI. Also, in my Discord server, I'll just include a file. So, uh, you can just drag that file into the game. So, if you go ahead and download that file from my Discord server, you can find the file on your computer and just drag it into here and it'll create that GUI for you. But if you want to make it by yourself, go ahead and hover over started GUI, click that plus icon, click screen GUI right here, and then you can click frame. Okay, you can move this frame by selecting it right here and um moving it around. Again, I'm do I'm going to do this quickly though because this is going to be available for free in my Discord server. You can move it around to where you like. Then I'm going to go ahead and click uh this make it a darker color like that by changing the background color. You can add a corner UI corner. Oops, sorry about that. UI corner. Click the UI corner and change this eight to be something like 30. That'll round this frame right here. Okay. And now I'm gonna go ahead and insert a text button into there. Text button. Okay. And here you can go ahead and scroll down. Find the size property in properties and change that to be 1, 0, 1, 0. That'll resize the button to fit the entire screen. Next, go ahead and click background transparency. Change that to one. Scroll down in the properties till you find text color. Select that and change it to a white. Hit okay. Next, change the font face to Froooko one right here. And click text scaled. And then we can change the text right here in the properties by and change it to skip stage. Okay. So now we have a skip stage button. I actually think I like it up at the top. So, what I'm going to do is I'm going to go ahead go ahead and copy this again. Um, click your frame. Go down to the properties and click position. And you're going to go ahead and do point uh.5 comma 0 comma.1 comma 0. Actually 0 comma uh no uh that's right anchor point. So you can go ahead and click the frame, go to the properties, and click anchor point and set that to be 0.5 comma 0.5. Okay. And the next thing you're going to do is click the position right here. And you can set that to be 0.5 comma 0 comma 0.1 comma 0. That'll position it right here. Next thing to do is change the size. So click the size and set it to be 04 comma 0 comma 0.15 comma 0. There we go. There is our skip stage button. Uh, and it looks I think it looks fine. So, uh, you can go ahead and insert that. Uh, I'm trying to decide, should I have it on the top or the bottom? Maybe the bottom of the screen. So, I'm going to change this position to be 0.5 comma 0 comma 0.1 or 0.9 comma 0. There we go. Now, we have a skip stage button right here. Next thing to do is click that text label, uh, hover over it, click that plus icon, and click the local script. Okay. In that local script, you're going to paste the next line of code. This will also be linked down in the description. You don't have to join my Discord server for this. That's just if you want the model. Uh, and the model will include this script, by the way. So, if you want to just drag that model into your game, go ahead and join my Discord server and you can find it. But if not, just go ahead and go down to the description and paste this code. So, what you're going to do is you're going to copy and paste the script from the description. Look for uh dev product script local in the description, and you can paste that down there. The first thing you need to do is actually save your game. And this is a good idea to do kind of right away. Should have done this earlier. The way you're going to do this is by clicking file up in the top left. Click file. Click publish to Roblox. Then give it a name right here. We can just call this my first game. Then you can go ahead and click this create button right here. So once you publish it to Roblox, you should see this right here. Uh well, your game. And that means that it has successfully saved to Roblox. So, the next thing to do is open up Chrome or Safari or whatever web web browser you have, and you're going to type in create.roll.com. This is where you can make your developer product so you can actually earn Robux. Next, go ahead and click creations right here on your screen, and then find your game. My I named my game my first game right here. So, go ahead and click that and it's going to bring you to this next page. So, right here on this left side, scroll all the way down until you see uh uh sorry, developer products. Okay. So, go ahead and click developer products right there. And then click create a developer product. Next, go ahead and give it a name. We're going to call this skip stage. And go ahead and set how many how much Robux it should cost. So, we're going to go ahead. I'm going to set mine to be 20 Robux. Really cheap, but uh don't make it too expensive, otherwise people won't buy it. Then click create developer product. Okay. Next, what you can do is you can go ahead and click these three dots and click copy asset ID. You're going to need to do this for this step. So click that. And now let's head back to Roblox Studio. Okay. Once you're back in studio, go ahead and click starter GUI right here. Open up the screen GUI by clicking these triangles and the frame, the text button, and open the local script right here. Then you're going to paste all these zeros. You're going to select all those zeros, delete them, and you're going to paste that ID right there. Okay? So, make sure you copy you. This is your ID that you just copied in the last step. You're going to paste it there in that script where right before it says your ID here. And after you paste that ID right here, you can close out of your script and hit play. And we should actually be able to purchase our item. Okay. So, let's go ahead and come down here, click the skip stage button, and as you can see, it's asking us if we want to skip the stage. Um, just know this is a test purchase. Whenever you do it in Roblox Studio, uh, it won't actually charge your account. So, you can actually go ahead and buy it. But, you're going to notice, okay, it's actually not working. We're kind of scamming players right now. So, let's actually go ahead and fix that so that it teleports players to the next stage whenever they buy this. So to do that, go ahead and again hover over server script service and click the plus and insert a script. And for the last time, you're going to need to copy and paste one of the scripts from the description. Look for developer product server script down in the description and copy and paste that here. Okay, so you're going to go ahead and paste this script. Uh, and what you're going to need to do is you're going to then need to copy your developer product ID again. So close out of the script. Then you're going to scroll down to start a GUI screen GUI frame text button and the local script we were just in. Click this uh copy this number right here by hitting control copy. You can just select all this. Hit Ctrl + C. Then you can close out of the script again. Go to your new script and replace that ID right here, all these zeros with that. Okay, that's all you're going to need to do and you should have this working. I'm going to close out of the script and I'm going to rename this to uh skip stage. Okay, let's go ahead and hit play and test this out. So again, we are in Roblox Studio, so your account will not be charged for these. So you can actually go and test it yourself. Click the skip stage button and you can click this to actually purchase it. You hit okay and wait a couple seconds. And there you go. As you can see, I've just skipped to the next stage. And you can see my stage has also uh been changed up here in the leader stats. Now, really quickly, let's make your game public so that you can actually play it with your friends. Go ahead and head over to create.roll.com. Click this creations tab, and you're going to find your game again. Uh for me, it is my first game right here. You can go ahead and click that. Next, you can go ahead and go to uh settings under configure. Click public. That little dot right here. Make sure it's checked and click save changes. Now you can click overview over here again and then you can click view on Roblox and that'll open up your game in a brand new tab and you can join it here. You can copy this link right here, send it to your friends and you can have your friends join you and that's how you can uh publish it. Now everybody can play your Roblox game. And there you go. That is how you can make your own game. And I've also included how you can make Roblox in it too. If you have any questions, make sure to leave them in the comments below or join my Discord server. And if you want to just download download this entire game for yourself, you can go ahead and uh join my Patreon page. $5 a month that uh that tier will get you this game. Make sure to add as many stages as you want to this. Um all you have to do is just remember to click this checkpoint, your last one, duplicate it, move it, and then open up the checkpoint and change the stage value to whatever stage that starts. Okay. And uh there you go. That is how you can make your very first game in Roblox. Again, if you have any questions, make sure to let me know. Other than that, thank you guys so much for watching. Thank you to Samuel Ramsey and Snorlax for supporting me on Patreon. And uh other than that, I'll see you guys in the in a future video. Make sure to subscribe for more content like this. See you later. Bye, guys.",
+  "transcript_segments": [
+    {
+      "text": "By the end of this video, if you follow",
+      "start": 0.08,
+      "duration": 2.96
+    },
+    {
+      "text": "all the steps that I'm going to be",
+      "start": 1.68,
+      "duration": 2.8
+    },
+    {
+      "text": "showing you, you will learn how to make",
+      "start": 3.04,
+      "duration": 3.12
+    },
+    {
+      "text": "this game by yourself. You're going to",
+      "start": 4.48,
+      "duration": 3.2
+    },
+    {
+      "text": "learn how to make an obby, and you're",
+      "start": 6.16,
+      "duration": 3.359
+    },
+    {
+      "text": "going to learn how to make Robux with",
+      "start": 7.68,
+      "duration": 4.24
+    },
+    {
+      "text": "this obby by adding a skip stage button",
+      "start": 9.519,
+      "duration": 4.481
+    },
+    {
+      "text": "where people can actually purchase this",
+      "start": 11.92,
+      "duration": 4.4
+    },
+    {
+      "text": "from you. And once they purchase it,",
+      "start": 14.0,
+      "duration": 3.84
+    },
+    {
+      "text": "they will actually get skipped to the",
+      "start": 16.32,
+      "duration": 3.52
+    },
+    {
+      "text": "next stage and you can earn Robux that",
+      "start": 17.84,
+      "duration": 4.16
+    },
+    {
+      "text": "way. Let's not waste any time. Let's",
+      "start": 19.84,
+      "duration": 3.84
+    },
+    {
+      "text": "just jump right into this. Enjoy, guys,",
+      "start": 22.0,
+      "duration": 3.519
+    },
+    {
+      "text": "and good luck. All right. To get started",
+      "start": 23.68,
+      "duration": 3.12
+    },
+    {
+      "text": "on your game making journey, you're",
+      "start": 25.519,
+      "duration": 3.481
+    },
+    {
+      "text": "going to have to go to",
+      "start": 26.8,
+      "duration": 4.0
+    },
+    {
+      "text": "roblox.com/create and you're going to be",
+      "start": 29.0,
+      "duration": 3.64
+    },
+    {
+      "text": "brought to this page. After that, click",
+      "start": 30.8,
+      "duration": 4.08
+    },
+    {
+      "text": "this big start creating button and it's",
+      "start": 32.64,
+      "duration": 3.52
+    },
+    {
+      "text": "going to check to see if you have Roblox",
+      "start": 34.88,
+      "duration": 2.88
+    },
+    {
+      "text": "Studio. If not, it'll ask you to",
+      "start": 36.16,
+      "duration": 3.44
+    },
+    {
+      "text": "download Studio. Go ahead and click this",
+      "start": 37.76,
+      "duration": 4.0
+    },
+    {
+      "text": "button and then move on. Once you've",
+      "start": 39.6,
+      "duration": 3.52
+    },
+    {
+      "text": "downloaded Roblox Studio, you can go",
+      "start": 41.76,
+      "duration": 3.6
+    },
+    {
+      "text": "ahead and double tap the app to open it",
+      "start": 43.12,
+      "duration": 4.24
+    },
+    {
+      "text": "up. And now you should actually be",
+      "start": 45.36,
+      "duration": 4.0
+    },
+    {
+      "text": "inside of Roblox Studio. I'm going to be",
+      "start": 47.36,
+      "duration": 3.44
+    },
+    {
+      "text": "showing you some of these windows right",
+      "start": 49.36,
+      "duration": 3.679
+    },
+    {
+      "text": "now. So, the first one is the new",
+      "start": 50.8,
+      "duration": 4.32
+    },
+    {
+      "text": "window. This will create new games for",
+      "start": 53.039,
+      "duration": 4.16
+    },
+    {
+      "text": "you. So you can go ahead and click new",
+      "start": 55.12,
+      "duration": 3.279
+    },
+    {
+      "text": "and that'll show you all the different",
+      "start": 57.199,
+      "duration": 2.481
+    },
+    {
+      "text": "templates you can use to create your",
+      "start": 58.399,
+      "duration": 3.281
+    },
+    {
+      "text": "games. The next one is going to be my",
+      "start": 59.68,
+      "duration": 4.24
+    },
+    {
+      "text": "games. This tab holds all your current",
+      "start": 61.68,
+      "duration": 4.08
+    },
+    {
+      "text": "games that you have made. So once you've",
+      "start": 63.92,
+      "duration": 3.44
+    },
+    {
+      "text": "already made a game, you can check in",
+      "start": 65.76,
+      "duration": 3.679
+    },
+    {
+      "text": "here to see where those games are.",
+      "start": 67.36,
+      "duration": 3.52
+    },
+    {
+      "text": "Recent shows you the most recent games",
+      "start": 69.439,
+      "duration": 3.281
+    },
+    {
+      "text": "you've been working on. After that,",
+      "start": 70.88,
+      "duration": 3.2
+    },
+    {
+      "text": "there's archive and tour, but we're not",
+      "start": 72.72,
+      "duration": 2.88
+    },
+    {
+      "text": "going to touch on those. So go ahead and",
+      "start": 74.08,
+      "duration": 3.12
+    },
+    {
+      "text": "go to the new tab and click this base",
+      "start": 75.6,
+      "duration": 3.36
+    },
+    {
+      "text": "plate button. That's going to give you a",
+      "start": 77.2,
+      "duration": 4.16
+    },
+    {
+      "text": "brand new game with a Roblox base plate.",
+      "start": 78.96,
+      "duration": 3.519
+    },
+    {
+      "text": "First thing we're going to do is learn",
+      "start": 81.36,
+      "duration": 2.56
+    },
+    {
+      "text": "how to move around and navigate through",
+      "start": 82.479,
+      "duration": 4.561
+    },
+    {
+      "text": "this 3D space. You can use W and D on",
+      "start": 83.92,
+      "duration": 4.8
+    },
+    {
+      "text": "your keyboard to move around just like",
+      "start": 87.04,
+      "duration": 4.0
+    },
+    {
+      "text": "you can in a Roblox game. Next, you can",
+      "start": 88.72,
+      "duration": 3.759
+    },
+    {
+      "text": "hold right click and move your mouse",
+      "start": 91.04,
+      "duration": 3.6
+    },
+    {
+      "text": "around, and that'll pan your camera. So,",
+      "start": 92.479,
+      "duration": 3.6
+    },
+    {
+      "text": "go ahead and hold right click and move",
+      "start": 94.64,
+      "duration": 3.119
+    },
+    {
+      "text": "your camera, and you can figure out how",
+      "start": 96.079,
+      "duration": 3.441
+    },
+    {
+      "text": "this camera system works. Takes a little",
+      "start": 97.759,
+      "duration": 3.04
+    },
+    {
+      "text": "bit of getting used to, but once you",
+      "start": 99.52,
+      "duration": 3.44
+    },
+    {
+      "text": "figure it out, it's easy peasy. Next,",
+      "start": 100.799,
+      "duration": 3.921
+    },
+    {
+      "text": "you can move around your mouse and hover",
+      "start": 102.96,
+      "duration": 3.68
+    },
+    {
+      "text": "over different objects in your game, and",
+      "start": 104.72,
+      "duration": 4.399
+    },
+    {
+      "text": "you can leftclick to select them. For",
+      "start": 106.64,
+      "duration": 4.0
+    },
+    {
+      "text": "example, I just selected the spawn",
+      "start": 109.119,
+      "duration": 3.521
+    },
+    {
+      "text": "location. If for whatever reason that's",
+      "start": 110.64,
+      "duration": 4.24
+    },
+    {
+      "text": "not working, head up here to this select",
+      "start": 112.64,
+      "duration": 4.32
+    },
+    {
+      "text": "button. Click that first, and then you",
+      "start": 114.88,
+      "duration": 4.72
+    },
+    {
+      "text": "can select tools or objects in your",
+      "start": 116.96,
+      "duration": 4.32
+    },
+    {
+      "text": "game. Okay, the next thing we're going",
+      "start": 119.6,
+      "duration": 4.24
+    },
+    {
+      "text": "to learn is how to navigate the",
+      "start": 121.28,
+      "duration": 4.32
+    },
+    {
+      "text": "different tabs. Right now, we are in the",
+      "start": 123.84,
+      "duration": 2.959
+    },
+    {
+      "text": "home tab, and you can see that up here",
+      "start": 125.6,
+      "duration": 3.359
+    },
+    {
+      "text": "at the top of my screen. It says home.",
+      "start": 126.799,
+      "duration": 3.6
+    },
+    {
+      "text": "This has a ton of different buttons.",
+      "start": 128.959,
+      "duration": 2.481
+    },
+    {
+      "text": "We're only going to get into a few of",
+      "start": 130.399,
+      "duration": 3.281
+    },
+    {
+      "text": "them. Uh, but first there, let's do",
+      "start": 131.44,
+      "duration": 4.08
+    },
+    {
+      "text": "move, scale, select, and rotate. If you",
+      "start": 133.68,
+      "duration": 4.16
+    },
+    {
+      "text": "select a part, you are using the select",
+      "start": 135.52,
+      "duration": 4.4
+    },
+    {
+      "text": "tool right here. Now, if you switch over",
+      "start": 137.84,
+      "duration": 4.32
+    },
+    {
+      "text": "to the move tool, you can actually move",
+      "start": 139.92,
+      "duration": 5.039
+    },
+    {
+      "text": "parts in your 3D world. So, as you can",
+      "start": 142.16,
+      "duration": 4.799
+    },
+    {
+      "text": "see, there are three different axes that",
+      "start": 144.959,
+      "duration": 4.561
+    },
+    {
+      "text": "we can move it on. There's the X, the Y,",
+      "start": 146.959,
+      "duration": 4.801
+    },
+    {
+      "text": "and the Z. So, we can use these arrows",
+      "start": 149.52,
+      "duration": 4.88
+    },
+    {
+      "text": "to drag around our objects in different",
+      "start": 151.76,
+      "duration": 4.44
+    },
+    {
+      "text": "dimensions in the three-dimensional",
+      "start": 154.4,
+      "duration": 4.08
+    },
+    {
+      "text": "world. And you can drag it all around",
+      "start": 156.2,
+      "duration": 4.6
+    },
+    {
+      "text": "and around and around. Okay. Next is the",
+      "start": 158.48,
+      "duration": 4.8
+    },
+    {
+      "text": "scale button. You can click that and",
+      "start": 160.8,
+      "duration": 4.159
+    },
+    {
+      "text": "then click a part. and you're going to",
+      "start": 163.28,
+      "duration": 3.039
+    },
+    {
+      "text": "see very similar things, but instead of",
+      "start": 164.959,
+      "duration": 4.161
+    },
+    {
+      "text": "arrows, it's just dots or circles. If",
+      "start": 166.319,
+      "duration": 4.241
+    },
+    {
+      "text": "you drag one of those, you can see it",
+      "start": 169.12,
+      "duration": 4.88
+    },
+    {
+      "text": "moves or it resizes it along that axis.",
+      "start": 170.56,
+      "duration": 4.8
+    },
+    {
+      "text": "So, we can go ahead and resize it this",
+      "start": 174.0,
+      "duration": 3.44
+    },
+    {
+      "text": "way. We can resize it this way. Okay.",
+      "start": 175.36,
+      "duration": 3.599
+    },
+    {
+      "text": "And last but not least, we have rotate.",
+      "start": 177.44,
+      "duration": 3.2
+    },
+    {
+      "text": "If you click the rotate button and you",
+      "start": 178.959,
+      "duration": 3.441
+    },
+    {
+      "text": "click something, you can rotate your",
+      "start": 180.64,
+      "duration": 4.0
+    },
+    {
+      "text": "parts. Uh, and you can rotate them",
+      "start": 182.4,
+      "duration": 3.839
+    },
+    {
+      "text": "whichever way you would like. There",
+      "start": 184.64,
+      "duration": 3.2
+    },
+    {
+      "text": "again, three ways because this is three",
+      "start": 186.239,
+      "duration": 3.36
+    },
+    {
+      "text": "dimensions. Okay. If you What if you",
+      "start": 187.84,
+      "duration": 3.44
+    },
+    {
+      "text": "want to undo all that though? Glad you",
+      "start": 189.599,
+      "duration": 3.521
+    },
+    {
+      "text": "asked. You can go ahead and hit control",
+      "start": 191.28,
+      "duration": 4.16
+    },
+    {
+      "text": "or command if you're on a Mac and Z. So",
+      "start": 193.12,
+      "duration": 3.839
+    },
+    {
+      "text": "you can do that as many times as you",
+      "start": 195.44,
+      "duration": 3.24
+    },
+    {
+      "text": "need and that will undo what you've",
+      "start": 196.959,
+      "duration": 4.0
+    },
+    {
+      "text": "done. As you can see, I've just clicked",
+      "start": 198.68,
+      "duration": 4.52
+    },
+    {
+      "text": "control-z a ton of times and now my",
+      "start": 200.959,
+      "duration": 3.521
+    },
+    {
+      "text": "spawn location is back to where it",
+      "start": 203.2,
+      "duration": 2.72
+    },
+    {
+      "text": "started. If you want to redo something,",
+      "start": 204.48,
+      "duration": 2.8
+    },
+    {
+      "text": "you can either click this arrow right",
+      "start": 205.92,
+      "duration": 4.16
+    },
+    {
+      "text": "here or you can click control shift Z",
+      "start": 207.28,
+      "duration": 4.64
+    },
+    {
+      "text": "and that'll redo what you just did. But",
+      "start": 210.08,
+      "duration": 3.92
+    },
+    {
+      "text": "I'm going to hit control-z again cuz I",
+      "start": 211.92,
+      "duration": 3.52
+    },
+    {
+      "text": "want my spawn location to stay right",
+      "start": 214.0,
+      "duration": 4.48
+    },
+    {
+      "text": "here. Next, there's the toolbox. this.",
+      "start": 215.44,
+      "duration": 4.64
+    },
+    {
+      "text": "If you click this, it'll open up with",
+      "start": 218.48,
+      "duration": 3.44
+    },
+    {
+      "text": "the toolbox window right here. These are",
+      "start": 220.08,
+      "duration": 3.2
+    },
+    {
+      "text": "all different free models that people",
+      "start": 221.92,
+      "duration": 3.52
+    },
+    {
+      "text": "and Roblox have provided uh for you to",
+      "start": 223.28,
+      "duration": 4.319
+    },
+    {
+      "text": "use in your games. Be careful though, a",
+      "start": 225.44,
+      "duration": 3.92
+    },
+    {
+      "text": "lot of them have hacks that will ruin",
+      "start": 227.599,
+      "duration": 3.28
+    },
+    {
+      "text": "your game. So, really be careful with",
+      "start": 229.36,
+      "duration": 3.84
+    },
+    {
+      "text": "what you choose in the toolbox. Next, we",
+      "start": 230.879,
+      "duration": 4.0
+    },
+    {
+      "text": "can insert parts. If you click this part",
+      "start": 233.2,
+      "duration": 3.44
+    },
+    {
+      "text": "right here, you'll see a new part has",
+      "start": 234.879,
+      "duration": 3.601
+    },
+    {
+      "text": "been added to our game. And we can move",
+      "start": 236.64,
+      "duration": 4.64
+    },
+    {
+      "text": "this around and around and around. Uh we",
+      "start": 238.48,
+      "duration": 4.319
+    },
+    {
+      "text": "can also add, if you click this little",
+      "start": 241.28,
+      "duration": 2.959
+    },
+    {
+      "text": "triangle under the part, you can choose",
+      "start": 242.799,
+      "duration": 3.041
+    },
+    {
+      "text": "a different part to add. For example, if",
+      "start": 244.239,
+      "duration": 3.321
+    },
+    {
+      "text": "I want a sphere, there we go. I have a",
+      "start": 245.84,
+      "duration": 4.64
+    },
+    {
+      "text": "sphere. Now, we can also go ahead and",
+      "start": 247.56,
+      "duration": 4.28
+    },
+    {
+      "text": "head over to this color right here. If",
+      "start": 250.48,
+      "duration": 2.88
+    },
+    {
+      "text": "we click this, maybe we want to make the",
+      "start": 251.84,
+      "duration": 3.84
+    },
+    {
+      "text": "sphere red. So, we can click the sphere,",
+      "start": 253.36,
+      "duration": 4.32
+    },
+    {
+      "text": "click this color, and change the color",
+      "start": 255.68,
+      "duration": 4.559
+    },
+    {
+      "text": "to red just by clicking the right color",
+      "start": 257.68,
+      "duration": 4.239
+    },
+    {
+      "text": "from here. Now, you'll notice if I click",
+      "start": 260.239,
+      "duration": 2.801
+    },
+    {
+      "text": "it now, it's not going to do anything,",
+      "start": 261.919,
+      "duration": 2.481
+    },
+    {
+      "text": "and that's because I don't have the",
+      "start": 263.04,
+      "duration": 3.04
+    },
+    {
+      "text": "sphere selected. Once I click the",
+      "start": 264.4,
+      "duration": 3.76
+    },
+    {
+      "text": "sphere, then I can change the color.",
+      "start": 266.08,
+      "duration": 4.32
+    },
+    {
+      "text": "Okay. Uh, after that, let's go ahead and",
+      "start": 268.16,
+      "duration": 4.0
+    },
+    {
+      "text": "delete these by clicking clicking them",
+      "start": 270.4,
+      "duration": 3.92
+    },
+    {
+      "text": "and clicking backspace or delete. That",
+      "start": 272.16,
+      "duration": 3.52
+    },
+    {
+      "text": "will go ahead and delete the parts in",
+      "start": 274.32,
+      "duration": 2.96
+    },
+    {
+      "text": "your game. The next thing, what if you",
+      "start": 275.68,
+      "duration": 3.519
+    },
+    {
+      "text": "get a part lost in your game? So, you",
+      "start": 277.28,
+      "duration": 3.359
+    },
+    {
+      "text": "can actually go ahead and insert another",
+      "start": 279.199,
+      "duration": 2.881
+    },
+    {
+      "text": "part. And let's say it's way over here",
+      "start": 280.639,
+      "duration": 3.201
+    },
+    {
+      "text": "and you want to go over to that without",
+      "start": 282.08,
+      "duration": 5.24
+    },
+    {
+      "text": "having to scroll all the way. Um, or use",
+      "start": 283.84,
+      "duration": 5.76
+    },
+    {
+      "text": "WD. That's another thing. You can scroll",
+      "start": 287.32,
+      "duration": 4.84
+    },
+    {
+      "text": "to move faster. If you scroll in, uh,",
+      "start": 289.6,
+      "duration": 4.159
+    },
+    {
+      "text": "you can move closer. And if you scroll",
+      "start": 292.16,
+      "duration": 3.2
+    },
+    {
+      "text": "out, you can move further away. But",
+      "start": 293.759,
+      "duration": 2.641
+    },
+    {
+      "text": "let's say that you're all the way over",
+      "start": 295.36,
+      "duration": 2.16
+    },
+    {
+      "text": "here and you want to just quickly go",
+      "start": 296.4,
+      "duration": 2.56
+    },
+    {
+      "text": "over there. Well, you can select it by",
+      "start": 297.52,
+      "duration": 3.44
+    },
+    {
+      "text": "dragging like a box over the part you",
+      "start": 298.96,
+      "duration": 4.08
+    },
+    {
+      "text": "want to go to and click F. and that'll",
+      "start": 300.96,
+      "duration": 4.56
+    },
+    {
+      "text": "focus your camera onto the part that you",
+      "start": 303.04,
+      "duration": 5.599
+    },
+    {
+      "text": "just selected. Okay, so now that we have",
+      "start": 305.52,
+      "duration": 4.32
+    },
+    {
+      "text": "all that down, I'm gonna select this",
+      "start": 308.639,
+      "duration": 2.721
+    },
+    {
+      "text": "part and go ahead and hit backspace",
+      "start": 309.84,
+      "duration": 3.76
+    },
+    {
+      "text": "again. Okay, another thing that you",
+      "start": 311.36,
+      "duration": 4.08
+    },
+    {
+      "text": "should know as we are getting into this",
+      "start": 313.6,
+      "duration": 4.4
+    },
+    {
+      "text": "is how to uh open other windows such as",
+      "start": 315.44,
+      "duration": 4.319
+    },
+    {
+      "text": "the explorer and properties. So, if you",
+      "start": 318.0,
+      "duration": 4.32
+    },
+    {
+      "text": "go ahead and hit view right here at the",
+      "start": 319.759,
+      "duration": 4.641
+    },
+    {
+      "text": "top, you can go ahead and click explorer",
+      "start": 322.32,
+      "duration": 3.68
+    },
+    {
+      "text": "and properties. Make sure that these two",
+      "start": 324.4,
+      "duration": 2.88
+    },
+    {
+      "text": "windows are open. You should see",
+      "start": 326.0,
+      "duration": 4.639
+    },
+    {
+      "text": "explorer and properties. And then let's",
+      "start": 327.28,
+      "duration": 4.8
+    },
+    {
+      "text": "just quickly go ahead and show you what",
+      "start": 330.639,
+      "duration": 4.56
+    },
+    {
+      "text": "this does. Uh you can select a part and",
+      "start": 332.08,
+      "duration": 5.6
+    },
+    {
+      "text": "uh you can find it in the explorer. So",
+      "start": 335.199,
+      "duration": 4.72
+    },
+    {
+      "text": "if you open up the workspace and you",
+      "start": 337.68,
+      "duration": 3.6
+    },
+    {
+      "text": "look in here, you should have something",
+      "start": 339.919,
+      "duration": 3.28
+    },
+    {
+      "text": "called part. You can click that part in",
+      "start": 341.28,
+      "duration": 3.44
+    },
+    {
+      "text": "the explorer and you can see now it's",
+      "start": 343.199,
+      "duration": 3.601
+    },
+    {
+      "text": "selected in the game. You can rename",
+      "start": 344.72,
+      "duration": 3.919
+    },
+    {
+      "text": "that part by clicking the name. And",
+      "start": 346.8,
+      "duration": 4.64
+    },
+    {
+      "text": "maybe we'll call this uh cube. And there",
+      "start": 348.639,
+      "duration": 5.041
+    },
+    {
+      "text": "we go. Now we have a part called cube",
+      "start": 351.44,
+      "duration": 4.4
+    },
+    {
+      "text": "inside of our game. Now if we want to",
+      "start": 353.68,
+      "duration": 3.519
+    },
+    {
+      "text": "change any of the properties, we can",
+      "start": 355.84,
+      "duration": 3.04
+    },
+    {
+      "text": "scroll down to the properties tab. So,",
+      "start": 357.199,
+      "duration": 3.201
+    },
+    {
+      "text": "if you click the part either in the",
+      "start": 358.88,
+      "duration": 3.92
+    },
+    {
+      "text": "explorer or in your game, you can mess",
+      "start": 360.4,
+      "duration": 3.68
+    },
+    {
+      "text": "with all these properties. You can",
+      "start": 362.8,
+      "duration": 2.8
+    },
+    {
+      "text": "change the color this way. You can",
+      "start": 364.08,
+      "duration": 3.52
+    },
+    {
+      "text": "change the transparency and all that.",
+      "start": 365.6,
+      "duration": 3.2
+    },
+    {
+      "text": "Uh, there's a lot you can do with this,",
+      "start": 367.6,
+      "duration": 2.56
+    },
+    {
+      "text": "but I'm just not going to get into that",
+      "start": 368.8,
+      "duration": 2.64
+    },
+    {
+      "text": "right yet because we're going to talk",
+      "start": 370.16,
+      "duration": 2.56
+    },
+    {
+      "text": "about that more once we start making the",
+      "start": 371.44,
+      "duration": 3.599
+    },
+    {
+      "text": "game. Okay, we are going to go ahead and",
+      "start": 372.72,
+      "duration": 4.319
+    },
+    {
+      "text": "now, as I've said that, start making our",
+      "start": 375.039,
+      "duration": 3.6
+    },
+    {
+      "text": "game because that's what you guys came",
+      "start": 377.039,
+      "duration": 4.081
+    },
+    {
+      "text": "here for. So, let's go ahead and now",
+      "start": 378.639,
+      "duration": 4.321
+    },
+    {
+      "text": "that you know how to move around studio,",
+      "start": 381.12,
+      "duration": 3.919
+    },
+    {
+      "text": "let's go ahead and make an awesome obby.",
+      "start": 382.96,
+      "duration": 3.92
+    },
+    {
+      "text": "So, uh, this is going to involve a",
+      "start": 385.039,
+      "duration": 3.121
+    },
+    {
+      "text": "little bit of scripting, a little bit of",
+      "start": 386.88,
+      "duration": 3.28
+    },
+    {
+      "text": "building, and, uh, a little bit kind of",
+      "start": 388.16,
+      "duration": 3.84
+    },
+    {
+      "text": "a little bit of everything. So, let's",
+      "start": 390.16,
+      "duration": 4.64
+    },
+    {
+      "text": "just go ahead and get started. Uh, and",
+      "start": 392.0,
+      "duration": 4.08
+    },
+    {
+      "text": "I'm just going to walk you through step",
+      "start": 394.8,
+      "duration": 3.119
+    },
+    {
+      "text": "by step everything you need to know, and",
+      "start": 396.08,
+      "duration": 3.2
+    },
+    {
+      "text": "by the end of the game or end of the",
+      "start": 397.919,
+      "duration": 3.28
+    },
+    {
+      "text": "video, you'll have made the game that I",
+      "start": 399.28,
+      "duration": 4.0
+    },
+    {
+      "text": "just showed you at the beginning. Okay?",
+      "start": 401.199,
+      "duration": 3.921
+    },
+    {
+      "text": "So, go ahead and select this base plate",
+      "start": 403.28,
+      "duration": 4.4
+    },
+    {
+      "text": "in the explorer and delete it. So, uh,",
+      "start": 405.12,
+      "duration": 4.32
+    },
+    {
+      "text": "if you missed that, make sure you go",
+      "start": 407.68,
+      "duration": 3.76
+    },
+    {
+      "text": "into the explorer, find this part called",
+      "start": 409.44,
+      "duration": 3.84
+    },
+    {
+      "text": "base plate, click it, and click",
+      "start": 411.44,
+      "duration": 3.84
+    },
+    {
+      "text": "backspace. That'll delete your base",
+      "start": 413.28,
+      "duration": 4.32
+    },
+    {
+      "text": "plate. Now, you can see we just have a",
+      "start": 415.28,
+      "duration": 4.88
+    },
+    {
+      "text": "spawn point. Okay, I'm going to insert",
+      "start": 417.6,
+      "duration": 5.68
+    },
+    {
+      "text": "one of those cartoony outlines to our uh",
+      "start": 420.16,
+      "duration": 4.879
+    },
+    {
+      "text": "our spawn location. So, the way you do",
+      "start": 423.28,
+      "duration": 3.52
+    },
+    {
+      "text": "that is by selecting the spawn location",
+      "start": 425.039,
+      "duration": 3.6
+    },
+    {
+      "text": "either in your game or in the explorer",
+      "start": 426.8,
+      "duration": 3.679
+    },
+    {
+      "text": "tab. Then, you can click this little",
+      "start": 428.639,
+      "duration": 4.081
+    },
+    {
+      "text": "plus icon right here. And you're going",
+      "start": 430.479,
+      "duration": 4.801
+    },
+    {
+      "text": "to search for a highlight. That's this",
+      "start": 432.72,
+      "duration": 3.919
+    },
+    {
+      "text": "object right here. You can go ahead and",
+      "start": 435.28,
+      "duration": 3.359
+    },
+    {
+      "text": "click that. Next thing to do is click",
+      "start": 436.639,
+      "duration": 4.0
+    },
+    {
+      "text": "that highlight. And I'm going to go",
+      "start": 438.639,
+      "duration": 4.161
+    },
+    {
+      "text": "ahead and change this fill transparency",
+      "start": 440.639,
+      "duration": 5.12
+    },
+    {
+      "text": "to one. That way there's it doesn't make",
+      "start": 442.8,
+      "duration": 6.0
+    },
+    {
+      "text": "our uh spawn location a weird color. So",
+      "start": 445.759,
+      "duration": 4.72
+    },
+    {
+      "text": "right here in the properties, fill",
+      "start": 448.8,
+      "duration": 4.0
+    },
+    {
+      "text": "transparency, set that to one right",
+      "start": 450.479,
+      "duration": 4.401
+    },
+    {
+      "text": "here. And then you can change this",
+      "start": 452.8,
+      "duration": 3.519
+    },
+    {
+      "text": "outline color by clicking the color",
+      "start": 454.88,
+      "duration": 4.319
+    },
+    {
+      "text": "right here and changing it to a black.",
+      "start": 456.319,
+      "duration": 4.241
+    },
+    {
+      "text": "If you're on a Windows, it might look a",
+      "start": 459.199,
+      "duration": 3.201
+    },
+    {
+      "text": "little different. And then hit okay. And",
+      "start": 460.56,
+      "duration": 3.44
+    },
+    {
+      "text": "there you go. Now there's this cartoony",
+      "start": 462.4,
+      "duration": 5.359
+    },
+    {
+      "text": "outline to your spawn pad. As you can",
+      "start": 464.0,
+      "duration": 5.28
+    },
+    {
+      "text": "see, it's it's going all the way around.",
+      "start": 467.759,
+      "duration": 3.521
+    },
+    {
+      "text": "Perfect. So, that's just a little touch",
+      "start": 469.28,
+      "duration": 3.52
+    },
+    {
+      "text": "to make it look a little bit fancier.",
+      "start": 471.28,
+      "duration": 4.08
+    },
+    {
+      "text": "Now, let's go ahead and make stage one.",
+      "start": 472.8,
+      "duration": 4.16
+    },
+    {
+      "text": "So, what I'm going to do is I'm going to",
+      "start": 475.36,
+      "duration": 5.2
+    },
+    {
+      "text": "insert a sphere into the game. And this",
+      "start": 476.96,
+      "duration": 8.32
+    },
+    {
+      "text": "sphere is going to be um the uh first",
+      "start": 480.56,
+      "duration": 9.199
+    },
+    {
+      "text": "object for players to climb on. So, I'm",
+      "start": 485.28,
+      "duration": 6.08
+    },
+    {
+      "text": "going to go ahead and redo that really",
+      "start": 489.759,
+      "duration": 3.201
+    },
+    {
+      "text": "quick so you guys can see everything I",
+      "start": 491.36,
+      "duration": 3.519
+    },
+    {
+      "text": "just did. Go ahead and come up here to",
+      "start": 492.96,
+      "duration": 4.16
+    },
+    {
+      "text": "the part, click the drop down, and click",
+      "start": 494.879,
+      "duration": 4.16
+    },
+    {
+      "text": "sphere. Now you have a sphere right",
+      "start": 497.12,
+      "duration": 4.56
+    },
+    {
+      "text": "here. You can click it and you can move",
+      "start": 499.039,
+      "duration": 5.041
+    },
+    {
+      "text": "it away from the spawn location. You can",
+      "start": 501.68,
+      "duration": 4.48
+    },
+    {
+      "text": "also go ahead and scale it and you can",
+      "start": 504.08,
+      "duration": 4.64
+    },
+    {
+      "text": "recolor it if you want. There we go. The",
+      "start": 506.16,
+      "duration": 3.759
+    },
+    {
+      "text": "next thing I'm going to do is I'm going",
+      "start": 508.72,
+      "duration": 2.8
+    },
+    {
+      "text": "to click that and I'm going to click",
+      "start": 509.919,
+      "duration": 4.56
+    },
+    {
+      "text": "controll D. That will duplicate this",
+      "start": 511.52,
+      "duration": 4.8
+    },
+    {
+      "text": "part. And as you can see now we have two",
+      "start": 514.479,
+      "duration": 4.0
+    },
+    {
+      "text": "parts in our explorer. Now we can click",
+      "start": 516.32,
+      "duration": 3.76
+    },
+    {
+      "text": "this move button and let's just move it",
+      "start": 518.479,
+      "duration": 4.161
+    },
+    {
+      "text": "out like this. And there we go. Now we",
+      "start": 520.08,
+      "duration": 5.04
+    },
+    {
+      "text": "have a second sphere. We can recolor",
+      "start": 522.64,
+      "duration": 4.24
+    },
+    {
+      "text": "this one as well. And we're just going",
+      "start": 525.12,
+      "duration": 4.32
+    },
+    {
+      "text": "to make a little ball jump obby. Okay.",
+      "start": 526.88,
+      "duration": 4.16
+    },
+    {
+      "text": "So, let's go ahead and do this again.",
+      "start": 529.44,
+      "duration": 3.76
+    },
+    {
+      "text": "Crl D to duplicate it. Click the move",
+      "start": 531.04,
+      "duration": 4.56
+    },
+    {
+      "text": "tool and move it around. Then recolor",
+      "start": 533.2,
+      "duration": 6.639
+    },
+    {
+      "text": "it. Ctrl D. Move with the move tool and",
+      "start": 535.6,
+      "duration": 7.84
+    },
+    {
+      "text": "recolor it. Ctrl D. Move with the move",
+      "start": 539.839,
+      "duration": 7.761
+    },
+    {
+      "text": "tool and recolor it. Okay. So, you may",
+      "start": 543.44,
+      "duration": 5.68
+    },
+    {
+      "text": "be thinking, I want to test this out.",
+      "start": 547.6,
+      "duration": 3.04
+    },
+    {
+      "text": "Hold your horses though. We got to fix",
+      "start": 549.12,
+      "duration": 3.6
+    },
+    {
+      "text": "something real quick. So, if you go",
+      "start": 550.64,
+      "duration": 3.52
+    },
+    {
+      "text": "ahead and play this game now, I'm just",
+      "start": 552.72,
+      "duration": 2.64
+    },
+    {
+      "text": "going to show you. Don't go ahead and",
+      "start": 554.16,
+      "duration": 2.56
+    },
+    {
+      "text": "play it right now. But if you play it",
+      "start": 555.36,
+      "duration": 2.56
+    },
+    {
+      "text": "right now, you're going to notice that",
+      "start": 556.72,
+      "duration": 4.08
+    },
+    {
+      "text": "all your spheres are going to disappear.",
+      "start": 557.92,
+      "duration": 4.72
+    },
+    {
+      "text": "And uh well, where did they go? Turns",
+      "start": 560.8,
+      "duration": 4.24
+    },
+    {
+      "text": "out they fell. They fell all the way",
+      "start": 562.64,
+      "duration": 6.08
+    },
+    {
+      "text": "through the map. Um that means that if I",
+      "start": 565.04,
+      "duration": 4.72
+    },
+    {
+      "text": "go ahead and select these, I'm going to",
+      "start": 568.72,
+      "duration": 2.48
+    },
+    {
+      "text": "just visualize what happened when I hit",
+      "start": 569.76,
+      "duration": 4.24
+    },
+    {
+      "text": "play. All these spheres just went boop",
+      "start": 571.2,
+      "duration": 5.92
+    },
+    {
+      "text": "down. Okay. So, if you want to fix that",
+      "start": 574.0,
+      "duration": 4.48
+    },
+    {
+      "text": "from happening, you're going to need to",
+      "start": 577.12,
+      "duration": 2.96
+    },
+    {
+      "text": "anchor these. So you can click each of",
+      "start": 578.48,
+      "duration": 3.28
+    },
+    {
+      "text": "these parts and you can click this",
+      "start": 580.08,
+      "duration": 4.0
+    },
+    {
+      "text": "button up here that says anchor or you",
+      "start": 581.76,
+      "duration": 3.92
+    },
+    {
+      "text": "can scroll down in the properties and",
+      "start": 584.08,
+      "duration": 4.08
+    },
+    {
+      "text": "make sure anchored is checked. I would",
+      "start": 585.68,
+      "duration": 4.159
+    },
+    {
+      "text": "personally just go ahead and select the",
+      "start": 588.16,
+      "duration": 3.6
+    },
+    {
+      "text": "sphere and click this anchor button up",
+      "start": 589.839,
+      "duration": 3.921
+    },
+    {
+      "text": "here. If you want to select more than",
+      "start": 591.76,
+      "duration": 4.0
+    },
+    {
+      "text": "one part at a time, you can hold shift.",
+      "start": 593.76,
+      "duration": 4.079
+    },
+    {
+      "text": "So if I hold shift and I select all",
+      "start": 595.76,
+      "duration": 3.44
+    },
+    {
+      "text": "three of these now you can see all three",
+      "start": 597.839,
+      "duration": 2.801
+    },
+    {
+      "text": "of them are selected and I can hit",
+      "start": 599.2,
+      "duration": 3.44
+    },
+    {
+      "text": "anchor and that'll anchor all these at",
+      "start": 600.64,
+      "duration": 3.84
+    },
+    {
+      "text": "the same time. Okay, let's go ahead and",
+      "start": 602.64,
+      "duration": 4.16
+    },
+    {
+      "text": "hit play now. And we should see that the",
+      "start": 604.48,
+      "duration": 5.68
+    },
+    {
+      "text": "spheres have stayed in the air. And yep,",
+      "start": 606.8,
+      "duration": 5.36
+    },
+    {
+      "text": "there they are. Right now, uh, we can go",
+      "start": 610.16,
+      "duration": 4.0
+    },
+    {
+      "text": "ahead and play this game. Let's jump,",
+      "start": 612.16,
+      "duration": 5.04
+    },
+    {
+      "text": "jump, jump, jump, and jump. Oh, I'm",
+      "start": 614.16,
+      "duration": 4.56
+    },
+    {
+      "text": "terrible at obies, so I missed that last",
+      "start": 617.2,
+      "duration": 3.199
+    },
+    {
+      "text": "one. But there you go. There is stage",
+      "start": 618.72,
+      "duration": 4.32
+    },
+    {
+      "text": "one. Okay. So, uh, we're going to go",
+      "start": 620.399,
+      "duration": 4.081
+    },
+    {
+      "text": "ahead and do a little scripting, though,",
+      "start": 623.04,
+      "duration": 4.239
+    },
+    {
+      "text": "because what we want to do is we want to",
+      "start": 624.48,
+      "duration": 4.72
+    },
+    {
+      "text": "have checkpoints. So, I'm going to",
+      "start": 627.279,
+      "duration": 4.0
+    },
+    {
+      "text": "insert another part. Uh, we're going to",
+      "start": 629.2,
+      "duration": 4.0
+    },
+    {
+      "text": "just insert a part. Uh, let's do it the",
+      "start": 631.279,
+      "duration": 3.12
+    },
+    {
+      "text": "way that we've been doing it. So, click",
+      "start": 633.2,
+      "duration": 3.52
+    },
+    {
+      "text": "this drop down and click block. Now,",
+      "start": 634.399,
+      "duration": 4.241
+    },
+    {
+      "text": "let's go ahead and move this to the end",
+      "start": 636.72,
+      "duration": 5.84
+    },
+    {
+      "text": "of the ball jump and we can go ahead and",
+      "start": 638.64,
+      "duration": 5.28
+    },
+    {
+      "text": "change the color of this. I'm going to",
+      "start": 642.56,
+      "duration": 2.959
+    },
+    {
+      "text": "make it a green so that people know this",
+      "start": 643.92,
+      "duration": 3.12
+    },
+    {
+      "text": "is a checkpoint and I'm going to go",
+      "start": 645.519,
+      "duration": 4.32
+    },
+    {
+      "text": "ahead and scale it way up like this.",
+      "start": 647.04,
+      "duration": 4.56
+    },
+    {
+      "text": "Here is our checkpoint. Make sure to",
+      "start": 649.839,
+      "duration": 4.0
+    },
+    {
+      "text": "anchor it now. And I'm going to go ahead",
+      "start": 651.6,
+      "duration": 4.88
+    },
+    {
+      "text": "and click it and click the materials",
+      "start": 653.839,
+      "duration": 5.201
+    },
+    {
+      "text": "right here in the properties tab. Go",
+      "start": 656.48,
+      "duration": 4.799
+    },
+    {
+      "text": "ahead and click that and select neon.",
+      "start": 659.04,
+      "duration": 4.4
+    },
+    {
+      "text": "that will make your part glow and people",
+      "start": 661.279,
+      "duration": 3.441
+    },
+    {
+      "text": "will be able to know, okay, that's my",
+      "start": 663.44,
+      "duration": 3.28
+    },
+    {
+      "text": "checkpoint. So, let's go ahead and click",
+      "start": 664.72,
+      "duration": 4.16
+    },
+    {
+      "text": "this part and where it's highlighted in",
+      "start": 666.72,
+      "duration": 4.0
+    },
+    {
+      "text": "the explorer, let's rename it by",
+      "start": 668.88,
+      "duration": 3.72
+    },
+    {
+      "text": "clicking the name and naming this",
+      "start": 670.72,
+      "duration": 4.799
+    },
+    {
+      "text": "checkpoint. Okay, next thing you want to",
+      "start": 672.6,
+      "duration": 4.76
+    },
+    {
+      "text": "do is click this plus icon on the",
+      "start": 675.519,
+      "duration": 5.041
+    },
+    {
+      "text": "checkpoint and insert a int value. Okay,",
+      "start": 677.36,
+      "duration": 5.68
+    },
+    {
+      "text": "so click the the plus, search for int",
+      "start": 680.56,
+      "duration": 4.48
+    },
+    {
+      "text": "value and insert this by clicking it.",
+      "start": 683.04,
+      "duration": 4.239
+    },
+    {
+      "text": "Okay, once you have one, go ahead and",
+      "start": 685.04,
+      "duration": 5.68
+    },
+    {
+      "text": "rename it to stage. Okay, this is going",
+      "start": 687.279,
+      "duration": 5.201
+    },
+    {
+      "text": "to be the current stage that they're on.",
+      "start": 690.72,
+      "duration": 3.76
+    },
+    {
+      "text": "So, if they press if they step on this",
+      "start": 692.48,
+      "duration": 4.799
+    },
+    {
+      "text": "block, we're going to set their stage to",
+      "start": 694.48,
+      "duration": 6.799
+    },
+    {
+      "text": "be two. So, inside of the properties of",
+      "start": 697.279,
+      "duration": 7.361
+    },
+    {
+      "text": "this stage, go ahead and set zero to two",
+      "start": 701.279,
+      "duration": 6.161
+    },
+    {
+      "text": "right here. So, that will mean, okay,",
+      "start": 704.64,
+      "duration": 4.4
+    },
+    {
+      "text": "once we hit this block, we're going to",
+      "start": 707.44,
+      "duration": 5.519
+    },
+    {
+      "text": "be on stage two. Okay. Now, because this",
+      "start": 709.04,
+      "duration": 5.84
+    },
+    {
+      "text": "isn't my beginner scripting series, I'm",
+      "start": 712.959,
+      "duration": 3.201
+    },
+    {
+      "text": "going to go ahead and do the scripting.",
+      "start": 714.88,
+      "duration": 2.8
+    },
+    {
+      "text": "And I'll leave the script in the",
+      "start": 716.16,
+      "duration": 3.679
+    },
+    {
+      "text": "description. So go ahead and what you're",
+      "start": 717.68,
+      "duration": 4.08
+    },
+    {
+      "text": "going to do is you're going to click",
+      "start": 719.839,
+      "duration": 3.361
+    },
+    {
+      "text": "this plus on the checkpoint. You're",
+      "start": 721.76,
+      "duration": 2.88
+    },
+    {
+      "text": "going to hover over our checkpoint,",
+      "start": 723.2,
+      "duration": 4.8
+    },
+    {
+      "text": "click a plus, and then search for script",
+      "start": 724.64,
+      "duration": 5.28
+    },
+    {
+      "text": "and insert this one. Not a local script,",
+      "start": 728.0,
+      "duration": 3.36
+    },
+    {
+      "text": "not a module script, but a regular",
+      "start": 729.92,
+      "duration": 3.359
+    },
+    {
+      "text": "script. Okay. And then you can rename",
+      "start": 731.36,
+      "duration": 3.919
+    },
+    {
+      "text": "this if you want. Uh I'm going to rename",
+      "start": 733.279,
+      "duration": 4.56
+    },
+    {
+      "text": "it to checkpoint script. Totally up to",
+      "start": 735.279,
+      "duration": 4.881
+    },
+    {
+      "text": "you though. And then I'm going to have",
+      "start": 737.839,
+      "duration": 4.961
+    },
+    {
+      "text": "this uh code in the description. So this",
+      "start": 740.16,
+      "duration": 3.84
+    },
+    {
+      "text": "script is going to be in the",
+      "start": 742.8,
+      "duration": 3.039
+    },
+    {
+      "text": "description. Make sure you look in the",
+      "start": 744.0,
+      "duration": 3.519
+    },
+    {
+      "text": "description for checkpoint script and",
+      "start": 745.839,
+      "duration": 3.521
+    },
+    {
+      "text": "then copy and paste this into the",
+      "start": 747.519,
+      "duration": 3.521
+    },
+    {
+      "text": "script. So go ahead and get rid of the",
+      "start": 749.36,
+      "duration": 3.52
+    },
+    {
+      "text": "print hello world at the top. The way",
+      "start": 751.04,
+      "duration": 3.919
+    },
+    {
+      "text": "you would do that is just by selecting",
+      "start": 752.88,
+      "duration": 5.68
+    },
+    {
+      "text": "it and uh and just clicking backspace.",
+      "start": 754.959,
+      "duration": 5.201
+    },
+    {
+      "text": "So you can drag your mouse. You can",
+      "start": 758.56,
+      "duration": 4.0
+    },
+    {
+      "text": "click and drag and then click backspace.",
+      "start": 760.16,
+      "duration": 4.56
+    },
+    {
+      "text": "Okay. And go ahead and paste this code",
+      "start": 762.56,
+      "duration": 4.399
+    },
+    {
+      "text": "into the script. Now you can close out",
+      "start": 764.72,
+      "duration": 3.84
+    },
+    {
+      "text": "of the script by clicking this X right",
+      "start": 766.959,
+      "duration": 3.361
+    },
+    {
+      "text": "here on the checkpoint script. There we",
+      "start": 768.56,
+      "duration": 3.44
+    },
+    {
+      "text": "go. Now we're out of the script. The",
+      "start": 770.32,
+      "duration": 4.56
+    },
+    {
+      "text": "next thing is to add a leader script.",
+      "start": 772.0,
+      "duration": 4.32
+    },
+    {
+      "text": "Uh, and again, this is going to be down",
+      "start": 774.88,
+      "duration": 2.959
+    },
+    {
+      "text": "in the description. Just a quick",
+      "start": 776.32,
+      "duration": 3.519
+    },
+    {
+      "text": "reminder though, if you have any trouble",
+      "start": 777.839,
+      "duration": 4.0
+    },
+    {
+      "text": "at all with this video or any of the",
+      "start": 779.839,
+      "duration": 3.281
+    },
+    {
+      "text": "tutorials on my channel, make sure to",
+      "start": 781.839,
+      "duration": 3.041
+    },
+    {
+      "text": "join my Discord server and ask the",
+      "start": 783.12,
+      "duration": 4.08
+    },
+    {
+      "text": "community uh how to solve your problem.",
+      "start": 784.88,
+      "duration": 3.68
+    },
+    {
+      "text": "There's a channel called scripting",
+      "start": 787.2,
+      "duration": 3.199
+    },
+    {
+      "text": "support and you can add ask any",
+      "start": 788.56,
+      "duration": 4.32
+    },
+    {
+      "text": "questions in there um or studio support.",
+      "start": 790.399,
+      "duration": 4.24
+    },
+    {
+      "text": "So, you can ask any questions in there",
+      "start": 792.88,
+      "duration": 4.0
+    },
+    {
+      "text": "uh and you can help get an answer quick",
+      "start": 794.639,
+      "duration": 3.681
+    },
+    {
+      "text": "and we can help you with an answer as",
+      "start": 796.88,
+      "duration": 4.16
+    },
+    {
+      "text": "quick as we can. Okay. Uh go ahead and",
+      "start": 798.32,
+      "duration": 5.12
+    },
+    {
+      "text": "in your explorer hover over server",
+      "start": 801.04,
+      "duration": 4.0
+    },
+    {
+      "text": "script service. You'll find it right",
+      "start": 803.44,
+      "duration": 3.68
+    },
+    {
+      "text": "here. And you can go ahead and click the",
+      "start": 805.04,
+      "duration": 5.039
+    },
+    {
+      "text": "plus and again add another script. Not a",
+      "start": 807.12,
+      "duration": 5.2
+    },
+    {
+      "text": "lo local script or a leader I mean a mod",
+      "start": 810.079,
+      "duration": 4.081
+    },
+    {
+      "text": "module script. You can rename this",
+      "start": 812.32,
+      "duration": 4.079
+    },
+    {
+      "text": "script to leader stats if you want. And",
+      "start": 814.16,
+      "duration": 3.6
+    },
+    {
+      "text": "then you're going to paste the second",
+      "start": 816.399,
+      "duration": 4.801
+    },
+    {
+      "text": "link or second code second script uh",
+      "start": 817.76,
+      "duration": 4.879
+    },
+    {
+      "text": "into this. So go down into the",
+      "start": 821.2,
+      "duration": 3.6
+    },
+    {
+      "text": "description and look for leader stats",
+      "start": 822.639,
+      "duration": 5.121
+    },
+    {
+      "text": "script next. You can paste it here.",
+      "start": 824.8,
+      "duration": 4.56
+    },
+    {
+      "text": "Okay. Okay. So, go ahead and copy and",
+      "start": 827.76,
+      "duration": 3.44
+    },
+    {
+      "text": "paste this script from the description",
+      "start": 829.36,
+      "duration": 4.32
+    },
+    {
+      "text": "into the uh into this new script. Uh and",
+      "start": 831.2,
+      "duration": 4.079
+    },
+    {
+      "text": "then you can click the X up here to",
+      "start": 833.68,
+      "duration": 3.12
+    },
+    {
+      "text": "close out of it. Then you can go ahead",
+      "start": 835.279,
+      "duration": 3.041
+    },
+    {
+      "text": "and hit this play button right here,",
+      "start": 836.8,
+      "duration": 4.08
+    },
+    {
+      "text": "this blue triangle. Uh it'll be next to",
+      "start": 838.32,
+      "duration": 5.04
+    },
+    {
+      "text": "your color. And then you can hit play",
+      "start": 840.88,
+      "duration": 4.959
+    },
+    {
+      "text": "and that'll spawn you into your game.",
+      "start": 843.36,
+      "duration": 5.36
+    },
+    {
+      "text": "So, let's go ahead and hit play. And as",
+      "start": 845.839,
+      "duration": 4.8
+    },
+    {
+      "text": "you can see, if you spawn in and you've",
+      "start": 848.72,
+      "duration": 3.52
+    },
+    {
+      "text": "done everything correctly so far, you",
+      "start": 850.639,
+      "duration": 3.841
+    },
+    {
+      "text": "should see this up in the corner. You",
+      "start": 852.24,
+      "duration": 5.039
+    },
+    {
+      "text": "should see your stage right here. And as",
+      "start": 854.48,
+      "duration": 4.479
+    },
+    {
+      "text": "you can see, it says I'm on stage one.",
+      "start": 857.279,
+      "duration": 2.881
+    },
+    {
+      "text": "But if we go ahead and complete the",
+      "start": 858.959,
+      "duration": 3.521
+    },
+    {
+      "text": "obby, if we go ahead and go all the way",
+      "start": 860.16,
+      "duration": 4.96
+    },
+    {
+      "text": "to the end and step on this, you can see",
+      "start": 862.48,
+      "duration": 5.76
+    },
+    {
+      "text": "that our stage is going up. Now, you can",
+      "start": 865.12,
+      "duration": 4.56
+    },
+    {
+      "text": "see that there's obviously a bug right",
+      "start": 868.24,
+      "duration": 2.959
+    },
+    {
+      "text": "now. I'll have that fixed for you. You",
+      "start": 869.68,
+      "duration": 2.959
+    },
+    {
+      "text": "guys don't need to worry about that at",
+      "start": 871.199,
+      "duration": 3.601
+    },
+    {
+      "text": "all. So, um, that should be fixed for",
+      "start": 872.639,
+      "duration": 4.961
+    },
+    {
+      "text": "you. That's just for me. And just to",
+      "start": 874.8,
+      "duration": 4.159
+    },
+    {
+      "text": "show you that I was telling the truth,",
+      "start": 877.6,
+      "duration": 2.72
+    },
+    {
+      "text": "I'm going to go ahead and complete this.",
+      "start": 878.959,
+      "duration": 3.281
+    },
+    {
+      "text": "And you can see that this bug has been",
+      "start": 880.32,
+      "duration": 3.68
+    },
+    {
+      "text": "fixed. There you go. Stage two. This",
+      "start": 882.24,
+      "duration": 2.88
+    },
+    {
+      "text": "should be fixed for you. You can just",
+      "start": 884.0,
+      "duration": 2.399
+    },
+    {
+      "text": "copy and paste the script in the",
+      "start": 885.12,
+      "duration": 3.44
+    },
+    {
+      "text": "description like I told you to. And uh",
+      "start": 886.399,
+      "duration": 4.401
+    },
+    {
+      "text": "there you go. Now, let's go ahead and",
+      "start": 888.56,
+      "duration": 4.959
+    },
+    {
+      "text": "add some more stages. Um but before we",
+      "start": 890.8,
+      "duration": 4.399
+    },
+    {
+      "text": "do that, actually, I need to make sure",
+      "start": 893.519,
+      "duration": 3.68
+    },
+    {
+      "text": "that players spawn where they're",
+      "start": 895.199,
+      "duration": 4.721
+    },
+    {
+      "text": "supposed to spawn when they die. So, uh",
+      "start": 897.199,
+      "duration": 4.161
+    },
+    {
+      "text": "let's go ahead. I'm going to go ahead",
+      "start": 899.92,
+      "duration": 2.96
+    },
+    {
+      "text": "and show you how to do that. Uh it's",
+      "start": 901.36,
+      "duration": 3.68
+    },
+    {
+      "text": "going to involve another script. So, in",
+      "start": 902.88,
+      "duration": 4.0
+    },
+    {
+      "text": "the workspace, go ahead and hover over",
+      "start": 905.04,
+      "duration": 4.88
+    },
+    {
+      "text": "workspace. Click the plus. Okay. And",
+      "start": 906.88,
+      "duration": 5.04
+    },
+    {
+      "text": "then insert a folder. You can search for",
+      "start": 909.92,
+      "duration": 4.479
+    },
+    {
+      "text": "that and insert a folder. Name this",
+      "start": 911.92,
+      "duration": 4.159
+    },
+    {
+      "text": "folder. This is super important. Name",
+      "start": 914.399,
+      "duration": 4.161
+    },
+    {
+      "text": "this folder spawns. And you can again do",
+      "start": 916.079,
+      "duration": 4.88
+    },
+    {
+      "text": "that either by clicking the name or you",
+      "start": 918.56,
+      "duration": 3.76
+    },
+    {
+      "text": "can go into the properties and change",
+      "start": 920.959,
+      "duration": 4.0
+    },
+    {
+      "text": "the name right here. Okay. The next",
+      "start": 922.32,
+      "duration": 4.16
+    },
+    {
+      "text": "thing you're going to need to do is",
+      "start": 924.959,
+      "duration": 2.601
+    },
+    {
+      "text": "click this",
+      "start": 926.48,
+      "duration": 3.28
+    },
+    {
+      "text": "checkpoint. Click it again. Left click",
+      "start": 927.56,
+      "duration": 5.32
+    },
+    {
+      "text": "it. And then drag it up to the spawns",
+      "start": 929.76,
+      "duration": 5.519
+    },
+    {
+      "text": "and then release it once the checkpoint",
+      "start": 932.88,
+      "duration": 4.8
+    },
+    {
+      "text": "is on top of spawns. That will put the",
+      "start": 935.279,
+      "duration": 4.401
+    },
+    {
+      "text": "checkpoint right here. This checkpoint",
+      "start": 937.68,
+      "duration": 4.48
+    },
+    {
+      "text": "inside of our spawns folder. This is",
+      "start": 939.68,
+      "duration": 3.92
+    },
+    {
+      "text": "super super important. So, make sure",
+      "start": 942.16,
+      "duration": 3.039
+    },
+    {
+      "text": "that you do that. Uh, and if you didn't",
+      "start": 943.6,
+      "duration": 3.599
+    },
+    {
+      "text": "get that, just rewatch that part of the",
+      "start": 945.199,
+      "duration": 4.56
+    },
+    {
+      "text": "video. Um, so make sure you have spawns",
+      "start": 947.199,
+      "duration": 6.0
+    },
+    {
+      "text": "folder and a checkpoint in there. Okay.",
+      "start": 949.759,
+      "duration": 5.681
+    },
+    {
+      "text": "Next, insert a script again into server",
+      "start": 953.199,
+      "duration": 4.801
+    },
+    {
+      "text": "script service. And you can rename this",
+      "start": 955.44,
+      "duration": 5.519
+    },
+    {
+      "text": "um, respawn script. Again, this will be",
+      "start": 958.0,
+      "duration": 4.639
+    },
+    {
+      "text": "in the description. Just look in the",
+      "start": 960.959,
+      "duration": 4.0
+    },
+    {
+      "text": "description for what says respawn script",
+      "start": 962.639,
+      "duration": 4.56
+    },
+    {
+      "text": "and paste it into here. So, go ahead and",
+      "start": 964.959,
+      "duration": 4.081
+    },
+    {
+      "text": "paste this code into the script. close",
+      "start": 967.199,
+      "duration": 3.921
+    },
+    {
+      "text": "out of it again by clicking X and hit",
+      "start": 969.04,
+      "duration": 5.28
+    },
+    {
+      "text": "play to test out your obby so far. If",
+      "start": 971.12,
+      "duration": 5.36
+    },
+    {
+      "text": "you go ahead and go past the uh the",
+      "start": 974.32,
+      "duration": 4.16
+    },
+    {
+      "text": "spheres, you can jump on top of them.",
+      "start": 976.48,
+      "duration": 3.76
+    },
+    {
+      "text": "And then if we hit the checkpoint,",
+      "start": 978.48,
+      "duration": 3.919
+    },
+    {
+      "text": "you'll see our stage is up to stage two.",
+      "start": 980.24,
+      "duration": 5.519
+    },
+    {
+      "text": "We can jump off and once we die, we",
+      "start": 982.399,
+      "duration": 6.161
+    },
+    {
+      "text": "should respawn on our checkpoint. And as",
+      "start": 985.759,
+      "duration": 4.401
+    },
+    {
+      "text": "you can see, yep, here I am on my",
+      "start": 988.56,
+      "duration": 4.16
+    },
+    {
+      "text": "checkpoint. All right, just a quick",
+      "start": 990.16,
+      "duration": 4.08
+    },
+    {
+      "text": "reminder. If you want to learn how to",
+      "start": 992.72,
+      "duration": 3.679
+    },
+    {
+      "text": "make these scripts for yourself and make",
+      "start": 994.24,
+      "duration": 4.56
+    },
+    {
+      "text": "your very very own Roblox games um",
+      "start": 996.399,
+      "duration": 4.401
+    },
+    {
+      "text": "without having to use YouTube tutorials,",
+      "start": 998.8,
+      "duration": 3.44
+    },
+    {
+      "text": "uh then make sure to go check out my",
+      "start": 1000.8,
+      "duration": 2.88
+    },
+    {
+      "text": "beginner scripting series. I'll leave",
+      "start": 1002.24,
+      "duration": 3.36
+    },
+    {
+      "text": "that linked down in the description. And",
+      "start": 1003.68,
+      "duration": 3.76
+    },
+    {
+      "text": "uh yeah, it's uh it's hopefully going to",
+      "start": 1005.6,
+      "duration": 4.0
+    },
+    {
+      "text": "be helpful to you. Okay, the next thing",
+      "start": 1007.44,
+      "duration": 5.6
+    },
+    {
+      "text": "to do is to add more stages. So, uh I'm",
+      "start": 1009.6,
+      "duration": 5.44
+    },
+    {
+      "text": "going to go ahead and let you guys go",
+      "start": 1013.04,
+      "duration": 3.44
+    },
+    {
+      "text": "ahead and do this part, but I'm going to",
+      "start": 1015.04,
+      "duration": 3.599
+    },
+    {
+      "text": "show you how. So, remember the toolbox",
+      "start": 1016.48,
+      "duration": 4.0
+    },
+    {
+      "text": "earlier? Go ahead and open up the",
+      "start": 1018.639,
+      "duration": 6.56
+    },
+    {
+      "text": "toolbox and search for obby. Okay. And",
+      "start": 1020.48,
+      "duration": 6.64
+    },
+    {
+      "text": "in here you can see a ton of different",
+      "start": 1025.199,
+      "duration": 5.281
+    },
+    {
+      "text": "options for your obies. Now again I I",
+      "start": 1027.12,
+      "duration": 6.16
+    },
+    {
+      "text": "would be very very very careful with the",
+      "start": 1030.48,
+      "duration": 5.68
+    },
+    {
+      "text": "um obby parts you insert. I would say",
+      "start": 1033.28,
+      "duration": 4.48
+    },
+    {
+      "text": "make sure that when you hover over it,",
+      "start": 1036.16,
+      "duration": 3.279
+    },
+    {
+      "text": "see these this little check mark, make",
+      "start": 1037.76,
+      "duration": 3.6
+    },
+    {
+      "text": "sure that's green and it has a good",
+      "start": 1039.439,
+      "duration": 3.441
+    },
+    {
+      "text": "amount of ratings. That means that a lot",
+      "start": 1041.36,
+      "duration": 3.839
+    },
+    {
+      "text": "of people have uh have liked this and",
+      "start": 1042.88,
+      "duration": 4.64
+    },
+    {
+      "text": "say it's a good model. Okay? Just just",
+      "start": 1045.199,
+      "duration": 4.961
+    },
+    {
+      "text": "to keep you safe. Okay. So, how how can",
+      "start": 1047.52,
+      "duration": 4.08
+    },
+    {
+      "text": "we actually go ahead and insert these?",
+      "start": 1050.16,
+      "duration": 3.72
+    },
+    {
+      "text": "Well, you can go ahead and drag",
+      "start": 1051.6,
+      "duration": 6.319
+    },
+    {
+      "text": "this into here. Okay. And now once you",
+      "start": 1053.88,
+      "duration": 5.56
+    },
+    {
+      "text": "drag it on top of one of your other",
+      "start": 1057.919,
+      "duration": 4.081
+    },
+    {
+      "text": "parts, you can see our our stage is",
+      "start": 1059.44,
+      "duration": 4.64
+    },
+    {
+      "text": "right here. Now, I want to go ahead and",
+      "start": 1062.0,
+      "duration": 3.6
+    },
+    {
+      "text": "move this so it's not in the middle of",
+      "start": 1064.08,
+      "duration": 2.64
+    },
+    {
+      "text": "the other stages. So, I'm going to go",
+      "start": 1065.6,
+      "duration": 3.52
+    },
+    {
+      "text": "ahead and click it. Click the move tool.",
+      "start": 1066.72,
+      "duration": 4.64
+    },
+    {
+      "text": "And we can go ahead and move this out of",
+      "start": 1069.12,
+      "duration": 4.24
+    },
+    {
+      "text": "the way like this. Okay. So, now we have",
+      "start": 1071.36,
+      "duration": 3.92
+    },
+    {
+      "text": "our next stage of our obby. What we're",
+      "start": 1073.36,
+      "duration": 2.88
+    },
+    {
+      "text": "going to do is we're going to click this",
+      "start": 1075.28,
+      "duration": 2.88
+    },
+    {
+      "text": "checkpoint. We're going to duplicate it",
+      "start": 1076.24,
+      "duration": 4.08
+    },
+    {
+      "text": "by clicking control D and we're going to",
+      "start": 1078.16,
+      "duration": 4.48
+    },
+    {
+      "text": "move it to the end right here by",
+      "start": 1080.32,
+      "duration": 4.4
+    },
+    {
+      "text": "clicking move. Okay, the next thing you",
+      "start": 1082.64,
+      "duration": 5.2
+    },
+    {
+      "text": "need to do is to click this checkpoint",
+      "start": 1084.72,
+      "duration": 4.8
+    },
+    {
+      "text": "and drop down. See where it's",
+      "start": 1087.84,
+      "duration": 3.28
+    },
+    {
+      "text": "highlighted in the explorer. So find",
+      "start": 1089.52,
+      "duration": 3.92
+    },
+    {
+      "text": "that. You can open up the spawns folder",
+      "start": 1091.12,
+      "duration": 4.16
+    },
+    {
+      "text": "and open up your checkpoint and then",
+      "start": 1093.44,
+      "duration": 4.88
+    },
+    {
+      "text": "change your stage to be three now. So",
+      "start": 1095.28,
+      "duration": 4.639
+    },
+    {
+      "text": "click the stage inside of this",
+      "start": 1098.32,
+      "duration": 3.76
+    },
+    {
+      "text": "checkpoint. So click the checkpoint,",
+      "start": 1099.919,
+      "duration": 5.041
+    },
+    {
+      "text": "find stage right here, and click uh this",
+      "start": 1102.08,
+      "duration": 5.44
+    },
+    {
+      "text": "value and change the two to be a three.",
+      "start": 1104.96,
+      "duration": 4.48
+    },
+    {
+      "text": "So that'll tell my script that I have",
+      "start": 1107.52,
+      "duration": 3.76
+    },
+    {
+      "text": "written for you guys, hey, now we're on",
+      "start": 1109.44,
+      "duration": 3.599
+    },
+    {
+      "text": "stage three now that we've hit this",
+      "start": 1111.28,
+      "duration": 3.759
+    },
+    {
+      "text": "button. And now you can go ahead and add",
+      "start": 1113.039,
+      "duration": 4.241
+    },
+    {
+      "text": "as many stages as you want. I'm going to",
+      "start": 1115.039,
+      "duration": 5.201
+    },
+    {
+      "text": "go ahead and add about two more. Okay.",
+      "start": 1117.28,
+      "duration": 4.32
+    },
+    {
+      "text": "Now, you're going to get these pop-ups",
+      "start": 1120.24,
+      "duration": 3.12
+    },
+    {
+      "text": "on some of these that say this includes",
+      "start": 1121.6,
+      "duration": 3.84
+    },
+    {
+      "text": "scripts. This can be dangerous. So, if",
+      "start": 1123.36,
+      "duration": 3.52
+    },
+    {
+      "text": "you want to be careful, go ahead and",
+      "start": 1125.44,
+      "duration": 2.88
+    },
+    {
+      "text": "join my Discord server and just like",
+      "start": 1126.88,
+      "duration": 3.44
+    },
+    {
+      "text": "ask, hey, do these scripts look good?",
+      "start": 1128.32,
+      "duration": 4.0
+    },
+    {
+      "text": "Um, but I think some of some of them are",
+      "start": 1130.32,
+      "duration": 2.96
+    },
+    {
+      "text": "okay. So, I'm going to go ahead and",
+      "start": 1132.32,
+      "duration": 2.359
+    },
+    {
+      "text": "insert this one. I'm going to click",
+      "start": 1133.28,
+      "duration": 3.759
+    },
+    {
+      "text": "okay. And I'm going to go ahead and",
+      "start": 1134.679,
+      "duration": 3.88
+    },
+    {
+      "text": "rotate this. If you want to just rotate",
+      "start": 1137.039,
+      "duration": 4.64
+    },
+    {
+      "text": "it 90°, you can hit CtrlR, and that will",
+      "start": 1138.559,
+      "duration": 6.0
+    },
+    {
+      "text": "rotate a model 90° like that. And then",
+      "start": 1141.679,
+      "duration": 4.801
+    },
+    {
+      "text": "we can click the move tool, and we can",
+      "start": 1144.559,
+      "duration": 4.161
+    },
+    {
+      "text": "move it. Perfect. So, now we have our",
+      "start": 1146.48,
+      "duration": 3.84
+    },
+    {
+      "text": "next stage. The next thing I'm going to",
+      "start": 1148.72,
+      "duration": 3.68
+    },
+    {
+      "text": "do is click this checkpoint. I'm going",
+      "start": 1150.32,
+      "duration": 4.08
+    },
+    {
+      "text": "to duplicate it by clicking Ctrl D. And",
+      "start": 1152.4,
+      "duration": 4.159
+    },
+    {
+      "text": "I'm going to move it again. And once",
+      "start": 1154.4,
+      "duration": 4.32
+    },
+    {
+      "text": "again, you need to click the checkpoint.",
+      "start": 1156.559,
+      "duration": 4.48
+    },
+    {
+      "text": "You need to go into here into that",
+      "start": 1158.72,
+      "duration": 4.079
+    },
+    {
+      "text": "checkpoint. Find the stage inside of",
+      "start": 1161.039,
+      "duration": 3.281
+    },
+    {
+      "text": "that checkpoint. And now we're going to",
+      "start": 1162.799,
+      "duration": 3.201
+    },
+    {
+      "text": "change it to four. And you can keep",
+      "start": 1164.32,
+      "duration": 3.359
+    },
+    {
+      "text": "doing this for as many stages as you",
+      "start": 1166.0,
+      "duration": 5.08
+    },
+    {
+      "text": "want. And if I go ahead and hit",
+      "start": 1167.679,
+      "duration": 6.641
+    },
+    {
+      "text": "play, it's going to go ahead and Yep.",
+      "start": 1171.08,
+      "duration": 4.68
+    },
+    {
+      "text": "There we go. So, we can go ahead and",
+      "start": 1174.32,
+      "duration": 4.16
+    },
+    {
+      "text": "jump on these. And we're going to go",
+      "start": 1175.76,
+      "duration": 6.08
+    },
+    {
+      "text": "into stage two. We can go across here.",
+      "start": 1178.48,
+      "duration": 6.64
+    },
+    {
+      "text": "and we're going to get to stage three.",
+      "start": 1181.84,
+      "duration": 4.959
+    },
+    {
+      "text": "Next, we can try and get past this. I'm",
+      "start": 1185.12,
+      "duration": 2.799
+    },
+    {
+      "text": "not good at obies, though, so it",
+      "start": 1186.799,
+      "duration": 3.12
+    },
+    {
+      "text": "probably won't happen. Um, but as you",
+      "start": 1187.919,
+      "duration": 3.76
+    },
+    {
+      "text": "can see, once I die, I respawn at the",
+      "start": 1189.919,
+      "duration": 3.841
+    },
+    {
+      "text": "checkpoint. And everything seems to be",
+      "start": 1191.679,
+      "duration": 6.561
+    },
+    {
+      "text": "working just fine. Okay, perfect. So,",
+      "start": 1193.76,
+      "duration": 6.32
+    },
+    {
+      "text": "and I can make it to Oh, I can't quite",
+      "start": 1198.24,
+      "duration": 3.12
+    },
+    {
+      "text": "make it to the end of my hobby. That's",
+      "start": 1200.08,
+      "duration": 3.12
+    },
+    {
+      "text": "okay. All right, the next thing I want",
+      "start": 1201.36,
+      "duration": 5.28
+    },
+    {
+      "text": "to show you how to do is to make a skip",
+      "start": 1203.2,
+      "duration": 5.359
+    },
+    {
+      "text": "stage button so that you can actually",
+      "start": 1206.64,
+      "duration": 3.919
+    },
+    {
+      "text": "make Robux. But before we do that, I",
+      "start": 1208.559,
+      "duration": 3.12
+    },
+    {
+      "text": "want to ask if this video has been",
+      "start": 1210.559,
+      "duration": 2.561
+    },
+    {
+      "text": "helpful so far, if you would just",
+      "start": 1211.679,
+      "duration": 2.801
+    },
+    {
+      "text": "quickly take a second out of your day to",
+      "start": 1213.12,
+      "duration": 3.12
+    },
+    {
+      "text": "subscribe. It's completely free and you",
+      "start": 1214.48,
+      "duration": 3.04
+    },
+    {
+      "text": "can always change your mind later. Now,",
+      "start": 1216.24,
+      "duration": 2.48
+    },
+    {
+      "text": "let's get back to the video and help you",
+      "start": 1217.52,
+      "duration": 2.88
+    },
+    {
+      "text": "make some Robux. And to do this, you're",
+      "start": 1218.72,
+      "duration": 3.44
+    },
+    {
+      "text": "going to need to join my Discord server.",
+      "start": 1220.4,
+      "duration": 2.8
+    },
+    {
+      "text": "What you're going to need to do is",
+      "start": 1222.16,
+      "duration": 2.16
+    },
+    {
+      "text": "you're going to need to go to the",
+      "start": 1223.2,
+      "duration": 3.359
+    },
+    {
+      "text": "announcements channel and click the",
+      "start": 1224.32,
+      "duration": 5.44
+    },
+    {
+      "text": "pinned link or pinned uh button and then",
+      "start": 1226.559,
+      "duration": 6.48
+    },
+    {
+      "text": "you're going to find the um the",
+      "start": 1229.76,
+      "duration": 7.039
+    },
+    {
+      "text": "developer products script. Okay. So, uh,",
+      "start": 1233.039,
+      "duration": 6.481
+    },
+    {
+      "text": "what we're going to do is we're going to",
+      "start": 1236.799,
+      "duration": 6.481
+    },
+    {
+      "text": "create a, uh, GUI. Also, in my Discord",
+      "start": 1239.52,
+      "duration": 6.159
+    },
+    {
+      "text": "server, I'll just include a file. So,",
+      "start": 1243.28,
+      "duration": 4.879
+    },
+    {
+      "text": "uh, you can just drag that file into the",
+      "start": 1245.679,
+      "duration": 4.401
+    },
+    {
+      "text": "game. So, if you go ahead and download",
+      "start": 1248.159,
+      "duration": 3.361
+    },
+    {
+      "text": "that file from my Discord server, you",
+      "start": 1250.08,
+      "duration": 2.719
+    },
+    {
+      "text": "can find the file on your computer and",
+      "start": 1251.52,
+      "duration": 3.519
+    },
+    {
+      "text": "just drag it into here and it'll create",
+      "start": 1252.799,
+      "duration": 4.0
+    },
+    {
+      "text": "that GUI for you. But if you want to",
+      "start": 1255.039,
+      "duration": 3.681
+    },
+    {
+      "text": "make it by yourself, go ahead and hover",
+      "start": 1256.799,
+      "duration": 4.481
+    },
+    {
+      "text": "over started GUI, click that plus icon,",
+      "start": 1258.72,
+      "duration": 5.04
+    },
+    {
+      "text": "click screen GUI right here, and then",
+      "start": 1261.28,
+      "duration": 5.279
+    },
+    {
+      "text": "you can click frame. Okay, you can move",
+      "start": 1263.76,
+      "duration": 5.68
+    },
+    {
+      "text": "this frame by selecting it right here",
+      "start": 1266.559,
+      "duration": 4.801
+    },
+    {
+      "text": "and um moving it around. Again, I'm do",
+      "start": 1269.44,
+      "duration": 2.96
+    },
+    {
+      "text": "I'm going to do this quickly though",
+      "start": 1271.36,
+      "duration": 2.24
+    },
+    {
+      "text": "because this is going to be available",
+      "start": 1272.4,
+      "duration": 3.519
+    },
+    {
+      "text": "for free in my Discord server. You can",
+      "start": 1273.6,
+      "duration": 4.16
+    },
+    {
+      "text": "move it around to where you like. Then",
+      "start": 1275.919,
+      "duration": 4.321
+    },
+    {
+      "text": "I'm going to go ahead and click uh this",
+      "start": 1277.76,
+      "duration": 4.88
+    },
+    {
+      "text": "make it a darker color like that by",
+      "start": 1280.24,
+      "duration": 4.88
+    },
+    {
+      "text": "changing the background color. You can",
+      "start": 1282.64,
+      "duration": 4.84
+    },
+    {
+      "text": "add a corner UI",
+      "start": 1285.12,
+      "duration": 5.4
+    },
+    {
+      "text": "corner. Oops, sorry about that. UI",
+      "start": 1287.48,
+      "duration": 5.319
+    },
+    {
+      "text": "corner. Click the UI corner and change",
+      "start": 1290.52,
+      "duration": 4.12
+    },
+    {
+      "text": "this eight to be something like 30.",
+      "start": 1292.799,
+      "duration": 4.561
+    },
+    {
+      "text": "That'll round this frame right here.",
+      "start": 1294.64,
+      "duration": 4.8
+    },
+    {
+      "text": "Okay. And now I'm gonna go ahead and",
+      "start": 1297.36,
+      "duration": 5.799
+    },
+    {
+      "text": "insert a text button into there. Text",
+      "start": 1299.44,
+      "duration": 7.76
+    },
+    {
+      "text": "button. Okay. And here you can go ahead",
+      "start": 1303.159,
+      "duration": 6.52
+    },
+    {
+      "text": "and scroll down. Find the size property",
+      "start": 1307.2,
+      "duration": 4.959
+    },
+    {
+      "text": "in properties and change that to be 1,",
+      "start": 1309.679,
+      "duration": 6.561
+    },
+    {
+      "text": "0, 1, 0. That'll resize the button to",
+      "start": 1312.159,
+      "duration": 6.481
+    },
+    {
+      "text": "fit the entire screen. Next, go ahead",
+      "start": 1316.24,
+      "duration": 4.0
+    },
+    {
+      "text": "and click background transparency.",
+      "start": 1318.64,
+      "duration": 3.68
+    },
+    {
+      "text": "Change that to one. Scroll down in the",
+      "start": 1320.24,
+      "duration": 4.72
+    },
+    {
+      "text": "properties till you find text color.",
+      "start": 1322.32,
+      "duration": 5.68
+    },
+    {
+      "text": "Select that and change it to a white.",
+      "start": 1324.96,
+      "duration": 6.64
+    },
+    {
+      "text": "Hit okay. Next, change the font face to",
+      "start": 1328.0,
+      "duration": 6.4
+    },
+    {
+      "text": "Froooko one right here. And click text",
+      "start": 1331.6,
+      "duration": 5.04
+    },
+    {
+      "text": "scaled. And then we can change the text",
+      "start": 1334.4,
+      "duration": 4.32
+    },
+    {
+      "text": "right here in the properties by and",
+      "start": 1336.64,
+      "duration": 4.519
+    },
+    {
+      "text": "change it to skip",
+      "start": 1338.72,
+      "duration": 5.52
+    },
+    {
+      "text": "stage. Okay. So now we have a skip stage",
+      "start": 1341.159,
+      "duration": 4.921
+    },
+    {
+      "text": "button. I actually think I like it up at",
+      "start": 1344.24,
+      "duration": 3.679
+    },
+    {
+      "text": "the top.",
+      "start": 1346.08,
+      "duration": 4.56
+    },
+    {
+      "text": "So, what I'm going to do is I'm going to",
+      "start": 1347.919,
+      "duration": 4.88
+    },
+    {
+      "text": "go ahead go ahead and copy this again.",
+      "start": 1350.64,
+      "duration": 4.8
+    },
+    {
+      "text": "Um, click your frame. Go down to the",
+      "start": 1352.799,
+      "duration": 4.88
+    },
+    {
+      "text": "properties and click position. And",
+      "start": 1355.44,
+      "duration": 3.84
+    },
+    {
+      "text": "you're going to go ahead and do point",
+      "start": 1357.679,
+      "duration": 5.641
+    },
+    {
+      "text": "uh.5 comma 0 comma.1 comma",
+      "start": 1359.28,
+      "duration": 8.6
+    },
+    {
+      "text": "0. Actually 0 comma uh",
+      "start": 1363.32,
+      "duration": 6.08
+    },
+    {
+      "text": "no",
+      "start": 1367.88,
+      "duration": 5.4
+    },
+    {
+      "text": "uh that's right anchor point.",
+      "start": 1369.4,
+      "duration": 5.8
+    },
+    {
+      "text": "So you can go ahead and click the frame,",
+      "start": 1373.28,
+      "duration": 3.759
+    },
+    {
+      "text": "go to the properties, and click anchor",
+      "start": 1375.2,
+      "duration": 5.04
+    },
+    {
+      "text": "point and set that to be 0.5 comma 0.5.",
+      "start": 1377.039,
+      "duration": 4.64
+    },
+    {
+      "text": "Okay. And the next thing you're going to",
+      "start": 1380.24,
+      "duration": 3.76
+    },
+    {
+      "text": "do is click the position right here. And",
+      "start": 1381.679,
+      "duration": 5.921
+    },
+    {
+      "text": "you can set that to be 0.5 comma 0 comma",
+      "start": 1384.0,
+      "duration": 6.0
+    },
+    {
+      "text": "0.1 comma 0. That'll position it right",
+      "start": 1387.6,
+      "duration": 4.24
+    },
+    {
+      "text": "here. Next thing to do is change the",
+      "start": 1390.0,
+      "duration": 4.48
+    },
+    {
+      "text": "size. So click the size and set it to be",
+      "start": 1391.84,
+      "duration": 8.24
+    },
+    {
+      "text": "04 comma 0 comma 0.15 comma 0. There we",
+      "start": 1394.48,
+      "duration": 7.92
+    },
+    {
+      "text": "go. There is our skip stage button. Uh,",
+      "start": 1400.08,
+      "duration": 5.599
+    },
+    {
+      "text": "and it looks I think it looks fine. So,",
+      "start": 1402.4,
+      "duration": 6.08
+    },
+    {
+      "text": "uh, you can go ahead and insert that.",
+      "start": 1405.679,
+      "duration": 4.161
+    },
+    {
+      "text": "Uh, I'm trying to decide, should I have",
+      "start": 1408.48,
+      "duration": 2.88
+    },
+    {
+      "text": "it on the top or the bottom? Maybe the",
+      "start": 1409.84,
+      "duration": 3.68
+    },
+    {
+      "text": "bottom of the screen. So, I'm going to",
+      "start": 1411.36,
+      "duration": 4.4
+    },
+    {
+      "text": "change this position to be 0.5 comma 0",
+      "start": 1413.52,
+      "duration": 5.68
+    },
+    {
+      "text": "comma 0.1 or 0.9 comma 0. There we go.",
+      "start": 1415.76,
+      "duration": 4.88
+    },
+    {
+      "text": "Now, we have a skip stage button right",
+      "start": 1419.2,
+      "duration": 3.52
+    },
+    {
+      "text": "here. Next thing to do is click that",
+      "start": 1420.64,
+      "duration": 4.72
+    },
+    {
+      "text": "text label, uh, hover over it, click",
+      "start": 1422.72,
+      "duration": 5.04
+    },
+    {
+      "text": "that plus icon, and click the local",
+      "start": 1425.36,
+      "duration": 5.28
+    },
+    {
+      "text": "script. Okay. In that local script,",
+      "start": 1427.76,
+      "duration": 4.72
+    },
+    {
+      "text": "you're going to paste the next line of",
+      "start": 1430.64,
+      "duration": 3.36
+    },
+    {
+      "text": "code. This will also be linked down in",
+      "start": 1432.48,
+      "duration": 2.72
+    },
+    {
+      "text": "the description. You don't have to join",
+      "start": 1434.0,
+      "duration": 2.72
+    },
+    {
+      "text": "my Discord server for this. That's just",
+      "start": 1435.2,
+      "duration": 3.28
+    },
+    {
+      "text": "if you want the model. Uh, and the model",
+      "start": 1436.72,
+      "duration": 3.28
+    },
+    {
+      "text": "will include this script, by the way.",
+      "start": 1438.48,
+      "duration": 2.88
+    },
+    {
+      "text": "So, if you want to just drag that model",
+      "start": 1440.0,
+      "duration": 2.799
+    },
+    {
+      "text": "into your game, go ahead and join my",
+      "start": 1441.36,
+      "duration": 2.799
+    },
+    {
+      "text": "Discord server and you can find it. But",
+      "start": 1442.799,
+      "duration": 2.561
+    },
+    {
+      "text": "if not, just go ahead and go down to the",
+      "start": 1444.159,
+      "duration": 3.121
+    },
+    {
+      "text": "description and paste this code. So,",
+      "start": 1445.36,
+      "duration": 3.28
+    },
+    {
+      "text": "what you're going to do is you're going",
+      "start": 1447.28,
+      "duration": 2.8
+    },
+    {
+      "text": "to copy and paste the script from the",
+      "start": 1448.64,
+      "duration": 3.84
+    },
+    {
+      "text": "description. Look for uh dev product",
+      "start": 1450.08,
+      "duration": 4.88
+    },
+    {
+      "text": "script local in the description, and you",
+      "start": 1452.48,
+      "duration": 4.4
+    },
+    {
+      "text": "can paste that down there. The first",
+      "start": 1454.96,
+      "duration": 3.44
+    },
+    {
+      "text": "thing you need to do is actually save",
+      "start": 1456.88,
+      "duration": 3.2
+    },
+    {
+      "text": "your game. And this is a good idea to do",
+      "start": 1458.4,
+      "duration": 2.96
+    },
+    {
+      "text": "kind of right away. Should have done",
+      "start": 1460.08,
+      "duration": 2.719
+    },
+    {
+      "text": "this earlier. The way you're going to do",
+      "start": 1461.36,
+      "duration": 3.28
+    },
+    {
+      "text": "this is by clicking file up in the top",
+      "start": 1462.799,
+      "duration": 5.081
+    },
+    {
+      "text": "left. Click file. Click publish to",
+      "start": 1464.64,
+      "duration": 5.68
+    },
+    {
+      "text": "Roblox. Then give it a name right here.",
+      "start": 1467.88,
+      "duration": 5.679
+    },
+    {
+      "text": "We can just call this my first",
+      "start": 1470.32,
+      "duration": 5.52
+    },
+    {
+      "text": "game. Then you can go ahead and click",
+      "start": 1473.559,
+      "duration": 4.12
+    },
+    {
+      "text": "this create button right here. So once",
+      "start": 1475.84,
+      "duration": 3.36
+    },
+    {
+      "text": "you publish it to Roblox, you should see",
+      "start": 1477.679,
+      "duration": 3.681
+    },
+    {
+      "text": "this right here. Uh well, your game. And",
+      "start": 1479.2,
+      "duration": 3.839
+    },
+    {
+      "text": "that means that it has successfully",
+      "start": 1481.36,
+      "duration": 4.0
+    },
+    {
+      "text": "saved to Roblox. So, the next thing to",
+      "start": 1483.039,
+      "duration": 3.921
+    },
+    {
+      "text": "do is open up Chrome or Safari or",
+      "start": 1485.36,
+      "duration": 4.16
+    },
+    {
+      "text": "whatever web web browser you have, and",
+      "start": 1486.96,
+      "duration": 4.28
+    },
+    {
+      "text": "you're going to type in",
+      "start": 1489.52,
+      "duration": 3.279
+    },
+    {
+      "text": "create.roll.com. This is where you can",
+      "start": 1491.24,
+      "duration": 3.0
+    },
+    {
+      "text": "make your developer product so you can",
+      "start": 1492.799,
+      "duration": 3.601
+    },
+    {
+      "text": "actually earn Robux. Next, go ahead and",
+      "start": 1494.24,
+      "duration": 3.84
+    },
+    {
+      "text": "click creations right here on your",
+      "start": 1496.4,
+      "duration": 4.56
+    },
+    {
+      "text": "screen, and then find your game. My I",
+      "start": 1498.08,
+      "duration": 4.8
+    },
+    {
+      "text": "named my game my first game right here.",
+      "start": 1500.96,
+      "duration": 4.48
+    },
+    {
+      "text": "So, go ahead and click that and it's",
+      "start": 1502.88,
+      "duration": 4.48
+    },
+    {
+      "text": "going to bring you to this next page.",
+      "start": 1505.44,
+      "duration": 4.4
+    },
+    {
+      "text": "So, right here on this left side, scroll",
+      "start": 1507.36,
+      "duration": 6.72
+    },
+    {
+      "text": "all the way down until you see uh uh",
+      "start": 1509.84,
+      "duration": 7.199
+    },
+    {
+      "text": "sorry, developer products. Okay. So, go",
+      "start": 1514.08,
+      "duration": 4.839
+    },
+    {
+      "text": "ahead and click developer products right",
+      "start": 1517.039,
+      "duration": 4.801
+    },
+    {
+      "text": "there. And then click create a developer",
+      "start": 1518.919,
+      "duration": 4.841
+    },
+    {
+      "text": "product. Next, go ahead and give it a",
+      "start": 1521.84,
+      "duration": 3.16
+    },
+    {
+      "text": "name. We're going to call this skip",
+      "start": 1523.76,
+      "duration": 3.76
+    },
+    {
+      "text": "stage. And go ahead and set how many how",
+      "start": 1525.0,
+      "duration": 4.679
+    },
+    {
+      "text": "much Robux it should cost. So, we're",
+      "start": 1527.52,
+      "duration": 3.44
+    },
+    {
+      "text": "going to go ahead. I'm going to set mine",
+      "start": 1529.679,
+      "duration": 3.6
+    },
+    {
+      "text": "to be 20 Robux. Really cheap, but uh",
+      "start": 1530.96,
+      "duration": 3.599
+    },
+    {
+      "text": "don't make it too expensive, otherwise",
+      "start": 1533.279,
+      "duration": 3.28
+    },
+    {
+      "text": "people won't buy it. Then click create",
+      "start": 1534.559,
+      "duration": 5.36
+    },
+    {
+      "text": "developer product. Okay. Next, what you",
+      "start": 1536.559,
+      "duration": 6.24
+    },
+    {
+      "text": "can do is you can go ahead and click",
+      "start": 1539.919,
+      "duration": 5.201
+    },
+    {
+      "text": "these three dots and click copy asset",
+      "start": 1542.799,
+      "duration": 4.0
+    },
+    {
+      "text": "ID. You're going to need to do this for",
+      "start": 1545.12,
+      "duration": 3.919
+    },
+    {
+      "text": "this step. So click that. And now let's",
+      "start": 1546.799,
+      "duration": 3.801
+    },
+    {
+      "text": "head back to Roblox",
+      "start": 1549.039,
+      "duration": 3.681
+    },
+    {
+      "text": "Studio. Okay. Once you're back in",
+      "start": 1550.6,
+      "duration": 4.84
+    },
+    {
+      "text": "studio, go ahead and click starter GUI",
+      "start": 1552.72,
+      "duration": 5.439
+    },
+    {
+      "text": "right here. Open up the screen GUI by",
+      "start": 1555.44,
+      "duration": 4.88
+    },
+    {
+      "text": "clicking these triangles and the frame,",
+      "start": 1558.159,
+      "duration": 4.161
+    },
+    {
+      "text": "the text button, and open the local",
+      "start": 1560.32,
+      "duration": 3.68
+    },
+    {
+      "text": "script right here. Then you're going to",
+      "start": 1562.32,
+      "duration": 3.359
+    },
+    {
+      "text": "paste all these zeros. You're going to",
+      "start": 1564.0,
+      "duration": 4.08
+    },
+    {
+      "text": "select all those zeros, delete them, and",
+      "start": 1565.679,
+      "duration": 4.24
+    },
+    {
+      "text": "you're going to paste that ID right",
+      "start": 1568.08,
+      "duration": 4.64
+    },
+    {
+      "text": "there. Okay? So, make sure you copy you.",
+      "start": 1569.919,
+      "duration": 4.401
+    },
+    {
+      "text": "This is your ID that you just copied in",
+      "start": 1572.72,
+      "duration": 2.88
+    },
+    {
+      "text": "the last step. You're going to paste it",
+      "start": 1574.32,
+      "duration": 3.2
+    },
+    {
+      "text": "there in that script where right before",
+      "start": 1575.6,
+      "duration": 4.24
+    },
+    {
+      "text": "it says your ID here. And after you",
+      "start": 1577.52,
+      "duration": 4.639
+    },
+    {
+      "text": "paste that ID right here, you can close",
+      "start": 1579.84,
+      "duration": 4.719
+    },
+    {
+      "text": "out of your script and hit play. And we",
+      "start": 1582.159,
+      "duration": 4.64
+    },
+    {
+      "text": "should actually be able to purchase our",
+      "start": 1584.559,
+      "duration": 5.36
+    },
+    {
+      "text": "item. Okay. So, let's go ahead and come",
+      "start": 1586.799,
+      "duration": 5.281
+    },
+    {
+      "text": "down here, click the skip stage button,",
+      "start": 1589.919,
+      "duration": 3.921
+    },
+    {
+      "text": "and as you can see, it's asking us if we",
+      "start": 1592.08,
+      "duration": 3.92
+    },
+    {
+      "text": "want to skip the stage. Um, just know",
+      "start": 1593.84,
+      "duration": 3.68
+    },
+    {
+      "text": "this is a test purchase. Whenever you do",
+      "start": 1596.0,
+      "duration": 3.84
+    },
+    {
+      "text": "it in Roblox Studio, uh, it won't",
+      "start": 1597.52,
+      "duration": 3.6
+    },
+    {
+      "text": "actually charge your account. So, you",
+      "start": 1599.84,
+      "duration": 3.28
+    },
+    {
+      "text": "can actually go ahead and buy it. But,",
+      "start": 1601.12,
+      "duration": 3.36
+    },
+    {
+      "text": "you're going to notice, okay, it's",
+      "start": 1603.12,
+      "duration": 2.48
+    },
+    {
+      "text": "actually not working. We're kind of",
+      "start": 1604.48,
+      "duration": 3.04
+    },
+    {
+      "text": "scamming players right now. So, let's",
+      "start": 1605.6,
+      "duration": 3.12
+    },
+    {
+      "text": "actually go ahead and fix that so that",
+      "start": 1607.52,
+      "duration": 3.6
+    },
+    {
+      "text": "it teleports players to the next stage",
+      "start": 1608.72,
+      "duration": 5.12
+    },
+    {
+      "text": "whenever they buy this. So to do that,",
+      "start": 1611.12,
+      "duration": 4.799
+    },
+    {
+      "text": "go ahead and again hover over server",
+      "start": 1613.84,
+      "duration": 4.0
+    },
+    {
+      "text": "script service and click the plus and",
+      "start": 1615.919,
+      "duration": 3.841
+    },
+    {
+      "text": "insert a script. And for the last time,",
+      "start": 1617.84,
+      "duration": 3.36
+    },
+    {
+      "text": "you're going to need to copy and paste",
+      "start": 1619.76,
+      "duration": 3.12
+    },
+    {
+      "text": "one of the scripts from the description.",
+      "start": 1621.2,
+      "duration": 4.56
+    },
+    {
+      "text": "Look for developer product server script",
+      "start": 1622.88,
+      "duration": 4.96
+    },
+    {
+      "text": "down in the description and copy and",
+      "start": 1625.76,
+      "duration": 4.64
+    },
+    {
+      "text": "paste that here. Okay, so you're going",
+      "start": 1627.84,
+      "duration": 4.4
+    },
+    {
+      "text": "to go ahead and paste this script. Uh,",
+      "start": 1630.4,
+      "duration": 3.04
+    },
+    {
+      "text": "and what you're going to need to do is",
+      "start": 1632.24,
+      "duration": 2.559
+    },
+    {
+      "text": "you're going to then need to copy your",
+      "start": 1633.44,
+      "duration": 3.599
+    },
+    {
+      "text": "developer product ID again. So close out",
+      "start": 1634.799,
+      "duration": 4.0
+    },
+    {
+      "text": "of the script. Then you're going to",
+      "start": 1637.039,
+      "duration": 5.12
+    },
+    {
+      "text": "scroll down to start a GUI screen GUI",
+      "start": 1638.799,
+      "duration": 5.521
+    },
+    {
+      "text": "frame text button and the local script",
+      "start": 1642.159,
+      "duration": 5.52
+    },
+    {
+      "text": "we were just in. Click this uh copy this",
+      "start": 1644.32,
+      "duration": 5.28
+    },
+    {
+      "text": "number right here by hitting control",
+      "start": 1647.679,
+      "duration": 4.48
+    },
+    {
+      "text": "copy. You can just select all this. Hit",
+      "start": 1649.6,
+      "duration": 4.8
+    },
+    {
+      "text": "Ctrl + C. Then you can close out of the",
+      "start": 1652.159,
+      "duration": 5.201
+    },
+    {
+      "text": "script again. Go to your new script and",
+      "start": 1654.4,
+      "duration": 5.8
+    },
+    {
+      "text": "replace that ID right here, all these",
+      "start": 1657.36,
+      "duration": 6.24
+    },
+    {
+      "text": "zeros with that. Okay, that's all you're",
+      "start": 1660.2,
+      "duration": 5.24
+    },
+    {
+      "text": "going to need to do and you should have",
+      "start": 1663.6,
+      "duration": 3.199
+    },
+    {
+      "text": "this working. I'm going to close out of",
+      "start": 1665.44,
+      "duration": 3.04
+    },
+    {
+      "text": "the script and I'm going to rename this",
+      "start": 1666.799,
+      "duration": 6.24
+    },
+    {
+      "text": "to uh skip stage. Okay, let's go ahead",
+      "start": 1668.48,
+      "duration": 7.439
+    },
+    {
+      "text": "and hit play and test this out. So",
+      "start": 1673.039,
+      "duration": 4.801
+    },
+    {
+      "text": "again, we are in Roblox Studio, so your",
+      "start": 1675.919,
+      "duration": 3.681
+    },
+    {
+      "text": "account will not be charged for these.",
+      "start": 1677.84,
+      "duration": 2.88
+    },
+    {
+      "text": "So you can actually go and test it",
+      "start": 1679.6,
+      "duration": 3.52
+    },
+    {
+      "text": "yourself. Click the skip stage button",
+      "start": 1680.72,
+      "duration": 4.319
+    },
+    {
+      "text": "and you can click this to actually",
+      "start": 1683.12,
+      "duration": 5.039
+    },
+    {
+      "text": "purchase it. You hit okay and wait a",
+      "start": 1685.039,
+      "duration": 4.401
+    },
+    {
+      "text": "couple seconds. And there you go. As you",
+      "start": 1688.159,
+      "duration": 3.281
+    },
+    {
+      "text": "can see, I've just skipped to the next",
+      "start": 1689.44,
+      "duration": 4.88
+    },
+    {
+      "text": "stage. And you can see my stage has also",
+      "start": 1691.44,
+      "duration": 4.959
+    },
+    {
+      "text": "uh been changed up here in the leader",
+      "start": 1694.32,
+      "duration": 3.599
+    },
+    {
+      "text": "stats. Now, really quickly, let's make",
+      "start": 1696.399,
+      "duration": 2.801
+    },
+    {
+      "text": "your game public so that you can",
+      "start": 1697.919,
+      "duration": 2.961
+    },
+    {
+      "text": "actually play it with your friends. Go",
+      "start": 1699.2,
+      "duration": 3.64
+    },
+    {
+      "text": "ahead and head over to",
+      "start": 1700.88,
+      "duration": 4.0
+    },
+    {
+      "text": "create.roll.com. Click this creations",
+      "start": 1702.84,
+      "duration": 3.559
+    },
+    {
+      "text": "tab, and you're going to find your game",
+      "start": 1704.88,
+      "duration": 4.08
+    },
+    {
+      "text": "again. Uh for me, it is my first game",
+      "start": 1706.399,
+      "duration": 4.16
+    },
+    {
+      "text": "right here. You can go ahead and click",
+      "start": 1708.96,
+      "duration": 4.56
+    },
+    {
+      "text": "that. Next, you can go ahead and go to",
+      "start": 1710.559,
+      "duration": 5.681
+    },
+    {
+      "text": "uh settings under configure. Click",
+      "start": 1713.52,
+      "duration": 4.639
+    },
+    {
+      "text": "public. That little dot right here. Make",
+      "start": 1716.24,
+      "duration": 3.28
+    },
+    {
+      "text": "sure it's checked and click save",
+      "start": 1718.159,
+      "duration": 3.841
+    },
+    {
+      "text": "changes. Now you can click overview over",
+      "start": 1719.52,
+      "duration": 4.8
+    },
+    {
+      "text": "here again and then you can click view",
+      "start": 1722.0,
+      "duration": 4.159
+    },
+    {
+      "text": "on Roblox and that'll open up your game",
+      "start": 1724.32,
+      "duration": 3.92
+    },
+    {
+      "text": "in a brand new tab and you can join it",
+      "start": 1726.159,
+      "duration": 4.0
+    },
+    {
+      "text": "here. You can copy this link right here,",
+      "start": 1728.24,
+      "duration": 3.36
+    },
+    {
+      "text": "send it to your friends and you can have",
+      "start": 1730.159,
+      "duration": 3.041
+    },
+    {
+      "text": "your friends join you and that's how you",
+      "start": 1731.6,
+      "duration": 3.36
+    },
+    {
+      "text": "can uh publish it. Now everybody can",
+      "start": 1733.2,
+      "duration": 4.079
+    },
+    {
+      "text": "play your Roblox game. And there you go.",
+      "start": 1734.96,
+      "duration": 3.839
+    },
+    {
+      "text": "That is how you can make your own game.",
+      "start": 1737.279,
+      "duration": 3.361
+    },
+    {
+      "text": "And I've also included how you can make",
+      "start": 1738.799,
+      "duration": 3.76
+    },
+    {
+      "text": "Roblox in it too. If you have any",
+      "start": 1740.64,
+      "duration": 3.519
+    },
+    {
+      "text": "questions, make sure to leave them in",
+      "start": 1742.559,
+      "duration": 3.281
+    },
+    {
+      "text": "the comments below or join my Discord",
+      "start": 1744.159,
+      "duration": 3.441
+    },
+    {
+      "text": "server. And if you want to just download",
+      "start": 1745.84,
+      "duration": 3.839
+    },
+    {
+      "text": "download this entire game for yourself,",
+      "start": 1747.6,
+      "duration": 4.0
+    },
+    {
+      "text": "you can go ahead and uh join my Patreon",
+      "start": 1749.679,
+      "duration": 4.561
+    },
+    {
+      "text": "page. $5 a month that uh that tier will",
+      "start": 1751.6,
+      "duration": 4.559
+    },
+    {
+      "text": "get you this game. Make sure to add as",
+      "start": 1754.24,
+      "duration": 4.64
+    },
+    {
+      "text": "many stages as you want to this. Um all",
+      "start": 1756.159,
+      "duration": 5.041
+    },
+    {
+      "text": "you have to do is just remember to click",
+      "start": 1758.88,
+      "duration": 4.0
+    },
+    {
+      "text": "this checkpoint, your last one,",
+      "start": 1761.2,
+      "duration": 4.32
+    },
+    {
+      "text": "duplicate it, move it, and then open up",
+      "start": 1762.88,
+      "duration": 4.88
+    },
+    {
+      "text": "the checkpoint and change the stage",
+      "start": 1765.52,
+      "duration": 4.399
+    },
+    {
+      "text": "value to whatever stage that starts.",
+      "start": 1767.76,
+      "duration": 4.399
+    },
+    {
+      "text": "Okay. And uh there you go. That is how",
+      "start": 1769.919,
+      "duration": 4.161
+    },
+    {
+      "text": "you can make your very first game in",
+      "start": 1772.159,
+      "duration": 3.201
+    },
+    {
+      "text": "Roblox. Again, if you have any",
+      "start": 1774.08,
+      "duration": 2.8
+    },
+    {
+      "text": "questions, make sure to let me know.",
+      "start": 1775.36,
+      "duration": 2.72
+    },
+    {
+      "text": "Other than that, thank you guys so much",
+      "start": 1776.88,
+      "duration": 2.72
+    },
+    {
+      "text": "for watching. Thank you to Samuel Ramsey",
+      "start": 1778.08,
+      "duration": 3.04
+    },
+    {
+      "text": "and Snorlax for supporting me on",
+      "start": 1779.6,
+      "duration": 3.679
+    },
+    {
+      "text": "Patreon. And uh other than that, I'll",
+      "start": 1781.12,
+      "duration": 3.6
+    },
+    {
+      "text": "see you guys in the in a future video.",
+      "start": 1783.279,
+      "duration": 2.88
+    },
+    {
+      "text": "Make sure to subscribe for more content",
+      "start": 1784.72,
+      "duration": 5.52
+    },
+    {
+      "text": "like this. See you later. Bye, guys.",
+      "start": 1786.159,
+      "duration": 4.081
+    }
+  ]
+}

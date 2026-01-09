@@ -1,0 +1,36 @@
+{
+  "id": 4232730,
+  "title": "Need help with \"scanning\" nearby BaseParts (or Models)",
+  "slug": "need-help-with-scanning-nearby-baseparts-or-models",
+  "url": "https://devforum.roblox.com/t/need-help-with-scanning-nearby-baseparts-or-models/4232730",
+  "category_id": 55,
+  "category_name": "Scripting Support",
+  "created_at": "2026-01-08T20:56:34.095Z",
+  "last_posted_at": "2026-01-08T21:17:28.129Z",
+  "views": 9,
+  "reply_count": 0,
+  "like_count": 0,
+  "tags": [
+    "scripting"
+  ],
+  "posts": [
+    {
+      "id": 13662933,
+      "username": "Not_Memos0YT",
+      "content_raw": "",
+      "content_html": "<p>I’m looking for a way to reliably (and hopefully as lag-free as possible) check the player’s surroundings for BaseParts that contain for example a specific folder called “Values”, i have searched on forums a bit but couldn’t find a good answer. I have thought about running a [while task.wait(0.5) do] loop but i thought it would be laggy since it needs to run on the server for every single player character, which in highly populated servers might cause lag, i am not sure if it would create significant lag or not, ANY help is appreciated (References to other posts, clarifications, examples.)<br>\nThanks!</p>",
+      "created_at": "2026-01-08T20:56:34.478Z",
+      "likes": 0,
+      "post_number": 1
+    },
+    {
+      "id": 13663110,
+      "username": "wolfscouthello1",
+      "content_raw": "",
+      "content_html": "<p><code>workspace:GetPartBoundsInRadius()</code><br>\n<code>workspace:GetPartBoundsInBox()</code><br>\n<code>workspace:GetPartsInPart()</code><br>\nThese may help! <img src=\"//devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/original/3X/e/9/e98a696effb0a9d60650401b5bf197be742c0336.png?v=14\" title=\":happy3:\" class=\"emoji emoji-custom\" alt=\":happy3:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>",
+      "created_at": "2026-01-08T21:17:28.129Z",
+      "likes": 0,
+      "post_number": 2
+    }
+  ]
+}

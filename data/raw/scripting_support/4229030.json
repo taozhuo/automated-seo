@@ -1,0 +1,61 @@
+{
+  "id": 4229030,
+  "title": "How can I have client-side communication with object pools?",
+  "slug": "how-can-i-have-client-side-communication-with-object-pools",
+  "url": "https://devforum.roblox.com/t/how-can-i-have-client-side-communication-with-object-pools/4229030",
+  "category_id": 55,
+  "category_name": "Scripting Support",
+  "created_at": "2026-01-08T02:34:51.576Z",
+  "last_posted_at": "2026-01-08T20:37:35.866Z",
+  "views": 42,
+  "reply_count": 2,
+  "like_count": 1,
+  "tags": [],
+  "posts": [
+    {
+      "id": 13656411,
+      "username": "ThemixpatUSmarine",
+      "content_raw": "",
+      "content_html": "<ol>\n<li>I’m working out with a object pool here made by CoodSlayer (Kudos to him)</li>\n</ol>\n<pre data-code-wrap=\"lua\"><code class=\"lang-lua\">local ObjectPool = {}\nObjectPool.__index = ObjectPool\n\ntype ObjectPoolCallback = (object: Instance) -&gt; ()\n\nlocal function empty() end\n\nfunction ObjectPool.new(object: Instance, size: number, onCreate: ObjectPoolCallback, onGet: ObjectPoolCallback, onFree: ObjectPoolCallback)\n\tlocal self = setmetatable({}, ObjectPool)\n\n\tself._objects = {}\n\tself._object = object\n\tself._onGet = onGet or empty\n\tself._onFree = onFree or empty\n\tonCreate = onCreate or empty\n\n\tfor i = 1, size do\n\t\tlocal o = object:Clone()\n\t\ttable.insert(self._objects, o)\n\t\tonCreate(o)\n\tend\n\n\treturn self\nend\n\nfunction ObjectPool:get()\n\tif #self._objects == 0 then\n\t\treturn self._object:Clone()\n\tend\n\n\tlocal object = table.remove(self._objects, 1)\n\tself._onGet(object)\n\treturn object\nend\n\nfunction ObjectPool:free(object: Instance)\n\tself._onFree(object)\n\ttable.insert(self._objects, object)\nend\n\nfunction ObjectPool:clear()\n\tfor _, object in ipairs(self._objects) do\n\t\tobject:Destroy()\n\tend\n\tself._objects = {}\nend\n\nreturn ObjectPool\n</code></pre>\n<p>I’m trying to work something out with some projectile system, where instead of utilizing the usual clone on client replication, I want it to access the objectpool from the component, get an object, and simply do clone but faster. I really can’t figure anything out. Code below.</p>\n<pre data-code-wrap=\"lua\"><code class=\"lang-lua\">local ReplicatedStorage = game:GetService(\"ReplicatedStorage\")\nlocal RunService = game:GetService(\"RunService\")\nlocal Players = game:GetService(\"Players\")\n\n--component definition\nlocal Component = {}\nComponent.__index = Component\n\n--private variables\nlocal typeConfig = require(ReplicatedStorage.Data.Packets.Types.ProjectilePacket.Projectile)\nlocal objectPool = require(ReplicatedStorage.Modules.Loader.Util.ObjectPool)\n\nlocal localPlayer = Players.LocalPlayer\nlocal mouse = localPlayer:GetMouse()\n\nlocal ev_CreateProjectile = ReplicatedStorage.Event.Client.CreateProjectile\n\n--private funtions\n\n--component functions (may god bless me on the dev forums so many people are 100% going to think im using ai soley because of comments this has already happened TWICE before if it happens a third time ill actually lose it)\n\nfunction Component.new(instance: Tool)\n\tlocal c = setmetatable({}, Component)\n\tc.instance = instance\n\tc._initialized = false\n\t\n\tlocal Type = \"Grenade\"\n\tc.type = Type\n\t\n\t\n\tc:_init()\n\treturn c\nend\n\nfunction Component:_init()\n\tif self._initialized == true then return end\n\tself._initialized = true\n\t\n\tlocal debounceTime = 0\n\tlocal debounce = false\n\t\n\tlocal Type = self.type\n\t\n\tself.instance.Activated:Connect(function()\n\t\tif not debounce then\n\t\t\tdebounce = true\n\t\t\tlocal handlePosition = self.instance.Handle.Position\n\t\t\tlocal mouseHit = mouse.Hit.Position\n\t\t\tlocal direction : Vector3 = (mouseHit - handlePosition).Unit\n\n\t\t\tev_CreateProjectile:Fire(Type, handlePosition, direction)\n\t\t\t\n\t\t\ttask.wait(debounceTime)\n\t\t\tdebounce = false\n\t\tend\n\tend)\nend\n\nreturn Component\n</code></pre>\n<p>Client Replication System</p>\n<pre data-code-wrap=\"lua\"><code class=\"lang-lua\">local ReplicatedStorage = game:GetService(\"ReplicatedStorage\")\nlocal RunService = game:GetService(\"RunService\")\nlocal Players = game:GetService(\"Players\")\n\nlocal module = {}\n\nlocal ProjectileCache = {}\n\nlocal sharedType = require(ReplicatedStorage.Data.Packets.Types.ProjectilePacket.SharedType)\nlocal sharedConfig = require(ReplicatedStorage.Data.Packets.Config.MaterialPacket.SharedConfig)\nlocal projectiles = require(ReplicatedStorage.Data.Packets.Types.ProjectilePacket.Projectile)\nlocal localPlayer = Players.LocalPlayer\n\nlocal rev_ReplicateProjectile = ReplicatedStorage.Event.Remote.ReplicateProjectile\nlocal ev_CreateProjectile = ReplicatedStorage.Event.Client.CreateProjectile\n\nlocal CastParams = RaycastParams.new()\nCastParams.FilterType = Enum.RaycastFilterType.Exclude\n\n\n--helper\n\nfunction time_source() : number\n\treturn workspace:GetServerTimeNow()\nend\n\nfunction stepProjectile(t, dt)\n\tfor visual, projectile : sharedType.ProjectilePacket in pairs(ProjectileCache) do\n\t\tlocal timeNow = time_source()\n\t\tlocal projectileInfo = projectiles[projectile.ProjectileType]\n\t\tCastParams.FilterDescendantsInstances = {localPlayer.Character, workspace.Debris}\n\n\t\tprojectile.Bounces = projectile.Bounces or 0\n\n\t\tlocal steppedVelocity = projectile.Velocity + (projectile.Acceleration * dt)\n\t\tlocal nextPosition = projectile.Position + (steppedVelocity * dt)\n\n\t\tlocal start = projectile.Position\n\t\tlocal direction = nextPosition - start\n\n\t\tlocal minRay = 0.1\n\t\tif direction.Magnitude &lt; minRay then\n\t\t\tdirection = direction.Unit * minRay\n\t\tend\n\n\t\tlocal found = false\n\t\tlocal castresult\n\n\t\tlocal castResult = workspace:Raycast(start, direction, CastParams)\n\t\tif castResult then\n\t\t\tprojectile.Bounces += 1\n\t\t\tprojectile.Position = castResult.Position\n\n\t\t\tif projectile.Bounces &lt; projectile.MaxBounces then\n\t\t\t\tprojectile.Velocity = projectile.Decay * (steppedVelocity - 2 * steppedVelocity:Dot(castResult.Normal) * castResult.Normal)\n\t\t\t\tif projectile.Velocity.Magnitude &lt; projectile.Treshold then\n\t\t\t\t\tprojectile.Velocity = Vector3.zero\n\t\t\t\t\tprojectile.Acceleration = Vector3.zero\n\t\t\t\t\tprojectile.Position = castResult.Position\n\t\t\t\tend\n\t\t\telse\n\t\t\t\tfound = true\n\t\t\tend\n\t\telseif timeNow - projectile.StartTime &gt; projectileInfo.Lifetime then\n\t\t\tfound = true\n\t\telse\n\t\t\tprojectile.Position = nextPosition\n\t\t\tprojectile.Velocity = steppedVelocity\n\t\tend\n\n\t\tvisual.CFrame = CFrame.new(projectile.Position, projectile.Position + projectile.Velocity)\n\n\t\tif found then\n\t\t\tprojectile.ClientCallback(visual, castResult, dt, timeNow)\n\t\t\tProjectileCache[visual] = nil\n\t\t\tvisual:Destroy()\n\t\tend\n\tend\nend\n\n\nfunction addProjectile(id : string, start : Vector3, direction : Vector3)\n\tlocal data = projectiles[id]\n\tlocal t0 = time_source()\n\t\n\tlocal new : sharedType.ProjectilePacket = {\n\t\tId = id;\n\t\tOrigin = start;\n\t\tPosition = start;\n\t\tVelocity = direction * data.Velocity;\n\t\tAcceleration = data.Acceleration;\n\t\tMaxBounces = data.MaxBounces;\n\t\tDecay = data.Decay;\n\t\tTreshold = data.Treshold;\n\t\tStartTime = t0;\n\t\tProjectileType = id;\n\t\tClientCallback = data.ClientCallback;\n\t\tServerCallback = data.ServerCallback;\n\t}\n\t\n\trev_ReplicateProjectile:FireServer(new)\n\t\n\tlocal visual = data.Model:Clone()\n\tvisual.CFrame = CFrame.new(start, start + direction)\n\tvisual.Parent = workspace.Debris\n\tnew.Visual = data.Model:Clone();\n\tProjectileCache[visual] = new\nend\n\nfunction replicateProjectile(packet : sharedType.ProjectilePacket)\n\tlocal data = projectiles[packet.Id]\n\tlocal currentTime = time_source()\n\tlocal deltaTime = currentTime - packet.StartTime\n\tlocal visual = data.Model:Clone()\n\tvisual.Parent = workspace.Debris\n\tpacket.Position = packet.Origin + (packet.Gravity * deltaTime)\n\tProjectileCache[visual] = packet\nend\n\n--module start\n\nlocal started = false\n\nfunction module.Start()\n\tif started then return end\n\tstarted = true\n\t\n\tRunService.Stepped:Connect(stepProjectile)\n\tev_CreateProjectile.Event:Connect(addProjectile)\n\trev_ReplicateProjectile.OnClientEvent:Connect(replicateProjectile)\nend\n\nreturn module\n</code></pre>\n<p>Followed qweekers tutorial for a portion (portion as in like almost all of it) for this part of the system</p>",
+      "created_at": "2026-01-08T02:34:51.900Z",
+      "likes": 0,
+      "post_number": 1
+    },
+    {
+      "id": 13656433,
+      "username": "ThemixpatUSmarine",
+      "content_raw": "",
+      "content_html": "<p>may god save my portfolio im NOT getting hired Bru</p>",
+      "created_at": "2026-01-08T02:37:36.224Z",
+      "likes": 0,
+      "post_number": 2
+    },
+    {
+      "id": 13656476,
+      "username": "PuffoThePufferfish",
+      "content_raw": "",
+      "content_html": "<p>not quite sure i understand the question; by ‘client-side communication with object pools’, do you mean pooling objects on the client? attaching client logic to objects taken out of pools on the server?</p>",
+      "created_at": "2026-01-08T02:42:28.238Z",
+      "likes": 0,
+      "post_number": 3
+    },
+    {
+      "id": 13662524,
+      "username": "ThemixpatUSmarine",
+      "content_raw": "",
+      "content_html": "<p>Pooling from a object pool on an different script</p>",
+      "created_at": "2026-01-08T20:14:21.513Z",
+      "likes": 0,
+      "post_number": 4
+    },
+    {
+      "id": 13662724,
+      "username": "ThemixpatUSmarine",
+      "content_raw": "",
+      "content_html": "<pre data-code-wrap=\"lua\"><code class=\"lang-lua\">local ReplicatedStorage = game:GetService(\"ReplicatedStorage\")\nlocal RunService = game:GetService(\"RunService\")\nlocal Players = game:GetService(\"Players\")\n\nlocal objectPool = require(ReplicatedStorage.Modules.Loader.Util.ObjectPool)\n\nlocal poolCache = {}\nlocal module = {}\n\nfunction module.Register(name, ...)\n\tlocal pool = objectPool.new(...)\n\tpoolCache[name] = pool\nend\n\nfunction module.Get(name)\n\tlocal pool = poolCache[name]\n\tassert(pool, \"Object pool not found: \" .. name)\n\treturn pool:get()\nend\n\nfunction module.Free(name, object: Instance)\n\tlocal pool = poolCache[name]\n\tassert(pool, \"Object pool not found: \" .. name)\n\treturn pool:free(object)\nend\n\nfunction module.Clear(name)\n\tlocal pool = poolCache[name]\n\tpool:clear()\n\tpoolCache[name] = nil\nend\n\nreturn module\n</code></pre>\n<p>I’ve figured how to work something out, and I’ve done it with a service thingamajig<br>\nIs this right</p>",
+      "created_at": "2026-01-08T20:37:35.866Z",
+      "likes": 0,
+      "post_number": 5
+    }
+  ]
+}

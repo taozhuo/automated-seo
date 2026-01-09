@@ -1,0 +1,196 @@
+{
+  "id": 4226591,
+  "title": "Upcoming Breaking Change to PlayerOwnsAsset and Inventory Web APIs",
+  "slug": "upcoming-breaking-change-to-playerownsasset-and-inventory-web-apis",
+  "url": "https://devforum.roblox.com/t/upcoming-breaking-change-to-playerownsasset-and-inventory-web-apis/4226591",
+  "category_id": 36,
+  "category_name": "Updates",
+  "created_at": "2026-01-07T19:07:04.591Z",
+  "last_posted_at": "2026-01-08T21:59:14.240Z",
+  "views": 5006,
+  "reply_count": 23,
+  "like_count": 197,
+  "tags": [],
+  "posts": [
+    {
+      "id": 13651565,
+      "username": "FriendlyAdder",
+      "content_raw": "",
+      "content_html": "<blockquote>\n<p>Edits:</p>\n<ul>\n<li>Updated to recommend using PlayerOwnsAsset<strong>Async</strong> specifically, thanks for the feedback.</li>\n<li>Emphasize to call PlayerOwnsAssetAsync on the server rather than the client.</li>\n</ul>\n</blockquote>\n<p>Good morning creators <img src=\"https://doy2mn9upadnk.cloudfront.net/images/emoji/twitter/grinning_face_with_smiling_eyes.png?v=14\" title=\":grinning_face_with_smiling_eyes:\" class=\"emoji\" alt=\":grinning_face_with_smiling_eyes:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>\n<p>We are making a change so that the Roblox game client enforces users <a href=\"https://www.roblox.com/my/account#!/privacy/TradingAndInventory\">inventory privacy</a> settings going forward. This involves a change in behavior of <a href=\"https://create.roblox.com/docs/reference/engine/classes/MarketplaceService#PlayerOwnsAssetAsync\">PlayerOwnsAsset/PlayerOwnsAssetAsync</a>, starting <strong>January 27th, 2026</strong>.</p>\n<p>Today, this method can be used on the client side (via <a href=\"https://create.roblox.com/docs/reference/engine/classes/LocalScript\">LocalScript</a>) to check if another player owns an asset. For now, no changes will be made for calls originating on the <a href=\"https://create.roblox.com/docs/reference/engine/classes/Script\">server</a>. But for calls being made from a <a href=\"https://create.roblox.com/docs/reference/engine/classes/LocalScript\">LocalScript</a>, if the call is made for one player checking another player’s inventory, the inventory privacy setting will take effect next month, and the method will throw an error.</p>\n<p>If this is important to your experience, please make sure your experience is calling <a href=\"https://create.roblox.com/docs/reference/engine/classes/MarketplaceService#PlayerOwnsAssetAsync\">PlayerOwnsAssetAsync</a> <strong>on the server</strong> (not the client) by <strong>January 27th, 2026</strong>.</p>\n<p>For now, this change only applies to assets, but we may explore and announce similar changes for other inventory item types in the future in order to enhance privacy on Roblox.</p>\n<p>This change also applies to all web endpoints exposed via <a href=\"http://inventory.roblox.com\">inventory.roblox.com</a> (<a href=\"https://create.roblox.com/docs/cloud/legacy/inventory/v1\">v1</a>, and <a href=\"https://create.roblox.com/docs/cloud/legacy/inventory/v2\">v2</a>). If you are consuming the web APIs directly, please use our <a href=\"https://create.roblox.com/docs/cloud/reference/InventoryItem\">Open Cloud Inventory</a> endpoints which support API keys and OAuth.</p>\n<p>Thank you. <img src=\"https://doy2mn9upadnk.cloudfront.net/images/emoji/twitter/person_bowing.png?v=14\" title=\":person_bowing:\" class=\"emoji\" alt=\":person_bowing:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>",
+      "created_at": "2026-01-07T19:07:05.245Z",
+      "likes": 0,
+      "post_number": 1
+    },
+    {
+      "id": 13651901,
+      "username": "TheNexusAvenger",
+      "content_raw": "",
+      "content_html": "<p>I’m not entirely sure what the use cases on the client are (avatar editor games?)… but less than 3 weeks is pretty short notice for this change. Shouldn’t it be a few months, and also mention that <code>PlayerOwnsAssetAsync</code> should be used instead?</p>",
+      "created_at": "2026-01-07T19:44:07.467Z",
+      "likes": 0,
+      "post_number": 7
+    },
+    {
+      "id": 13651918,
+      "username": "misha23716316",
+      "content_raw": "",
+      "content_html": "<p>The admin did not publish the update nor did he asked it to be added as feature, ranting about it in updates posted by admins wont change anything</p>",
+      "created_at": "2026-01-07T19:45:55.136Z",
+      "likes": 0,
+      "post_number": 8
+    },
+    {
+      "id": 13651958,
+      "username": "Hooksmith",
+      "content_raw": "",
+      "content_html": "<p>Thanks for pointing this out, yes we strongly recommend everyone to put the feedback in the right announcement so the right Roblox teams see your feedback – we are the teams working on Open Cloud and player inventories.</p>",
+      "created_at": "2026-01-07T19:51:36.560Z",
+      "likes": 0,
+      "post_number": 9
+    },
+    {
+      "id": 13651968,
+      "username": "heedicalking",
+      "content_raw": "",
+      "content_html": "<p>so far this year the only things that have been announced are features being removed. off to a great start!</p>",
+      "created_at": "2026-01-07T19:52:26.674Z",
+      "likes": 0,
+      "post_number": 10
+    },
+    {
+      "id": 13651975,
+      "username": "LoveliestJacob",
+      "content_raw": "",
+      "content_html": "<aside class=\"quote group-Roblox_Staff\" data-username=\"FriendlyAdder\" data-post=\"1\" data-topic=\"4226591\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://doy2mn9upadnk.cloudfront.net/user_avatar/devforum.roblox.com/friendlyadder/60/6955262_2.png\" class=\"avatar\"> FriendlyAdder:</div>\n<blockquote>\n<p>For now, this change only applies to assets, but we may explore and announce similar changes for other inventory item types in the future in order to enhance privacy on Roblox.</p>\n</blockquote>\n</aside>\n<p>Is there currently any other planned item types that we could be made aware of early?</p>",
+      "created_at": "2026-01-07T19:53:17.101Z",
+      "likes": 0,
+      "post_number": 11
+    },
+    {
+      "id": 13652080,
+      "username": "Reditect",
+      "content_raw": "",
+      "content_html": "<p>I don’t use this, but it sounds like the solution is to wrap whatever code you use in a <a href=\"https://create.roblox.com/docs/reference/engine/globals/LuaGlobals#pcall\">pcall</a> in the case that an inventory is private</p>",
+      "created_at": "2026-01-07T20:03:31.783Z",
+      "likes": 0,
+      "post_number": 12
+    },
+    {
+      "id": 13652137,
+      "username": "evercyan",
+      "content_raw": "",
+      "content_html": "<p>And there it is. This patches the method which has been used for a long time now to get a complete list of Roblox limiteds that any user with a private inventory owns, as well as each UAID.</p>\n<p>This is the nail in the coffin for any community project like this (including my 170+ owner lists created for these items, to assess how many copies exist for each of them), but it’s completely understandable and I’m surprised this didn’t happen sooner because it has been abused to hell and back. I’ve encountered several developers that own these limiteds and dislike having a target on their back for this information being publicly accessible through these APIs.</p>\n<p>Particularly, these two:<br>\n<a href=\"https://inventory.roblox.com/v1/users/111334263/items/0/26011378/is-owned\">https://inventory.roblox.com/v1/users/111334263/items/0/26011378/is-owned</a><br>\n<a href=\"https://inventory.roblox.com/v1/users/111334263/items/asset/26011378\">https://inventory.roblox.com/v1/users/111334263/items/asset/26011378</a></p>\n<p><img src=\"https://doy2mn9upadnk.cloudfront.net/images/emoji/twitter/clap.png?v=14\" title=\":clap:\" class=\"emoji only-emoji\" alt=\":clap:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>",
+      "created_at": "2026-01-07T20:10:25.231Z",
+      "likes": 0,
+      "post_number": 14
+    },
+    {
+      "id": 13652204,
+      "username": "wclxb",
+      "content_raw": "",
+      "content_html": "<p>It says “for now” when talking about changes to the server. If we do see changes there, can we get an improved way of detecting successful bulk purchases that are exploiter proof? Currently, the only way to do it is to check item ownership on the server before prompting the bulk purchase, and then checking again after the client sends a success state.</p>",
+      "created_at": "2026-01-07T20:14:48.416Z",
+      "likes": 0,
+      "post_number": 16
+    },
+    {
+      "id": 13652281,
+      "username": "WinterStorm_Meow",
+      "content_raw": "",
+      "content_html": "<aside class=\"quote group-Roblox_Staff quote-modified\" data-username=\"FriendlyAdder\" data-post=\"1\" data-topic=\"4226591\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://doy2mn9upadnk.cloudfront.net/user_avatar/devforum.roblox.com/friendlyadder/60/6955262_2.png\" class=\"avatar\"> FriendlyAdder:</div>\n<blockquote>\n<p>We are making a change so that the Roblox game client enforces users <a href=\"https://www.roblox.com/my/account#!/privacy/TradingAndInventory\">inventory privacy</a> settings going forward. This involves a change in behavior of <a href=\"https://create.roblox.com/docs/reference/engine/classes/MarketplaceService#PlayerOwnsAsset\">PlayerOwnsAsset</a>, starting <strong>January 27th, 2026</strong>.</p>\n</blockquote>\n</aside>\n<p>Firstly, PlayerOwnsAsset is deprecated and you should use <em>PlayerOwnsAssetAsync</em> instead, but also kinda a useless update.</p>\n<p>The reason why this is a useless change is because I don’t believe this would be abused or be efficient if abused. It’s not like the function is grabbing everything the player has, it only checks one thing at a time, there are many MANY assets on Roblox so it would take forever to check every asset id, therefore this wouldn’t be abused all much.</p>",
+      "created_at": "2026-01-07T20:21:43.776Z",
+      "likes": 0,
+      "post_number": 18
+    },
+    {
+      "id": 13652437,
+      "username": "juliaoverflow",
+      "content_raw": "",
+      "content_html": "<p>The endpoint behind it has been being abused for several years now. Such example of it can be found here: <a href=\"https://devforum.roblox.com/t/upcoming-breaking-change-to-playerownsasset-and-inventory-web-apis/4226591/14\" class=\"inline-onebox\">Upcoming Breaking Change to PlayerOwnsAsset and Inventory Web APIs - #14 by evercyan</a></p>",
+      "created_at": "2026-01-07T20:37:07.396Z",
+      "likes": 0,
+      "post_number": 19
+    },
+    {
+      "id": 13652584,
+      "username": "luaClass",
+      "content_raw": "",
+      "content_html": "<p>unfortunately, you’re right. I run a Discord bot called RoUtility, widely known for having a command called <code>/rap</code> using these exact APIs to fetch users’ limiteds while they have their inventory set to private, so this was practically inevitable. I don’t think anyone can seriously argue that those endpoints weren’t abused (especially since you have to make 2,560 requests to the API for every item). Having full ownership visibility for users with private inventories was always going to end this way, and I get why people (especially devs with expensive limiteds) didn’t like having a spotlight on them</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"//devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/original/5X/2/8/0/9/280968719705aa99afd68e134dfc13edfbb9d733.jpeg\" data-download-href=\"/uploads/short-url/5IbfPu4Cr8GdZZa1PtBaK3QgYXp.jpeg?dl=1\" title=\"image\" rel=\"noopener nofollow ugc\"><img src=\"//devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/optimized/5X/2/8/0/9/280968719705aa99afd68e134dfc13edfbb9d733_2_401x500.jpeg\" alt=\"image\" data-base62-sha1=\"5IbfPu4Cr8GdZZa1PtBaK3QgYXp\" width=\"401\" height=\"500\" srcset=\"//devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/optimized/5X/2/8/0/9/280968719705aa99afd68e134dfc13edfbb9d733_2_401x500.jpeg, //devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/optimized/5X/2/8/0/9/280968719705aa99afd68e134dfc13edfbb9d733_2_601x750.jpeg 1.5x, //devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/optimized/5X/2/8/0/9/280968719705aa99afd68e134dfc13edfbb9d733_2_802x1000.jpeg 2x\" data-dominant-color=\"100F12\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">1024×1275 59.6 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>\n<p>aside from all the abuse - there has also been legitimate use with these capabilities, one of the reasons high value collectible account compromises are often detected quickly is because sudden inventory changes become visible and traceable through these APIs. when ownership tracing methods disappear entirely, it becomes easier for stolen items to move in silence</p>\n<p>and also while we’re on the topic of privacy, this friends search endpoint:</p>\n<p><code>https://friends.roblox.com/v1/users/{id}/friends/search</code></p>\n<p>appears to leak partial friend data for UK users due to OSA-related restrictions (as discussed in the post <a href=\"https://devforum.roblox.com/t/players-appearing-as-unavailable/3860776/13\">here</a>). If inventory privacy is being tightened, it would be good to also review this endpoint and fix it up.</p>",
+      "created_at": "2026-01-07T20:53:23.552Z",
+      "likes": 0,
+      "post_number": 20
+    },
+    {
+      "id": 13652808,
+      "username": "idelww",
+      "content_raw": "",
+      "content_html": "<p>(post deleted by author)</p>",
+      "created_at": "2026-01-07T21:15:58.088Z",
+      "likes": 0,
+      "post_number": 21
+    },
+    {
+      "id": 13654001,
+      "username": "Mimi_Dev",
+      "content_raw": "",
+      "content_html": "<aside class=\"quote group-Roblox_Staff\" data-username=\"FriendlyAdder\" data-post=\"1\" data-topic=\"4226591\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://doy2mn9upadnk.cloudfront.net/user_avatar/devforum.roblox.com/friendlyadder/60/6955262_2.png\" class=\"avatar\"> FriendlyAdder:</div>\n<blockquote>\n<p>For now, no changes will be made for calls originating on the <a href=\"https://create.roblox.com/docs/reference/engine/classes/Script\">server</a>.</p>\n</blockquote>\n</aside>\n<p>The “for now” in this statement is a problem. We use server checks to make sure a player owns certain items before granting them rewards in game. We can’t check this on the client because then the server doesn’t have control over the value (players with exploits could grant themselves rewards by sending that call back as true). “For now” isn’t good enough, we need this functionality permanently.</p>",
+      "created_at": "2026-01-07T22:52:33.510Z",
+      "likes": 0,
+      "post_number": 23
+    },
+    {
+      "id": 13654131,
+      "username": "Hooksmith",
+      "content_raw": "",
+      "content_html": "<p>Thanks for the feedback, are these items published by your team or are they items published by other creators?</p>",
+      "created_at": "2026-01-07T23:05:08.570Z",
+      "likes": 0,
+      "post_number": 24
+    },
+    {
+      "id": 13655479,
+      "username": "ziplocBag",
+      "content_raw": "",
+      "content_html": "<p>i really never seen the big deal about letting other people see your limiteds, what difference does it make? i mean i have a few limiteds for years and never so much had anyone ask to buy them since trading was removed.</p>",
+      "created_at": "2026-01-08T01:01:38.621Z",
+      "likes": 0,
+      "post_number": 25
+    },
+    {
+      "id": 13655618,
+      "username": "Rockerite",
+      "content_raw": "",
+      "content_html": "<p>I owned Blue Clockwork Headphones and as soon as they went limited I received multiple messages on Discord trying to steal them from me by asking me to verify their legitimacy (using the accept trade api).</p>\n<p>I’ve also heard stories of people receiving phone calls asking for their limited items. Having them visible to the public can result in many problems.</p>",
+      "created_at": "2026-01-08T01:14:20.691Z",
+      "likes": 0,
+      "post_number": 26
+    },
+    {
+      "id": 13655740,
+      "username": "craftman1261",
+      "content_raw": "",
+      "content_html": "<p>starting off the year with nothing but horrible updates</p>",
+      "created_at": "2026-01-08T01:26:47.942Z",
+      "likes": 0,
+      "post_number": 27
+    },
+    {
+      "id": 13655988,
+      "username": "xyrafrost",
+      "content_raw": "",
+      "content_html": "<p>I use this to check if the user owns an avatar item before allowing them to purchase it, and the item typically isn’t created by me. Any avatar customization/shopping experience would do this.</p>\n<p>I have also seen some games use this to grant rewards associated with stuff like toy code items, and those items are typically published onto the “Roblox” account.</p>\n<p>I assume this is also going to apply to <code>PlayerOwnsBundleAsync</code> too? The original announcement doesn’t mention this.</p>\n<p>I’ve never seen <code>PlayerOwnsAssetAsync</code> as a big concern because, unlike <code>AvatarEditorService:GetInventoryAsync()</code> (which is already locked behind an inventory access prompt), you can only check one item at a time, so scanning large amounts of items wouldn’t really be feasible.</p>",
+      "created_at": "2026-01-08T01:50:12.487Z",
+      "likes": 0,
+      "post_number": 28
+    },
+    {
+      "id": 13656469,
+      "username": "kitsinbedwarsarefun",
+      "content_raw": "",
+      "content_html": "<p>Will this exploit also patch the way to see if anyone owns an asset, even if there inventory is private? I’m talking about this api<br>\n<a href=\"https://inventory.roblox.com/v1/users/theiruserid/items/GamePass/gamepassorassetid\" class=\"onebox\" target=\"_blank\" rel=\"noopener\">https://inventory.roblox.com/v1/users/theiruserid/items/GamePass/gamepassorassetid</a></p>",
+      "created_at": "2026-01-08T02:42:01.352Z",
+      "likes": 0,
+      "post_number": 29
+    }
+  ]
+}

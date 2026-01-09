@@ -1,0 +1,43 @@
+{
+  "id": 4229489,
+  "title": "Problem with getting games players have favorited with http service",
+  "slug": "problem-with-getting-games-players-have-favorited-with-http-service",
+  "url": "https://devforum.roblox.com/t/problem-with-getting-games-players-have-favorited-with-http-service/4229489",
+  "category_id": 55,
+  "category_name": "Scripting Support",
+  "created_at": "2026-01-08T04:19:10.951Z",
+  "last_posted_at": "2026-01-08T21:08:08.883Z",
+  "views": 31,
+  "reply_count": 1,
+  "like_count": 0,
+  "tags": [],
+  "posts": [
+    {
+      "id": 13657215,
+      "username": "christmasmaster321",
+      "content_raw": "",
+      "content_html": "<p>i want to make a door thats locked until you favorite the game but im having issues with finding out if a player has favorited the game or not. i want to do this using http service and not avatar editor service because i dont want to have to request to access the users inventory when they join.</p>\n<pre data-code-wrap=\"lua\"><code class=\"lang-lua\">local BaseUrl = \"https://www.roproxy.com/users/favorites/list-json?assetTypeId=%d&amp;itemsPerPage=%d&amp;pageNumber=%d&amp;userId=%d\"\n\nlocal function GetFavorites(player, assetTypeId, itemsPerPage, pageNumber)\n\tlocal Url = string.format(BaseUrl, assetTypeId, itemsPerPage, pageNumber, player.UserId)\n\tprint(Url)\n\tlocal Success, Result = pcall(HttpService.GetAsync, HttpService, Url)\n\tif not Success then warn(Result) return end\n\tSuccess, Result = pcall(HttpService.JSONDecode, HttpService, Result)\n\tif not Success then warn(Result) return end\n\treturn Result\nend\n</code></pre>\n<p>this is the code im using to check but im getting an http error saying invalid redirect, any potential solutions?</p>",
+      "created_at": "2026-01-08T04:19:11.145Z",
+      "likes": 0,
+      "post_number": 1
+    },
+    {
+      "id": 13657254,
+      "username": "NyrionDev",
+      "content_raw": "",
+      "content_html": "<p>This error means that the url you try to request is sending you to another url/location (a redirect) but the other url/location is invalid. Ideally you should print the exact url that causes this error (after format with parameters and such), remove the proxy part (make it <code>roblox.com</code>) and copypaste it in an incognito tab in your browser to see if it still gives that error. If it doesn’t, it could be the proxy, or the request headers that cause it.</p>",
+      "created_at": "2026-01-08T04:24:28.020Z",
+      "likes": 0,
+      "post_number": 2
+    },
+    {
+      "id": 13663028,
+      "username": "christmasmaster321",
+      "content_raw": "",
+      "content_html": "<p>when i copy paste it into my browers it says 404 page not found so do i need to find a different url to format in order to redirect it to the right place?</p>",
+      "created_at": "2026-01-08T21:08:08.883Z",
+      "likes": 0,
+      "post_number": 3
+    }
+  ]
+}

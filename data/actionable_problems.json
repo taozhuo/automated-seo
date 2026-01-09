@@ -1,0 +1,103 @@
+{
+  "summary": {
+    "total_problems": 274,
+    "videos_analyzed": 57,
+    "total_views": 49885133
+  },
+  "top_automatable_by_views": [
+    {
+      "problem": "Reference the parent object of a script to modify it",
+      "category": "Scripting",
+      "views": 4300518,
+      "automation": "Generate script that uses script.Parent to access and modify the containing object"
+    },
+    {
+      "problem": "Declare local variables to optimize performance and prevent global scope pollution",
+      "category": "Scripting",
+      "views": 2693567,
+      "automation": "Linting tool that converts global vars to local and suggests proper scoping"
+    },
+    {
+      "problem": "Debugging scripts using specific error messages in the output",
+      "category": "Scripting",
+      "views": 923825,
+      "automation": "Error analyzer that explains common Roblox errors and suggests fixes"
+    },
+    {
+      "problem": "Preventing parts from falling and being destroyed by gravity on game start",
+      "category": "Physics",
+      "views": 530777,
+      "automation": "Script generator that sets Anchored=true on selected parts"
+    },
+    {
+      "problem": "Create a leaderstats system to display player time on the leaderboard",
+      "category": "Scripting",
+      "views": 383436,
+      "automation": "Generate complete leaderstats boilerplate with PlayerAdded event handler"
+    },
+    {
+      "problem": "Create a leaderstats system to track player currency",
+      "category": "Scripting",
+      "views": 328620,
+      "automation": "Generate currency system with DataStore persistence"
+    },
+    {
+      "problem": "Create a script to make a part move up and down vertically",
+      "category": "Scripting",
+      "views": 293137,
+      "automation": "TweenService animation generator for vertical oscillation"
+    },
+    {
+      "problem": "Teleport a player to a specific destination when they touch a part",
+      "category": "Scripting",
+      "views": 226164,
+      "automation": "Touched event handler that teleports player character to target CFrame"
+    },
+    {
+      "problem": "Replicate button animations for interactive UI elements",
+      "category": "UI",
+      "views": 216846,
+      "automation": "UI animation template with hover/click state tweens"
+    },
+    {
+      "problem": "Storing and retrieving player progress data",
+      "category": "DataStore",
+      "views": 213835,
+      "automation": "Complete DataStore wrapper with async save/load and retry logic"
+    }
+  ],
+  "pain_points_from_comments": [
+    {
+      "problem": "Difficulty transitioning from basic scripting to complex game logic",
+      "urgency": "high",
+      "solution": "Step-by-step code generation that builds complexity incrementally"
+    },
+    {
+      "problem": "Tools preventing player movement or causing unexpected teleportation",
+      "urgency": "high",
+      "solution": "Tool template with proper RequiresHandle and Grip configuration"
+    },
+    {
+      "problem": "Sequential Checkpoint/Spawn System implementation",
+      "urgency": "high",
+      "solution": "Complete checkpoint system with SpawnLocation management"
+    },
+    {
+      "problem": "Confusion over function parameters and naming abstraction",
+      "urgency": "medium",
+      "solution": "Code explainer that annotates parameter usage with examples"
+    }
+  ],
+  "categories": {
+    "Scripting": 195,
+    "3D Modeling": 26,
+    "UI": 17,
+    "Physics": 12,
+    "Networking": 11,
+    "DataStore": 5,
+    "Monetization": 4,
+    "Audio": 2,
+    "Terrain": 1,
+    "Animation": 1
+  }
+}

@@ -1,0 +1,875 @@
+{
+  "total_topics": 35,
+  "top_keywords": [
+    [
+      "for",
+      21
+    ],
+    [
+      "script",
+      15
+    ],
+    [
+      "part",
+      15
+    ],
+    [
+      "player",
+      14
+    ],
+    [
+      "character",
+      10
+    ],
+    [
+      "ai",
+      9
+    ],
+    [
+      "function",
+      7
+    ],
+    [
+      "table",
+      6
+    ],
+    [
+      "humanoid",
+      6
+    ],
+    [
+      "while",
+      5
+    ],
+    [
+      "return",
+      5
+    ],
+    [
+      "animation",
+      5
+    ],
+    [
+      "model",
+      5
+    ],
+    [
+      "workspace",
+      5
+    ],
+    [
+      "tween",
+      5
+    ],
+    [
+      "gui",
+      4
+    ],
+    [
+      "click",
+      4
+    ],
+    [
+      "replicatedstorage",
+      4
+    ],
+    [
+      "async",
+      3
+    ],
+    [
+      "studio",
+      3
+    ],
+    [
+      "tool",
+      3
+    ],
+    [
+      "loop",
+      3
+    ],
+    [
+      "oop",
+      3
+    ],
+    [
+      "localscript",
+      2
+    ],
+    [
+      "require",
+      2
+    ],
+    [
+      "lag",
+      2
+    ],
+    [
+      "input",
+      2
+    ],
+    [
+      "wait",
+      2
+    ],
+    [
+      "npc",
+      2
+    ],
+    [
+      "tweenservice",
+      2
+    ]
+  ],
+  "question_types": {
+    "general": 24,
+    "how-to": 4,
+    "help-request": 6,
+    "not-working": 1
+  },
+  "high_engagement": [
+    {
+      "title": "Roblox Developer Forum Rules & International Communities",
+      "url": "https://devforum.roblox.com/t/roblox-developer-forum-rules-international-communities/3170997",
+      "views": 125610,
+      "replies": 0,
+      "keywords": [
+        "script",
+        "animation",
+        "gui",
+        "part",
+        "model",
+        "character",
+        "click",
+        "lag",
+        "for",
+        "require"
+      ],
+      "question_type": "general"
+    },
+    {
+      "title": "About the Scripting Support category",
+      "url": "https://devforum.roblox.com/t/about-the-scripting-support-category/45863",
+      "views": 88770,
+      "replies": 0,
+      "keywords": [
+        "script",
+        "for",
+        "ai"
+      ],
+      "question_type": "general"
+    },
+    {
+      "title": "Age Check Requirement to Chat Now Live Globally",
+      "url": "https://devforum.roblox.com/t/age-check-requirement-to-chat-now-live-globally/4226101",
+      "views": 46686,
+      "replies": 664,
+      "keywords": [
+        "gui",
+        "part",
+        "player",
+        "click",
+        "optimize",
+        "studio",
+        "while",
+        "for",
+        "return",
+        "require"
+      ],
+      "question_type": "general"
+    },
+    {
+      "title": "About the Updates category",
+      "url": "https://devforum.roblox.com/t/about-the-updates-category/27616",
+      "views": 16527,
+      "replies": 0,
+      "keywords": [
+        "for"
+      ],
+      "question_type": "general"
+    },
+    {
+      "title": "Upcoming Breaking Change to PlayerOwnsAsset and Inventory Web APIs",
+      "url": "https://devforum.roblox.com/t/upcoming-breaking-change-to-playerownsasset-and-inventory-web-apis/4226591",
+      "views": 5006,
+      "replies": 23,
+      "keywords": [
+        "script",
+        "localscript",
+        "player",
+        "async",
+        "for"
+      ],
+      "question_type": "general"
+    },
+    {
+      "title": "How can I make a Global Leaderboard like this?",
+      "url": "https://devforum.roblox.com/t/how-can-i-make-a-global-leaderboard-like-this/2275805",
+      "views": 3461,
+      "replies": 7,
+      "keywords": [
+        "player"
+      ],
+      "question_type": "how-to"
+    },
+    {
+      "title": "Release Notes for 703",
+      "url": "https://devforum.roblox.com/t/release-notes-for-703/4232806",
+      "views": 477,
+      "replies": 10,
+      "keywords": [
+        "for"
+      ],
+      "question_type": "general"
+    },
+    {
+      "title": "Should module loaders be used for better organization?",
+      "url": "https://devforum.roblox.com/t/should-module-loaders-be-used-for-better-organization/4220191",
+      "views": 159,
+      "replies": 5,
+      "keywords": [
+        "for",
+        "module"
+      ],
+      "question_type": "general"
+    },
+    {
+      "title": "AlignOrientation moves the position of the object",
+      "url": "https://devforum.roblox.com/t/alignorientation-moves-the-position-of-the-object/3933900",
+      "views": 153,
+      "replies": 0,
+      "keywords": [
+        "script",
+        "part",
+        "player",
+        "humanoid",
+        "touched",
+        "for",
+        "function",
+        "return",
+        "table",
+        "npc"
+      ],
+      "question_type": "general"
+    },
+    {
+      "title": "Questions about Luau VMs, Luau threads, and OS threads",
+      "url": "https://devforum.roblox.com/t/questions-about-luau-vms-luau-threads-and-os-threads/4214192",
+      "views": 146,
+      "replies": 5,
+      "keywords": [
+        "script",
+        "for",
+        "ai"
+      ],
+      "question_type": "general"
+    },
+    {
+      "title": "Monster PathFinding Issues",
+      "url": "https://devforum.roblox.com/t/monster-pathfinding-issues/4128155",
+      "views": 133,
+      "replies": 6,
+      "keywords": [
+        "script",
+        "player",
+        "pathfinding"
+      ],
+      "question_type": "general"
+    },
+    {
+      "title": "Help understanding discrepancy of HumanoidStateTypes between PC and mobile",
+      "url": "https://devforum.roblox.com/t/help-understanding-discrepancy-of-humanoidstatetypes-between-pc-and-mobile/4225407",
+      "views": 131,
+      "replies": 8,
+      "keywords": [
+        "script",
+        "tween",
+        "part",
+        "character",
+        "humanoid",
+        "click",
+        "input",
+        "while",
+        "for",
+        "function"
+      ],
+      "question_type": "help-request"
+    },
+    {
+      "title": "LocalScript randomly not working",
+      "url": "https://devforum.roblox.com/t/localscript-randomly-not-working/4217021",
+      "views": 110,
+      "replies": 3,
+      "keywords": [
+        "script",
+        "localscript",
+        "tween",
+        "tweenservice",
+        "gui",
+        "part",
+        "player",
+        "character",
+        "humanoid",
+        "replicatedstorage"
+      ],
+      "question_type": "not-working"
+    },
+    {
+      "title": "String Split Function with A Table of Separators?",
+      "url": "https://devforum.roblox.com/t/string-split-function-with-a-table-of-separators/4229283",
+      "views": 100,
+      "replies": 17,
+      "keywords": [
+        "script",
+        "for",
+        "function",
+        "table",
+        "ai"
+      ],
+      "question_type": "general"
+    }
+  ],
+  "all_topics": [
+    {
+      "title": "Roblox Developer Forum Rules & International Communities",
+      "category": "Updates",
+      "url": "https://devforum.roblox.com/t/roblox-developer-forum-rules-international-communities/3170997",
+      "views": 125610,
+      "replies": 0,
+      "keywords": [
+        "script",
+        "animation",
+        "gui",
+        "part",
+        "model",
+        "character",
+        "click",
+        "lag",
+        "for",
+        "require"
+      ],
+      "question_type": "general"
+    },
+    {
+      "title": "About the Scripting Support category",
+      "category": "Scripting Support",
+      "url": "https://devforum.roblox.com/t/about-the-scripting-support-category/45863",
+      "views": 88770,
+      "replies": 0,
+      "keywords": [
+        "script",
+        "for",
+        "ai"
+      ],
+      "question_type": "general"
+    },
+    {
+      "title": "Age Check Requirement to Chat Now Live Globally",
+      "category": "Updates",
+      "url": "https://devforum.roblox.com/t/age-check-requirement-to-chat-now-live-globally/4226101",
+      "views": 46686,
+      "replies": 664,
+      "keywords": [
+        "gui",
+        "part",
+        "player",
+        "click",
+        "optimize",
+        "studio",
+        "while",
+        "for",
+        "return",
+        "require"
+      ],
+      "question_type": "general"
+    },
+    {
+      "title": "About the Updates category",
+      "category": "Updates",
+      "url": "https://devforum.roblox.com/t/about-the-updates-category/27616",
+      "views": 16527,
+      "replies": 0,
+      "keywords": [
+        "for"
+      ],
+      "question_type": "general"
+    },
+    {
+      "title": "Upcoming Breaking Change to PlayerOwnsAsset and Inventory Web APIs",
+      "category": "Updates",
+      "url": "https://devforum.roblox.com/t/upcoming-breaking-change-to-playerownsasset-and-inventory-web-apis/4226591",
+      "views": 5006,
+      "replies": 23,
+      "keywords": [
+        "script",
+        "localscript",
+        "player",
+        "async",
+        "for"
+      ],
+      "question_type": "general"
+    },
+    {
+      "title": "How can I make a Global Leaderboard like this?",
+      "category": "Scripting Support",
+      "url": "https://devforum.roblox.com/t/how-can-i-make-a-global-leaderboard-like-this/2275805",
+      "views": 3461,
+      "replies": 7,
+      "keywords": [
+        "player"
+      ],
+      "question_type": "how-to"
+    },
+    {
+      "title": "Release Notes for 703",
+      "category": "Updates",
+      "url": "https://devforum.roblox.com/t/release-notes-for-703/4232806",
+      "views": 477,
+      "replies": 10,
+      "keywords": [
+        "for"
+      ],
+      "question_type": "general"
+    },
+    {
+      "title": "Should module loaders be used for better organization?",
+      "category": "Scripting Support",
+      "url": "https://devforum.roblox.com/t/should-module-loaders-be-used-for-better-organization/4220191",
+      "views": 159,
+      "replies": 5,
+      "keywords": [
+        "for",
+        "module"
+      ],
+      "question_type": "general"
+    },
+    {
+      "title": "AlignOrientation moves the position of the object",
+      "category": "Scripting Support",
+      "url": "https://devforum.roblox.com/t/alignorientation-moves-the-position-of-the-object/3933900",
+      "views": 153,
+      "replies": 0,
+      "keywords": [
+        "script",
+        "part",
+        "player",
+        "humanoid",
+        "touched",
+        "for",
+        "function",
+        "return",
+        "table",
+        "npc"
+      ],
+      "question_type": "general"
+    },
+    {
+      "title": "Questions about Luau VMs, Luau threads, and OS threads",
+      "category": "Scripting Support",
+      "url": "https://devforum.roblox.com/t/questions-about-luau-vms-luau-threads-and-os-threads/4214192",
+      "views": 146,
+      "replies": 5,
+      "keywords": [
+        "script",
+        "for",
+        "ai"
+      ],
+      "question_type": "general"
+    },
+    {
+      "title": "Monster PathFinding Issues",
+      "category": "Scripting Support",
+      "url": "https://devforum.roblox.com/t/monster-pathfinding-issues/4128155",
+      "views": 133,
+      "replies": 6,
+      "keywords": [
+        "script",
+        "player",
+        "pathfinding"
+      ],
+      "question_type": "general"
+    },
+    {
+      "title": "Help understanding discrepancy of HumanoidStateTypes between PC and mobile",
+      "category": "Scripting Support",
+      "url": "https://devforum.roblox.com/t/help-understanding-discrepancy-of-humanoidstatetypes-between-pc-and-mobile/4225407",
+      "views": 131,
+      "replies": 8,
+      "keywords": [
+        "script",
+        "tween",
+        "part",
+        "character",
+        "humanoid",
+        "click",
+        "input",
+        "while",
+        "for",
+        "function"
+      ],
+      "question_type": "help-request"
+    },
+    {
+      "title": "LocalScript randomly not working",
+      "category": "Scripting Support",
+      "url": "https://devforum.roblox.com/t/localscript-randomly-not-working/4217021",
+      "views": 110,
+      "replies": 3,
+      "keywords": [
+        "script",
+        "localscript",
+        "tween",
+        "tweenservice",
+        "gui",
+        "part",
+        "player",
+        "character",
+        "humanoid",
+        "replicatedstorage"
+      ],
+      "question_type": "not-working"
+    },
+    {
+      "title": "String Split Function with A Table of Separators?",
+      "category": "Scripting Support",
+      "url": "https://devforum.roblox.com/t/string-split-function-with-a-table-of-separators/4229283",
+      "views": 100,
+      "replies": 17,
+      "keywords": [
+        "script",
+        "for",
+        "function",
+        "table",
+        "ai"
+      ],
+      "question_type": "general"
+    },
+    {
+      "title": "Questions about game optimization",
+      "category": "Scripting Support",
+      "url": "https://devforum.roblox.com/t/questions-about-game-optimization/4228047",
+      "views": 87,
+      "replies": 1,
+      "keywords": [
+        "script",
+        "animation",
+        "character",
+        "input",
+        "loop",
+        "for",
+        "table",
+        "oop",
+        "module"
+      ],
+      "question_type": "general"
+    },
+    {
+      "title": "Is there a way to make server changes in studio while playtesting?",
+      "category": "Scripting Support",
+      "url": "https://devforum.roblox.com/t/is-there-a-way-to-make-server-changes-in-studio-while-playtesting/4226487",
+      "views": 82,
+      "replies": 3,
+      "keywords": [
+        "tween",
+        "studio",
+        "while",
+        "for"
+      ],
+      "question_type": "general"
+    },
+    {
+      "title": "How to start freecam on a phone?",
+      "category": "Scripting Support",
+      "url": "https://devforum.roblox.com/t/how-to-start-freecam-on-a-phone/4211707",
+      "views": 78,
+      "replies": 1,
+      "keywords": [
+        "script",
+        "tool"
+      ],
+      "question_type": "how-to"
+    },
+    {
+      "title": "Other uses of metatables",
+      "category": "Scripting Support",
+      "url": "https://devforum.roblox.com/t/other-uses-of-metatables/4231779",
+      "views": 74,
+      "replies": 1,
+      "keywords": [
+        "table",
+        "metatables",
+        "oop"
+      ],
+      "question_type": "general"
+    },
+    {
+      "title": "Help with animated textures script",
+      "category": "Scripting Support",
+      "url": "https://devforum.roblox.com/t/help-with-animated-textures-script/4227153",
+      "views": 71,
+      "replies": 10,
+      "keywords": [
+        "script",
+        "animation",
+        "part",
+        "loop",
+        "for",
+        "function",
+        "return",
+        "table",
+        "oop",
+        "ai"
+      ],
+      "question_type": "help-request"
+    },
+    {
+      "title": "Made an ability that teleports another user, they disappear for a second and then come back immediately",
+      "category": "Scripting Support",
+      "url": "https://devforum.roblox.com/t/made-an-ability-that-teleports-another-user-they-disappear-for-a-second-and-then-come-back-immediately/4228881",
+      "views": 70,
+      "replies": 4,
+      "keywords": [
+        "part",
+        "model",
+        "player",
+        "character",
+        "humanoid",
+        "workspace",
+        "for",
+        "function",
+        "ai"
+      ],
+      "question_type": "general"
+    },
+    {
+      "title": ":ApplyImpulseAtPosition() works strange?",
+      "category": "Scripting Support",
+      "url": "https://devforum.roblox.com/t/applyimpulseatposition-works-strange/4226093",
+      "views": 70,
+      "replies": 3,
+      "keywords": [
+        "part"
+      ],
+      "question_type": "general"
+    },
+    {
+      "title": "How do Roblox animations work?",
+      "category": "Scripting Support",
+      "url": "https://devforum.roblox.com/t/how-do-roblox-animations-work/4232004",
+      "views": 55,
+      "replies": 0,
+      "keywords": [
+        "animation",
+        "studio",
+        "plugin",
+        "ai"
+      ],
+      "question_type": "general"
+    },
+    {
+      "title": "Issue with SpringConstraint",
+      "category": "Scripting Support",
+      "url": "https://devforum.roblox.com/t/issue-with-springconstraint/4230182",
+      "views": 50,
+      "replies": 1,
+      "keywords": [
+        "part",
+        "ai"
+      ],
+      "question_type": "general"
+    },
+    {
+      "title": "Help with Implementing Lag Compensation",
+      "category": "Scripting Support",
+      "url": "https://devforum.roblox.com/t/help-with-implementing-lag-compensation/4231030",
+      "views": 44,
+      "replies": 0,
+      "keywords": [
+        "script",
+        "tween",
+        "part",
+        "player",
+        "character",
+        "humanoid",
+        "workspace",
+        "replicatedstorage",
+        "debris",
+        "click"
+      ],
+      "question_type": "help-request"
+    },
+    {
+      "title": "How can I have client-side communication with object pools?",
+      "category": "Scripting Support",
+      "url": "https://devforum.roblox.com/t/how-can-i-have-client-side-communication-with-object-pools/4229030",
+      "views": 42,
+      "replies": 2,
+      "keywords": [
+        "part",
+        "model",
+        "player",
+        "character",
+        "tool",
+        "workspace",
+        "replicatedstorage",
+        "debris",
+        "raycast",
+        "wait"
+      ],
+      "question_type": "how-to"
+    },
+    {
+      "title": "Are hingeconstraints server or client sided?",
+      "category": "Scripting Support",
+      "url": "https://devforum.roblox.com/t/are-hingeconstraints-server-or-client-sided/4231704",
+      "views": 35,
+      "replies": 0,
+      "keywords": [
+        "part",
+        "player",
+        "for",
+        "ai"
+      ],
+      "question_type": "general"
+    },
+    {
+      "title": "Keeping Points after rejoining",
+      "category": "Scripting Support",
+      "url": "https://devforum.roblox.com/t/keeping-points-after-rejoining/4232210",
+      "views": 33,
+      "replies": 0,
+      "keywords": [
+        "script",
+        "part",
+        "npc"
+      ],
+      "question_type": "general"
+    },
+    {
+      "title": "Problem with getting games players have favorited with http service",
+      "category": "Scripting Support",
+      "url": "https://devforum.roblox.com/t/problem-with-getting-games-players-have-favorited-with-http-service/4229489",
+      "views": 31,
+      "replies": 1,
+      "keywords": [
+        "player",
+        "http",
+        "httpservice",
+        "pcall",
+        "async",
+        "for",
+        "function",
+        "return"
+      ],
+      "question_type": "general"
+    },
+    {
+      "title": "Need help optimizing afterimage effect",
+      "category": "Scripting Support",
+      "url": "https://devforum.roblox.com/t/need-help-optimizing-afterimage-effect/4231914",
+      "views": 29,
+      "replies": 1,
+      "keywords": [
+        "script",
+        "tween",
+        "tweenservice",
+        "part",
+        "model",
+        "player",
+        "character",
+        "humanoid",
+        "workspace",
+        "replicatedstorage"
+      ],
+      "question_type": "help-request"
+    },
+    {
+      "title": "Experience play issue",
+      "category": "Scripting Support",
+      "url": "https://devforum.roblox.com/t/experience-play-issue/4232117",
+      "views": 27,
+      "replies": 1,
+      "keywords": [
+        "gui",
+        "for"
+      ],
+      "question_type": "general"
+    },
+    {
+      "title": "How do I add equip cooldown without disabling backpack?",
+      "category": "Scripting Support",
+      "url": "https://devforum.roblox.com/t/how-do-i-add-equip-cooldown-without-disabling-backpack/4232081",
+      "views": 25,
+      "replies": 2,
+      "keywords": [
+        "tool",
+        "while",
+        "for"
+      ],
+      "question_type": "how-to"
+    },
+    {
+      "title": "How do Roblox animations work internally? (Keyframes, KeyframeSequences, Motor6Ds, Welds)",
+      "category": "Scripting Support",
+      "url": "https://devforum.roblox.com/t/how-do-roblox-animations-work-internally-keyframes-keyframesequences-motor6ds-welds/4231993",
+      "views": 25,
+      "replies": 0,
+      "keywords": [
+        "animation"
+      ],
+      "question_type": "general"
+    },
+    {
+      "title": "Large Scale Lighting is Inconsistent",
+      "category": "Scripting Support",
+      "url": "https://devforum.roblox.com/t/large-scale-lighting-is-inconsistent/4231644",
+      "views": 22,
+      "replies": 0,
+      "keywords": [
+        "lighting"
+      ],
+      "question_type": "general"
+    },
+    {
+      "title": "Need help with profile store",
+      "category": "Scripting Support",
+      "url": "https://devforum.roblox.com/t/need-help-with-profile-store/4232404",
+      "views": 17,
+      "replies": 0,
+      "keywords": [
+        "player",
+        "character",
+        "workspace",
+        "async",
+        "for",
+        "function",
+        "return",
+        "table",
+        "class",
+        "ai"
+      ],
+      "question_type": "help-request"
+    },
+    {
+      "title": "Need help with \"scanning\" nearby BaseParts (or Models)",
+      "category": "Scripting Support",
+      "url": "https://devforum.roblox.com/t/need-help-with-scanning-nearby-baseparts-or-models/4232730",
+      "views": 9,
+      "replies": 0,
+      "keywords": [
+        "part",
+        "model",
+        "player",
+        "character",
+        "lag",
+        "wait",
+        "task.wait",
+        "loop",
+        "while",
+        "for"
+      ],
+      "question_type": "help-request"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "id": 2275805,
+  "title": "How can I make a Global Leaderboard like this?",
+  "slug": "how-can-i-make-a-global-leaderboard-like-this",
+  "url": "https://devforum.roblox.com/t/how-can-i-make-a-global-leaderboard-like-this/2275805",
+  "category_id": 55,
+  "category_name": "Scripting Support",
+  "created_at": "2023-04-07T01:43:13.142Z",
+  "last_posted_at": "2026-01-08T21:09:28.207Z",
+  "views": 3461,
+  "reply_count": 7,
+  "like_count": 9,
+  "tags": [],
+  "posts": [
+    {
+      "id": 8782665,
+      "username": "Free_Br1cks",
+      "content_raw": "",
+      "content_html": "<p>My game has multiple stats so instead of having multiple Global Leaderboards showing all the top players with that stat, I’m trying to have it all in one leaderboard. What are the step by step process on how I can make a leaderboard like this?</p>\n<p><img src=\"//devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/original/5X/0/a/5/5/0a55c66ee865f36fdf33001f46df2431d2b85681.gif\" alt=\"RobloxPlayerBeta_zE8Mj4w1c6\" data-base62-sha1=\"1tqxUWIer6xoOaBopqM8PT4VTlT\" width=\"410\" height=\"466\" class=\"animated\"></p>",
+      "created_at": "2023-04-07T01:43:13.262Z",
+      "likes": 0,
+      "post_number": 1
+    },
+    {
+      "id": 8782826,
+      "username": "AustnBlox",
+      "content_raw": "",
+      "content_html": "<p>This community tutorial should help you create a global leaderboard:</p><aside class=\"quote quote-modified\" data-post=\"1\" data-topic=\"256754\">\n  <div class=\"title\">\n    <div class=\"quote-controls\"></div>\n    <img alt=\"\" width=\"24\" height=\"24\" src=\"https://doy2mn9upadnk.cloudfront.net/user_avatar/devforum.roblox.com/thattimothy/60/6486298_2.png\" class=\"avatar\">\n    <a href=\"https://devforum.roblox.com/t/how-to-make-a-simple-global-leaderboard/256754\">How to make a simple global leaderboard</a> <a class=\"badge-category__wrapper \" href=\"/c/resources/community-tutorials/46\"><span data-category-id=\"46\" style=\"--category-badge-color: #AB9364; --category-badge-text-color: #FFFFFF; --parent-category-badge-color: #F6C902;\" data-parent-category-id=\"71\" data-drop-close=\"true\" class=\"badge-category --has-parent\" title=\"This category is where you can find and submit your own community tutorials about development on Roblox.\"><span class=\"badge-category__name\">Community Tutorials</span></span></a>\n  </div>\n  <blockquote>\n    Edit: May 3rd, 2023\nRoblox has recently announced their <a href=\"https://devforum.roblox.com/t/retiring-pointsservice/2318767\">plan to remove support for PointsService</a> on June 30th. Please be advised that this tutorial has not been updated to remove PointsService yet. It’s on my to do list. In the mean time, see the <a href=\"#faq-frequently-asked-questions-6\">FAQ “Why only pointsService? How can I use it without pointsService?”</a> \n\nGlobal leaderboards are great for adding competition to a game. Players want to become the best of them all, and will work hard to compete to become the best. If you make your lead…\n  </blockquote>\n</aside>\n",
+      "created_at": "2023-04-07T02:33:14.383Z",
+      "likes": 0,
+      "post_number": 2
+    },
+    {
+      "id": 8782828,
+      "username": "kittyPGR",
+      "content_raw": "",
+      "content_html": "<p>there are few free models in Roblox marketplace, you can refer them.</p>",
+      "created_at": "2023-04-07T02:34:09.351Z",
+      "likes": 0,
+      "post_number": 3
+    },
+    {
+      "id": 8783541,
+      "username": "Free_Br1cks",
+      "content_raw": "",
+      "content_html": "<p>literally none of these suggestions help with the problem that i have right now but ok lol</p>",
+      "created_at": "2023-04-07T07:31:55.840Z",
+      "likes": 0,
+      "post_number": 4
+    },
+    {
+      "id": 8783544,
+      "username": "AustnBlox",
+      "content_raw": "",
+      "content_html": "<p>We can’t give full coding examples since we aren’t allowed to do that and we aren’t going to construct an entire leaderboard system hence why we are referencing some topics, resources, etc that <strong>MAY</strong> be helpful for this situation.</p>",
+      "created_at": "2023-04-07T07:34:32.075Z",
+      "likes": 0,
+      "post_number": 5
+    },
+    {
+      "id": 8783547,
+      "username": "RainbowCamaro",
+      "content_raw": "",
+      "content_html": "<p>Firstly, curb the attitude, please. This forum is here to give you resources to help you use your creativity, not spoon-feed code to you. A simple online search can solve almost anything these days. Here you go, a step-by-step guide: <a href=\"https://www.youtube.com/watch?v=sXpuGnVzsxw\" rel=\"noopener nofollow ugc\">Global Leaderboard </a></p>",
+      "created_at": "2023-04-07T07:36:11.983Z",
+      "likes": 0,
+      "post_number": 6
+    },
+    {
+      "id": 8783555,
+      "username": "Free_Br1cks",
+      "content_raw": "",
+      "content_html": "<p>Sorry about that. I’ve re-read through my post and I may have not given enough information on what I’m having trouble with.</p>\n<p>The problem I’m having right now is I’m wondering how I can make a Global Leaderboard shown in the gif, where different stat values are being shown based on the highest stat that a player have (if that makes any sense) Sorry for the miscommunication.</p>",
+      "created_at": "2023-04-07T07:42:27.001Z",
+      "likes": 0,
+      "post_number": 7
+    },
+    {
+      "id": 8783575,
+      "username": "OfficialPogCat",
+      "content_raw": "",
+      "content_html": "<p>If I were to break it down step by step this is how I could do it:</p>\n<ol>\n<li>\n<p>Figure out how you want to order each stat, like if you want the most important one on top, or a different way.</p>\n</li>\n<li>\n<p>When making it, load the first stat in your order that you want to be on top, and load all those players first. Repeat this for each stat Ex; 1-20 is Gems, 21-40 is cash, whatever you have. Using frames, you change the position of each one by adding to the y (I think, idk)</p>\n</li>\n<li>\n<p>When someone has a higher stat then, reload all the data on the board, which the change. Then you save this data.</p>\n</li>\n</ol>\n<p>For storing this data it could look like, for working with many stats:</p>\n<pre><code class=\"lang-lua\">local AllDataExample = {\n[\"Gems\"] = {\n[\"OfficialPogCat\"] = 1000,\n[\"Roblox\"] = 800,\n[\"RandomUser\"] = 400,\n[\"Someone\"] = 200,\n[\"RanOutOfNames\"] = 100,\n},\n\n[\"Cash\"] = {\n[\"OfficialPogCat\"] = 1000,\n[\"Roblox\"] = 800,\n[\"RandomUser\"] = 400,\n[\"Someone\"] = 200,\n[\"RanOutOfNames\"] = 100,\n},\n\n}\n</code></pre>\n<p>I know I can explain a little bit more, but like with the videos people have linked, you can use those methods, but applying that with many</p>",
+      "created_at": "2023-04-07T07:49:39.966Z",
+      "likes": 0,
+      "post_number": 8
+    },
+    {
+      "id": 8783587,
+      "username": "RainbowCamaro",
+      "content_raw": "",
+      "content_html": "<p>No worries, I think I understand what you’re asking for now.</p>\n<p>i.e.<br>\nEach player has a stat for “Kills”, “Headshots”, “Deaths”, and “Coins” and there is a 1-25 or 1-50 for each category where the player with the highest value in that stat is shown under that category correct?</p>",
+      "created_at": "2023-04-07T07:52:41.551Z",
+      "likes": 0,
+      "post_number": 9
+    },
+    {
+      "id": 8783633,
+      "username": "BillB1ox",
+      "content_raw": "",
+      "content_html": "<p>Can I see the template you are using, along with the script? I see what you want.<br>\n<div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"//devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/original/5X/6/1/f/8/61f81c899d7f1d905b2a26ceb2cec65e5037f760.jpeg\" data-download-href=\"/uploads/short-url/dYFTf4fEus1fFUQjkEuCHS2NI8E.jpeg?dl=1\" title=\"image\" rel=\"noopener nofollow ugc\"><img src=\"//devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/optimized/5X/6/1/f/8/61f81c899d7f1d905b2a26ceb2cec65e5037f760_2_690x453.jpeg\" alt=\"image\" data-base62-sha1=\"dYFTf4fEus1fFUQjkEuCHS2NI8E\" width=\"690\" height=\"453\" srcset=\"//devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/optimized/5X/6/1/f/8/61f81c899d7f1d905b2a26ceb2cec65e5037f760_2_690x453.jpeg, //devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/optimized/5X/6/1/f/8/61f81c899d7f1d905b2a26ceb2cec65e5037f760_2_1035x679.jpeg 1.5x, //devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/optimized/5X/6/1/f/8/61f81c899d7f1d905b2a26ceb2cec65e5037f760_2_1380x906.jpeg 2x\" data-dominant-color=\"070504\"><div class=\"meta\">\n<svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">2266×1488 172 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg>\n</div></a></div></p>\n<p>Please keep in mind, you will need to reset the leaderboard, or show a -. The - will be removed when the player joins.</p>",
+      "created_at": "2023-04-07T08:05:23.453Z",
+      "likes": 0,
+      "post_number": 10
+    },
+    {
+      "id": 12738004,
+      "username": "Icyilc",
+      "content_raw": "",
+      "content_html": "<p>Did you manage to find a way, because I am also trying to achieve the exact same thing.</p>",
+      "created_at": "2025-07-10T11:42:44.273Z",
+      "likes": 0,
+      "post_number": 11
+    },
+    {
+      "id": 13646240,
+      "username": "Free_Br1cks",
+      "content_raw": "",
+      "content_html": "<p>sorry that i am only replying now , but no i haven’t. have you?</p>",
+      "created_at": "2026-01-07T01:26:48.518Z",
+      "likes": 0,
+      "post_number": 12
+    },
+    {
+      "id": 13646832,
+      "username": "2112Jay",
+      "content_raw": "",
+      "content_html": "<p>This is actually a monster to get right.. you’ll need a tutorial. Just google it.</p>\n<p><a href=\"https://www.youtube.com/watch?v=mczsQ4MqS70\" rel=\"noopener nofollow ugc\">How to Make a Global Leaderboard</a><br>\n<a href=\"https://www.youtube.com/watch?v=v1gUb061U10\" rel=\"noopener nofollow ugc\">How to make a Global Leaderboard in Roblox Studio!</a></p>\n<p>Sadly I see the one from AlivinBlox was removed..<br>\nThat one was really good, here are a few I ran across.<br>\nCan’t say if they are any good, but any start is better than nothing.</p>",
+      "created_at": "2026-01-07T03:25:46.494Z",
+      "likes": 0,
+      "post_number": 13
+    },
+    {
+      "id": 13661662,
+      "username": "Free_Br1cks",
+      "content_raw": "",
+      "content_html": "<p>two whole years and nobody still understanding what i am saying in this post lol</p>",
+      "created_at": "2026-01-08T18:27:52.859Z",
+      "likes": 0,
+      "post_number": 14
+    },
+    {
+      "id": 13663033,
+      "username": "2112Jay",
+      "content_raw": "",
+      "content_html": "<p>Looking over <a href=\"https://devforum.roblox.com/u/RainbowCamaro\">RainbowCamaro</a> post, I’m not sure what else you would have problems with.. That’s a pretty good guide.</p>",
+      "created_at": "2026-01-08T21:09:28.207Z",
+      "likes": 0,
+      "post_number": 15
+    }
+  ]
+}

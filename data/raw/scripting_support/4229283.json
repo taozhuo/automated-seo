@@ -1,0 +1,198 @@
+{
+  "id": 4229283,
+  "title": "String Split Function with A Table of Separators?",
+  "slug": "string-split-function-with-a-table-of-separators",
+  "url": "https://devforum.roblox.com/t/string-split-function-with-a-table-of-separators/4229283",
+  "category_id": 55,
+  "category_name": "Scripting Support",
+  "created_at": "2026-01-08T03:32:16.667Z",
+  "last_posted_at": "2026-01-08T21:04:35.891Z",
+  "views": 100,
+  "reply_count": 17,
+  "like_count": 14,
+  "tags": [
+    "string"
+  ],
+  "posts": [
+    {
+      "id": 13656872,
+      "username": "Axyndey",
+      "content_raw": "",
+      "content_html": "<p>Hey! I’ve found myself in a situation where I need an alternative to <code>string.split()</code>, not only do I need multiple separators, I want each separator to have variable lengths and symbols</p>\n<p>I’m not asking for a script, I’m pretty sure I could write one up that just bruteforces string.find as it collects each occurrence, but I was wondering if this has already been done in a cleaner, more efficient way</p>\n<p>EDIT: Another detail that drastically complicates this issue: I’d like the separator to be kept in the string, not deleted like what string.split does</p>\n<p>Any help is appreciated!</p>",
+      "created_at": "2026-01-08T03:32:16.934Z",
+      "likes": 0,
+      "post_number": 1
+    },
+    {
+      "id": 13657322,
+      "username": "sheyler1j",
+      "content_raw": "",
+      "content_html": "<p>Module:</p>\n<pre data-code-wrap=\"lua\"><code class=\"lang-lua\">local Splitter = {}\n\nfunction Splitter.universalSplit(texto, ...)\n\tlocal separadores = {...}\n\tlocal resultados = {texto}\n\n\tfor _, sep in ipairs(separadores) do\n\t\tlocal temp = {}\n\n\t\tfor _, fragmento in ipairs(resultados) do\n\t\t\tlocal inicio = 1\n\t\t\tlocal s_inicio, s_fin = string.find(fragmento, sep, inicio, true)\n\n\t\t\twhile s_inicio do\n\t\t\t\tlocal parte = string.sub(fragmento, inicio, s_inicio - 1)\n\t\t\t\tif parte ~= \"\" then\n\t\t\t\t\ttable.insert(temp, parte)\n\t\t\t\tend\n\t\t\t\tinicio = s_fin + 1\n\t\t\t\ts_inicio, s_fin = string.find(fragmento, sep, inicio, true)\n\t\t\tend\n\n\t\t\tlocal resto = string.sub(fragmento, inicio)\n\t\t\tif resto ~= \"\" then\n\t\t\t\ttable.insert(temp, resto)\n\t\t\tend\n\t\tend\n\t\tresultados = temp\n\tend\n\n\treturn resultados\nend\n\nreturn Splitter\n</code></pre>\n<p>Example of Use:</p>\n<pre data-code-wrap=\"lua\"><code class=\"lang-lua\">local Splitter = require(game.ReplicatedStorage:WaitForChild(\"Splitter\"))\n\nlocal data = \"Level1&gt;&gt;Player_Pro---Cash:500&gt;&gt;LOL\"\n\nlocal List= Splitter.universalSplit(data, \"&gt;&gt;\", \"_\", \"---\", \":\")\n\nfor _, v in ipairs(List) do\n\tprint(v)\nend\n</code></pre>\n<p>If that’s what you’re looking for, then this is perfect for you.</p>",
+      "created_at": "2026-01-08T04:36:38.457Z",
+      "likes": 0,
+      "post_number": 2
+    },
+    {
+      "id": 13657360,
+      "username": "sheyler1j",
+      "content_raw": "",
+      "content_html": "<p>In English:</p>\n<pre data-code-wrap=\"lua\"><code class=\"lang-lua\">local StringUtil = {}\n\n--[[\n    Splits a string using an unlimited number of custom separators \n    of any length or symbol combination.\n]]\nfunction StringUtil.multiSplit(inputString: string, ...: string)\n    local separators = {...}\n    local results = {inputString}\n\n    -- If no separators are provided, return the original string in a table\n    if #separators == 0 then\n        return results\n    end\n\n    for _, sep in ipairs(separators) do\n        local tempResults = {}\n        \n        for _, fragment in ipairs(results) do\n            local searchIndex = 1\n            -- 'true' enables plain text search (skips Lua patterns for speed)\n            local startPos, endPos = string.find(fragment, sep, searchIndex, true)\n\n            while startPos do\n                local segment = string.sub(fragment, searchIndex, startPos - 1)\n                \n                -- Only add non-empty segments to the list\n                if segment ~= \"\" then\n                    table.insert(tempResults, segment)\n                end\n                \n                searchIndex = endPos + 1\n                startPos, endPos = string.find(fragment, sep, searchIndex, true)\n            end\n            \n            -- Add the remaining part of the string\n            local remaining = string.sub(fragment, searchIndex)\n            if remaining ~= \"\" then\n                table.insert(tempResults, remaining)\n            end\n        end\n        results = tempResults\n    end\n\n    return results\nend\n\nreturn StringUtil\n</code></pre>",
+      "created_at": "2026-01-08T04:41:28.691Z",
+      "likes": 0,
+      "post_number": 3
+    },
+    {
+      "id": 13657473,
+      "username": "sheyler1j",
+      "content_raw": "",
+      "content_html": "<p><strong>Simplified form</strong></p>\n<pre data-code-wrap=\"lua\"><code class=\"lang-lua\">local text = \"Manzana---Pera,Uva[CORTE]Piña\"\n\nlocal items = {}\n\n\n\nfor word in string.gmatch(text, \"([^%-,%[%]]+)\") do\n\n    table.insert(items, word )\n\nend</code></pre>",
+      "created_at": "2026-01-08T04:57:49.950Z",
+      "likes": 0,
+      "post_number": 4
+    },
+    {
+      "id": 13657668,
+      "username": "pullman45",
+      "content_raw": "",
+      "content_html": "<p>My first thought is to substitute every delimiter (separator) with a single, universal delimiter, then you can split the string normally. You can generalize this process by keeping each delimiter in an array. When you want to split a string containing a combination of these delimiters, you can loop through each delimiter in the array and replace them with a universal delimiter using gsub before splitting the string.</p>\n<p>It’s not the most optimized process because Lua uses string interning (search it up), but as long as your strings aren’t too large then I think your memory usage should be fine.</p>\n<p>Something like this:</p>\n<pre data-code-wrap=\"lua\"><code class=\"lang-lua\">local UNIVERSAL_DELIM = \"@\" -- this delimiter can also exist in the delims table for this specific task, but I made it unique for the example\nlocal delims = {\".\", \"?\", \":/:\"}\nlocal function splitButWithMultipleDelims(str) -- you should probably change this function name to something more concise\n    local newStr = str\n    for _, delim in delims do\n        newStr = string.gsub(newStr, delim, UNIVERSAL_DELIM)\n    end\n    return string.split(newStr, UNIVERSAL_DELIM)\nend\n</code></pre>",
+      "created_at": "2026-01-08T05:33:44.479Z",
+      "likes": 0,
+      "post_number": 5
+    },
+    {
+      "id": 13657839,
+      "username": "Ziffixture",
+      "content_raw": "",
+      "content_html": "<p>Quite an interesting problem. I decided to take my own crack at it:</p>\n<pre data-code-wrap=\"lua\"><code class=\"lang-lua\">type Characters = {string}\n\n\n\nlocal function get_characters(text: string): Characters\n    return string.split(text, \"\")\nend\n\nlocal function get_delimiter_characters(delimiters: {string}): {Characters}\n    local results = table.create(#delimiters)\n    \n    for index, delimiter in delimiters do\n        results[index] = get_characters(delimiter)\n    end\n\n    return results :: any\nend\n\nlocal function split_multi_delimiter(text: string, delimiters: {string}): {string}\n    local characters = get_characters(text)\n    local delimiters = get_delimiter_characters(delimiters)\n\n    local match_index   = 1\n    local current_index = 1\n    \n    local results = {}\n\n\n    local function is_terminal(delimiter: Characters): boolean\n        for offset, symbol in delimiter do\n            local is_match = symbol == characters[current_index + offset - 1]\n            if not is_match then\n                return false\n            end\n        end\n\n        return true\n    end\n\n    local function match_delimiter(): boolean\n        for _, delimiter in delimiters do\n            if is_terminal(delimiter) then\n                return true\n            end\n        end\n\n        return false\n    end\n\n    local function record_slice()\n        local slice = string.sub(text, match_index, current_index - 1)\n\n        match_index = current_index + 1\n        \n        table.insert(results, slice)\n    end\n\n\n    for _ = 1, #text do\n        if match_delimiter() then\n            record_slice()\n        end\n\n        current_index += 1\n    end\n\n    record_slice()\n\n    return results\nend\n\n\nprint(split_multi_delimiter(\"Hello, world! My name is Ziffix.\", {\",\", \"!\"}))\n--[[\n{\n  \"Hello\",\n  \" world\",\n  \" My name is Ziffix.\",\n}\n]]\n</code></pre>\n<p>Getting to write this in a more C-like language would have been easier, and I could make more micro-optimizations</p>",
+      "created_at": "2026-01-08T06:14:42.493Z",
+      "likes": 0,
+      "post_number": 6
+    },
+    {
+      "id": 13657857,
+      "username": "Ziffixture",
+      "content_raw": "",
+      "content_html": "<p>That is a very elegant solution. Its only downfall is that the universal delimiter cannot exist naturally within the given string</p>",
+      "created_at": "2026-01-08T06:19:22.014Z",
+      "likes": 0,
+      "post_number": 7
+    },
+    {
+      "id": 13658001,
+      "username": "pullman45",
+      "content_raw": "",
+      "content_html": "<p>I mean, that goes for any delimiter, right? Of course the universal delimiter doesn’t have to be the @ symbol, just anything you know won’t naturally appear in the string. I believe it could be multiple characters as well to further prevent natural occurrence.</p>",
+      "created_at": "2026-01-08T06:42:26.149Z",
+      "likes": 0,
+      "post_number": 8
+    },
+    {
+      "id": 13658128,
+      "username": "jonbyte",
+      "content_raw": "",
+      "content_html": "<p>Instead of an arbitrary universal delimeter based on “probably won’t be an issue”, it could be let’s say the first real delimeter. I am a bit tired so hopefully this is correct reasoning haha</p>\n<p>So for example, if the input delimeters are A, B, and C then choose the universal delimeter as A.</p>\n<p>EDIT: Also there is a problem with using gsub since there is no way to make the pattern plain (unless manually). Your example would not work if . (period) is a delimeter because that will match any character.</p>",
+      "created_at": "2026-01-08T07:08:03.256Z",
+      "likes": 0,
+      "post_number": 9
+    },
+    {
+      "id": 13658327,
+      "username": "pullman45",
+      "content_raw": "",
+      "content_html": "<aside class=\"quote no-group\" data-username=\"jonbyte\" data-post=\"9\" data-topic=\"4229283\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://doy2mn9upadnk.cloudfront.net/user_avatar/devforum.roblox.com/jonbyte/60/6697044_2.png\" class=\"avatar\"> Jon:</div>\n<blockquote>\n<p>Instead of an arbitrary universal delimeter based on “probably won’t be an issue”, it could be let’s say the first real delimeter. I am a bit tired so hopefully this is correct reasoning haha</p>\n</blockquote>\n</aside>\n<p>I like that. Only introduces an extra <code>string.find</code> which is easy to implement.</p>\n<aside class=\"quote no-group\" data-username=\"jonbyte\" data-post=\"9\" data-topic=\"4229283\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://doy2mn9upadnk.cloudfront.net/user_avatar/devforum.roblox.com/jonbyte/60/6697044_2.png\" class=\"avatar\"> Jon:</div>\n<blockquote>\n<p>EDIT: Also there is a problem with using gsub since there is no way to make the pattern plain (unless manually). Your example would not work if . (period) is a delimeter because that will match any character.</p>\n</blockquote>\n</aside>\n<p>You’re right. I knew I was forgetting something about Lua patterns. I believe <code>%.</code> should work. If a delimiter consists of multiple characters then I think in my function you can make it insert a <code>%</code> before each character so that the pattern matches the literal characters.</p>",
+      "created_at": "2026-01-08T08:04:32.774Z",
+      "likes": 0,
+      "post_number": 10
+    },
+    {
+      "id": 13658470,
+      "username": "jonbyte",
+      "content_raw": "",
+      "content_html": "<p>Here is my attempt at a general-purpose solution. I haven’t found a case that could break this yet. Let me know!</p>\n<pre data-code-wrap=\"lua\"><code class=\"lang-lua\">local function split(\n\tinput: string,\n\tsep: { string }\n)\n\tif #sep == 0 then\n\t\treturn { input }\n\telseif #sep == 1 then\n\t\treturn string.split(input, sep[1])\n\tend\n\t\n\tlocal result: { string } = {}\n\tlocal len = #input\n\tlocal i = 1\n\t\n\trepeat\n\t\t\n\t\tlocal k = 0\n\t\tlocal w = 0\n\t\tlocal j = len\n\t\t\n\t\tfor _, v in sep do\n\t\t\tlocal a, b = string.find(input, v, i, true)\n\t\t\tif a and a &lt;= j then\n\t\t\t\tj = a\n\t\t\t\tw = b - a\n\t\t\t\tk = -1\n\t\t\tend\n\t\tend\n\t\t\n\t\tlocal sub = string.sub(input, i, j+k)\n\t\ttable.insert(result, sub)\n\t\t\n\t\ti = j + w + 1\n\t\t\n\tuntil k == 0\n\t\n\treturn result\nend\n</code></pre>",
+      "created_at": "2026-01-08T08:46:32.014Z",
+      "likes": 0,
+      "post_number": 11
+    },
+    {
+      "id": 13659908,
+      "username": "NyrionDev",
+      "content_raw": "",
+      "content_html": "<p>This is what I ended up with after first implementing it using recursion and then converting it to a loop:</p>\n<pre data-code-wrap=\"lua\"><code class=\"lang-lua\">local function split(s: string, ...: string): {string}\n\tlocal parts = {s}\n\tfor i = 1, select(\"#\", ...) do\n\t\tlocal separator = select(i, ...)\n\t\tlocal newParts = {}\n\t\tfor _, part in pairs(parts) do\n\t\t\tlocal subparts = string.split(part, separator)\n\t\t\tfor _, subpart in pairs(subparts) do\n\t\t\t\ttable.insert(newParts, subpart)\n\t\t\tend\n\t\tend\n\t\tparts = newParts\n\tend\n\treturn parts\nend\n</code></pre>",
+      "created_at": "2026-01-08T14:20:27.891Z",
+      "likes": 0,
+      "post_number": 12
+    },
+    {
+      "id": 13660291,
+      "username": "ChiDj123",
+      "content_raw": "",
+      "content_html": "<p>this is the best solution in my opinion, additionally, you can even make so it generates a regex from array of seperators</p>",
+      "created_at": "2026-01-08T15:27:12.716Z",
+      "likes": 0,
+      "post_number": 13
+    },
+    {
+      "id": 13662611,
+      "username": "Ziffixture",
+      "content_raw": "",
+      "content_html": "<p>Please use more concise variable names in the future. Single-letter variables are harmful to readability in several ways, with the most damaging consequence being the inability to efficiently discern how the algorithm works</p>",
+      "created_at": "2026-01-08T20:27:06.914Z",
+      "likes": 0,
+      "post_number": 14
+    },
+    {
+      "id": 13662616,
+      "username": "Axyndey",
+      "content_raw": "",
+      "content_html": "<p>i actually already used this method for another reason funnily enough, but the issue I forgot to specify is that I need to preserve the separator as part of the array item (for context I’m trying to extract every term of a polynomial in the form of a string</p>",
+      "created_at": "2026-01-08T20:27:38.390Z",
+      "likes": 0,
+      "post_number": 15
+    },
+    {
+      "id": 13662652,
+      "username": "Axyndey",
+      "content_raw": "",
+      "content_html": "<p>this is a very nice function, unfortunately my separators are longer than one letter (essentially words as patterns)</p>",
+      "created_at": "2026-01-08T20:31:46.395Z",
+      "likes": 0,
+      "post_number": 16
+    },
+    {
+      "id": 13662726,
+      "username": "Axyndey",
+      "content_raw": "",
+      "content_html": "<p>i love how concise this one is, the problem does rise once more that I’m looking to preserve the separator in the string (split automatically barres it). This detail wasnt communicated in my post and I do apologize for that</p>",
+      "created_at": "2026-01-08T20:37:43.511Z",
+      "likes": 0,
+      "post_number": 17
+    },
+    {
+      "id": 13662753,
+      "username": "jonbyte",
+      "content_raw": "",
+      "content_html": "<p>My algorithm supports separator strings of any length. Try it out!</p>",
+      "created_at": "2026-01-08T20:41:01.988Z",
+      "likes": 0,
+      "post_number": 18
+    },
+    {
+      "id": 13662821,
+      "username": "Axyndey",
+      "content_raw": "",
+      "content_html": "<p>you’re right haha! I’m a little slow today<br>\ni could see this function working great for some other usecases of mine, but I just edited the post because I forgot to mention that I’d like the string patterns to be kept, not deleted like the split method does. Any ideas how that could be implemented? I was thinking keeping the previous find index and plugging it into the sub’s start index</p>",
+      "created_at": "2026-01-08T20:46:34.828Z",
+      "likes": 0,
+      "post_number": 19
+    },
+    {
+      "id": 13662878,
+      "username": "jonbyte",
+      "content_raw": "",
+      "content_html": "<aside class=\"quote no-group\" data-username=\"Axyndey\" data-post=\"19\" data-topic=\"4229283\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://doy2mn9upadnk.cloudfront.net/user_avatar/devforum.roblox.com/axyndey/60/7376794_2.png\" class=\"avatar\"> CleanCutCasual:</div>\n<blockquote>\n<p>I forgot to mention that I’d like the string patterns to be kept, not deleted like the split method does. Any ideas how that could be implemented?</p>\n</blockquote>\n</aside>\n<p>Do you mean the separators would be in the result array also?</p>",
+      "created_at": "2026-01-08T20:51:15.662Z",
+      "likes": 0,
+      "post_number": 20
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": 45863,
+  "title": "About the Scripting Support category",
+  "slug": "about-the-scripting-support-category",
+  "url": "https://devforum.roblox.com/t/about-the-scripting-support-category/45863",
+  "category_id": 55,
+  "category_name": "Scripting Support",
+  "created_at": "2017-07-28T20:23:07.029Z",
+  "last_posted_at": "2017-07-28T20:23:07.060Z",
+  "views": 88770,
+  "reply_count": 0,
+  "like_count": 1203,
+  "tags": [],
+  "posts": [
+    {
+      "id": 404992,
+      "username": "Roblox",
+      "content_raw": "",
+      "content_html": "<p>This is a support category for help on everything related to <strong>scripting</strong> on the Roblox platform, from extremely basic to even the most technical of issues.</p>\n<p>Make sure to search the forum before creating a new topic, many beginner / learning resources have already been created, or maybe your problem has already been solved by someone else.</p>\n<p>If you’re looking to show off your project and get opinions and feedback, please use <a class=\"hashtag-cooked\" href=\"/c/help-and-feedback/creations-feedback/20\" data-type=\"category\" data-slug=\"creations-feedback\" data-id=\"20\" data-ref=\"help-and-feedback:creations-feedback\"><span class=\"hashtag-icon-placeholder\"><svg class=\"fa d-icon d-icon-square-full svg-icon svg-node\"><use href=\"#square-full\"></use></svg></span><span>Creations Feedback</span></a> instead!</p>\n<p>Please do not post bug reports or feature requests here! Always pick the right category for your topic!</p>\n<h3><a name=\"p-404992-how-should-i-write-my-topic-1\" class=\"anchor\" href=\"#p-404992-how-should-i-write-my-topic-1\"></a>How should I write my topic?</h3>\n<p>You can write your topic however you want, but you need to answer these questions:</p>\n<ol>\n<li>\n<p><strong>What do you want to achieve?</strong> Keep it simple and clear!</p>\n</li>\n<li>\n<p><strong>What is the issue?</strong> Include screenshots / videos if possible!</p>\n</li>\n<li>\n<p><strong>What solutions have you tried so far?</strong> Did you look for solutions on the <a href=\"https://create.roblox.com/docs\">Creator Hub</a>?</p>\n</li>\n</ol>\n<p>After that, you should include more details if you have any. Try to make your topic as descriptive as possible, so that it’s easier for people to help you!</p>\n<p>Please do not post screenshots of code.  Instead, format blocks of code by wrapping it in triple backticks (`) like this:</p>\n<blockquote>\n<p>```<br>\n-- Code<br>\n```</p>\n</blockquote>\n<p>Please do not ask people to write entire scripts or design entire systems for you. If you can’t answer the three questions above, you should probably pick a different category.</p>\n<h3><a name=\"p-404992-who-can-post-here-2\" class=\"anchor\" href=\"#p-404992-who-can-post-here-2\"></a>Who can post here?</h3>\n<ul>\n<li>All members of the forum can create topics in this category and reply to topics.</li>\n<li>Everyone can read all the contents in this category, even when not logged in.</li>\n</ul>\n<h3><a name=\"p-404992-got-an-issue-to-post-but-youre-not-a-forum-member-yet-3\" class=\"anchor\" href=\"#p-404992-got-an-issue-to-post-but-youre-not-a-forum-member-yet-3\"></a>Got an issue to post, but you’re not a forum member yet?</h3>\n<p>See <a href=\"https://devforum.roblox.com/t/roblox-developer-forum-rules-international-communities/3170997\">this post</a> for more information on how to contribute.</p>",
+      "created_at": "2017-07-28T20:23:07.060Z",
+      "likes": 0,
+      "post_number": 1
+    }
+  ]
+}

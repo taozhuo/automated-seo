@@ -1,0 +1,88 @@
+{
+  "id": 4217021,
+  "title": "LocalScript randomly not working",
+  "slug": "localscript-randomly-not-working",
+  "url": "https://devforum.roblox.com/t/localscript-randomly-not-working/4217021",
+  "category_id": 55,
+  "category_name": "Scripting Support",
+  "created_at": "2026-01-05T00:46:46.283Z",
+  "last_posted_at": "2026-01-08T13:28:19.401Z",
+  "views": 110,
+  "reply_count": 3,
+  "like_count": 1,
+  "tags": [],
+  "posts": [
+    {
+      "id": 13632122,
+      "username": "Darienow",
+      "content_raw": "",
+      "content_html": "<p>For some reason, a localscript in a part in which touched makes a gui appear, sometimes does not seem to succeed. It seems to have a random chance between executing the action and failing to do so. The script is below:</p>\n<pre data-code-wrap=\"lua\"><code class=\"lang-lua\">local TS = game:GetService(\"TweenService\")\n\nscript.Parent.Touched:Connect(function(hit)\n\tprint(\"fired\")\n\tscript.Parent.CanTouch = false\n\tif game.Players:GetPlayerFromCharacter(hit.Parent) then\n\t\tlocal player = game.Players:GetPlayerFromCharacter(hit.Parent)\n\t\tif player.PlayerGui:FindFirstChild(\"TeleportScreen\") then else\n\t\t\tgame.ReplicatedStorage.paint:FireServer()\n\t\t\tplayer.Character:FindFirstChild(\"HumanoidRootPart\").Anchored = true\n\t\t\tprint(\"found\")\n\t\t\tgame.SoundService.painting:Play()\n\t\t\tlocal clone = script.TeleportScreen:Clone()\n\t\t\tclone.Parent = player.PlayerGui\n\t\t\tclone.Enabled = true\n\t\t\tTS:Create(clone.TextLabel, TweenInfo.new(1), {BackgroundTransparency = 0, TextTransparency = 0}):Play()\n\t\tend\n\t\telse print (\"failed\")\n\tend\nend)\n</code></pre>\n<p>As you can imagine, the console will print “failed” on the times it does not succeed. Is there a solution to this?</p>",
+      "created_at": "2026-01-05T00:46:46.480Z",
+      "likes": 0,
+      "post_number": 1
+    },
+    {
+      "id": 13632201,
+      "username": "IrishStukov",
+      "content_raw": "",
+      "content_html": "<p>You can’t have a local script in the workspace. You’d have to make this either a server script or adapt your local script under the StarterPlayer/CharacterScripts or StarterGui</p>",
+      "created_at": "2026-01-05T01:03:09.323Z",
+      "likes": 0,
+      "post_number": 2
+    },
+    {
+      "id": 13632340,
+      "username": "daulric",
+      "content_raw": "",
+      "content_html": "<p>this should be a server script and use a Remote Event to trigger the tween service</p>",
+      "created_at": "2026-01-05T01:29:17.750Z",
+      "likes": 0,
+      "post_number": 3
+    },
+    {
+      "id": 13632476,
+      "username": "igd3v",
+      "content_raw": "",
+      "content_html": "<p>A workaround is creating a Server Script, copy/pasting the code from the snippet provided into the script, and set the script’s RunContext to Client.</p>\n<p>However be aware that you WILL need to add sanity checks (WaitForChild, FindFirstChild)</p>\n<p>It’s not the best workaround but works for what you need to do. I don’t recommend doing this all the time though, you should do what <a class=\"mention\" href=\"/u/irishstukov\">@IrishStukov</a> suggested instead.</p>\n<p>Hope your M64 project goes well <img src=\"https://doy2mn9upadnk.cloudfront.net/images/emoji/twitter/slight_smile.png?v=14\" title=\":slight_smile:\" class=\"emoji\" alt=\":slight_smile:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>",
+      "created_at": "2026-01-05T01:53:18.128Z",
+      "likes": 0,
+      "post_number": 4
+    },
+    {
+      "id": 13632602,
+      "username": "Darienow",
+      "content_raw": "",
+      "content_html": "<p>I put it in StarterPlayerScripts, and it still seems to not work some of the time.<br>\nI tested other scripts that basically have the same functionality, and this is the only one which behaves as it does.</p>",
+      "created_at": "2026-01-05T02:11:41.532Z",
+      "likes": 0,
+      "post_number": 5
+    },
+    {
+      "id": 13633215,
+      "username": "IrishStukov",
+      "content_raw": "",
+      "content_html": "<p>You have to reference the part and replace <code>script.Parent</code></p>",
+      "created_at": "2026-01-05T04:45:28.306Z",
+      "likes": 0,
+      "post_number": 6
+    },
+    {
+      "id": 13633269,
+      "username": "nix102on",
+      "content_raw": "",
+      "content_html": "<p>StarterPlayerScripts will kinda work, but it’s not recommanded. put it in startercharacterscripts (it will run everytime your character respawns. If you want it to run only once for each player, put it in starterplayerscripts. If you want it to run only once each game, make it serversided) and replace the unnecessary code with this:</p>\n<pre data-code-wrap=\"lua\"><code class=\"lang-lua\">local TS = game:GetService(\"TweenService\")\nlocal players = game:GetService(\"Players\")\nlocal localPlayer = players.localplayer\nlocal playerGui = localPlayer.PlayerGui\nlocal part = workspace.part -- replace with your part path\nlocal storage = game.ReplicatedStorage\n\npart.Touched:Once(function(hit)\n\tprint(\"fired\")\n\n\tlocal char: Model? = hit:FindFirstAnsestorOfClass(\"Model\")\n\n\tif char and players:GetPlayerFromCharacter(char) then\n\t\tlocal player = game.Players:GetPlayerFromCharacter(hit.Parent)\n\n\t\tif player == localPlayer and not playerGui:FindFirstChild(\"TeleportScreen\") then\n\t\t\tstorage.paint:FireServer()\n\t\t\tchar:FindFirstChild(\"HumanoidRootPart\").Anchored = true\n\t\t\tprint(\"found\")\n\t\t\tgame.SoundService.painting:Play()\n\t\t\tlocal clone = script.TeleportScreen:Clone()\n\t\t\tclone.Parent = playerGui\n\t\t\tclone.Enabled = true\n\t\t\tTS:Create(clone.TextLabel, TweenInfo.new(1), {BackgroundTransparency = 0, TextTransparency = 0}):Play()\n\t\tend\n\telse \n\t\tprint (\"failed\")\n\tend\nend)\n</code></pre>\n<p>You disabled cantouch when you didnt have to, added unnecessary end lines etc.<br>\nBecause this is a localscript you only have to keep track of yourself not other players.</p>\n<p>The problem now is that since it will only fire the touched event once, if it touches anything other than a character, it will fail. To prevent that replace <code>:Once(...)</code> with <code>:Connect(...)</code> and if you want to disconnect it later, make the connection a variable:  <code>local connection = part.Touched:Connect(...)</code> then in or out of the function, you can call <code>connection:Disconnect()</code> to stop firing the event.</p>\n<p>If there are more parts like this you can tag them a specific tag and change the <code>part</code> variable to: <code>local parts = game.CollectionService:GetTagged(\"your tag\")</code> then do:</p>\n<pre data-code-wrap=\"lua\"><code class=\"lang-lua\">for _, part in parts do\n\tpart.Touched:Connect(function(hit)\n\t\t--logic\n\tend)\nend\n</code></pre>\n<p>This approach will 99.9% work, let me know if you want a serversided script guide whch is kind of unnecessary though since it will cause ping issue</p>",
+      "created_at": "2026-01-05T05:05:14.333Z",
+      "likes": 0,
+      "post_number": 7
+    },
+    {
+      "id": 13659660,
+      "username": "Not_Eagleye",
+      "content_raw": "",
+      "content_html": "<p>cuz another part is first touching it and its parent is not a player character causing it to turn cantouch off</p>",
+      "created_at": "2026-01-08T13:28:19.401Z",
+      "likes": 0,
+      "post_number": 8
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": 3933900,
+  "title": "AlignOrientation moves the position of the object",
+  "slug": "alignorientation-moves-the-position-of-the-object",
+  "url": "https://devforum.roblox.com/t/alignorientation-moves-the-position-of-the-object/3933900",
+  "category_id": 55,
+  "category_name": "Scripting Support",
+  "created_at": "2025-09-14T00:54:21.131Z",
+  "last_posted_at": "2025-09-14T03:44:12.166Z",
+  "views": 153,
+  "reply_count": 0,
+  "like_count": 3,
+  "tags": [
+    "scripting",
+    "help",
+    "building",
+    "npc",
+    "alignposition"
+  ],
+  "posts": [
+    {
+      "id": 13058584,
+      "username": "ExosphereOuter",
+      "content_raw": "",
+      "content_html": "<p>So I’m trying to make an NPC face the player when they’re near. However, that moves the position of the head as well, and it’s very unnatural.<br>\n</p><div class=\"video-placeholder-container\" data-video-src=\"/secure-uploads/uploads/original/5X/a/0/a/e/a0ae40b2156b976149dae2799b60308a4cee9712.mp4\" data-thumbnail-src=\"//devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/original/5X/4/6/7/3/467317a2d173737aa98597baa44d1940c4b2d4bd.png\" data-video-base62-sha1=\"mVrJg6IdNLefA7eVMaFZyZGegtY.mp4\">\n  </div><br>\nAnchoring the part fixes its position, but it won’t rotate; unanchoring the head produces this result.<p></p>\n<p>My script essentially sets the <code>Attachment1</code> of the AlignOrientation object to a specific attachment on the player when they enter the zone, and sets <code>Attachment1</code> to <code>nil</code> when there are no players inside the zone.</p>\n<p>Here’s my script:</p>\n<pre data-code-wrap=\"lua\"><code class=\"lang-lua\">local alignment = script.Parent.Parent.Guard.AlignOrientation\nlocal zone = script.Parent\nlocal list = {}\n\nfunction addWithoutDuplicate(value)\n\tfor _, v in list do\n\t\tif v == value then\n\t\t\treturn\n\t\tend\n\tend\n\t\n\ttable.insert(list, value)\nend\n\nfunction remove(value)\n\tfor i, v in list do\n\t\tif v == value then\n\t\t\ttable.remove(list, i)\n\t\t\treturn\n\t\tend\n\tend\nend\n\nzone.Touched:Connect(function(part)\n\tif part:FindFirstChild(\"Humanoid\") then\n\t\talignment.Attachment1 = part.Head.FaceFrontAttachment\n\t\taddWithoutDuplicate(part)\n\telseif part.Parent:FindFirstChild(\"Humanoid\") then\n\t\talignment.Attachment1 = part.Parent.Head.FaceFrontAttachment\n\t\taddWithoutDuplicate(part.Parent)\n\telseif part.Parent.Parent:FindFirstChild(\"Humanoid\") then\n\t\talignment.Attachment1 = part.Parent.Parent.Head.FaceFrontAttachment\n\t\taddWithoutDuplicate(part.Parent.Parent)\n\telseif part.Parent.Parent.Parent:FindFirstChild(\"Humanoid\") then\n\t\talignment.Attachment1 = part.Parent.Parent.Parent.Head.FaceFrontAttachment\n\t\taddWithoutDuplicate(part.Parent.Parent.Parent)\n\tend\n\n\tif #list == 0 then\n\t\talignment.Attachment1 = nil\n\tend\nend)\n\nzone.TouchEnded:Connect(function(part)\n\tif part:FindFirstChild(\"Humanoid\") then\n\t\talignment.Attachment1 = part.Head.FaceFrontAttachment\n\t\tremove(part)\n\telseif part.Parent:FindFirstChild(\"Humanoid\") then\n\t\talignment.Attachment1 = part.Parent.Head.FaceFrontAttachment\n\t\tremove(part.Parent)\n\telseif part.Parent.Parent:FindFirstChild(\"Humanoid\") then\n\t\talignment.Attachment1 = part.Parent.Parent.Head.FaceFrontAttachment\n\t\tremove(part.Parent.Parent)\n\telseif part.Parent.Parent.Parent:FindFirstChild(\"Humanoid\") then\n\t\talignment.Attachment1 = part.Parent.Parent.Parent.Head.FaceFrontAttachment\n\t\tremove(part.Parent.Parent.Parent)\n\tend\n\t\n\tif #list == 0 then\n\t\talignment.Attachment1 = nil\n\tend\nend)\n</code></pre>",
+      "created_at": "2025-09-14T00:54:21.446Z",
+      "likes": 0,
+      "post_number": 1
+    },
+    {
+      "id": 13059025,
+      "username": "craftydwy",
+      "content_raw": "",
+      "content_html": "<p>(post deleted by author)</p>",
+      "created_at": "2025-09-14T03:44:12.166Z",
+      "likes": 0,
+      "post_number": 2
+    }
+  ]
+}

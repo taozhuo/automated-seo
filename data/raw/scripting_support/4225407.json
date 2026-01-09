@@ -1,0 +1,136 @@
+{
+  "id": 4225407,
+  "title": "Help understanding discrepancy of HumanoidStateTypes between PC and mobile",
+  "slug": "help-understanding-discrepancy-of-humanoidstatetypes-between-pc-and-mobile",
+  "url": "https://devforum.roblox.com/t/help-understanding-discrepancy-of-humanoidstatetypes-between-pc-and-mobile/4225407",
+  "category_id": 55,
+  "category_name": "Scripting Support",
+  "created_at": "2026-01-07T13:23:22.589Z",
+  "last_posted_at": "2026-01-08T18:20:37.651Z",
+  "views": 131,
+  "reply_count": 8,
+  "like_count": 15,
+  "tags": [
+    "scripting",
+    "help"
+  ],
+  "posts": [
+    {
+      "id": 13649232,
+      "username": "darkcrazylord",
+      "content_raw": "",
+      "content_html": "<ol>\n<li><strong>What do you want to achieve?</strong> Keep it simple and clear!<br>\nDouble/triple jump system that uses InputBegan/Mouse1Click and humanoid:ChangeState(Enum.HumanoidStateType.Jumping, true) to listen and action jumps for mobile and PC.</li>\n<li><strong>What is the issue?</strong> Include screenshots / videos if possible!<br>\nI have a check in my script to only permit a double/triple jump to occur if humanoid is in Enum.HumanoidStateType.Freefall state but when jumping on PC via space bar the HumanoidStateType for humanoid results in ‘Running’ but on mobile pressing the jump button results in ‘Freefall’ (both tests conducted while character is standing still). This causes a problem as PC will allow for an extra jump and mobile will be at a disadvantage.</li>\n<li><strong>What solutions have you tried so far?</strong> Did you look for solutions on the Creator Hub?<br>\nI don’t want to go down the route of attempting to intercept jump requests nor use JumpRequest event as it feels unreliable to me - i’m hoping that understanding the reason behind this discrepancy will help me fix the logic.</li>\n</ol>\n<pre data-code-wrap=\"lua\"><code class=\"lang-lua\">local jumpUsage = 0\n\nif rebirth.Value &gt;= 1 and rebirth.Value &lt; 5 then\n\tjumpUsage = 1\nelseif rebirth.Value &gt;= 5 then\n\tjumpUsage = 2\nend\n\nlocal mobileJumpButton = CheckForMobileJumpButton()\nif mobileJumpButton then\n\tmobileJumpButton.MouseButton1Click:Connect(function()\n\t\tif humanoidRootPart and humanoid then\n\t\t\tprint(humanoid:GetState()) -- results in 'Freefall'\n\t\t\tif humanoid:GetState() == Enum.HumanoidStateType.Freefall then\n\t\t\t\tprint(humanoid:GetState()) -- results in 'Freefall'\n\t\t\t\tif rebirth.Value &gt;= 1 then\n\t\t\t\t\tif jumpUsage &gt;= 1 then\n\t\t\t\t\t\tjumpUsage -= 1\n\t\t\t\t\t\thumanoid:ChangeState(Enum.HumanoidStateType.Jumping, true)\n\t\t\t\t\t\tprint(jumpUsage)\n\t\t\t\t\tend\n\t\t\t\tend\n\t\t\t\thumanoid.StateChanged:Connect(function(old, new)\n\t\t\t\t\tif new == Enum.HumanoidStateType.Landed then\n\t\t\t\t\t\tif rebirth.Value &gt;= 1 and rebirth.Value &lt; 5 then\n\t\t\t\t\t\t\tjumpUsage = 1\n\t\t\t\t\t\telseif rebirth.Value &gt;= 5 then\n\t\t\t\t\t\t\tjumpUsage = 2\n\t\t\t\t\t\tend\n\t\t\t\t\tend\n\t\t\t\tend)\n\t\t\tend\n\t\tend\n\tend)\nend\n\nuis.InputBegan:Connect(function(key, gp)\n\tif not gp then\n\t\tif key.KeyCode == Enum.KeyCode.Space and key.UserInputType == Enum.UserInputType.Keyboard then\n\t\t\tif humanoidRootPart and humanoid then\n\t\t\t\tprint(humanoid:GetState()) -- results in 'Running'\n\t\t\t\tif humanoid:GetState() == Enum.HumanoidStateType.Freefall then\n\t\t\t\t\tprint(humanoid:GetState()) -- doesn't get here until space bar is pressed a second time during Freefall state\n\t\t\t\t\tif rebirth.Value &gt;= 1 then\n\t\t\t\t\t\tif jumpUsage &gt;= 1 then\n\t\t\t\t\t\t\tjumpUsage -= 1\n\t\t\t\t\t\t\thumanoid:ChangeState(Enum.HumanoidStateType.Jumping, true)\n\t\t\t\t\t\t\tprint(jumpUsage)\n\t\t\t\t\t\tend\n\t\t\t\t\tend\n\t\t\t\t\thumanoid.StateChanged:Connect(function(old, new)\n\t\t\t\t\t\tif new == Enum.HumanoidStateType.Landed then\n\t\t\t\t\t\t\tif rebirth.Value &gt;= 1 and rebirth.Value &lt; 5 then\n\t\t\t\t\t\t\t\tjumpUsage = 1\n\t\t\t\t\t\t\telseif rebirth.Value &gt;= 5 then\n\t\t\t\t\t\t\t\tjumpUsage = 2\n\t\t\t\t\t\t\tend\n\t\t\t\t\t\tend\n\t\t\t\t\tend)\n\t\t\t\tend\n\t\t\tend\n\t\tend\n\tend\nend)\n</code></pre>",
+      "created_at": "2026-01-07T13:23:22.892Z",
+      "likes": 0,
+      "post_number": 1
+    },
+    {
+      "id": 13649807,
+      "username": "jellolemo",
+      "content_raw": "",
+      "content_html": "<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"//devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/original/5X/7/b/e/e/7beea6b33be10e8921562be7e344ae5c490f76f4.jpeg\" data-download-href=\"/uploads/short-url/hGm2gRhqTNDwETKCQEAeup2TIDa.jpeg?dl=1\" title=\"images (5)\" rel=\"noopener nofollow ugc\"><img src=\"//devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/optimized/5X/7/b/e/e/7beea6b33be10e8921562be7e344ae5c490f76f4_2_650x500.jpeg\" alt=\"images (5)\" data-base62-sha1=\"hGm2gRhqTNDwETKCQEAeup2TIDa\" width=\"650\" height=\"500\" srcset=\"//devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/optimized/5X/7/b/e/e/7beea6b33be10e8921562be7e344ae5c490f76f4_2_650x500.jpeg, //devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/optimized/5X/7/b/e/e/7beea6b33be10e8921562be7e344ae5c490f76f4_2_975x750.jpeg 1.5x, //devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/optimized/5X/7/b/e/e/7beea6b33be10e8921562be7e344ae5c490f76f4_2_1300x1000.jpeg 2x\" data-dominant-color=\"5B4B51\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">images (5)</span><span class=\"informations\">1656×1272 84.9 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>\n<p>I actually can’t believe some people code like this</p>",
+      "created_at": "2026-01-07T15:19:09.464Z",
+      "likes": 0,
+      "post_number": 2
+    },
+    {
+      "id": 13649886,
+      "username": "darkcrazylord",
+      "content_raw": "",
+      "content_html": "<p>I’m asking for an opinion or insight - i’m open to criticism but that reply is hardly constructive.</p>",
+      "created_at": "2026-01-07T15:36:14.987Z",
+      "likes": 0,
+      "post_number": 3
+    },
+    {
+      "id": 13650092,
+      "username": "jellolemo",
+      "content_raw": "",
+      "content_html": "<p>ok, try avoiding if statement nesting next time</p>",
+      "created_at": "2026-01-07T16:11:06.801Z",
+      "likes": 0,
+      "post_number": 4
+    },
+    {
+      "id": 13650215,
+      "username": "trigophi",
+      "content_raw": "",
+      "content_html": "<p>Remark: <a href=\"https://devforum.roblox.com/t/a-guide-to-guard-clauses/455346\">OP can use guard clauses</a></p>",
+      "created_at": "2026-01-07T16:29:50.288Z",
+      "likes": 0,
+      "post_number": 5
+    },
+    {
+      "id": 13650625,
+      "username": "BonesIsUseless",
+      "content_raw": "",
+      "content_html": "<p>i’m not sure what the hell is going on</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"//devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/original/5X/7/8/5/6/7856363700f7aca8156fef21fd8f31d32bb2cfe1.png\" data-download-href=\"/uploads/short-url/hay0gEREgBadn33T6vtH1nWIBK9.png?dl=1\" title=\"icantreadts\" rel=\"noopener nofollow ugc\"><img src=\"//devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/original/5X/7/8/5/6/7856363700f7aca8156fef21fd8f31d32bb2cfe1.png\" alt=\"icantreadts\" data-base62-sha1=\"hay0gEREgBadn33T6vtH1nWIBK9\" width=\"305\" height=\"103\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">icantreadts</span><span class=\"informations\">305×103 29.4 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>\n<p>what i do see is a connection being made every input</p>\n<pre data-code-wrap=\"lua\"><code class=\"lang-lua\">uis.InputBegan:Connect(function(key, gp)\n\t\t\t\t\thumanoid.StateChanged:Connect(function(old, new)\n\n                       \t ...\n\t\t\t\t\tend)\nend)\n</code></pre>\n<pre data-code-wrap=\"lua\"><code class=\"lang-lua\">-- assume you want more rebirth requirements\n-- highest rebirth requirement goes first\n-- {RequiredRebirths, MaxAirJumps}\n-- this is ugly in my opinion\nlocal JUMP_TIERS = {\n  {5, 2}; -- 5+ rebirths = 2 air jumps\n  {1, 1}; -- 1+ rebirths = 1 air jump\n}\n\nlocal JumpUsage = 0\n\n-- find the correct jump limit\nlocal function GetMaxJumps()\n  for _, Tier in JUMP_TIERS do\n    local ReqRebirths, MaxJumps = Tier[1], Tier[2]\n    if Rebirth.Value &lt; ReqRebirths then continue end\n    return MaxJumps\n  end\n  \n  return 0\nend\n\nlocal function ResetJumps()\n  JumpUsage = GetMaxJumps()\nend\n\nlocal function PerformMultiJump()\n  if not (HumanoidRootPart and Humanoid) then return end\n\n  -- ignore inital jump\n  if Humanoid.FloorMaterial ~= Enum.Material.Air then\n    return\n  end\n\n  if Humanoid:GetState() ~= Enum.HumanoidStateType.Freefall then\n    return\n  end\n\n  if JumpUsage &lt; 1 then return end\n\n  JumpUsage -= 1\n  Humanoid:ChangeState(Enum.HumanoidStateType.Jumping, true)\n  print(\"Jumps left:\", JumpUsage)\nend\n\nResetJumps()\n\nif Humanoid then\n  Humanoid.StateChanged:Connect(function(Old, New)\n    if New ~= Enum.HumanoidStateType.Landed then return end\n    ResetJumps()\n  end)\nend\n\nlocal MobileJumpButton = CheckForMobileJumpButton()\nif MobileJumpButton then\n  MobileJumpButton.MouseButton1Click:Connect(PerformMultiJump)\nend\n\nUis.InputBegan:Connect(function(Input, GameProcessed)\n  if GameProcessed then return end\n  if Input.UserInputType ~= Enum.UserInputType.Keyboard then return end\n  if Input.KeyCode ~= Enum.KeyCode.Space then return end\n\n  PerformMultiJump()\nend)\n</code></pre>",
+      "created_at": "2026-01-07T17:21:28.305Z",
+      "likes": 0,
+      "post_number": 6
+    },
+    {
+      "id": 13651101,
+      "username": "real_ryanx",
+      "content_raw": "",
+      "content_html": "<aside class=\"quote no-group\" data-username=\"darkcrazylord\" data-post=\"1\" data-topic=\"4225407\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://doy2mn9upadnk.cloudfront.net/user_avatar/devforum.roblox.com/darkcrazylord/60/6828351_2.png\" class=\"avatar\"> darkcrazylord:</div>\n<blockquote>\n<p><code>humanoid.StateChanged</code></p>\n</blockquote>\n</aside>\n<p>HOLY MEMORY LEAK LMAOO<br>\nbiggest rage bait ever to exist</p>",
+      "created_at": "2026-01-07T18:15:42.313Z",
+      "likes": 0,
+      "post_number": 7
+    },
+    {
+      "id": 13651289,
+      "username": "ChiDj123",
+      "content_raw": "",
+      "content_html": "<aside class=\"quote no-group\" data-username=\"real_ryanx\" data-post=\"7\" data-topic=\"4225407\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://doy2mn9upadnk.cloudfront.net/user_avatar/devforum.roblox.com/real_ryanx/60/7219479_2.png\" class=\"avatar\"> Ryan:</div>\n<blockquote>\n<p>biggest rage bait ever to exist</p>\n</blockquote>\n</aside>\n<p>acting like he is suggesting that, its just his code, where is the ragebait? grow up</p>",
+      "created_at": "2026-01-07T18:33:37.541Z",
+      "likes": 0,
+      "post_number": 8
+    },
+    {
+      "id": 13651447,
+      "username": "darkcrazylord",
+      "content_raw": "",
+      "content_html": "<p>I appreciate the help and apologise for the coding sins I’ve committed, I’ll incorporate guard clauses in the future.</p>",
+      "created_at": "2026-01-07T18:59:12.932Z",
+      "likes": 0,
+      "post_number": 9
+    },
+    {
+      "id": 13652476,
+      "username": "real_ryanx",
+      "content_raw": "",
+      "content_html": "<p>have you actually seen the code or not</p>",
+      "created_at": "2026-01-07T20:41:47.444Z",
+      "likes": 0,
+      "post_number": 10
+    },
+    {
+      "id": 13653563,
+      "username": "ChiDj123",
+      "content_raw": "",
+      "content_html": "<p>have you actually read my reply? his .StateChanged which by the way wasn’t even the whole point of this topic is a ragebait to you? you are a total child overrreacting to everything</p>",
+      "created_at": "2026-01-07T22:17:01.338Z",
+      "likes": 0,
+      "post_number": 11
+    },
+    {
+      "id": 13659539,
+      "username": "real_ryanx",
+      "content_raw": "",
+      "content_html": "<p>a new state changed connection EACH INPUT also please learn jokes and sarcasm</p>",
+      "created_at": "2026-01-08T13:01:02.846Z",
+      "likes": 0,
+      "post_number": 12
+    },
+    {
+      "id": 13661597,
+      "username": "ChiDj123",
+      "content_raw": "",
+      "content_html": "<aside class=\"quote no-group\" data-username=\"real_ryanx\" data-post=\"12\" data-topic=\"4225407\" data-full=\"true\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://doy2mn9upadnk.cloudfront.net/user_avatar/devforum.roblox.com/real_ryanx/60/7219479_2.png\" class=\"avatar\"> Ryan:</div>\n<blockquote>\n<p>a new state changed connection EACH INPUT also please learn jokes and sarcasm</p>\n</blockquote>\n</aside>\n<p>ah yes so funny bro, as I said, you are whining about a thing that was never part of the issue in the first place and assuming he is ragebaiting you on purpose</p>",
+      "created_at": "2026-01-08T18:20:37.651Z",
+      "likes": 0,
+      "post_number": 13
+    }
+  ]
+}

@@ -1,0 +1,2862 @@
+[
+  {
+    "video": "The EASIEST Beginner Guide to Scripting (Roblox)",
+    "problem": "Reference the parent object of a script to modify it",
+    "category": "Scripting",
+    "apis": [
+      "Instance.Parent"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "The EASIEST Beginner Guide to Scripting (Roblox)",
+    "problem": "Instantiate a new part via code",
+    "category": "Scripting",
+    "apis": [
+      "Instance.new"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "The EASIEST Beginner Guide to Scripting (Roblox)",
+    "problem": "Parent an object to the Workspace to make it visible in the game world",
+    "category": "Scripting",
+    "apis": [
+      "Instance.Parent",
+      "DataModel.Workspace"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "The EASIEST Beginner Guide to Scripting (Roblox)",
+    "problem": "Store references to objects using variables for easier access",
+    "category": "Scripting",
+    "apis": [],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "The EASIEST Beginner Guide to Scripting (Roblox)",
+    "problem": "Modify object properties like color and transparency through a script",
+    "category": "Scripting",
+    "apis": [
+      "Part.Color",
+      "Part.Transparency"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "The ULTIMATE Beginner Guide to Roblox Studio.. (Start BUILDING Now!)",
+    "problem": "Installing and launching Roblox Studio for the first time",
+    "category": "UI",
+    "apis": [],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "The ULTIMATE Beginner Guide to Roblox Studio.. (Start BUILDING Now!)",
+    "problem": "Choosing between 'New', 'My Games', and 'Recent' project categories",
+    "category": "UI",
+    "apis": [],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "The ULTIMATE Beginner Guide to Roblox Studio.. (Start BUILDING Now!)",
+    "problem": "Initializing a project using the Baseplate vs. Classic Baseplate template",
+    "category": "3D Modeling",
+    "apis": [
+      "DataModel"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "The ULTIMATE Beginner Guide to Roblox Studio.. (Start BUILDING Now!)",
+    "problem": "Exporting a local instance of a place as a .rbxl file for external sharing",
+    "category": "Networking",
+    "apis": [],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "The ULTIMATE Beginner Guide to Roblox Studio.. (Start BUILDING Now!)",
+    "problem": "Managing public updates using 'Publish to Roblox' vs. internal 'Save to Roblox'",
+    "category": "Networking",
+    "apis": [
+      "AssetService"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "The ULTIMATE Beginner Guide to Roblox Studio.. (Start BUILDING Now!)",
+    "problem": "Navigating the 3D viewport using right-click camera rotation",
+    "category": "3D Modeling",
+    "apis": [
+      "Workspace.CurrentCamera"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "Lua in 100 Seconds",
+    "problem": "Declare local variables to optimize performance and prevent global scope pollution",
+    "category": "Scripting",
+    "apis": [],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "Lua in 100 Seconds",
+    "problem": "Store and organize data using associative arrays and tables",
+    "category": "Scripting",
+    "apis": [],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "Lua in 100 Seconds",
+    "problem": "Iterate over key-value pairs in a dictionary using for loops",
+    "category": "Scripting",
+    "apis": [
+      "pairs"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "Lua in 100 Seconds",
+    "problem": "Manage non-blocking task execution using co-routines for collaborative multitasking",
+    "category": "Scripting",
+    "apis": [
+      "coroutine.create",
+      "coroutine.resume",
+      "coroutine.yield"
+    ],
+    "difficulty": "intermediate",
+    "automatable": true
+  },
+  {
+    "video": "Lua in 100 Seconds",
+    "problem": "Access table elements correctly using 1-based indexing logic",
+    "category": "Scripting",
+    "apis": [],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "Lua in 100 Seconds",
+    "problem": "Implement first-class functions for functional programming patterns",
+    "category": "Scripting",
+    "apis": [],
+    "difficulty": "intermediate",
+    "automatable": true
+  },
+  {
+    "video": "Roblox Studio Basics - Roblox Beginners Scripting Tutorial #1 (2025)",
+    "problem": "Understanding the fundamental role and implementation of a script within a game environment",
+    "category": "Scripting",
+    "apis": [
+      "Script"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "Roblox Studio Basics - Roblox Beginners Scripting Tutorial #1 (2025)",
+    "problem": "Navigating the 3D viewport using camera controls including WASD and Mouse button rotation",
+    "category": "3D Modeling",
+    "apis": [],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "Roblox Studio Basics - Roblox Beginners Scripting Tutorial #1 (2025)",
+    "problem": "Initializing a new project using the Baseplate template in Roblox Studio",
+    "category": "3D Modeling",
+    "apis": [],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "Roblox Studio Basics - Roblox Beginners Scripting Tutorial #1 (2025)",
+    "problem": "Interpreting and resolving error messages and unintended effects in game logic",
+    "category": "Scripting",
+    "apis": [
+      "LogService"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "How to make your FIRST Roblox Game in 2024-2025 (Make Robux)",
+    "problem": "Navigating and manipulating objects within 3D space using Studio tools",
+    "category": "3D Modeling",
+    "apis": [
+      "Workspace",
+      "Selection"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "How to make your FIRST Roblox Game in 2024-2025 (Make Robux)",
+    "problem": "Building game geometry using Parts and basic transformations",
+    "category": "3D Modeling",
+    "apis": [
+      "Instance.new",
+      "Part.Size",
+      "Part.Position",
+      "Part.Orientation"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "How to make your FIRST Roblox Game in 2024-2025 (Make Robux)",
+    "problem": "Implementing a 'Skip Stage' monetization system",
+    "category": "Monetization",
+    "apis": [
+      "MarketplaceService",
+      "MarketplaceService.ProcessReceipt"
+    ],
+    "difficulty": "intermediate",
+    "automatable": false
+  },
+  {
+    "video": "How to make your FIRST Roblox Game in 2024-2025 (Make Robux)",
+    "problem": "Prompting a developer product purchase via a UI button",
+    "category": "UI",
+    "apis": [
+      "TextButton",
+      "MarketplaceService:PromptProductPurchase"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "How to make your FIRST Roblox Game in 2024-2025 (Make Robux)",
+    "problem": "Teleporting players to the next checkpoint after a successful purchase",
+    "category": "Scripting",
+    "apis": [
+      "HumanoidRootPart",
+      "CFrame",
+      "Player.Character"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "How to make your FIRST Roblox Game in 2024-2025 (Make Robux)",
+    "problem": "Identifying and removing malicious scripts from Toolbox assets",
+    "category": "Scripting",
+    "apis": [
+      "Script",
+      "ModuleScript"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "How I Learned To Make Roblox Games in a Week",
+    "problem": "Basic 3D object manipulation including moving, scaling, and rotating parts",
+    "category": "3D Modeling",
+    "apis": [
+      "BasePart.Position",
+      "BasePart.Size",
+      "BasePart.Orientation",
+      "BasePart.CFrame"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "How I Learned To Make Roblox Games in a Week",
+    "problem": "Integration of user-generated assets and models from the Toolbox",
+    "category": "3D Modeling",
+    "apis": [
+      "InsertService",
+      "Model"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "How I Learned To Make Roblox Games in a Week",
+    "problem": "Environment creation using the smooth terrain system",
+    "category": "Terrain",
+    "apis": [
+      "Terrain:FillBlock",
+      "Terrain:FillRegion",
+      "Terrain:Editor"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "How I Learned To Make Roblox Games in a Week",
+    "problem": "Enabling real-time collaborative editing for multi-user development",
+    "category": "Networking",
+    "apis": [
+      "Team Create"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "How I Learned To Make Roblox Games in a Week",
+    "problem": "Transitioning game logic from 2D single-player environments to 3D multiplayer networking",
+    "category": "Networking",
+    "apis": [
+      "RemoteEvent",
+      "RemoteFunction",
+      "Players",
+      "RunService"
+    ],
+    "difficulty": "intermediate",
+    "automatable": false
+  },
+  {
+    "video": "How I Learned To Make Roblox Games in a Week",
+    "problem": "Programmatic scaling of massive character models and environmental geometry",
+    "category": "3D Modeling",
+    "apis": [
+      "Model:ScaleTo",
+      "BasePart.Size"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "Beginners Roblox Lua Scripting Tutorial - Crash Course",
+    "problem": "Setting up the Roblox Studio interface for scripting (Explorer, Properties, and Output windows)",
+    "category": "Scripting",
+    "apis": [],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "Beginners Roblox Lua Scripting Tutorial - Crash Course",
+    "problem": "Creating a server-side script within the ServerScriptService",
+    "category": "Scripting",
+    "apis": [
+      "ServerScriptService",
+      "Instance.new"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "Beginners Roblox Lua Scripting Tutorial - Crash Course",
+    "problem": "Outputting messages and data to the console for debugging purposes",
+    "category": "Scripting",
+    "apis": [
+      "print"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "Beginners Roblox Lua Scripting Tutorial - Crash Course",
+    "problem": "Differentiating between String, Number, and Boolean data types in Lua syntax",
+    "category": "Scripting",
+    "apis": [],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "Beginners Roblox Lua Scripting Tutorial - Crash Course",
+    "problem": "Executing scripts using the 'Run' simulation mode without spawning a player character",
+    "category": "Scripting",
+    "apis": [
+      "RunService"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "How pro Roblox developers learnt to script",
+    "problem": "Debugging scripts using specific error messages in the output",
+    "category": "Scripting",
+    "apis": [
+      "LogService",
+      "ScriptContext"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "How pro Roblox developers learnt to script",
+    "problem": "Implementing custom mathematical logic for gameplay mechanics",
+    "category": "Scripting",
+    "apis": [
+      "math"
+    ],
+    "difficulty": "intermediate",
+    "automatable": true
+  },
+  {
+    "video": "How pro Roblox developers learnt to script",
+    "problem": "Planning script architecture and visualizing project flow",
+    "category": "Scripting",
+    "apis": [],
+    "difficulty": "advanced",
+    "automatable": false
+  },
+  {
+    "video": "How pro Roblox developers learnt to script",
+    "problem": "Developing a hide-and-seek game loop logic",
+    "category": "Scripting",
+    "apis": [
+      "Players",
+      "Teams"
+    ],
+    "difficulty": "intermediate",
+    "automatable": false
+  },
+  {
+    "video": "How pro Roblox developers learnt to script",
+    "problem": "Building custom environments and maps for specific game modes",
+    "category": "3D Modeling",
+    "apis": [
+      "Instance"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "How pro Roblox developers learnt to script",
+    "problem": "Synthesizing disparate code snippets into a unified script system",
+    "category": "Scripting",
+    "apis": [
+      "ModuleScript"
+    ],
+    "difficulty": "intermediate",
+    "automatable": false
+  },
+  {
+    "video": "How pro Roblox developers learnt to script",
+    "problem": "Interpreting and implementing features from API Reference documentation",
+    "category": "Scripting",
+    "apis": [],
+    "difficulty": "intermediate",
+    "automatable": true
+  },
+  {
+    "video": "How pro Roblox developers learnt to script",
+    "problem": "Tying variables together across multiple script elements",
+    "category": "Scripting",
+    "apis": [],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "Printing - Roblox Beginners Scripting Tutorial #2 (2025)",
+    "problem": "Insert a Script object into Workspace or ServerScriptService",
+    "category": "Scripting",
+    "apis": [
+      "Workspace",
+      "ServerScriptService"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "Printing - Roblox Beginners Scripting Tutorial #2 (2025)",
+    "problem": "Display messages or logs in the Roblox Studio Output window",
+    "category": "Scripting",
+    "apis": [
+      "print"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "Printing - Roblox Beginners Scripting Tutorial #2 (2025)",
+    "problem": "Enable visibility of the Output window via Studio View settings",
+    "category": "Scripting",
+    "apis": [],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "Printing - Roblox Beginners Scripting Tutorial #2 (2025)",
+    "problem": "Distinguish between static building and adding functional logic to a SpawnLocation",
+    "category": "Scripting",
+    "apis": [
+      "SpawnLocation"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "Printing - Roblox Beginners Scripting Tutorial #2 (2025)",
+    "problem": "Navigate between the 3D Game View and the Script Editor tab",
+    "category": "Scripting",
+    "apis": [],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "Advanced Roblox Scripting Tutorial #1 - Tools (Beginner to Pro 2019)",
+    "problem": "Ensure tools are automatically distributed to player inventories on spawn",
+    "category": "Scripting",
+    "apis": [
+      "StarterPack",
+      "Tool"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "Advanced Roblox Scripting Tutorial #1 - Tools (Beginner to Pro 2019)",
+    "problem": "Define the attachment point for the character's hand using the Handle naming convention",
+    "category": "Scripting",
+    "apis": [
+      "Tool",
+      "BasePart"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "Advanced Roblox Scripting Tutorial #1 - Tools (Beginner to Pro 2019)",
+    "problem": "Represent a tool visually in the 3D space using a single part",
+    "category": "3D Modeling",
+    "apis": [
+      "Part",
+      "Tool"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "Advanced Roblox Scripting Tutorial #1 - Tools (Beginner to Pro 2019)",
+    "problem": "Prevent tools from being un-equippable or missing by moving from Workspace to StarterPack",
+    "category": "Scripting",
+    "apis": [
+      "Workspace",
+      "StarterPack"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "You CAN Script. Let me PROVE IT to you..",
+    "problem": "Display custom string messages to the Output console",
+    "category": "Scripting",
+    "apis": [
+      "print"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "You CAN Script. Let me PROVE IT to you..",
+    "problem": "Toggle visibility of essential Studio windows like Explorer, Properties, and Output",
+    "category": "UI",
+    "apis": [],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "You CAN Script. Let me PROVE IT to you..",
+    "problem": "Modify the BrickColor property of a Part object",
+    "category": "Scripting",
+    "apis": [
+      "Part.BrickColor"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "You CAN Script. Let me PROVE IT to you..",
+    "problem": "Create and manage Script instances within ServerScriptService",
+    "category": "Scripting",
+    "apis": [
+      "ServerScriptService",
+      "Instance"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "You CAN Script. Let me PROVE IT to you..",
+    "problem": "Instantiate and delete Parts within the Workspace",
+    "category": "Scripting",
+    "apis": [
+      "Workspace",
+      "Instance:Destroy"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "ScriptMate \ud83d\udcdc How to Script on Roblox",
+    "problem": "Learn Luau scripting fundamentals through structured video tutorials",
+    "category": "Scripting",
+    "apis": [
+      "Script",
+      "LocalScript",
+      "ModuleScript"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "ScriptMate \ud83d\udcdc How to Script on Roblox",
+    "problem": "Automate the generation of boilerplate or complex code snippets",
+    "category": "Scripting",
+    "apis": [
+      "ScriptEditorService",
+      "Plugin"
+    ],
+    "difficulty": "intermediate",
+    "automatable": true
+  },
+  {
+    "video": "ScriptMate \ud83d\udcdc How to Script on Roblox",
+    "problem": "Validate scripting logic and syntax proficiency through interactive challenges",
+    "category": "Scripting",
+    "apis": [],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "\ud83d\udd25 How to Make an Obby on Roblox Studio | Beginners Scripting Tutorial \ud83c\udfae",
+    "problem": "Preventing parts from falling and being destroyed by gravity on game start",
+    "category": "Physics",
+    "apis": [
+      "BasePart.Anchored"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "\ud83d\udd25 How to Make an Obby on Roblox Studio | Beginners Scripting Tutorial \ud83c\udfae",
+    "problem": "Defining player spawn positions within the game world",
+    "category": "3D Modeling",
+    "apis": [
+      "SpawnLocation"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "\ud83d\udd25 How to Make an Obby on Roblox Studio | Beginners Scripting Tutorial \ud83c\udfae",
+    "problem": "Enabling essential Workspace management panels for object manipulation",
+    "category": "UI",
+    "apis": [],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "\ud83d\udd25 How to Make an Obby on Roblox Studio | Beginners Scripting Tutorial \ud83c\udfae",
+    "problem": "Scaling and positioning geometry for jump-based gameplay mechanics",
+    "category": "3D Modeling",
+    "apis": [
+      "BasePart.Size",
+      "BasePart.Position"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "\ud83d\udd25 How to Make an Obby on Roblox Studio | Beginners Scripting Tutorial \ud83c\udfae",
+    "problem": "Modifying part aesthetics via the property window",
+    "category": "3D Modeling",
+    "apis": [
+      "BasePart.BrickColor"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "How To Script In ROBLOX Studio! (EASIEST Beginner Scripting Tutorial)",
+    "problem": "Setup and configuration of the Studio workspace windows (Explorer, Properties, Output)",
+    "category": "Scripting",
+    "apis": [],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "How To Script In ROBLOX Studio! (EASIEST Beginner Scripting Tutorial)",
+    "problem": "Outputting text or data to the console for debugging purposes",
+    "category": "Scripting",
+    "apis": [
+      "print"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "How To Script In ROBLOX Studio! (EASIEST Beginner Scripting Tutorial)",
+    "problem": "Differentiating between Data Types: Strings, Numbers, and Booleans",
+    "category": "Scripting",
+    "apis": [],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "How To Script In ROBLOX Studio! (EASIEST Beginner Scripting Tutorial)",
+    "problem": "Running script logic without spawning a player character into the simulation",
+    "category": "Scripting",
+    "apis": [
+      "RunService"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "How To Script In ROBLOX Studio! (EASIEST Beginner Scripting Tutorial)",
+    "problem": "Modifying physical properties of a Part such as Transparency, Material, and Shadow casting",
+    "category": "Scripting",
+    "apis": [
+      "BasePart.Transparency",
+      "BasePart.Material",
+      "BasePart.CastShadow"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "How To Script In ROBLOX Studio! (EASIEST Beginner Scripting Tutorial)",
+    "problem": "Referencing objects within the game hierarchy starting from the DataModel",
+    "category": "Scripting",
+    "apis": [
+      "game.Workspace",
+      "game.ServerScriptService"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "How To Script In ROBLOX Studio! (EASIEST Beginner Scripting Tutorial)",
+    "problem": "Identifying script errors and execution origins via line number tracing",
+    "category": "Scripting",
+    "apis": [
+      "LogService"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "How to USE AI to make ROBLOX MATERIALS in 30 seconds! (2023 Roblox AI Tutorial)",
+    "problem": "Enable Material Generator Beta Feature in Roblox Studio",
+    "category": "3D Modeling",
+    "apis": [
+      "MaterialService"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "How to USE AI to make ROBLOX MATERIALS in 30 seconds! (2023 Roblox AI Tutorial)",
+    "problem": "Generate material textures using AI text prompts",
+    "category": "3D Modeling",
+    "apis": [
+      "MaterialService",
+      "MaterialVariant"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "How to USE AI to make ROBLOX MATERIALS in 30 seconds! (2023 Roblox AI Tutorial)",
+    "problem": "Apply generated AI material variant to a Part",
+    "category": "3D Modeling",
+    "apis": [
+      "MaterialVariant",
+      "Part.MaterialVariant"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "ROBLOX Studio Tutorial for Beginners!",
+    "problem": "Enable Dark Theme interface for Studio",
+    "category": "UI",
+    "apis": [
+      "StudioSettings"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "ROBLOX Studio Tutorial for Beginners!",
+    "problem": "Navigate the 3D viewport using camera controls",
+    "category": "3D Modeling",
+    "apis": null,
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "ROBLOX Studio Tutorial for Beginners!",
+    "problem": "Restore missing interface panels such as Explorer or Properties",
+    "category": "UI",
+    "apis": null,
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "ROBLOX Studio Tutorial for Beginners!",
+    "problem": "Insert and instantiate a basic Part into the game world",
+    "category": "3D Modeling",
+    "apis": [
+      "Instance.new"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "ROBLOX Studio Tutorial for Beginners!",
+    "problem": "Manipulate objects using Move, Scale, and Rotate tools",
+    "category": "3D Modeling",
+    "apis": [
+      "BasePart.CFrame",
+      "BasePart.Size"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "ROBLOX Studio Tutorial for Beginners!",
+    "problem": "Adjust grid snapping and rotation increments for precise building",
+    "category": "3D Modeling",
+    "apis": null,
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "The EASIEST Way to Learn Scripting (Roblox)",
+    "problem": "Implement a pet following or management system",
+    "category": "Scripting",
+    "apis": [
+      "RunService",
+      "TweenService"
+    ],
+    "difficulty": "intermediate",
+    "automatable": false
+  },
+  {
+    "video": "The EASIEST Way to Learn Scripting (Roblox)",
+    "problem": "Saving and loading player data to maintain progress between sessions",
+    "category": "DataStore",
+    "apis": [
+      "DataStoreService"
+    ],
+    "difficulty": "intermediate",
+    "automatable": true
+  },
+  {
+    "video": "The EASIEST Way to Learn Scripting (Roblox)",
+    "problem": "Handling player join and leave events to initialize data",
+    "category": "Scripting",
+    "apis": [
+      "Players"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "The EASIEST Way to Learn Scripting (Roblox)",
+    "problem": "Updating User Interface elements on the player's screen",
+    "category": "UI",
+    "apis": [
+      "LocalScript"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "The EASIEST Way to Learn Scripting (Roblox)",
+    "problem": "Communicating between client scripts and server scripts",
+    "category": "Networking",
+    "apis": [
+      "RemoteEvent"
+    ],
+    "difficulty": "intermediate",
+    "automatable": true
+  },
+  {
+    "video": "The EASIEST Way to Learn Scripting (Roblox)",
+    "problem": "Creating an Obby that saves progress and respawns players at their last reached stage",
+    "category": "Scripting",
+    "apis": [
+      "DataStoreService",
+      "Players",
+      "SpawnLocation"
+    ],
+    "difficulty": "intermediate",
+    "automatable": false
+  },
+  {
+    "video": "The EASIEST Way to Learn Scripting (Roblox)",
+    "problem": "Integrating external code editors into the Roblox workflow",
+    "category": "Scripting",
+    "apis": [
+      "Rojo"
+    ],
+    "difficulty": "advanced",
+    "automatable": true
+  },
+  {
+    "video": "How to ACTUALLY LEARN to Script in Roblox Studio (5 Steps to learn)",
+    "problem": "Understanding and applying Luau syntax structure",
+    "category": "Scripting",
+    "apis": [
+      "Luau Syntax"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "How to ACTUALLY LEARN to Script in Roblox Studio (5 Steps to learn)",
+    "problem": "Storing game information using variables and primitive data types",
+    "category": "Scripting",
+    "apis": [
+      "String",
+      "Number",
+      "Boolean",
+      "Nil",
+      "Table",
+      "Function"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "How to ACTUALLY LEARN to Script in Roblox Studio (5 Steps to learn)",
+    "problem": "Implementing conditional logic for decision-making in scripts",
+    "category": "Scripting",
+    "apis": [
+      "if",
+      "elseif",
+      "else"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "How to ACTUALLY LEARN to Script in Roblox Studio (5 Steps to learn)",
+    "problem": "Working with Roblox-specific custom data types for 3D space and UI",
+    "category": "Scripting",
+    "apis": [
+      "Vector3",
+      "Frame",
+      "Instance"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "How to ACTUALLY LEARN to Script in Roblox Studio (5 Steps to learn)",
+    "problem": "Deconstructing free models to identify functional logic",
+    "category": "Scripting",
+    "apis": [
+      "InsertService"
+    ],
+    "difficulty": "intermediate",
+    "automatable": false
+  },
+  {
+    "video": "Roblox Studio Tip 37: The Most Pointless Game Ever! #roblox #scripting #robloxstudio #coding",
+    "problem": "Create a leaderstats system to display player time on the leaderboard",
+    "category": "Scripting",
+    "apis": [
+      "Players.PlayerAdded",
+      "Instance.new"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "Roblox Studio Tip 37: The Most Pointless Game Ever! #roblox #scripting #robloxstudio #coding",
+    "problem": "Increment player stats automatically every second using a loop",
+    "category": "Scripting",
+    "apis": [
+      "task.wait"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "Roblox Studio Tip 37: The Most Pointless Game Ever! #roblox #scripting #robloxstudio #coding",
+    "problem": "Persist player stats across game sessions",
+    "category": "DataStore",
+    "apis": [
+      "DataStoreService",
+      "SetAsync",
+      "GetAsync"
+    ],
+    "difficulty": "intermediate",
+    "automatable": true
+  },
+  {
+    "video": "Final Game - Roblox Beginners Scripting Tutorial #18 (2025)",
+    "problem": "Create a leaderstats system to track player currency",
+    "category": "Scripting",
+    "apis": [
+      "Instance.new",
+      "Player.leaderstats"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "Final Game - Roblox Beginners Scripting Tutorial #18 (2025)",
+    "problem": "Detect part collisions to increment coin values with a random range",
+    "category": "Scripting",
+    "apis": [
+      "BasePart.Touched",
+      "math.random"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "Final Game - Roblox Beginners Scripting Tutorial #18 (2025)",
+    "problem": "Modify object transparency and visibility upon player interaction",
+    "category": "Scripting",
+    "apis": [
+      "BasePart.Transparency"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "Final Game - Roblox Beginners Scripting Tutorial #18 (2025)",
+    "problem": "Create a timed gate mechanism that closes after a specific countdown",
+    "category": "Scripting",
+    "apis": [
+      "task.wait",
+      "BasePart.CanCollide",
+      "BasePart.Transparency"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "Final Game - Roblox Beginners Scripting Tutorial #18 (2025)",
+    "problem": "Organize game assets into a structured folder hierarchy for modularity",
+    "category": "3D Modeling",
+    "apis": [
+      "Instance.new",
+      "Folder"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "Final Game - Roblox Beginners Scripting Tutorial #18 (2025)",
+    "problem": "Output a live countdown timer to the console for gameplay feedback",
+    "category": "Scripting",
+    "apis": [
+      "print"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "Final Game - Roblox Beginners Scripting Tutorial #18 (2025)",
+    "problem": "Configure physical part properties to prevent falling through terrain",
+    "category": "Physics",
+    "apis": [
+      "BasePart.Anchored"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "The Only Thing You Need To Learn How To Script",
+    "problem": "Coding interactive game systems and mechanics for an RPG",
+    "category": "Scripting",
+    "apis": [
+      "Instance",
+      "Script",
+      "LocalScript"
+    ],
+    "difficulty": "intermediate",
+    "automatable": false
+  },
+  {
+    "video": "The Only Thing You Need To Learn How To Script",
+    "problem": "Implementing Magic RPG specific systems",
+    "category": "Scripting",
+    "apis": [
+      "RemoteEvent",
+      "RunService",
+      "TweenService"
+    ],
+    "difficulty": "advanced",
+    "automatable": false
+  },
+  {
+    "video": "The Only Thing You Need To Learn How To Script",
+    "problem": "Learning fundamental Roblox Studio coding and scripting basics",
+    "category": "Scripting",
+    "apis": [
+      "Workspace",
+      "Players",
+      "Task"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "The Only Thing You Need To Learn How To Script",
+    "problem": "Creating reactable and engaging game environments through code",
+    "category": "Scripting",
+    "apis": [
+      "ProximityPrompt",
+      "UserInputService"
+    ],
+    "difficulty": "intermediate",
+    "automatable": false
+  },
+  {
+    "video": "Using ChatGPT For Roblox Studio For The First Time",
+    "problem": "Create a script to make a part move up and down vertically",
+    "category": "Scripting",
+    "apis": [
+      "TweenService",
+      "RunService",
+      "Vector3",
+      "Instance"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "How to Make A POPULAR Roblox Game! (2026)",
+    "problem": "Implementing core logic for a Simulator-style game",
+    "category": "Scripting",
+    "apis": [
+      "Instance.new",
+      "Player.leaderstats"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "How to Make A POPULAR Roblox Game! (2026)",
+    "problem": "Creating a 'kill-part' script for an Obby game",
+    "category": "Scripting",
+    "apis": [
+      "BasePart.Touched",
+      "Humanoid.Health"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "How to Make A POPULAR Roblox Game! (2026)",
+    "problem": "Building static assets and environment structures",
+    "category": "3D Modeling",
+    "apis": [
+      "Workspace",
+      "Part",
+      "Model"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "How to Make A POPULAR Roblox Game! (2026)",
+    "problem": "Saving player currencies and progress levels",
+    "category": "DataStore",
+    "apis": [
+      "DataStoreService",
+      "GlobalDataStore:SetAsync",
+      "GlobalDataStore:GetAsync"
+    ],
+    "difficulty": "intermediate",
+    "automatable": false
+  },
+  {
+    "video": "How to Make A POPULAR Roblox Game! (2026)",
+    "problem": "Designing UI elements for the game shop and menus",
+    "category": "UI",
+    "apis": [
+      "ScreenGui",
+      "TextButton",
+      "ImageLabel"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "Operators - Roblox Beginners Scripting Tutorial #10 (2025)",
+    "problem": "Check if multiple distinct conditions are simultaneously true before executing code using logical operators",
+    "category": "Scripting",
+    "apis": [],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "Operators - Roblox Beginners Scripting Tutorial #10 (2025)",
+    "problem": "Execute a block of code if at least one of several conditions is satisfied using the 'or' logical operator",
+    "category": "Scripting",
+    "apis": [],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "Operators - Roblox Beginners Scripting Tutorial #10 (2025)",
+    "problem": "Combine arithmetic operations with comparison and logical operators to evaluate mathematical truths in scripts",
+    "category": "Scripting",
+    "apis": [],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "FindFirstChild & WaitForChild - Roblox Beginners Scripting Tutorial #14 (2025)",
+    "problem": "Reference objects within the game hierarchy relative to a script",
+    "category": "Scripting",
+    "apis": [
+      "Instance.Parent",
+      "script"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "FindFirstChild & WaitForChild - Roblox Beginners Scripting Tutorial #14 (2025)",
+    "problem": "Group parts to behave as a single entity for selection and movement",
+    "category": "3D Modeling",
+    "apis": [
+      "Model"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "FindFirstChild & WaitForChild - Roblox Beginners Scripting Tutorial #14 (2025)",
+    "problem": "Organize game assets without forcing group-selection behavior",
+    "category": "Scripting",
+    "apis": [
+      "Folder"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "FindFirstChild & WaitForChild - Roblox Beginners Scripting Tutorial #14 (2025)",
+    "problem": "Locate specific children within a parent instance safely",
+    "category": "Scripting",
+    "apis": [
+      "Instance:FindFirstChild",
+      "Instance:WaitForChild"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "FindFirstChild & WaitForChild - Roblox Beginners Scripting Tutorial #14 (2025)",
+    "problem": "Navigate the Parent-Child hierarchy to access game data",
+    "category": "Scripting",
+    "apis": [
+      "game.Workspace",
+      "DataModel"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "I Learned How to CODE in 7 Days | Roblox",
+    "problem": "Teleport a player to a specific destination when they touch a part",
+    "category": "Scripting",
+    "apis": [
+      "BasePart.Touched",
+      "CFrame",
+      "HumanoidRootPart"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "I Learned How to CODE in 7 Days | Roblox",
+    "problem": "Create a 'sucking in' animation and special effects for a portal system",
+    "category": "Animation",
+    "apis": [
+      "TweenService",
+      "ParticleEmitter"
+    ],
+    "difficulty": "intermediate",
+    "automatable": false
+  },
+  {
+    "video": "I Learned How to CODE in 7 Days | Roblox",
+    "problem": "Implement communication between Client and Server scripts",
+    "category": "Networking",
+    "apis": [
+      "RemoteEvent"
+    ],
+    "difficulty": "intermediate",
+    "automatable": true
+  },
+  {
+    "video": "I Learned How to CODE in 7 Days | Roblox",
+    "problem": "Design a functional Shop UI that is responsive across different hardware like iPhone 7",
+    "category": "UI",
+    "apis": [
+      "ScreenGui",
+      "UDim2",
+      "UIAspectRatioConstraint"
+    ],
+    "difficulty": "intermediate",
+    "automatable": true
+  },
+  {
+    "video": "I Learned How to CODE in 7 Days | Roblox",
+    "problem": "Manipulate object positioning and rotation programmatically",
+    "category": "Scripting",
+    "apis": [
+      "CFrame"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "How To Master Roblox Scripting (Even If You're Lost!)",
+    "problem": "Replicate button animations for interactive UI elements",
+    "category": "UI",
+    "apis": [
+      "TweenService",
+      "GuiObject"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "How To Master Roblox Scripting (Even If You're Lost!)",
+    "problem": "Display UI prompts when a player is in proximity to a specific object (e.g., shopping eggs)",
+    "category": "UI",
+    "apis": [
+      "ProximityPrompt",
+      "BillboardGui",
+      "Magnitude"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "How To Master Roblox Scripting (Even If You're Lost!)",
+    "problem": "Debugging and optimizing code using documentation and AI assistants",
+    "category": "Scripting",
+    "apis": [
+      "task",
+      "ScriptContext"
+    ],
+    "difficulty": "intermediate",
+    "automatable": true
+  },
+  {
+    "video": "How To Master Roblox Scripting (Even If You're Lost!)",
+    "problem": "Constructing functional Tycoon systems with underlying logic understanding",
+    "category": "Scripting",
+    "apis": [
+      "Instance",
+      "DataStoreService",
+      "RemoteEvent"
+    ],
+    "difficulty": "intermediate",
+    "automatable": false
+  },
+  {
+    "video": "How To Master Roblox Scripting (Even If You're Lost!)",
+    "problem": "Monetizing developer skills and services on the platform",
+    "category": "Monetization",
+    "apis": [
+      "MarketplaceService"
+    ],
+    "difficulty": "advanced",
+    "automatable": false
+  },
+  {
+    "video": "How I Learned to Script on Roblox (My First EVER Game!)",
+    "problem": "Storing and retrieving player progress data",
+    "category": "DataStore",
+    "apis": [
+      "DataStoreService"
+    ],
+    "difficulty": "intermediate",
+    "automatable": true
+  },
+  {
+    "video": "How I Learned to Script on Roblox (My First EVER Game!)",
+    "problem": "Scripting custom camera movements and manipulation",
+    "category": "Scripting",
+    "apis": [
+      "Camera",
+      "Workspace.CurrentCamera"
+    ],
+    "difficulty": "intermediate",
+    "automatable": false
+  },
+  {
+    "video": "How I Learned to Script on Roblox (My First EVER Game!)",
+    "problem": "Accessing and interacting with the Roblox Catalog via APIs",
+    "category": "Networking",
+    "apis": [
+      "HttpService",
+      "InsertService"
+    ],
+    "difficulty": "advanced",
+    "automatable": false
+  },
+  {
+    "video": "How I Learned to Script on Roblox (My First EVER Game!)",
+    "problem": "Implementing background music and sound effects",
+    "category": "Audio",
+    "apis": [
+      "SoundService",
+      "Sound"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "How I Learned to Script on Roblox (My First EVER Game!)",
+    "problem": "Referencing object properties and methods via the API documentation",
+    "category": "Scripting",
+    "apis": [
+      "Instance"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "Did you know this secret of Lua functions? #short",
+    "problem": "Passing a variable number of arguments to a function using variadic parameters",
+    "category": "Scripting",
+    "apis": [
+      "table.pack"
+    ],
+    "difficulty": "intermediate",
+    "automatable": false
+  },
+  {
+    "video": "Why Roblox Studio is Confusing For Beginners",
+    "problem": "Grouping multiple parts into a single physical unit that moves together",
+    "category": "Physics",
+    "apis": [
+      "WeldConstraint",
+      "Model"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "Why Roblox Studio is Confusing For Beginners",
+    "problem": "Defining a reference point for a model using PrimaryPart",
+    "category": "3D Modeling",
+    "apis": [
+      "Model.PrimaryPart"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "Why Roblox Studio is Confusing For Beginners",
+    "problem": "Moving a model to a specific Vector3 coordinate using MoveTo",
+    "category": "Scripting",
+    "apis": [
+      "Model:MoveTo",
+      "Vector3"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "Why Roblox Studio is Confusing For Beginners",
+    "problem": "Preventing Model:MoveTo() from offsetting positions due to bounding box collisions",
+    "category": "Physics",
+    "apis": [
+      "Model:MoveTo",
+      "Model:PivotTo"
+    ],
+    "difficulty": "intermediate",
+    "automatable": true
+  },
+  {
+    "video": "Why Roblox Studio is Confusing For Beginners",
+    "problem": "Cloning a model and positioning it dynamically via script",
+    "category": "Scripting",
+    "apis": [
+      "Instance:Clone",
+      "Model:MoveTo"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "Making a Roblox Game Using ONLY AI Scripts",
+    "problem": "Generate functional game logic using the Roblox AI Assistant",
+    "category": "Scripting",
+    "apis": [
+      "Script",
+      "Roblox Assistant"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "Making a Roblox Game Using ONLY AI Scripts",
+    "problem": "Implement rapid game prototyping with AI-generated scripts",
+    "category": "Scripting",
+    "apis": [
+      "Workspace",
+      "Players"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "I Tried Learning Roblox Scripting",
+    "problem": "Create a script that instantiates a fire effect inside a specific part",
+    "category": "Scripting",
+    "apis": [
+      "Instance.new",
+      "Fire"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "I Tried Learning Roblox Scripting",
+    "problem": "Implement a repeating round system loop with a countdown timer",
+    "category": "Scripting",
+    "apis": [
+      "task.wait",
+      "ServerScriptService"
+    ],
+    "difficulty": "intermediate",
+    "automatable": true
+  },
+  {
+    "video": "I Tried Learning Roblox Scripting",
+    "problem": "Teleport all players in a server to a specific location (Lobby)",
+    "category": "Networking",
+    "apis": [
+      "Players:GetPlayers",
+      "HumanoidRootPart",
+      "CFrame"
+    ],
+    "difficulty": "intermediate",
+    "automatable": true
+  },
+  {
+    "video": "I Tried Learning Roblox Scripting",
+    "problem": "Program a part to move (crawl) a distance relative to its own size",
+    "category": "Physics",
+    "apis": [
+      "BasePart.Position",
+      "BasePart.Size",
+      "Vector3"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "I Tried Learning Roblox Scripting",
+    "problem": "Create a button-activated light system",
+    "category": "Scripting",
+    "apis": [
+      "ClickDetector",
+      "PointLight",
+      "BasePart.Material"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "The #1 MISTAKE Beginner Scripters Are Making...",
+    "problem": "Scripting a character transformation system similar to Super Saiyan",
+    "category": "Scripting",
+    "apis": [
+      "Humanoid",
+      "ParticleEmitter",
+      "Instance.new"
+    ],
+    "difficulty": "intermediate",
+    "automatable": false
+  },
+  {
+    "video": "The #1 MISTAKE Beginner Scripters Are Making...",
+    "problem": "Implementing Juggernaut-style combat mechanics",
+    "category": "Scripting",
+    "apis": [
+      "Humanoid",
+      "RemoteEvent"
+    ],
+    "difficulty": "advanced",
+    "automatable": false
+  },
+  {
+    "video": "The #1 MISTAKE Beginner Scripters Are Making...",
+    "problem": "Detecting objects or terrain in a specific direction using Raycasting",
+    "category": "Physics",
+    "apis": [
+      "WorldRoot:Raycast",
+      "RaycastParams"
+    ],
+    "difficulty": "advanced",
+    "automatable": false
+  },
+  {
+    "video": "The #1 MISTAKE Beginner Scripters Are Making...",
+    "problem": "Applying physical forces to characters or objects using Impulse",
+    "category": "Physics",
+    "apis": [
+      "BasePart:ApplyImpulse"
+    ],
+    "difficulty": "intermediate",
+    "automatable": false
+  },
+  {
+    "video": "The #1 MISTAKE Beginner Scripters Are Making...",
+    "problem": "Navigating and using the Roblox Studio Explorer and Properties panels",
+    "category": "Scripting",
+    "apis": [],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "How to Script in Roblox Studio: \ud83d\udc4b Introduction",
+    "problem": "Learn the essentials of scripting in Roblox Studio",
+    "category": "Scripting",
+    "apis": [
+      "Script"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "Best BEGINNER GUIDE to Scripting your FIRST Roblox Game!",
+    "problem": "Enable API services and third-party sales for monetization",
+    "category": "Monetization",
+    "apis": [
+      "API Services",
+      "Third Party Sales"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "Best BEGINNER GUIDE to Scripting your FIRST Roblox Game!",
+    "problem": "Create a player leaderboard system (leaderstats)",
+    "category": "Scripting",
+    "apis": [
+      "Players.PlayerAdded",
+      "Instance.new",
+      "NumberValue",
+      "Folder"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "Best BEGINNER GUIDE to Scripting your FIRST Roblox Game!",
+    "problem": "Generate currency automatically over time using a loop",
+    "category": "Scripting",
+    "apis": [
+      "wait",
+      "while loop"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "Best BEGINNER GUIDE to Scripting your FIRST Roblox Game!",
+    "problem": "Create a 3D button mesh for player interaction",
+    "category": "3D Modeling",
+    "apis": [
+      "Cylinder"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "How PRO Devs Set Up Roblox Games",
+    "problem": "Game logic becomes unmanageable and unscalable due to lack of organizational structure",
+    "category": "Scripting",
+    "apis": [
+      "ModuleScript"
+    ],
+    "difficulty": "intermediate",
+    "automatable": false
+  },
+  {
+    "video": "How PRO Devs Set Up Roblox Games",
+    "problem": "Preventing exploiters from accessing sensitive server-side game logic",
+    "category": "Scripting",
+    "apis": [
+      "ServerScriptService"
+    ],
+    "difficulty": "intermediate",
+    "automatable": false
+  },
+  {
+    "video": "How PRO Devs Set Up Roblox Games",
+    "problem": "Luau type checker failing to infer the correct type of 'self' in singleton module services",
+    "category": "Scripting",
+    "apis": [],
+    "difficulty": "advanced",
+    "automatable": false
+  },
+  {
+    "video": "How PRO Devs Set Up Roblox Games",
+    "problem": "Manual creation of RemoteEvents leading to messy hierarchy and name dependency",
+    "category": "Networking",
+    "apis": [
+      "RemoteEvent",
+      "RemoteFunction"
+    ],
+    "difficulty": "advanced",
+    "automatable": true
+  },
+  {
+    "video": "How PRO Devs Set Up Roblox Games",
+    "problem": "Synchronizing scripts between specialized folders (ReplicatedStorage vs ServerScriptService) while maintaining a unified local development environment",
+    "category": "Scripting",
+    "apis": [],
+    "difficulty": "advanced",
+    "automatable": true
+  },
+  {
+    "video": "How PRO Devs Set Up Roblox Games",
+    "problem": "Bootstrapping and initializing multiple game services in a specific order without yielding",
+    "category": "Scripting",
+    "apis": [
+      "StarterPlayerScripts"
+    ],
+    "difficulty": "intermediate",
+    "automatable": true
+  },
+  {
+    "video": "5 MISTAKES Beginner Roblox SCRIPTERS make...",
+    "problem": "Over-reliance on Toolboxes and free models instead of writing custom logic",
+    "category": "Scripting",
+    "apis": [],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "5 MISTAKES Beginner Roblox SCRIPTERS make...",
+    "problem": "Poor code readability due to lack of comments and inconsistent formatting",
+    "category": "Scripting",
+    "apis": [],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "5 MISTAKES Beginner Roblox SCRIPTERS make...",
+    "problem": "Identifying and fixing script syntax and runtime errors using the Output window",
+    "category": "Scripting",
+    "apis": [
+      "LogService"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "5 MISTAKES Beginner Roblox SCRIPTERS make...",
+    "problem": "Manual logic debugging when errors do not appear in the console",
+    "category": "Scripting",
+    "apis": [
+      "print"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "5 MISTAKES Beginner Roblox SCRIPTERS make...",
+    "problem": "Inefficient network communication using multiple RemoteEvents instead of a consolidated system",
+    "category": "Networking",
+    "apis": [
+      "RemoteEvent"
+    ],
+    "difficulty": "intermediate",
+    "automatable": false
+  },
+  {
+    "video": "5 MISTAKES Beginner Roblox SCRIPTERS make...",
+    "problem": "Code duplication and lack of modularity by not utilizing functions",
+    "category": "Scripting",
+    "apis": [],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "Explaining ModuleScripts As If You Were 5",
+    "problem": "Accessing and executing code from a ModuleScript in another script using require",
+    "category": "Scripting",
+    "apis": [
+      "require",
+      "ModuleScript"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "Explaining ModuleScripts As If You Were 5",
+    "problem": "Defining and exporting functions within a ModuleScript table",
+    "category": "Scripting",
+    "apis": [
+      "ModuleScript"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "Explaining ModuleScripts As If You Were 5",
+    "problem": "Sharing global variables across multiple scripts using a ModuleScript",
+    "category": "Scripting",
+    "apis": [
+      "ModuleScript"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "Explaining ModuleScripts As If You Were 5",
+    "problem": "Referencing ModuleScripts located in different service containers like ReplicatedStorage",
+    "category": "Scripting",
+    "apis": [
+      "game.ReplicatedStorage",
+      "require"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "Explaining ModuleScripts As If You Were 5",
+    "problem": "Storing multiple data types including nil and strings within a ModuleScript table",
+    "category": "Scripting",
+    "apis": [
+      "ModuleScript"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "3 Tips To Learn Roblox Scripting FAST!",
+    "problem": "Scripting multiple kill bricks individually leading to redundant code and maintenance difficulty",
+    "category": "Scripting",
+    "apis": [
+      "Humanoid.TakeDamage",
+      "BasePart.Touched",
+      "Instance.GetChildren"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "3 Tips To Learn Roblox Scripting FAST!",
+    "problem": "Lack of modularity causing developers to rewrite logic for every new script or game",
+    "category": "Scripting",
+    "apis": [
+      "ModuleScript",
+      "require"
+    ],
+    "difficulty": "intermediate",
+    "automatable": true
+  },
+  {
+    "video": "3 Tips To Learn Roblox Scripting FAST!",
+    "problem": "Automating behavior for new instances added to a specific container or folder",
+    "category": "Scripting",
+    "apis": [
+      "Instance.ChildAdded",
+      "CollectionService"
+    ],
+    "difficulty": "intermediate",
+    "automatable": true
+  },
+  {
+    "video": "3 Tips To Learn Roblox Scripting FAST!",
+    "problem": "Managing interconnected game systems rather than isolated one-off scripts",
+    "category": "Scripting",
+    "apis": [
+      "ModuleScript",
+      "BindableEvent",
+      "BindableFunction"
+    ],
+    "difficulty": "advanced",
+    "automatable": false
+  },
+  {
+    "video": "\ud83d\udd34\u26aa\u26ab Start Coding Like a Pro! \ud83d\ude80 | ROBLOX Lua Programming Series \ud83d\udda5\ufe0f",
+    "problem": "Learn basics of programming in Roblox Studio",
+    "category": "Scripting",
+    "apis": [],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "How to use module scripts on Roblox",
+    "problem": "Reuse code between different scripts to avoid duplication and maintenance errors",
+    "category": "Scripting",
+    "apis": [
+      "ModuleScript",
+      "require"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "How to use module scripts on Roblox",
+    "problem": "Centralize configuration values for multiple game objects",
+    "category": "Scripting",
+    "apis": [
+      "ModuleScript",
+      "ReplicatedStorage",
+      "require"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "How to use module scripts on Roblox",
+    "problem": "Synchronize shared state or variables across multiple scripts in the same environment",
+    "category": "Scripting",
+    "apis": [
+      "ModuleScript",
+      "require"
+    ],
+    "difficulty": "intermediate",
+    "automatable": false
+  },
+  {
+    "video": "How to use module scripts on Roblox",
+    "problem": "Modify shared module values dynamically at runtime to affect multiple listeners",
+    "category": "Scripting",
+    "apis": [
+      "RunService.Heartbeat",
+      "require"
+    ],
+    "difficulty": "intermediate",
+    "automatable": false
+  },
+  {
+    "video": "How to use module scripts on Roblox",
+    "problem": "Organize reusable utility functions into a library",
+    "category": "Scripting",
+    "apis": [
+      "ModuleScript"
+    ],
+    "difficulty": "intermediate",
+    "automatable": false
+  },
+  {
+    "video": "All Of Roblox Lua (Luau) in 21 Minutes",
+    "problem": "Declaring local vs global variables to ensure memory efficiency and scope safety",
+    "category": "Scripting",
+    "apis": [],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "All Of Roblox Lua (Luau) in 21 Minutes",
+    "problem": "Performing arithmetic operations including modulus and exponentiation in Luau",
+    "category": "Scripting",
+    "apis": [
+      "print"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "All Of Roblox Lua (Luau) in 21 Minutes",
+    "problem": "Manipulating string data through concatenation and slicing",
+    "category": "Scripting",
+    "apis": [
+      "string.sub"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "All Of Roblox Lua (Luau) in 21 Minutes",
+    "problem": "Evaluating conditions using relational operators and boolean logic",
+    "category": "Scripting",
+    "apis": [],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "All Of Roblox Lua (Luau) in 21 Minutes",
+    "problem": "Managing conditional control flow with if, else, and elseif blocks",
+    "category": "Scripting",
+    "apis": [],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "All Of Roblox Lua (Luau) in 21 Minutes",
+    "problem": "Comparing memory references versus values for complex data types like tables and functions",
+    "category": "Scripting",
+    "apis": [],
+    "difficulty": "intermediate",
+    "automatable": false
+  },
+  {
+    "video": "Raycasting (Guns, Visualizers, Shapecasts) - Roblox Advanced Scripting #37 (2025)",
+    "problem": "Calculate a raycast from a specific origin part in a defined direction",
+    "category": "Scripting",
+    "apis": [
+      "WorldRoot:Raycast",
+      "Vector3"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "Raycasting (Guns, Visualizers, Shapecasts) - Roblox Advanced Scripting #37 (2025)",
+    "problem": "Detect if a player character is standing directly in front of an automated turret",
+    "category": "Scripting",
+    "apis": [
+      "WorldRoot:Raycast",
+      "RaycastParams"
+    ],
+    "difficulty": "intermediate",
+    "automatable": false
+  },
+  {
+    "video": "Raycasting (Guns, Visualizers, Shapecasts) - Roblox Advanced Scripting #37 (2025)",
+    "problem": "Map a player's mouse click to a 3D world position for a placement system",
+    "category": "Scripting",
+    "apis": [
+      "PlayerMouse",
+      "Camera:ViewportPointToRay",
+      "WorldRoot:Raycast"
+    ],
+    "difficulty": "intermediate",
+    "automatable": true
+  },
+  {
+    "video": "Raycasting (Guns, Visualizers, Shapecasts) - Roblox Advanced Scripting #37 (2025)",
+    "problem": "Implement projectile hit detection for gun systems using invisible lines",
+    "category": "Physics",
+    "apis": [
+      "WorldRoot:Raycast",
+      "RaycastResult"
+    ],
+    "difficulty": "intermediate",
+    "automatable": true
+  },
+  {
+    "video": "Raycasting (Guns, Visualizers, Shapecasts) - Roblox Advanced Scripting #37 (2025)",
+    "problem": "Create a sword hitbox system to detect player hits during combat",
+    "category": "Physics",
+    "apis": [
+      "WorldRoot:Raycast",
+      "RunService"
+    ],
+    "difficulty": "advanced",
+    "automatable": false
+  },
+  {
+    "video": "The EASIEST Beginner's Guide to ROBLOX Scripting! (2025)",
+    "problem": "Outputting messages and debugging information to the console",
+    "category": "Scripting",
+    "apis": [
+      "print"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "The EASIEST Beginner's Guide to ROBLOX Scripting! (2025)",
+    "problem": "Navigating the DataModel hierarchy to reference specific parts",
+    "category": "Scripting",
+    "apis": [
+      "game",
+      "Workspace"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "The EASIEST Beginner's Guide to ROBLOX Scripting! (2025)",
+    "problem": "Modifying object visibility and transparency via script",
+    "category": "Scripting",
+    "apis": [
+      "BasePart.Transparency"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "The EASIEST Beginner's Guide to ROBLOX Scripting! (2025)",
+    "problem": "Controlling physical gravity behavior of parts using anchoring",
+    "category": "Physics",
+    "apis": [
+      "BasePart.Anchored"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "The EASIEST Beginner's Guide to ROBLOX Scripting! (2025)",
+    "problem": "Storing and referencing data types using local variables",
+    "category": "Scripting",
+    "apis": [
+      "local"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "how to script in roblox studio! \u2693 #shorts #RobloxStudio",
+    "problem": "Prevent parts from falling or moving when the game physics start",
+    "category": "Physics",
+    "apis": [
+      "BasePart.Anchored"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "how to script in roblox studio! \u2693 #shorts #RobloxStudio",
+    "problem": "Toggle part anchoring using a Luau script",
+    "category": "Scripting",
+    "apis": [
+      "BasePart.Anchored"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "I Spent 24 HOURS Learning Scripting In Roblox",
+    "problem": "Spawn a part dynamically using code",
+    "category": "Scripting",
+    "apis": [
+      "Instance.new"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "I Spent 24 HOURS Learning Scripting In Roblox",
+    "problem": "Prevent parts from falling through the world after spawning",
+    "category": "Physics",
+    "apis": [
+      "BasePart.Anchored"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "I Spent 24 HOURS Learning Scripting In Roblox",
+    "problem": "Define 3D coordinates and dimensions for parts via script",
+    "category": "Scripting",
+    "apis": [
+      "Vector3.new",
+      "BasePart.Position",
+      "BasePart.Size"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "I Spent 24 HOURS Learning Scripting In Roblox",
+    "problem": "Detect when a player interacts with an object",
+    "category": "Scripting",
+    "apis": [
+      "BasePart.Touched"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "I Spent 24 HOURS Learning Scripting In Roblox",
+    "problem": "Remove existing environment objects like the Baseplate via script",
+    "category": "Scripting",
+    "apis": [
+      "Instance:Destroy"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "I Spent 24 HOURS Learning Scripting In Roblox",
+    "problem": "Consolidate multiple scripts into a centralized system for performance",
+    "category": "Scripting",
+    "apis": [],
+    "difficulty": "intermediate",
+    "automatable": true
+  },
+  {
+    "video": "I Spent 24 HOURS Learning Scripting In Roblox",
+    "problem": "Implement a checkpoint system entirely through code",
+    "category": "Scripting",
+    "apis": [
+      "SpawnLocation",
+      "Teams"
+    ],
+    "difficulty": "intermediate",
+    "automatable": true
+  },
+  {
+    "video": "I Spent 24 HOURS Learning Scripting In Roblox",
+    "problem": "Calculate relative stud measurements and center points for alignment",
+    "category": "Scripting",
+    "apis": [
+      "CFrame",
+      "BasePart.Position"
+    ],
+    "difficulty": "intermediate",
+    "automatable": true
+  },
+  {
+    "video": "How to Execute Scripts with Delta Executor | Roblox Script Guide (2025)",
+    "problem": "Execute dynamic Lua code strings during runtime",
+    "category": "Scripting",
+    "apis": [
+      "loadstring"
+    ],
+    "difficulty": "intermediate",
+    "automatable": false
+  },
+  {
+    "video": "How to Execute Scripts with Delta Executor | Roblox Script Guide (2025)",
+    "problem": "Create a UI text input system for pasting and naming scripts",
+    "category": "UI",
+    "apis": [
+      "TextBox",
+      "TextButton",
+      "ScreenGui"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "How to Execute Scripts with Delta Executor | Roblox Script Guide (2025)",
+    "problem": "Implement a script library or management system to save and retrieve code blocks",
+    "category": "Scripting",
+    "apis": [
+      "DataStoreService"
+    ],
+    "difficulty": "intermediate",
+    "automatable": false
+  },
+  {
+    "video": "You CAN Script. Let me PROVE IT to you.. (Part 2)",
+    "problem": "Create a new part instance and parent it to the workspace via script",
+    "category": "Scripting",
+    "apis": [
+      "Instance.new",
+      "Workspace"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "You CAN Script. Let me PROVE IT to you.. (Part 2)",
+    "problem": "Change the geometric shape of a part to a sphere (ball)",
+    "category": "Scripting",
+    "apis": [
+      "Part.Shape",
+      "Enum.PartType"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "You CAN Script. Let me PROVE IT to you.. (Part 2)",
+    "problem": "Modify the color of a part using the BrickColor system",
+    "category": "Scripting",
+    "apis": [
+      "Part.BrickColor",
+      "BrickColor.new"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "You CAN Script. Let me PROVE IT to you.. (Part 2)",
+    "problem": "Set a part's 3D coordinates using Vector3",
+    "category": "Scripting",
+    "apis": [
+      "Part.Position",
+      "Vector3.new"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "You CAN Script. Let me PROVE IT to you.. (Part 2)",
+    "problem": "Adjust the scale or dimensions of a part using Vector3",
+    "category": "Scripting",
+    "apis": [
+      "Part.Size",
+      "Vector3.new"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "I Learned How To SCRIPT In 24 HOURS | Roblox",
+    "problem": "Create a main menu for a game",
+    "category": "UI",
+    "apis": [
+      "ScreenGui",
+      "TextButton",
+      "MouseButton1Click"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "I Learned How To SCRIPT In 24 HOURS | Roblox",
+    "problem": "Delete a part when it is touched",
+    "category": "Scripting",
+    "apis": [
+      "BasePart.Touched",
+      "Instance:Destroy"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "I Learned How To SCRIPT In 24 HOURS | Roblox",
+    "problem": "Create disappearing tiles for a hexagon-style survival game",
+    "category": "Scripting",
+    "apis": [
+      "BasePart.Touched",
+      "task.wait",
+      "BasePart.Transparency",
+      "BasePart.CanCollide"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "I Learned How To SCRIPT In 24 HOURS | Roblox",
+    "problem": "Change a part's size dynamically via a function",
+    "category": "Scripting",
+    "apis": [
+      "BasePart.Size",
+      "Vector3"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "I Learned How To SCRIPT In 24 HOURS | Roblox",
+    "problem": "Make an object flicker its visual properties when touched",
+    "category": "Scripting",
+    "apis": [
+      "BasePart.Touched",
+      "BasePart.Transparency",
+      "while loops"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "I Learned How To SCRIPT In 24 HOURS | Roblox",
+    "problem": "Create a wall displaying friend avatars",
+    "category": "Scripting",
+    "apis": [
+      "Players:GetCharacterAppearanceInfoAsync",
+      "Players:GetHumanoidDescriptionFromUserId"
+    ],
+    "difficulty": "intermediate",
+    "automatable": false
+  },
+  {
+    "video": "Why YOU Need A Module Loader | Roblox Studio",
+    "problem": "Workspace disorganization and script clutter from excessive use of standard Scripts and LocalScripts",
+    "category": "Scripting",
+    "apis": [
+      "Script",
+      "LocalScript"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "Why YOU Need A Module Loader | Roblox Studio",
+    "problem": "Executing logic inside ModuleScripts which do not run by default on game start",
+    "category": "Scripting",
+    "apis": [
+      "require",
+      "ModuleScript"
+    ],
+    "difficulty": "intermediate",
+    "automatable": true
+  },
+  {
+    "video": "Why YOU Need A Module Loader | Roblox Studio",
+    "problem": "Communicating between logic modules without the use of BindableEvents",
+    "category": "Scripting",
+    "apis": [
+      "BindableEvent",
+      "ModuleScript"
+    ],
+    "difficulty": "intermediate",
+    "automatable": true
+  },
+  {
+    "video": "Why YOU Need A Module Loader | Roblox Studio",
+    "problem": "Architecting specific server, client, and shared code execution environments",
+    "category": "Scripting",
+    "apis": [
+      "ServerScriptService",
+      "ReplicatedFirst",
+      "ReplicatedStorage"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "5 Mistakes to Avoid when you\u2019re learning to Script on Roblox Studio",
+    "problem": "Implementing fundamental Luau syntax including Loops, Variables, and Functions",
+    "category": "Scripting",
+    "apis": [
+      "task",
+      "math",
+      "table"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "5 Mistakes to Avoid when you\u2019re learning to Script on Roblox Studio",
+    "problem": "Debugging logic errors and script failures in custom code",
+    "category": "Scripting",
+    "apis": [
+      "print",
+      "warn",
+      "error",
+      "LogService"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "5 Mistakes to Avoid when you\u2019re learning to Script on Roblox Studio",
+    "problem": "Optimizing code execution to avoid 'unoptimized' patterns often found in low-quality tutorials",
+    "category": "Scripting",
+    "apis": [
+      "RunService",
+      "task.wait",
+      "task.defer"
+    ],
+    "difficulty": "intermediate",
+    "automatable": true
+  },
+  {
+    "video": "5 Mistakes to Avoid when you\u2019re learning to Script on Roblox Studio",
+    "problem": "Navigating and applying the official Roblox Documentation for engine-specific services",
+    "category": "Scripting",
+    "apis": [
+      "game.GetService",
+      "Instance"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "5 Mistakes to Avoid when you\u2019re learning to Script on Roblox Studio",
+    "problem": "Constructing independent script logic without direct reliance on tutorial code step-by-step",
+    "category": "Scripting",
+    "apis": [
+      "Script",
+      "LocalScript",
+      "ModuleScript"
+    ],
+    "difficulty": "intermediate",
+    "automatable": false
+  },
+  {
+    "video": "Why You Can't Learn Scripting No Matter WHAT You Do!",
+    "problem": "Writing scripts from scratch based on logic rather than memorized patterns",
+    "category": "Scripting",
+    "apis": [
+      "Instance",
+      "Events"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "Why You Can't Learn Scripting No Matter WHAT You Do!",
+    "problem": "Analyzing script execution logic and function purpose within existing codebases",
+    "category": "Scripting",
+    "apis": [
+      "Functions",
+      "LogService"
+    ],
+    "difficulty": "intermediate",
+    "automatable": false
+  },
+  {
+    "video": "Why You Can't Learn Scripting No Matter WHAT You Do!",
+    "problem": "Deconstructing and refactoring scripts from free models to understand line-by-line functionality",
+    "category": "Scripting",
+    "apis": [
+      "Script",
+      "ModuleScript"
+    ],
+    "difficulty": "intermediate",
+    "automatable": false
+  },
+  {
+    "video": "Why You Can't Learn Scripting No Matter WHAT You Do!",
+    "problem": "Modifying and experimenting with core code parameters to observe behavioral changes",
+    "category": "Scripting",
+    "apis": [
+      "Variables",
+      "Properties"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "Why You Can't Learn Scripting No Matter WHAT You Do!",
+    "problem": "Identifying and mastering the most essential 20% of scripting concepts for game development",
+    "category": "Scripting",
+    "apis": [
+      "RunService",
+      "Task",
+      "Events"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "Why You Can't Learn Scripting No Matter WHAT You Do!",
+    "problem": "Converting developed scripting skills into revenue-generating assets",
+    "category": "Monetization",
+    "apis": [
+      "MarketplaceService"
+    ],
+    "difficulty": "intermediate",
+    "automatable": false
+  },
+  {
+    "video": "All types of scripts in roblox studio explained! #roblox  #scripting  #tutorial",
+    "problem": "Manage global game logic and synchronize player data across the server",
+    "category": "DataStore",
+    "apis": [
+      "DataStoreService",
+      "Players"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "All types of scripts in roblox studio explained! #roblox  #scripting  #tutorial",
+    "problem": "Control client-side UI elements and local visual effects",
+    "category": "UI",
+    "apis": [
+      "PlayerGui",
+      "ScreenGui"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "All types of scripts in roblox studio explained! #roblox  #scripting  #tutorial",
+    "problem": "Manipulate the player's camera perspective",
+    "category": "Scripting",
+    "apis": [
+      "Camera",
+      "Workspace.CurrentCamera"
+    ],
+    "difficulty": "intermediate",
+    "automatable": false
+  },
+  {
+    "video": "All types of scripts in roblox studio explained! #roblox  #scripting  #tutorial",
+    "problem": "Detect and respond to local player input events",
+    "category": "Scripting",
+    "apis": [
+      "UserInputService",
+      "ContextActionService"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "All types of scripts in roblox studio explained! #roblox  #scripting  #tutorial",
+    "problem": "Organize reusable functions and data for code modularity",
+    "category": "Scripting",
+    "apis": [
+      "ModuleScript",
+      "require"
+    ],
+    "difficulty": "intermediate",
+    "automatable": true
+  },
+  {
+    "video": "Mastering This Gives You HACKS In Scripting",
+    "problem": "Make character invisible when touching a part",
+    "category": "Scripting",
+    "apis": [
+      "BasePart.Touched",
+      "Instance:FindFirstChild",
+      "BasePart.Transparency"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "Mastering This Gives You HACKS In Scripting",
+    "problem": "Identify where code execution stops using print debugging",
+    "category": "Scripting",
+    "apis": [
+      "print"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "Mastering This Gives You HACKS In Scripting",
+    "problem": "Handle Instance:FindFirstChild failures caused by string typos or whitespace",
+    "category": "Scripting",
+    "apis": [
+      "Instance:FindFirstChild"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "Mastering This Gives You HACKS In Scripting",
+    "problem": "Iterate through character body parts to modify appearance",
+    "category": "Scripting",
+    "apis": [
+      "Instance:GetChildren",
+      "BasePart.Transparency"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "How to USE the Roblox Documentation to Learn Scripting (How to learn to use it)",
+    "problem": "Replacing legacy wait() functions with the modern task library for better performance",
+    "category": "Scripting",
+    "apis": [
+      "task.wait"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "How to USE the Roblox Documentation to Learn Scripting (How to learn to use it)",
+    "problem": "Detecting when a player or object physically interacts with a part",
+    "category": "Scripting",
+    "apis": [
+      "BasePart.Touched"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "How to USE the Roblox Documentation to Learn Scripting (How to learn to use it)",
+    "problem": "Navigating the Engine API to distinguish between useful class properties and irrelevant information",
+    "category": "Scripting",
+    "apis": [
+      "Engine API"
+    ],
+    "difficulty": "intermediate",
+    "automatable": false
+  },
+  {
+    "video": "How to USE the Roblox Documentation to Learn Scripting (How to learn to use it)",
+    "problem": "Identifying and implementing basic coding constructs such as variables and functions",
+    "category": "Scripting",
+    "apis": [
+      "Global"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "I Learned Roblox SCRIPTING In Only 7 Days",
+    "problem": "Change Humanoid properties when a player joins the game",
+    "category": "Scripting",
+    "apis": [
+      "Players.PlayerAdded",
+      "CharacterAppearanceLoaded",
+      "Humanoid"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "I Learned Roblox SCRIPTING In Only 7 Days",
+    "problem": "Increment JumpPower for all active players using a timed loop",
+    "category": "Scripting",
+    "apis": [
+      "Players:GetPlayers",
+      "Humanoid.JumpPower",
+      "task.wait"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "I Learned Roblox SCRIPTING In Only 7 Days",
+    "problem": "Create a UI display that updates to show current player stats",
+    "category": "UI",
+    "apis": [
+      "ScreenGui",
+      "TextLabel",
+      "GetPropertyChangedSignal"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "I Learned Roblox SCRIPTING In Only 7 Days",
+    "problem": "Modify object properties using ClickDetector interactions",
+    "category": "Scripting",
+    "apis": [
+      "ClickDetector.MouseClick"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "I Learned Roblox SCRIPTING In Only 7 Days",
+    "problem": "Change part transparency based on mouse hover state",
+    "category": "Scripting",
+    "apis": [
+      "ClickDetector.MouseHoverEnter",
+      "ClickDetector.MouseHoverLeave"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "I Learned Roblox SCRIPTING In Only 7 Days",
+    "problem": "Spawn parts at randomized positions using functions and Vector3",
+    "category": "Scripting",
+    "apis": [
+      "Instance.new",
+      "math.random",
+      "Vector3"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "I Learned Roblox SCRIPTING In Only 7 Days",
+    "problem": "Identify a player through character collision detection",
+    "category": "Scripting",
+    "apis": [
+      "BasePart.Touched",
+      "Players:GetPlayerFromCharacter"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "I Learned Roblox SCRIPTING In Only 7 Days",
+    "problem": "Sync client actions to the server to modify workspace parts",
+    "category": "Networking",
+    "apis": [
+      "RemoteEvent",
+      "RemoteEvent.OnServerEvent",
+      "RemoteEvent:FireServer"
+    ],
+    "difficulty": "intermediate",
+    "automatable": false
+  },
+  {
+    "video": "I Learned Roblox SCRIPTING In Only 7 Days",
+    "problem": "Create a shift-to-sprint system by modifying WalkSpeed",
+    "category": "Scripting",
+    "apis": [
+      "UserInputService",
+      "Humanoid.WalkSpeed"
+    ],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "I Learned Roblox SCRIPTING In Only 7 Days",
+    "problem": "Animate UI size and color based on mouse enter and leave events",
+    "category": "UI",
+    "apis": [
+      "GuiObject.MouseEnter",
+      "GuiObject.MouseLeave",
+      "GuiObject.BackgroundColor3",
+      "GuiObject.Size"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "I Learned Roblox SCRIPTING In Only 7 Days",
+    "problem": "Play sound effects during UI button interactions",
+    "category": "Audio",
+    "apis": [
+      "Sound:Play"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "I Learned Roblox SCRIPTING In Only 7 Days",
+    "problem": "Implement a probability-based event trigger using math.random",
+    "category": "Scripting",
+    "apis": [
+      "math.random"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "Roblox Scripting Tutorial for Beginners: The Fundamentals",
+    "problem": "Setting up Roblox Studio interface panels for scripting",
+    "category": "Scripting",
+    "apis": [],
+    "difficulty": "beginner",
+    "automatable": false
+  },
+  {
+    "video": "Roblox Scripting Tutorial for Beginners: The Fundamentals",
+    "problem": "Storing and printing basic data types (numbers, strings, booleans) in local variables",
+    "category": "Scripting",
+    "apis": [
+      "print"
+    ],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "Roblox Scripting Tutorial for Beginners: The Fundamentals",
+    "problem": "Updating numerical variable values using arithmetic shorthand operators",
+    "category": "Scripting",
+    "apis": [],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "Roblox Scripting Tutorial for Beginners: The Fundamentals",
+    "problem": "Joining multiple string values using concatenation and compound assignment",
+    "category": "Scripting",
+    "apis": [],
+    "difficulty": "beginner",
+    "automatable": true
+  },
+  {
+    "video": "Roblox Scripting Tutorial for Beginners: The Fundamentals",
+    "problem": "Implementing a level-up logic system using if-statements and conditional checks",
+    "category": "Scripting",
+    "apis": [],
+    "difficulty": "beginner",
+    "automatable": true
+  }
+]

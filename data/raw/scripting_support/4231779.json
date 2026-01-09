@@ -1,0 +1,61 @@
+{
+  "id": 4231779,
+  "title": "Other uses of metatables",
+  "slug": "other-uses-of-metatables",
+  "url": "https://devforum.roblox.com/t/other-uses-of-metatables/4231779",
+  "category_id": 55,
+  "category_name": "Scripting Support",
+  "created_at": "2026-01-08T17:22:12.995Z",
+  "last_posted_at": "2026-01-08T18:49:28.407Z",
+  "views": 74,
+  "reply_count": 1,
+  "like_count": 3,
+  "tags": [],
+  "posts": [
+    {
+      "id": 13661116,
+      "username": "SrGolos",
+      "content_raw": "",
+      "content_html": "<p>I see many people talking about metatables only when they talk about OOP, and I want to know what other uses they have besides OOP</p>",
+      "created_at": "2026-01-08T17:22:13.276Z",
+      "likes": 0,
+      "post_number": 1
+    },
+    {
+      "id": 13661183,
+      "username": "cakeycocoa",
+      "content_raw": "",
+      "content_html": "<p>This list of metamethods gives a good idea of what you can do with them:<br>\n<a href=\"https://create.roblox.com/docs/luau/metatables#metamethods\" class=\"onebox\" target=\"_blank\" rel=\"noopener\">https://create.roblox.com/docs/luau/metatables#metamethods</a><br>\n(there are also examples below the list)</p>\n<p>Aside from OOP I’ve personally only used them to track whenever an element is added or removed from a table. As far as I am aware you don’t need metatables to accomplish anything special as there is always another way to do it, it just helps it make look good.</p>",
+      "created_at": "2026-01-08T17:33:16.558Z",
+      "likes": 0,
+      "post_number": 2
+    },
+    {
+      "id": 13661538,
+      "username": "af_2048",
+      "content_raw": "",
+      "content_html": "<p>Once I had a table with tool properties as a module script:</p>\n<pre data-code-wrap=\"lua\"><code class=\"lang-lua\">local module : { [Tool] : tool_props } = { --[[ table initialization ]]-- }\nreturn module\n</code></pre>\n<p>and i used it in gazillion places like</p>\n<pre data-code-wrap=\"lua\"><code class=\"lang-lua\">local tools_prop = require(--[[that_module]]--)\nlocal tool_props = tools_prop[tool]\n</code></pre>\n<p>when i moved to server side implementation i realized that server does not have tools.<br>\nand decided to change table type to<br>\n<code>local module : { [string --[[ tool name ]]--] : tool_props }</code></p>\n<p>i almost started changing that gazillion places from <code>tools_data[tool]</code> to <code>tools_data[tool.Name]</code><br>\nbut added metatable to the table instead:</p>\n<pre data-code-wrap=\"lua\"><code class=\"lang-lua\">__index = function(table : any, index : Object)\n\tassert(index:IsA(\"Tool\"))\n\treturn table[index.Name]\nend,\n</code></pre>",
+      "created_at": "2026-01-08T18:13:23.180Z",
+      "likes": 0,
+      "post_number": 3
+    },
+    {
+      "id": 13661784,
+      "username": "tlr22",
+      "content_raw": "",
+      "content_html": "<p>I use them to intercept some function calls in my geometry debug tools.  So that my code can run debug commands immediately, but instead of actually running those functions to draw parts the metatable intercepts the calls and stores them in a command list.  Due to my other sorting affects it lets me only actually draw those parts when I want to and am trying to debug so it doesn’t affect performance unless I am actively looking at the output of that part.  I also have systems that let me skip to other sections so I can run only the relevant debug draws (generally parts I create to show some of the math and invisible parts of my code).</p>",
+      "created_at": "2026-01-08T18:43:41.339Z",
+      "likes": 0,
+      "post_number": 4
+    },
+    {
+      "id": 13661826,
+      "username": "Denneisk",
+      "content_raw": "",
+      "content_html": "<p>Nearly anything you can do with a metatable can be done by hand without one, but metatables are nice because they simplify the interface so you don’t have to explicitly write down all the work.</p>\n<p>The only thing you <em>can’t</em> do without a metatable is have more “precise” memory management—that’s the <code>__mode</code> key. If you want to keep a reference to some data but still want it to be garbage collected, your only option is to use a table with <code>__mode</code> having a string containing <code>v</code> (or <code>k</code>, if the key is GC-able). An example would be storing a list of threads you’ve created so you can cancel them all if you need to, but not wanting to keep them in memory if they end normally. For weak-keyed tables, you could think of a look-up table where each key is a Player that corresponds to some data about them.</p>\n<p>In addition to weak keys/values, Luau also allows <code>s</code> in <code>__mode</code> which means a table can shrink itself during garbage collection. If you have a table that usually contains 100 elements, but during specific moments it might grow to something like 1,000, then this is super useful for saving memory. You could even use it a bit more liberally on any table, but you’ll incur performance penalties from constant resizing.</p>\n<p><a href=\"https://www.reddit.com/r/lua/comments/1ofsgd0/what_are_less_common_uses_for_metatables/\" rel=\"noopener nofollow ugc\">This Reddit thread</a> also mentions some uses, but I also like to show off <a href=\"https://gist.github.com/Denneisk/3db8e1c6e49a7e2d10983f1609ad1580\" rel=\"noopener nofollow ugc\">some useless things it can do</a>, too.</p>",
+      "created_at": "2026-01-08T18:49:28.407Z",
+      "likes": 0,
+      "post_number": 5
+    }
+  ]
+}

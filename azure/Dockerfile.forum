@@ -1,0 +1,12 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+RUN pip install --no-cache-dir \
+    requests \
+    azure-storage-blob \
+    google-genai
+
+COPY cloud_scraper.py .
+
+CMD ["python", "cloud_scraper.py"]

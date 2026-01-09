@@ -1,0 +1,45 @@
+{
+  "id": 4232117,
+  "title": "Experience play issue",
+  "slug": "experience-play-issue",
+  "url": "https://devforum.roblox.com/t/experience-play-issue/4232117",
+  "category_id": 55,
+  "category_name": "Scripting Support",
+  "created_at": "2026-01-08T18:43:28.682Z",
+  "last_posted_at": "2026-01-08T19:54:06.895Z",
+  "views": 27,
+  "reply_count": 1,
+  "like_count": 2,
+  "tags": [
+    "game"
+  ],
+  "posts": [
+    {
+      "id": 13661781,
+      "username": "fjolledfar01",
+      "content_raw": "",
+      "content_html": "<p>Hi! I am still developing at my bowling game. But now, I have recently experienced a new issue with the game: It loads like it should, and I it worked like usual until yesterday when I added a new GUI which is going to be a guidebook. By then, when I’ trying to run the game, I’ll be in the game for up to 1 min, then I am suddenly kicked out, and I get this message: “Disconnected. The server has shut down.”.<br>\nI have tried to revert to an older version, that did work, but as soon as I revert it back to the newest, it goes back to keep kicking me out. I think it is something with the new guidebook or something. It is maybe due to a new image I imported it doesn’t work.<br>\nAnyways, except that, I haven’t tried anything but publish the game as another game.  <img src=\"/images/emoji/twitter/enraged_face.png?v=14\" title=\":enraged_face:\" class=\"emoji\" alt=\":enraged_face:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>\n<p>Here is the image:<br>\n<img src=\"/secure-uploads/uploads/original/5X/0/7/0/d/070d8e84d71f1b8b173c49452197a4cf114b194b.jpeg\" alt=\"IMG_2449\" data-base62-sha1=\"10oo1f1BK1x4iWQSoXVNxIcRWt5\" width=\"375\" height=\"500\"></p>",
+      "created_at": "2026-01-08T18:43:28.951Z",
+      "likes": 0,
+      "post_number": 1
+    },
+    {
+      "id": 13662062,
+      "username": "Maratyla10",
+      "content_raw": "",
+      "content_html": "<p>Did you use toolbox to do the GUIs? If so, check for the viruses in the GUI’s scripts to make sure they aren’t shutting down your servers</p>",
+      "created_at": "2026-01-08T19:24:03.754Z",
+      "likes": 0,
+      "post_number": 2
+    },
+    {
+      "id": 13662339,
+      "username": "fjolledfar01",
+      "content_raw": "",
+      "content_html": "<p>No. I did not use toolbox- GUIs. I made them by myself. The only thing I did was to import a decal from the asset manager.</p>",
+      "created_at": "2026-01-08T19:54:06.895Z",
+      "likes": 0,
+      "post_number": 3
+    }
+  ]
+}

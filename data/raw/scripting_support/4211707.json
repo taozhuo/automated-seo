@@ -1,0 +1,47 @@
+{
+  "id": 4211707,
+  "title": "How to start freecam on a phone?",
+  "slug": "how-to-start-freecam-on-a-phone",
+  "url": "https://devforum.roblox.com/t/how-to-start-freecam-on-a-phone/4211707",
+  "category_id": 55,
+  "category_name": "Scripting Support",
+  "created_at": "2026-01-03T11:12:57.007Z",
+  "last_posted_at": "2026-01-08T14:56:57.679Z",
+  "views": 78,
+  "reply_count": 1,
+  "like_count": 1,
+  "tags": [
+    "gui",
+    "ui",
+    "free-camera-mode"
+  ],
+  "posts": [
+    {
+      "id": 13621669,
+      "username": "Soltyraici",
+      "content_raw": "",
+      "content_html": "<p>First, my English isn’t great, so I’ll be using translation tools, and my English might sound a bit off sometimes.</p>\n<p>On PC, you can activate the official Roblox developer’s Freecam by pressing the Shift and P keys simultaneously.<br>\nHowever, looking at the script, it seems likely that it’s also possible on mobile devices. (This is because the control method mentions thumbsticks.)<br>\nSo, how can you use Freecam on a mobile phone? Or is it not possible?</p>",
+      "created_at": "2026-01-03T11:12:57.265Z",
+      "likes": 0,
+      "post_number": 1
+    },
+    {
+      "id": 13622133,
+      "username": "speedruner1414",
+      "content_raw": "",
+      "content_html": "<p>Hi! To enable freecam on mobile, you’ll first need to grab the Freecam Gui from the Player. If you take a closer look, you’ll see that the FreecamScript actually has an attribute called <strong>FreecamEnabled</strong> to it. All you need to do is add a <strong>TextButton</strong>- or script your custom behaviour when you want to toggle it.</p>\n<p>After that, you can add this function which will help you enable it:</p>\n<pre data-code-wrap=\"lua\"><code class=\"lang-lua\">local Player = game:GetService(\"Players\").LocalPlayer\nlocal PlayerGui = Player.PlayerGui\nlocal Freecam = PlayerGui:WaitForChild(\"Freecam\")\nlocal FreecamScript = Freecam:WaitForChild(\"FreecamScript\") -- The refrence to the Freecam Script.\n\nlocal function ToggleFreecam()\nFreecamScript:SetAttribute(\"FreecamEnabled\", not FreecamScript:GetAttribute(\"FreecamEnabled\"))\nend\n</code></pre>\n<p><em>Note: This has to be inside a LocalScript, so if you’re doing it from the Server use a RemoteEvent</em></p>\n<p>Aditionally, if your Freecam is toggled by a TextButton or an ImageButton, consider adding a task.wait() and setting your GUI’s Enabled property to true.</p>\n<p>Hope this helps. If you have any more questions feel free to ask. <img src=\"https://doy2mn9upadnk.cloudfront.net/images/emoji/twitter/slightly_smiling_face.png?v=14\" title=\":slightly_smiling_face:\" class=\"emoji\" alt=\":slightly_smiling_face:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>",
+      "created_at": "2026-01-03T13:20:42.920Z",
+      "likes": 0,
+      "post_number": 2
+    },
+    {
+      "id": 13660137,
+      "username": "Soltyraici",
+      "content_raw": "",
+      "content_html": "<p>Sorry for the late reply. I’ll try!</p>",
+      "created_at": "2026-01-08T14:56:57.679Z",
+      "likes": 0,
+      "post_number": 3
+    }
+  ]
+}

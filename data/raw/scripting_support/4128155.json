@@ -1,0 +1,97 @@
+{
+  "id": 4128155,
+  "title": "Monster PathFinding Issues",
+  "slug": "monster-pathfinding-issues",
+  "url": "https://devforum.roblox.com/t/monster-pathfinding-issues/4128155",
+  "category_id": 55,
+  "category_name": "Scripting Support",
+  "created_at": "2025-12-07T19:34:02.155Z",
+  "last_posted_at": "2026-01-08T19:25:53.131Z",
+  "views": 133,
+  "reply_count": 6,
+  "like_count": 3,
+  "tags": [],
+  "posts": [
+    {
+      "id": 13463394,
+      "username": "UnseenFilm",
+      "content_raw": "",
+      "content_html": "<p>I recently made a monster script that uses moveto that follow pathfinding waypoints to follow nodes, when a players close enough it ditches that node and chases player, but it does it so badly i dont know how to ix it, it either doesnt move in normal  and moves in chase or moves in nodes but not chase</p>",
+      "created_at": "2025-12-07T19:34:02.963Z",
+      "likes": 0,
+      "post_number": 1
+    },
+    {
+      "id": 13463626,
+      "username": "sssikit",
+      "content_raw": "",
+      "content_html": "<p>Hello,<br>\nYou could make a variable for when the monster is chasing or in roaming mode, and when following the nodes, check if it’s in a chase or not, and if it is, break out of the loop.</p>\n<p>Here’s an exemple:</p>\n<pre data-code-wrap=\"lua\"><code class=\"lang-lua\">local Humanoid = Monster.Humanoid\nlocal Waypoints = Path:GetWaypoints() --You should have that part already.\nlocal Chase = false\n\nfor i,v in Waypoints do\n   if Chase == false then\n      Humanoid:MoveTo(v.Position)\n      Humanoid.MoveToFinished:Wait()\n   else\n      break\n   end\nend\n</code></pre>",
+      "created_at": "2025-12-07T20:20:58.600Z",
+      "likes": 0,
+      "post_number": 2
+    },
+    {
+      "id": 13463779,
+      "username": "UnseenFilm",
+      "content_raw": "",
+      "content_html": "<p>My script already has these, i even asked gpt,  noone to come</p>",
+      "created_at": "2025-12-07T20:46:39.789Z",
+      "likes": 0,
+      "post_number": 3
+    },
+    {
+      "id": 13505730,
+      "username": "UnseenFilm",
+      "content_raw": "",
+      "content_html": "<p>Hello? I’ve been waiting so long for someone that wont even arrive.</p>",
+      "created_at": "2025-12-14T07:44:52.273Z",
+      "likes": 0,
+      "post_number": 4
+    },
+    {
+      "id": 13505736,
+      "username": "Godzilla_RealLife",
+      "content_raw": "",
+      "content_html": "<p>i arrived but i dont understand whats the problem, can you explain more specifically?</p>",
+      "created_at": "2025-12-14T07:45:49.177Z",
+      "likes": 0,
+      "post_number": 5
+    },
+    {
+      "id": 13506808,
+      "username": "jellolemo",
+      "content_raw": "",
+      "content_html": "<p>No video, No script:<br>\nHow are we supposed to help?</p>",
+      "created_at": "2025-12-14T13:03:26.019Z",
+      "likes": 0,
+      "post_number": 6
+    },
+    {
+      "id": 13649327,
+      "username": "UnseenFilm",
+      "content_raw": "",
+      "content_html": "<pre data-code-wrap=\"lua\"><code class=\"lang-lua\">local npc = script.Parent\nlocal humanoid = npc:FindFirstChildOfClass(\"Humanoid\")\nlocal rootPart = npc:FindFirstChild(\"HumanoidRootPart\")\nlocal nodesFolder = workspace:FindFirstChild(\"Noces\")\nlocal players = game:GetService(\"Players\")\nlocal pathfindingService = game:GetService(\"PathfindingService\")\n\nlocal roamDelay = 0.2\nlocal detectionRange = 135\nlocal nodeBlacklist = {}\nlocal currentWaypoints = {}\nlocal currentWaypointIndex = 1\nlocal isFollowingWaypoints = false\n\nlocal walkAnimation = Instance.new(\"Animation\")\nwalkAnimation.AnimationId = \"rbxassetid://72349975684395\"\nlocal runAnimation = Instance.new(\"Animation\")\nrunAnimation.AnimationId = \"rbxassetid://128376275068977\"\n\nlocal walkTrack = humanoid:LoadAnimation(walkAnimation)\nlocal runTrack = humanoid:LoadAnimation(runAnimation)\n\nlocal alertSound = Instance.new(\"Sound\", rootPart)\nalertSound.SoundId = \"rbxassetid://9069546509\"\nalertSound.Volume = 1\n\nlocal chaseSound = Instance.new(\"Sound\", rootPart)\nchaseSound.SoundId = \"rbxassetid://118938971925008\"\nchaseSound.Volume = 6\nchaseSound.PlaybackSpeed = 0.8\nchaseSound.Looped = true\n\nhumanoid.WalkSpeed = 16\n\nlocal function clearWaypoints()\n    currentWaypoints = {}\n    currentWaypointIndex = 1\n    isFollowingWaypoints = false\nend\n\nlocal function getNearestPlayer()\n    local nearestPlayer, nearestDistance = nil, detectionRange\n    for _, player in pairs(players:GetPlayers()) do\n        if player.Character and player.Character:FindFirstChild(\"HumanoidRootPart\") then\n            local distance = (player.Character.HumanoidRootPart.Position - rootPart.Position).Magnitude\n            if distance &lt; nearestDistance then\n                nearestDistance = distance\n                nearestPlayer = player\n            end\n        end\n    end\n    return nearestPlayer\nend\n\nlocal function getClosestNode()\n    local closestNode, closestDistance = nil, math.huge\n    local farNodes = {}\n    if nodesFolder then\n        for _, node in pairs(nodesFolder:GetChildren()) do\n            if node:IsA(\"BasePart\") and not nodeBlacklist[node] then\n                local distance = (node.Position - rootPart.Position).Magnitude\n                if distance &lt; closestDistance then\n                    closestDistance = distance\n                    closestNode = node\n                end\n                table.insert(farNodes, node)\n            end\n        end\n    end\n    if not closestNode and #farNodes &gt; 0 then\n        closestNode = farNodes[math.random(1, #farNodes)]\n    end\n    return closestNode\nend\n\nlocal function blacklistNode(node)\n    nodeBlacklist[node] = true\n    task.delay(7, function()\n        nodeBlacklist[node] = nil\n    end)\nend\n\nlocal function handleObstacle()\n    if humanoid:GetState() == Enum.HumanoidStateType.Seated then return end\n    humanoid.Jump = true\nend\n\nlocal function onTouch(hit)\n    local player = players:GetPlayerFromCharacter(hit.Parent)\n    if player then\n        player:Kick(\"foolish\")\n    end\nend\n\nrootPart.Touched:Connect(onTouch)\n\nlocal function calculatePathTo(targetPosition)\n    local path = pathfindingService:CreatePath({\n        AgentRadius = 2,\n        AgentHeight = 5,\n        AgentCanJump = true,\n        AgentCanClimb = true\n    })\n    \n    path:ComputeAsync(rootPart.Position, targetPosition)\n    \n    if path.Status == Enum.PathStatus.Success then\n        local waypoints = path:GetWaypoints()\n        if #waypoints &gt; 0 then\n            return waypoints\n        end\n    end\n    \n    return nil\nend\n\nlocal function moveToNextWaypoint()\n    if not isFollowingWaypoints or #currentWaypoints == 0 then return end\n    \n    if currentWaypointIndex &gt; #currentWaypoints then\n        clearWaypoints()\n        return true\n    end\n    \n    local waypoint = currentWaypoints[currentWaypointIndex]\n    \n    humanoid:MoveTo(waypoint.Position)\n    \n    local distanceToWaypoint = (waypoint.Position - rootPart.Position).Magnitude\n    \n    if distanceToWaypoint &lt; 3 then\n        currentWaypointIndex = currentWaypointIndex + 1\n        \n        if waypoint.Action == Enum.PathWaypointAction.Jump then\n            humanoid.Jump = true\n        end\n    end\n    \n    return false\nend\n\nlocal function followWaypoints()\n    isFollowingWaypoints = true\n    \n    while isFollowingWaypoints and #currentWaypoints &gt; 0 do\n        local reachedEnd = moveToNextWaypoint()\n        if reachedEnd then\n            break\n        end\n        task.wait(roamDelay)\n    end\n    \n    isFollowingWaypoints = false\nend\n\nlocal function roam()\n    humanoid.WalkSpeed = 15\n    if chaseSound.IsPlaying then\n        chaseSound:Stop()\n    end\n    if alertSound.IsPlaying then\n        alertSound:Stop()\n    end\n\n    while true do\n        local player = getNearestPlayer()\n        if player then \n            clearWaypoints()\n            return \n        end\n\n        local node = getClosestNode()\n        if node then\n            local waypoints = calculatePathTo(node.Position)\n            \n            if waypoints then\n                currentWaypoints = waypoints\n                currentWaypointIndex = 1\n                \n                if not walkTrack.IsPlaying then \n                    walkTrack:Play() \n                end\n                \n                followWaypoints()\n                \n                if currentWaypointIndex &gt; #currentWaypoints then\n                    blacklistNode(node)\n                end\n            else\n                humanoid:MoveTo(node.Position)\n                humanoid.MoveToFinished:Wait()\n                blacklistNode(node)\n            end\n        end\n        \n        task.wait(0.5)\n    end\nend\n\nlocal function chase(player)\n    humanoid.WalkSpeed = 20\n    if not alertSound.IsPlaying then\n        alertSound:Play()\n    end\n    if not chaseSound.IsPlaying then\n        chaseSound:Play()\n    end\n    \n    clearWaypoints()\n\n    while player do\n        local character = player.Character\n        if character and character:FindFirstChild(\"HumanoidRootPart\") then\n            local targetPosition = character.HumanoidRootPart.Position\n            local distance = (targetPosition - rootPart.Position).Magnitude\n            \n            if distance &gt; detectionRange then \n                chaseSound:Stop() \n                alertSound:Stop()\n                clearWaypoints()\n                return \n            end\n\n            local waypoints = calculatePathTo(targetPosition)\n            \n            if waypoints then\n                currentWaypoints = waypoints\n                currentWaypointIndex = 1\n                \n                if not runTrack.IsPlaying then\n                    walkTrack:Stop()\n                    runTrack:Play()\n                end\n                \n                moveToNextWaypoint()\n            else\n                humanoid:MoveTo(targetPosition)\n            end\n        else\n            break\n        end\n        \n        task.wait(roamDelay)\n    end\n    \n    clearWaypoints()\nend\n\nwhile true do\n    local player = getNearestPlayer()\n    if player then\n        chase(player)\n    else\n        if not walkTrack.IsPlaying then\n            runTrack:Stop()\n            walkTrack:Play()\n        end\n        roam()\n    end\n    task.wait(0.5)\nend\n</code></pre>",
+      "created_at": "2026-01-07T13:44:29.139Z",
+      "likes": 0,
+      "post_number": 7
+    },
+    {
+      "id": 13661803,
+      "username": "UnseenFilm",
+      "content_raw": "",
+      "content_html": "<p>If someones there, please help me</p>",
+      "created_at": "2026-01-08T18:45:47.741Z",
+      "likes": 0,
+      "post_number": 8
+    },
+    {
+      "id": 13662088,
+      "username": "srtaub",
+      "content_raw": "",
+      "content_html": "<p>Hello!<br>\nAfter looking through your script a bit, and a bit of testing, I may have found a problem.</p>\n<p>In your <code>calculatePathTo</code> function, you determine whether your monster should chase or follow the player by checking if there are any waypoints with this if statement: <code>if #waypoints &gt; 0 then</code>. But I did some testing in studio, and saw that there is always a waypoint at the start position, and the end position, which means there will always be a minimum of 2 waypoints, which in result, means that that if statement will never be false. To fix this just replace the 0 with a 2, and hopefully that should fix it.</p>\n<p>Also, you can set it to 3 since the start and end positions have to be very close for only 2 waypoints to generate.</p>\n<p>If this doesn’t fix your problem, could you provide a video of the problem, and maybe a more in depth explanation, since the one in the original post was a bit hard to follow.</p>\n<p>I hope this helps!</p>",
+      "created_at": "2026-01-08T19:25:53.131Z",
+      "likes": 0,
+      "post_number": 9
+    }
+  ]
+}

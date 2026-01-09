@@ -1,0 +1,46 @@
+{
+  "id": 4231914,
+  "title": "Need help optimizing afterimage effect",
+  "slug": "need-help-optimizing-afterimage-effect",
+  "url": "https://devforum.roblox.com/t/need-help-optimizing-afterimage-effect/4231914",
+  "category_id": 55,
+  "category_name": "Scripting Support",
+  "created_at": "2026-01-08T17:54:45.609Z",
+  "last_posted_at": "2026-01-08T22:07:07.286Z",
+  "views": 29,
+  "reply_count": 1,
+  "like_count": 0,
+  "tags": [
+    "scripting",
+    "help"
+  ],
+  "posts": [
+    {
+      "id": 13661350,
+      "username": "Not_Eagleye",
+      "content_raw": "",
+      "content_html": "<p>I need help optimizing my after image effect<br>\nSo i have this afterimage effect in my battlegrounds game but whenever i use it my frames drop instantly from 144 to ~90, I tried everything i could but the performance drop is still huge</p>\n<p></p><div class=\"video-placeholder-container\" data-video-src=\"/secure-uploads/uploads/original/5X/5/a/5/4/5a547cc237b510e80fb2d90e73dff118b229a698.mp4\" data-thumbnail-src=\"//devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/original/5X/a/f/5/3/af53b5b3a88f388b42f9b32fb606bbb423690c8e.png\" data-video-base62-sha1=\"cT5Z6KQ8fYIEzQVWOMze6g6FxDa.mp4\">\n  </div><br>\nHeres the shadow model<br>\n<div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"//devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/original/5X/9/0/3/7/903785d5776a20ae17a1ed7194eda8ac4409ab8a.png\" data-download-href=\"/uploads/short-url/kzNIbT8BPCZQ64mU5zLRqVTzqNc.png?dl=1\" title=\"image\" rel=\"noopener nofollow ugc\"><img src=\"/secure-uploads/uploads/original/5X/9/0/3/7/903785d5776a20ae17a1ed7194eda8ac4409ab8a.png\" alt=\"image\" data-base62-sha1=\"kzNIbT8BPCZQ64mU5zLRqVTzqNc\" width=\"363\" height=\"261\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">363×261 10 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div><p></p>\n<p>Heres the script:</p>\n<pre data-code-wrap=\"lua\"><code class=\"lang-lua\">local Lighting = game:GetService(\"Lighting\")\nlocal ReplicatedStorage = game:GetService(\"ReplicatedStorage\")\nlocal RunService = game:GetService(\"RunService\")\nlocal TweenService = game:GetService(\"TweenService\")\n\nlocal Packages = ReplicatedStorage.Packages\nlocal Assets = ReplicatedStorage.Assets\n\nlocal Signal = require(Packages.Signal)\nlocal Trove = require(Packages.Trove)\n\nlocal EdgerunnerAssets = Assets:WaitForChild(\"Edgerunner\")\n\nlocal Shadow = EdgerunnerAssets.Shadow\n\nlocal FX = workspace.Terrain:FindFirstChild(\"FX\")\n\nlocal EndSandevistanSignal = Signal.new()\n\nlocal SandevistanGradients = {\n\tColor3.fromRGB(83, 255, 103),\n\tColor3.fromRGB(83, 255, 226),\n\tColor3.fromRGB(0, 34, 255),\n\tColor3.fromRGB(255, 42, 74),\n}\n\nlocal FullTransition = 6.0\n\nreturn {\n\t[\"SandevistanStart\"] = function(Params: { Character: Model, UserId: number })\n\t\tlocal Character = Params.Character\n\t\tlocal UserId = Params.UserId\n\n\t\tif not Character then\n\t\t\treturn\n\t\tend\n\n\t\tlocal Humanoid = Character:FindFirstChildOfClass(\"Humanoid\") :: Humanoid\n\n\t\tif Humanoid.Health &lt;= 0 then\n\t\t\treturn\n\t\tend\n\n\t\tlocal Clones = {} :: { [Model]: number }\n\t\tlocal GradientCount = #SandevistanGradients\n\t\tlocal End = false\n\n\t\tlocal EffectTrove = Trove.new()\n\n\t\tlocal CharacterShadow = EffectTrove:Clone(Shadow) :: Model\n\t\tCharacterShadow.Parent = FX\n\n\t\tlocal ShadowHumanoid = CharacterShadow:FindFirstChild(\"Humanoid\") :: Humanoid\n\t\tlocal PlayerDescription = Humanoid:GetAppliedDescription()\n\n\t\tShadowHumanoid:ApplyDescription(PlayerDescription)\n\n\t\tlocal ColorCorrection = Instance.new(\"ColorCorrectionEffect\")\n\t\tlocal ScreenEffect = TweenService:Create(ColorCorrection, TweenInfo.new(1), {\n\t\t\tTintColor = Color3.fromRGB(121, 255, 119),\n\t\t})\n\n\t\tColorCorrection.Parent = Lighting\n\n\t\tEffectTrove:Add(ColorCorrection)\n\t\tScreenEffect:Play()\n\n\t\tlocal EndConnection\n\t\tdo\n\t\t\tEndConnection = EndSandevistanSignal:Connect(function(ID: number)\n\t\t\t\tif ID == UserId then\n\t\t\t\t\tEndConnection:Disconnect()\n\t\t\t\t\tEnd = true\n\t\t\t\tend\n\t\t\tend)\n\t\tend\n\n\t\tlocal DeathConnection = Humanoid.Died:Once(function()\n\t\t\tEndConnection:Disconnect()\n\t\t\tEnd = true\n\t\tend)\n\n\t\tlocal DeltaConnection\n\t\tdo\n\t\t\tlocal ElapsedTime = 0\n\t\t\tlocal Progress = 0\n\n\t\t\tDeltaConnection = RunService.Heartbeat:Connect(function(DeltaTime: number)\n\t\t\t\tif End == true then\n\t\t\t\t\tDeltaConnection:Disconnect()\n\t\t\t\t\tEffectTrove:Destroy()\n\n\t\t\t\t\tif DeathConnection.Connected then\n\t\t\t\t\t\tDeathConnection:Disconnect()\n\t\t\t\t\tend\n\n\t\t\t\t\ttable.clear(Clones)\n\n\t\t\t\t\treturn\n\t\t\t\tend\n\n\t\t\t\tElapsedTime += DeltaTime\n\t\t\t\tProgress += DeltaTime\n\n\t\t\t\tfor Clone, Data in pairs(Clones) do\n\t\t\t\t\tlocal TimePassed = ElapsedTime - Data.Created\n\n\t\t\t\t\tif TimePassed &gt;= 1 then\n\t\t\t\t\t\tlocal Alpha = (TimePassed - 1) / 0.5\n\t\t\t\t\t\tAlpha = math.clamp(Alpha, 0, 1)\n\n\t\t\t\t\t\tfor _, BodyPart: BasePart in ipairs(Data.BodyParts) do\n\t\t\t\t\t\t\tBodyPart.Transparency = Alpha\n\t\t\t\t\t\tend\n\n\t\t\t\t\t\tData.Highlight.FillTransparency = 0.4 + (0.6 * Alpha)\n\n\t\t\t\t\t\tif Alpha &gt;= 1 then\n\t\t\t\t\t\t\tClone:Destroy()\n\t\t\t\t\t\t\tClones[Clone] = nil\n\t\t\t\t\t\tend\n\t\t\t\t\tend\n\t\t\t\tend\n\n\t\t\t\tif Progress &gt; 0.15 then\n\t\t\t\t\tProgress = 0\n\n\t\t\t\t\tlocal Position = ((ElapsedTime % FullTransition) / FullTransition) * GradientCount\n\n\t\t\t\t\tlocal Index = math.floor(Position) + 1\n\t\t\t\t\tlocal Alpha = Position - math.floor(Position)\n\n\t\t\t\t\tlocal NextIndex = (Index % GradientCount) + 1\n\n\t\t\t\t\tlocal StartColor = SandevistanGradients[Index]\n\t\t\t\t\tlocal NextColor = SandevistanGradients[NextIndex]\n\n\t\t\t\t\tlocal Clone = EffectTrove:Clone(CharacterShadow) :: Model\n\n\t\t\t\t\tlocal CloneColor = Clone:FindFirstChild(\"Color\") :: Highlight\n\n\t\t\t\t\tlocal BodyParts = {}\n\n\t\t\t\t\tfor _, BodyPart: BasePart in ipairs(Clone:GetChildren()) do\n\t\t\t\t\t\tlocal CharacterBodyPart = Character:FindFirstChild(BodyPart.Name) :: BasePart\n\n\t\t\t\t\t\tif BodyPart:IsA(\"BasePart\") and CharacterBodyPart then\n\t\t\t\t\t\t\tBodyPart.CFrame = CharacterBodyPart.CFrame\n\n\t\t\t\t\t\t\ttable.insert(BodyParts, BodyPart)\n\t\t\t\t\t\telseif BodyPart:IsA(\"Accessory\") then\n\t\t\t\t\t\t\tlocal Handle = BodyPart:FindFirstChild(\"Handle\") :: BasePart\n\n\t\t\t\t\t\t\ttable.insert(BodyParts, Handle)\n\t\t\t\t\t\tend\n\t\t\t\t\tend\n\n\t\t\t\t\tCloneColor.FillColor = StartColor:Lerp(NextColor, Alpha)\n\t\t\t\t\tClone.Parent = FX\n\n\t\t\t\t\tClones[Clone] = {\n\t\t\t\t\t\tCreated = ElapsedTime,\n\t\t\t\t\t\tBodyParts = BodyParts,\n\t\t\t\t\t\tHighlight = CloneColor,\n\t\t\t\t\t}\n\t\t\t\tend\n\t\t\tend)\n\t\tend\n\tend,\n\t[\"SandevistanEnd\"] = function(UserId: number)\n\t\tEndSandevistanSignal:Fire(UserId)\n\tend,\n}\n\n</code></pre>\n<p>Thanks!</p>",
+      "created_at": "2026-01-08T17:54:45.785Z",
+      "likes": 0,
+      "post_number": 1
+    },
+    {
+      "id": 13662055,
+      "username": "hello2e6",
+      "content_raw": "",
+      "content_html": "<p>First off, humanoids are costly. An optimization I did for my game was removing everything that’s not essential in keeping the characters appearance. I got rid of humanoids, and other things that my character had that was unnecessary to the appearance. So basically just keep the baseparts and the accessories in the clone.</p>",
+      "created_at": "2026-01-08T19:22:29.681Z",
+      "likes": 0,
+      "post_number": 2
+    },
+    {
+      "id": 13663517,
+      "username": "Not_Eagleye",
+      "content_raw": "",
+      "content_html": "<p>Cant do that, i need to keep the clothes of the character.</p>",
+      "created_at": "2026-01-08T22:07:07.286Z",
+      "likes": 0,
+      "post_number": 3
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "total_videos": 8,
+  "total_views": 19107319,
+  "top_keywords": [
+    [
+      "part",
+      613
+    ],
+    [
+      "script",
+      333
+    ],
+    [
+      "click",
+      289
+    ],
+    [
+      "ai",
+      205
+    ],
+    [
+      "function",
+      137
+    ],
+    [
+      "player",
+      134
+    ],
+    [
+      "workspace",
+      98
+    ],
+    [
+      "loop",
+      87
+    ],
+    [
+      "character",
+      53
+    ],
+    [
+      "tool",
+      44
+    ],
+    [
+      "model",
+      39
+    ],
+    [
+      "touched",
+      29
+    ],
+    [
+      "humanoid",
+      27
+    ],
+    [
+      "table",
+      27
+    ],
+    [
+      "for loop",
+      22
+    ],
+    [
+      "gui",
+      18
+    ],
+    [
+      "obby",
+      16
+    ],
+    [
+      "tween",
+      12
+    ],
+    [
+      "robux",
+      12
+    ],
+    [
+      "union",
+      12
+    ],
+    [
+      "while",
+      10
+    ],
+    [
+      "server script",
+      8
+    ],
+    [
+      "input",
+      7
+    ],
+    [
+      "local script",
+      6
+    ],
+    [
+      "mesh",
+      3
+    ],
+    [
+      "screen gui",
+      3
+    ],
+    [
+      "module script",
+      2
+    ],
+    [
+      "datastore",
+      1
+    ],
+    [
+      "collision",
+      1
+    ],
+    [
+      "simulator",
+      1
+    ]
+  ],
+  "videos": [
+    {
+      "title": "How to Evenly Space Parts Between 2 Points in Roblox Studio! #robloxStudio #Roblox #robloxtutorial",
+      "channel": "Catulus",
+      "views": 4327728,
+      "url": "https://www.youtube.com/watch?v=JDtWh5-Dil8",
+      "transcript_preview": "don't bother trying to manually space out a bunch of objects in Roblox Studio instead make a copy of the object you want a bunch of and stretch it out and decide how many objects you want double that number and add one then use the part divider plugin to split your objects into that many parts okay no more math I promise select the parts on the ends and every other part in between and delete them copy the size of your original object select all the others and paste the size just like that that y"
+    },
+    {
+      "title": "The EASIEST Beginner Guide to Scripting (Roblox)",
+      "channel": "SmartyRBX",
+      "views": 4300475,
+      "url": "https://www.youtube.com/watch?v=P2ECl-mLmvY",
+      "transcript_preview": "so you're opening up studio with a great game idea ready to make it quickly and hit the front page just to start building a map and realize you really don't know anything about how to get the game to actually work then maybe you searched up how to script on roblox tree now vacuum tree is you were extremely confused by all the bubbly jumbly mumbly jargon in all the videos and just ended up spamming your keyboard on your script before picking up a hammer smashing your computer and kicking your mon"
+    },
+    {
+      "title": "The ULTIMATE Beginner Guide to Roblox Studio.. (Start BUILDING Now!)",
+      "channel": "SmartyRBX",
+      "views": 4068614,
+      "url": "https://www.youtube.com/watch?v=p005iduooyw",
+      "transcript_preview": "so Timmy wants to be a Roblox developer and instead of opening Roblox Studio he searches how to become a Roblox Dev and he just searches for hours just to find an easy way to become a Roblox developer he tries and tries and tries but it's just not enough for him why can't I get this he says any rage quits he just decides to give up on his dream of becoming a Roblox Dev and going back to playing pet simulator wait Timmy what are you doing the light at the end of the tunnel arrives Lord regulus th"
+    },
+    {
+      "title": "How To Make A ROBLOX GAME In Under 30 SECS!",
+      "channel": "JustKenzoRBX",
+      "views": 2353372,
+      "url": "https://www.youtube.com/watch?v=Rh8w-eyByj0",
+      "transcript_preview": "here's how to make any Roblox game in three lines of code first make a script in workspace and copy exactly what I do word for word while you true do instance. new part comma workspace end what instance. new does is generate a random game from the Roblox homepage if you copied exactly what I did word for word go ahead and press play and boom I got murderer mystery 2 and you'll probably get a random game if this helped you out join my Discord linked to my bio"
+    },
+    {
+      "title": "How to make your FIRST Roblox Game in 2024-2025 (Make Robux)",
+      "channel": "CodeBro29",
+      "views": 2207455,
+      "url": "https://www.youtube.com/watch?v=-QSmtYVMRH4",
+      "transcript_preview": "By the end of this video, if you follow all the steps that I'm going to be showing you, you will learn how to make this game by yourself. You're going to learn how to make an obby, and you're going to learn how to make Robux with this obby by adding a skip stage button where people can actually purchase this from you. And once they purchase it, they will actually get skipped to the next stage and you can earn Robux that way. Let's not waste any time. Let's just jump right into this. Enjoy, guys,"
+    },
+    {
+      "title": "How To Make A ROBLOX GAME In 1 Line Of CODE!",
+      "channel": "JustKenzoRBX",
+      "views": 765589,
+      "url": "https://www.youtube.com/watch?v=DOAJEb_KtYw",
+      "transcript_preview": "here's how to make a Roblox game in just one line of code first make a script in a workspace and copy exactly what I do word for word task. spawn Tower of hell and you can also change Tower of Hell to any game you would like if you copied exactly what I did go ahead and press play and boom I got the whole Tower of Hell game to myself if this video helped you out join my Discord link to my bio"
+    },
+    {
+      "title": "You CAN Script. Let me PROVE IT to you..",
+      "channel": "script_ing",
+      "views": 599135,
+      "url": "https://www.youtube.com/watch?v=H4X8L5namhA",
+      "transcript_preview": "you can script even if you think you can't in this video I will prove it to you even if you've never touched Studio before if you don't know me my name is kushall I've been scripting since 2016 I've also been teaching it since the moment I began scripting in 2016 as you can see right over here with all of my 8 years ago tutorials in this video I'm going to start by teaching you some Basics and then after each lesson I'll give you a quiz to prove that you can do it even without me telling you ste"
+    },
+    {
+      "title": "How To Script In ROBLOX Studio! (EASIEST Beginner Scripting Tutorial)",
+      "channel": "RoDev",
+      "views": 484951,
+      "url": "https://www.youtube.com/watch?v=KuJyYmdhu7E",
+      "transcript_preview": "I can guarantee you'll be able to Script by the end of this video! This guide covers all of the Scripting essentials, and you can always come back to this video, whenever you need it. Feel free to jump around using the chapters (timestamps in description, too.) Let's get started! The very first thing you wanna do is go to \"Roblox.com/create\" Once you're on this website, download Studio by pressing the \"Start Creating\" button. Once you've downloaded Roblox Studio, it's going to open up, just like"
+    }
+  ]
+}

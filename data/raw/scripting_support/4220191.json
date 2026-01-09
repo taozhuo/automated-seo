@@ -1,0 +1,106 @@
+{
+  "id": 4220191,
+  "title": "Should module loaders be used for better organization?",
+  "slug": "should-module-loaders-be-used-for-better-organization",
+  "url": "https://devforum.roblox.com/t/should-module-loaders-be-used-for-better-organization/4220191",
+  "category_id": 55,
+  "category_name": "Scripting Support",
+  "created_at": "2026-01-06T01:13:21.696Z",
+  "last_posted_at": "2026-01-08T13:22:33.175Z",
+  "views": 159,
+  "reply_count": 5,
+  "like_count": 8,
+  "tags": [],
+  "posts": [
+    {
+      "id": 13638606,
+      "username": "SrGolos",
+      "content_raw": "",
+      "content_html": "<p>Guys, I have a question about module loaders.</p>\n<p>Do you use a module loader in your projects?</p>\n<p>In many projects I’ve worked on, there’s a module loader, but it ends up losing all IntelliSense.</p>\n<p>If module loaders are necessary for better organization, should I create types for every single module?</p>",
+      "created_at": "2026-01-06T01:13:21.901Z",
+      "likes": 0,
+      "post_number": 1
+    },
+    {
+      "id": 13639166,
+      "username": "iibronzee",
+      "content_raw": "",
+      "content_html": "<p>Yes, and I love it.</p>\n<p>In my opinion, it is the easiest way to organize (and better yet, optimize) your code.</p>\n<hr>\n<p>For IntelliSense handling, I manually define all modules in my main shared framework module:<br>\n<div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"//devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/original/5X/8/f/2/8/8f28889fcc96432c58a081322ff7f1325852bc46.png\" data-download-href=\"/uploads/short-url/kqr7whpUbICq9TRwVsT0byKKtg2.png?dl=1\" title=\"image\" rel=\"noopener nofollow ugc\"><img src=\"//devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/original/5X/8/f/2/8/8f28889fcc96432c58a081322ff7f1325852bc46.png\" alt=\"image\" data-base62-sha1=\"kqr7whpUbICq9TRwVsT0byKKtg2\" width=\"166\" height=\"166\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">222×222 5.6 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>\n<hr>\n<p>Then, inside <code>Coastified</code>:<br>\n<img src=\"//devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/original/5X/8/0/a/a/80aa2c4ed44b925ec140c58165540aa4c1d0f043.png\" alt=\"image\" data-base62-sha1=\"imdI2BxZwBa5xzInnZQg0UbwE3V\" width=\"580\" height=\"97\"></p>\n<hr>\n<p>Inside any script where <code>Coastified</code> is required, IntelliSense is remained:<br>\n<div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"//devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/original/5X/f/9/c/c/f9ccf37cc239afdfedd51552e32619544534219a.png\" data-download-href=\"/uploads/short-url/zDPZKe0G8TnFDiTjoaBNwAbasbw.png?dl=1\" title=\"image\" rel=\"noopener nofollow ugc\"><img src=\"//devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/original/5X/f/9/c/c/f9ccf37cc239afdfedd51552e32619544534219a.png\" alt=\"image\" data-base62-sha1=\"zDPZKe0G8TnFDiTjoaBNwAbasbw\" width=\"644\" height=\"171\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">644×171 10.6 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>\n<hr>\n<p>There might be better ways to do this, but I found that this works pretty well.</p>",
+      "created_at": "2026-01-06T02:33:36.818Z",
+      "likes": 0,
+      "post_number": 2
+    },
+    {
+      "id": 13641943,
+      "username": "SrGolos",
+      "content_raw": "",
+      "content_html": "<p>Hey! Thank you for your reply, can you show how do you define your modules??</p>",
+      "created_at": "2026-01-06T14:11:27.874Z",
+      "likes": 0,
+      "post_number": 3
+    },
+    {
+      "id": 13646033,
+      "username": "iibronzee",
+      "content_raw": "",
+      "content_html": "<p>If you meant how the modules are set up, here’s the <code>Network</code> module as described above:<br>\n<div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"//devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/original/5X/e/0/0/1/e00101f4f17001317618bce4f8c3078813b87cba.png\" data-download-href=\"/uploads/short-url/vXD6XtHUiHy8Wuyw4no3YqDaQLE.png?dl=1\" title=\"image\" rel=\"noopener nofollow ugc\"><img src=\"//devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/original/5X/e/0/0/1/e00101f4f17001317618bce4f8c3078813b87cba.png\" alt=\"image\" data-base62-sha1=\"vXD6XtHUiHy8Wuyw4no3YqDaQLE\" width=\"560\" height=\"500\" data-dominant-color=\"1E1D1D\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">876×782 40.7 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>",
+      "created_at": "2026-01-07T00:49:19.341Z",
+      "likes": 0,
+      "post_number": 4
+    },
+    {
+      "id": 13649898,
+      "username": "SrGolos",
+      "content_raw": "",
+      "content_html": "<p>thanks, can i see how you type a module?</p>",
+      "created_at": "2026-01-07T15:40:15.773Z",
+      "likes": 0,
+      "post_number": 5
+    },
+    {
+      "id": 13650164,
+      "username": "Riesegarder",
+      "content_raw": "",
+      "content_html": "<p>Yes, as long as they’re just <em>loaders</em>, and not what I like to call module <em>providers</em>. Here’s what I mean:</p>\n<ul>\n<li>Providers: Require modules, which you get in your scripts using something like:<br>\n<code>local ServiceModule = Framework:Get(\"ServiceModule\")</code><br>\nor <code>local ServiceModule = Framework.Services.ServiceModule</code></li>\n<li>Loaders only: Require modules only to run startup steps (like an Init/Setup/Start sequence), and that’s it. Modules get other modules by regular requires:<br>\n<code>local ServiceModule = require(ReplicatedStorage.Services.ServiceModule)</code></li>\n</ul>\n<p>Because of the way most providers load modules (GetChildren, require, put in table), intellisense is completely lost. If you want intellisense while keeping a sort of “provider” format, the only ways around it that i’m aware of are:</p>\n<ul>\n<li>make types for every single module and make sure to provide said type whenever that module is required somewhere else. This imo is very tedious, having to keep a separate module up to date, especially in a large codebase…</li>\n<li>require the modules directly in a table, then reference said table directly as well:</li>\n</ul>\n<pre data-code-wrap=\"lua\"><code class=\"lang-lua\">-- Framework module (your module loader)\nlocal Framework = {}\nlocal services = {\n   ServiceModule = require(folder.ServiceModule),\n}\n\n-- do some stuff like run Init/Setup/Start, setup signals, etc\n\nFramework.Services = services\nreturn Framework\n\n-- in some other script:\nlocal Framework = require(path.to.Framework)\nlocal ServiceModule = Framework.Services.ServiceModule\n\n</code></pre>\n<p>This <em>does</em> make you require only the framework to get the services you need, and keep intellisense, however you’re gonna need to make sure your list of required modules are always up to date.</p>\n<hr>\n<p>When you step back and think about it, really the advantage of module loaders (Single Script Architecture) is being able to require the modules in advance so that other places that need it won’t have to go through yielding/init/setup etc steps. Providing the modules afterwards is just a convenience, and if you have plugins for autocomplete like <a href=\"https://www.youtube.com/watch?v=ty-jhR1NLcQ\" rel=\"noopener nofollow ugc\">Require Autocomplete</a>, it’s really not necessary – not to mention, losing intellisense, which you have to <em>work around and deal with</em>.</p>",
+      "created_at": "2026-01-07T16:25:06.486Z",
+      "likes": 0,
+      "post_number": 6
+    },
+    {
+      "id": 13650878,
+      "username": "Yarik_superpro",
+      "content_raw": "",
+      "content_html": "<p>No<br>\nIts reinventing regular scripts</p>",
+      "created_at": "2026-01-07T17:51:00.305Z",
+      "likes": 0,
+      "post_number": 7
+    },
+    {
+      "id": 13651078,
+      "username": "real_ryanx",
+      "content_raw": "",
+      "content_html": "<aside class=\"quote no-group\" data-username=\"iibronzee\" data-post=\"2\" data-topic=\"4220191\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://doy2mn9upadnk.cloudfront.net/user_avatar/devforum.roblox.com/iibronzee/60/7252301_2.png\" class=\"avatar\"> coasts:</div>\n<blockquote>\n<p>optimize</p>\n</blockquote>\n</aside>\n<p>no. That is not how module loaders work…</p>",
+      "created_at": "2026-01-07T18:13:15.064Z",
+      "likes": 0,
+      "post_number": 8
+    },
+    {
+      "id": 13651214,
+      "username": "ChiDj123",
+      "content_raw": "",
+      "content_html": "<p>optimize and module loaders in same topic is criminal</p>",
+      "created_at": "2026-01-07T18:26:34.213Z",
+      "likes": 0,
+      "post_number": 9
+    },
+    {
+      "id": 13659632,
+      "username": "Not_Eagleye",
+      "content_raw": "",
+      "content_html": "<p>i dont think its worth using module loaders, you can organize your scripts without them</p>",
+      "created_at": "2026-01-08T13:22:33.175Z",
+      "likes": 0,
+      "post_number": 10
+    }
+  ]
+}
